@@ -17,4 +17,5 @@
 	<Item Name="Get Events by Type.vi" Type="VI" URL="../Get Events by Type.vi"/>
 	<Item Name="Get Singleton and Cloneable Refs.vi" Type="VI" URL="../Get Singleton and Cloneable Refs.vi"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Scan Connector Pane refs.vi" Type="VI" URL="../Scan Connector Pane refs.vi"/>
 </Library>
