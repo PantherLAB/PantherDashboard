@@ -31,4 +31,8 @@
 	<Item Name="Search for Main vi ref.vi" Type="VI" URL="../Search for Main vi ref.vi"/>
 	<Item Name="Search Stop Module.vi" Type="VI" URL="../Search Stop Module.vi"/>
 	<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
+	<Item Name="Find Stop Module.vi" Type="VI" URL="../Find Stop Module.vi"/>
+	<Item Name="Run Stop Module.vi" Type="VI" URL="../Run Stop Module.vi"/>
+	<Item Name="Is a DQMH Module.vi" Type="VI" URL="../Is a DQMH Module.vi"/>
+	<Item Name="Parse Event Name from ref.vi" Type="VI" URL="../Parse Event Name from ref.vi"/>
 </Library>
