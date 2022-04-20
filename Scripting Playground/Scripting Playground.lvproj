@@ -24,8 +24,8 @@
 			</Item>
 			<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		</Item>
-		<Item Name="Scripting" Type="Folder" URL="../Scripting">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="DQMH_API.lvlib" Type="Library" URL="../Scripting/DQMH_API.lvlib"/>
 		</Item>
 		<Item Name="List DQMH.vi" Type="VI" URL="../Libraries/Application/List DQMH.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -131,7 +131,6 @@
 				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Progress Bar Dialog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ProgressBar/Progress Bar Dialog.lvclass"/>
-				<Item Name="Wovalab_lib_AntiDoc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Wovalab/AntiDoc/Wovalab_lib_AntiDoc.lvlib"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
