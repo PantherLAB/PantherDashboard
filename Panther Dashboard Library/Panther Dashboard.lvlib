@@ -14,6 +14,7 @@
 		<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
 		<Item Name="Controls Refs and Type--cluster.ctl" Type="VI" URL="../Controls Refs and Type--cluster.ctl"/>
 		<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
+		<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 	</Item>
 	<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 	<Item Name="Get Event Names.vi" Type="VI" URL="../Get Event Names.vi"/>
