@@ -6,7 +6,7 @@
 <TargetIndex>0</TargetIndex>
 <ItemsToAnalyze>
 	<Item>
-		<Path>"..\\Scripting Playground\\Panther Dashboard Library"</Path>
+		<Path>".."</Path>
 		<Removed>FALSE</Removed>
 	</Item>
 </ItemsToAnalyze>
