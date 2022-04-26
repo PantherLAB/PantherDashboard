@@ -19,7 +19,7 @@
 	<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 	<Item Name="Get Event Names.vi" Type="VI" URL="../Get Event Names.vi"/>
 	<Item Name="Get Events by Type.vi" Type="VI" URL="../Get Events by Type.vi"/>
-	<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
+	<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
 	<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
 	<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 	<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
@@ -33,4 +33,5 @@
 	<Item Name="Find and trigger default events.vi" Type="VI" URL="../Find and trigger default events.vi"/>
 	<Item Name="Find and trigger Stop Module.vi" Type="VI" URL="../Find and trigger Stop Module.vi"/>
 	<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
+	<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 </Library>
