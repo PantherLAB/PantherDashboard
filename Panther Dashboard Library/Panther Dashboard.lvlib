@@ -25,7 +25,6 @@
 	<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 	<Item Name="Open API Tester.vi" Type="VI" URL="../Open API Tester.vi"/>
 	<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
-	<Item Name="Clean Tree.vi" Type="VI" URL="../Clean Tree.vi"/>
 	<Item Name="Search for Main vi ref.vi" Type="VI" URL="../Search for Main vi ref.vi"/>
 	<Item Name="Search Stop Module.vi" Type="VI" URL="../Search Stop Module.vi"/>
 	<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
