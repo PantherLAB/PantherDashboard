@@ -11,10 +11,12 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
+		<Item Name="Maps List and refs--cluster.ctl" Type="VI" URL="../Maps List and refs--cluster.ctl"/>
 		<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
 		<Item Name="Controls Refs and Type--cluster.ctl" Type="VI" URL="../Controls Refs and Type--cluster.ctl"/>
 		<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
 		<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
+		<Item Name="Project Name and Ref--cluster.ctl" Type="VI" URL="../Project Name and Ref--cluster.ctl"/>
 	</Item>
 	<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 	<Item Name="Get Event Names.vi" Type="VI" URL="../Get Event Names.vi"/>
@@ -33,4 +35,5 @@
 	<Item Name="Find and trigger Stop Module.vi" Type="VI" URL="../Find and trigger Stop Module.vi"/>
 	<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 	<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
+	<Item Name="Get Project Ref and Name.vi" Type="VI" URL="../Get Project Ref and Name.vi"/>
 </Library>
