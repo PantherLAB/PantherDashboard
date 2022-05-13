@@ -18,6 +18,7 @@
 		<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 		<Item Name="Project Name and Ref--cluster.ctl" Type="VI" URL="../Project Name and Ref--cluster.ctl"/>
 	</Item>
+	<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 	<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 	<Item Name="Get Event Names.vi" Type="VI" URL="../Get Event Names.vi"/>
 	<Item Name="Get Events by Type.vi" Type="VI" URL="../Get Events by Type.vi"/>
@@ -36,4 +37,5 @@
 	<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 	<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 	<Item Name="Get Project Ref and Name.vi" Type="VI" URL="../Get Project Ref and Name.vi"/>
+	<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
 </Library>
