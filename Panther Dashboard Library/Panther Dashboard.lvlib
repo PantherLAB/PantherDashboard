@@ -33,7 +33,7 @@
 	<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 	<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
 	<Item Name="Find and trigger default events.vi" Type="VI" URL="../Find and trigger default events.vi"/>
-	<Item Name="Find and trigger Stop Module.vi" Type="VI" URL="../Find and trigger Stop Module.vi"/>
+	<Item Name="Stop by ID.vi" Type="VI" URL="../Stop by ID.vi"/>
 	<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 	<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 	<Item Name="Get Project Ref and Name.vi" Type="VI" URL="../Get Project Ref and Name.vi"/>
