@@ -20,6 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="Panter Dashboard.lvlib" Type="Library" URL="../Panter Dashboard/Panter Dashboard.lvlib"/>
+		</Item>
 		<Item Name="Panther Dashboard Library" Type="Folder">
 			<Item Name="Dashboard.lvlib" Type="Library" URL="../../Dashboard Library/Dashboard.lvlib"/>
 		</Item>
@@ -63,6 +66,9 @@
 			<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../support/Launch DQMH Tools by menu.vi"/>
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../controls/DQMH Tools Menu--enum.ctl"/>
 			<Item Name="Set Controls State.vi" Type="VI" URL="../support/Set Controls State.vi"/>
+		</Item>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Panter Dashboard API.vi" Type="VI" URL="../Panter Dashboard/Test Panter Dashboard API.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
@@ -164,7 +170,6 @@
 				<Item Name="MQTT_Connection.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/MQTT_Connection.lvlib"/>
 				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
 				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
