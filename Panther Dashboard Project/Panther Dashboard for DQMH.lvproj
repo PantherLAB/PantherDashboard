@@ -21,7 +21,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Panther Dashboard Library" Type="Folder">
-			<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../../Panther Dashboard Library/Panther Dashboard.lvlib"/>
+			<Item Name="Dashboard.lvlib" Type="Library" URL="../../Dashboard Library/Dashboard.lvlib"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
