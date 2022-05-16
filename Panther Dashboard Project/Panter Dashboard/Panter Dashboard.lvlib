@@ -128,7 +128,6 @@
 		<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 		<Item Name="Execute default event by ID.vi" Type="VI" URL="../Execute default event by ID.vi"/>
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
-		<Item Name="Execute Default Event.vi" Type="VI" URL="../Execute Default Event.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
