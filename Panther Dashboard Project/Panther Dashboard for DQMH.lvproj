@@ -20,9 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Panter Dashboard.lvlib" Type="Library" URL="../Panter Dashboard/Panter Dashboard.lvlib"/>
-		<Item Name="Panther Dashboard.vi" Type="VI" URL="../../Panther Dashboard.vi"/>
-		<Item Name="Test Panter Dashboard API.vi" Type="VI" URL="../Panter Dashboard/Test Panter Dashboard API.vi"/>
+		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
+		<Item Name="Panther Dashboard.vi" Type="VI" URL="../Panther Dashboard.vi"/>
+		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
