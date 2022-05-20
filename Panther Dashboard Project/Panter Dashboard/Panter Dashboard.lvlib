@@ -114,7 +114,6 @@
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
 			<Item Name="add Event--boolean.ctl" Type="VI" URL="../add Event--boolean.ctl"/>
 		</Item>
-		<Item Name="Get Panther Dash Library.vi" Type="VI" URL="../Get Panther Dash Library.vi"/>
 		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 		<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
@@ -130,6 +129,8 @@
 		<Item Name="Execute default event by ID.vi" Type="VI" URL="../Execute default event by ID.vi"/>
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
+		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
+		<Item Name="FGV Project Name.vi" Type="VI" URL="../FGV Project Name.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
