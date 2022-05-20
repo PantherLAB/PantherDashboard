@@ -9,6 +9,390 @@
 		<Path>".."</Path>
 		<Removed>FALSE</Removed>
 	</Item>
+	<Item>
+		<Path>"..\\.git"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Package"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"."</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Acquire Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Add Event Reference to maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\add Event--boolean.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Add Tree Nodes.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Broadcast Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Close Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Close vi references.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Module Semaphore Reference.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Did Init Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Documentation--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\DQMH Modules Info--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\DQMH Tools Menu--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Draw Tree.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Error Reported Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Error Reported.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Event types--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute default event by ID.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\FGV Project Name.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Fill Maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find API Tester Path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Active Project Name.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get List Information.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status by ref.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Main VI Information.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get VI Connector Pane image and Description.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Handle Exit.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Init Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Launch DQMH Tools by menu.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Maps List and refs--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Data--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Did Init.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Did Stop.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Name--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Running--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Stopped--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Synced--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Status--boolean.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Timeout--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--boolean.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Modules Status--Cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Null Broadcast Events--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Broadcast Events for Registration.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open API Tester.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Event Front Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Event Front Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Module API Tester Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Module API Tester.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Release Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Request and Wait for Reply Timeout--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Request Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules and create Maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Search button.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Search DQMH Module name from selection.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Diagram Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Diagram.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Start Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Status Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Status Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop DQMH Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module Instance Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module Instance.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Synchronize Caller Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Synchronize Module Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Upate Projects List Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Update Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Wait on Event Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Wait on Module Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
 </ItemsToAnalyze>
 <TestConfigData>
 	<Test>
