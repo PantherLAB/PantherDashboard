@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-05-20 17:50:18" Creator="Enrique Noe Arias" Comments="" ID="289f4d0b18860131ae1c53f8aa1c16fb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-05-20 18:05:53" Creator="Enrique Noe Arias" Comments="" ID="50dcb4f14bb2ab97cd93646df5279786">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -240,7 +240,7 @@ It is based on the new Scripting API of the DQMH 6.1 release.</Release_Notes>
         <Path>Panther Dashboard.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F22E7602C277F251402030351FC7DD2</GUID>
+      <GUID>B5497A87E6A6F991F12FA40D1866EE37</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
