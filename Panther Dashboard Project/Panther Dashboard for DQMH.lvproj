@@ -41,6 +41,10 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
+				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
+				<Item Name="DQMH_DQMH Legal Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Legal Information--constant.vi"/>
+				<Item Name="DQMH_DQMH Version Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Version Information--constant.vi"/>
 				<Item Name="DQMH_Scripting API.lvlib" Type="Library" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Scripting API/DQMH_Scripting API.lvlib"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -91,10 +95,13 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tree Map.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Tree Map/Tree Map.lvlib"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="UserTags.lvlib" Type="Library" URL="/&lt;vilib&gt;/UserTags/UserTags.lvlib"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
