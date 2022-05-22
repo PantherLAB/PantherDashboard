@@ -22,7 +22,6 @@
 				<Item Name="Scan DQMH Modules Argument--cluster.ctl" Type="VI" URL="../Scan DQMH Modules Argument--cluster.ctl"/>
 				<Item Name="Tree DQMH Selection Argument--cluster.ctl" Type="VI" URL="../Tree DQMH Selection Argument--cluster.ctl"/>
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
-				<Item Name="Open Event Front Panel Argument--cluster.ctl" Type="VI" URL="../Open Event Front Panel Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Stop Module Instance Argument--cluster.ctl" Type="VI" URL="../Stop Module Instance Argument--cluster.ctl"/>
 			</Item>
@@ -41,7 +40,6 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
 			<Item Name="Open Module API Tester.vi" Type="VI" URL="../Open Module API Tester.vi"/>
-			<Item Name="Open Event Front Panel.vi" Type="VI" URL="../Open Event Front Panel.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
 			<Item Name="Stop Module Instance.vi" Type="VI" URL="../Stop Module Instance.vi"/>
 		</Item>
@@ -112,6 +110,7 @@
 			<Item Name="Search button.ctl" Type="VI" URL="../Search button.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
+			<Item Name="About--button.ctl" Type="VI" URL="../About--button.ctl"/>
 		</Item>
 		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
@@ -130,6 +129,7 @@
 		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
 		<Item Name="FGV Project Name.vi" Type="VI" URL="../FGV Project Name.vi"/>
+		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
