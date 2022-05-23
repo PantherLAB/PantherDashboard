@@ -130,6 +130,7 @@
 		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
 		<Item Name="FGV Project Name.vi" Type="VI" URL="../FGV Project Name.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
+		<Item Name="Validate if event is selected.vi" Type="VI" URL="../../../../DQMH-Training/LabVIEW Code/NEWMODULE/Validate if event is selected.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
