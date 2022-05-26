@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-05-26 16:32:35" Creator="Enrique Noe Arias" Comments="" ID="76cc12b85f3608955f4a9d8a960d301e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-05-26 17:44:56" Creator="Enrique Noe Arias" Comments="" ID="b00e25d6b1dcc96e0660555b23bffc3d">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.3.0.2</Library_Version>
+    <Library_Version>1.3.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -35,17 +35,17 @@
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
-This is a DQMH Module createdas a wrapper for the new Scripting API included in the DQMH 6.1 Release.
+This is a DQMH Module based on the new Scripting API included in the DQMH 6.1 Release.
 This Module allows you to have a general overview of your DQMH project.
 
-&lt;i&gt;The main features of Panther Dashboard for DQMH are:&lt;/i&gt;
+&lt;i&gt;These are the main features of Panther Dashboard for DQMH:&lt;/i&gt;
 
-Allows you  to see the status of all your DQMH modules placing a glyph.
-Launch the API Tester of the DQMH Module selected
-Trigger the default events on all the DQMH Modules like Show Panel, Hide Panel, Show Block Diagram and Stop Module.
-Visualize the module documentation
-Visualize the Icons of the request events with their documentation.
-Browse your project including its dependencies.
+*See the status of all your DQMH modules placing a glyph.
+*Launch the API Tester of the DQMH Module selected
+*Trigger the default events on all the DQMH Modules like Show Panel, Hide Panel, Show Block Diagram and Stop Module.
+*Visualize the module documentation
+*Visualize the Icons of the request events with their documentation.
+
 
 For more information send an email to:
 
@@ -254,7 +254,7 @@ It is based on the new Scripting API of the DQMH 6.1 release.</Release_Notes>
         <Path>Panther Dashboard</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>912CDB80AF337828EF9953853B82CFAA</GUID>
+      <GUID>11BD2003A25620617C4CB94A10A44F59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -373,7 +373,7 @@ It is based on the new Scripting API of the DQMH 6.1 release.</Release_Notes>
         <Path>Panther Dashboard\Obtain Broadcast Events for Registration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66E1CDD0C13C066045F35E70C6DF8315</GUID>
+      <GUID>A652533AF20F19F6F37DB82C7D6AD40B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
