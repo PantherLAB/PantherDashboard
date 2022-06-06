@@ -1,9 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
+<Library LVVersion="19008000">
 	<Property Name="NI.Lib.Description" Type="Str">This is the DQMH Module to handle the Panther Dasboard for DQMH Project</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)@!!!*Q(C=\&gt;8"4=.!%)8B"])3VX3!UM+UE"&lt;3QL31'_+9&amp;K;&amp;N*!78ANJ)3X!\]W!!A*S!911[WTCP,6H0^;/E5;\F7\U?+H&gt;@^J[@*KG]&gt;[\@%[PRU_PZ`T^]&lt;/$4P8?DH@[8PUO0:XNH9^`YL`1^.`_W^^O$R&gt;`".`_/\D3`##CGV\UJ)@G;2^.&lt;H+4G^TE*C`S)C`S)C`S)E`S*%`S*%`S*!`S)!`S)!`S)"]&lt;O=B&amp;,H*):H)TE3FK#JC$I=C]'9`R')`R]&amp;8'9TT'9TT'QS%S(O-R(O-R(E[4]2C0]2C0]6"K3$QW=DT'1XE6HM*4?!J0Y7&amp;+&amp;:Y#5%R7&amp;#[+Q&amp;!R7/Q5HM*4?.B6Y3E]B;@Q&amp;"['68A+4_%J0)7(5];KV.$-'TE?SCDR**\%EXA3$[76?"*0YEE]C9@JF(A34Y*)*ES+1V"S5H*!]C8R*"Y_F(A34_**0)G(I8'&amp;=KT-L*EX=DS"*`!%HM!4?#CBQ".Y!E`A#4S56?!*0)%H]!1?JF,A#4S"*Y!%ET+^AG,"C=&amp;"12"Y?)W\*=:6KC'*M5F^][JP3P8.JL[*V$?(_K+L,[&lt;[)KE88\WI[M63,Y,[DV/DV2DV*/K4ZQ.VZ0V!X^.X^#V^1V`46`1F@4'@_M5((I^((1Y(\@&gt;\\89\&lt;&lt;&gt;&lt;&lt;49&lt;L&gt;&gt;LL69L,:&gt;,,2;,F]@!(&gt;P,!_(U8(JA`[0_!`_@@]'T5&gt;=[HY-V?A+=?FB2!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)@!!!*Q(C=\&gt;8"4=.!%)8B"])3VX3!UM+UE"&lt;3QL31'_+9&amp;K;&amp;N*!78ANJ)3X!\]W!!A*S!911[WTCP,6H0^;/E5;\F7\U?+H&gt;@^J[@*KG]&gt;[\@%[PRU_PZ`T^]&lt;/$4P8?DH@[8PUO0:XNH9^`YL`1^.`_W^^O$R&gt;`".`_/\D3`##CGV\UJ)@G;2^.&lt;H+4G^TE*C`S)C`S)C`S)E`S*%`S*%`S*!`S)!`S)!`S)"]&lt;O=B&amp;,H*):H)TE3FK#JC$I=C]'9`R')`R]&amp;8'9TT'9TT'QS%S(O-R(O-R(E[4]2C0]2C0]6"K3$QW=DT'1XE6HM*4?!J0Y7&amp;+&amp;:Y#5%R7&amp;#[+Q&amp;!R7/Q5HM*4?.B6Y3E]B;@Q&amp;"['68A+4_%J0)7(5];KV.$-'TE?SCDR**\%EXA3$[76?"*0YEE]C9@JF(A34Y*)*ES+1V"S5H*!]C8R*"Y_F(A34_**0)G(I8'&amp;=KT-L*EX=DS"*`!%HM!4?#CBQ".Y!E`A#4S56?!*0)%H]!1?JF,A#4S"*Y!%ET+^AG,"C=&amp;"12"Y?)W\*=:6KC'*M5F^][JP3P8.JL[*V$?(_K+L,[&lt;[)KE88\WI[M63,Y,[DV/DV2DV*/K4ZQ.VZ0V!X^.X^#V^1V`46`1F@4'@_M5((I^((1Y(\@&gt;\\89\&lt;&lt;&gt;&lt;&lt;49&lt;L&gt;&gt;LL69L,:&gt;,,2;,F]@!(&gt;P,!_(U8(JA`[0_!`_@@]'T5&gt;=[HY-V?A+=?FB2!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.3.0.2</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -25,6 +24,8 @@
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Stop Module Instance Argument--cluster.ctl" Type="VI" URL="../Stop Module Instance Argument--cluster.ctl"/>
+				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
+				<Item Name="Get Vis registered for broadcast Argument--cluster.ctl" Type="VI" URL="../Get Vis registered for broadcast Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -43,6 +44,8 @@
 			<Item Name="Open Module API Tester.vi" Type="VI" URL="../Open Module API Tester.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
 			<Item Name="Stop Module Instance.vi" Type="VI" URL="../Stop Module Instance.vi"/>
+			<Item Name="Open Event Callers.vi" Type="VI" URL="../Open Event Callers.vi"/>
+			<Item Name="Get Vis registered for broadcast.vi" Type="VI" URL="../Get Vis registered for broadcast.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -108,10 +111,12 @@
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
 			<Item Name="Maps List and refs--cluster.ctl" Type="VI" URL="../Maps List and refs--cluster.ctl"/>
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
-			<Item Name="Search button.ctl" Type="VI" URL="../Search button.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
 			<Item Name="About--button.ctl" Type="VI" URL="../About--button.ctl"/>
+			<Item Name="refresh--button.ctl" Type="VI" URL="../refresh--button.ctl"/>
+			<Item Name="Event--Button.ctl" Type="VI" URL="../Event--Button.ctl"/>
+			<Item Name="Module--button.ctl" Type="VI" URL="../Module--button.ctl"/>
 		</Item>
 		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
@@ -129,10 +134,11 @@
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
-		<Item Name="FGV Project Name.vi" Type="VI" URL="../FGV Project Name.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
+		<Item Name="Show Caller Items Dialog.vi" Type="VI" URL="../Show Caller Items Dialog.vi"/>
+		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
