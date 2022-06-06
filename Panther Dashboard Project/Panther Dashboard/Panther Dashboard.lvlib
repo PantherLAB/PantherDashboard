@@ -25,6 +25,8 @@
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Stop Module Instance Argument--cluster.ctl" Type="VI" URL="../Stop Module Instance Argument--cluster.ctl"/>
+				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
+				<Item Name="Get Vis registered for broadcast Argument--cluster.ctl" Type="VI" URL="../Get Vis registered for broadcast Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -43,6 +45,8 @@
 			<Item Name="Open Module API Tester.vi" Type="VI" URL="../Open Module API Tester.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
 			<Item Name="Stop Module Instance.vi" Type="VI" URL="../Stop Module Instance.vi"/>
+			<Item Name="Open Event Callers.vi" Type="VI" URL="../Open Event Callers.vi"/>
+			<Item Name="Get Vis registered for broadcast.vi" Type="VI" URL="../Get Vis registered for broadcast.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -108,10 +112,12 @@
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
 			<Item Name="Maps List and refs--cluster.ctl" Type="VI" URL="../Maps List and refs--cluster.ctl"/>
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
-			<Item Name="Search button.ctl" Type="VI" URL="../Search button.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
 			<Item Name="About--button.ctl" Type="VI" URL="../About--button.ctl"/>
+			<Item Name="refresh--button.ctl" Type="VI" URL="../refresh--button.ctl"/>
+			<Item Name="Event--Button.ctl" Type="VI" URL="../Event--Button.ctl"/>
+			<Item Name="Module--button.ctl" Type="VI" URL="../Module--button.ctl"/>
 		</Item>
 		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
@@ -129,10 +135,11 @@
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
-		<Item Name="FGV Project Name.vi" Type="VI" URL="../FGV Project Name.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
+		<Item Name="Show Caller Items Dialog.vi" Type="VI" URL="../Show Caller Items Dialog.vi"/>
+		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
