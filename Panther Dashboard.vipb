@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-06 11:37:36" Creator="Enrique Noe Arias" Comments="" ID="f111f23fd8d85ec887a0ee8216b6166e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-13 12:11:14" Creator="Enrique Noe Arias" Comments="" ID="dd80b1eb35c09fc27892a8127b2972f5">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.4.0.3</Library_Version>
+    <Library_Version>1.4.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -63,9 +63,8 @@ Or visit the Product Page
 </Description>
       <Copyright/>
       <Packager/>
-      <URL>https://github.com/PantherLAB/ScriptingAPI</URL>
-      <Release_Notes>Palette organization
-Minor Improvements</Release_Notes>
+      <URL>https://github.com/PantherLAB/PantherDashboard</URL>
+      <Release_Notes>New UI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -143,6 +142,11 @@ Minor Improvements</Release_Notes>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>Panther_Dashboard_</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Panther Dashboard for DQMH.vi</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
@@ -264,7 +268,7 @@ Minor Improvements</Release_Notes>
         <Path>Panther Dashboard Project\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BD26738DC90DA8905464011FF6EC804</GUID>
+      <GUID>F865BA972A494C3AE2ADE230315FF82A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +387,7 @@ Minor Improvements</Release_Notes>
         <Path>Panther Dashboard Project\Panther Dashboard\Scan DQMH Modules.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01F222C8077BA42861E6085FE60DA0F7</GUID>
+      <GUID>B192E68515F85AF54C84A3EF64B05276</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
