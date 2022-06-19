@@ -14,10 +14,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Package"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"."</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -27,10 +23,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Add Event Reference to maps.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\add Event--boolean.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -107,10 +99,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\FGV Project Name.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -210,23 +198,11 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Status--boolean.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Timeout--constant.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--boolean.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--enum.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Modules Status--Cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -251,14 +227,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open API Tester.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Event Front Panel Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Event Front Panel.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -303,10 +271,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Search button.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -375,10 +339,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Upate Projects List Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -771,16 +731,6 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Find Deprecated Items"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Warnings\\Find Deprecated Items.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
 		<Name>"For Loop Error Handling"</Name>
 		<Ranking>2</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -797,16 +747,6 @@
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Warnings\\For Loop Iteration Count.llb"</RelativePath>
 		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"For Loop Reference Handling"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Warnings\\For Loop Reference Handling.llb"</RelativePath>
-		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1537,16 +1477,6 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Alignment Grid Setting"</Name>
-		<Ranking>0</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Front Panel\\User Interface\\Alignment Grid Setting.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
 		<Name>"Clipped Text"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -1908,16 +1838,6 @@
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Removed Diagram.llb"</RelativePath>
 		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Separate Compiled Code Setting"</Name>
-		<Ranking>0</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Separate Compiled Code Setting.llb"</RelativePath>
-		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
