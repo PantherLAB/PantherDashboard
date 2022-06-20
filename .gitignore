@@ -16,3 +16,6 @@
 *.lvlps
 .cache/
 *.vip
+
+# Build Specs
+*.vipb
