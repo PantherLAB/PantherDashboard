@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-18 22:14:04" Creator="Enrique Noe Arias" Comments="" ID="352bf83a1592809f773780c4a97331c4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-22 11:24:42" Creator="Enrique Noe Arias" Comments="" ID="70d13aadc27f730820f6909a31438c5f">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.4.0.6</Library_Version>
+    <Library_Version>1.4.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -64,8 +64,7 @@ Or visit the Product Page
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Removed duplicated code and cleared some logic when parsing modules.
-</Release_Notes>
+      <Release_Notes>Improvements to the results window to highlight the events usage inside the calling code</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +268,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE6ED1D0C67001568D632724E3002312</GUID>
+      <GUID>CE2A124381B61AE64E970F3BAB865AD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -388,7 +387,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Panther Dashboard\Scan DQMH Modules.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A4DD09E6F8B2785291CA6D4D361FC21</GUID>
+      <GUID>78850D98745A8B832030E0AB12F111D2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
