@@ -18,6 +18,10 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
+		<Path>"..\\Panther Dashboard Project\\Libraries"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Acquire Module Semaphore.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>

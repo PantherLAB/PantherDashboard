@@ -141,6 +141,9 @@
 		<Item Name="Show Caller Items Dialog.vi" Type="VI" URL="../Show Caller Items Dialog.vi"/>
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Enable disable control.vi" Type="VI" URL="../Enable disable control.vi"/>
+		<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
