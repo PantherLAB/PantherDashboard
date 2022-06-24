@@ -144,6 +144,10 @@
 		<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Edit--button.ctl" Type="VI" URL="../Edit--button.ctl"/>
+		<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
+		<Item Name="Get library description.vi" Type="VI" URL="../Get library description.vi"/>
+		<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
