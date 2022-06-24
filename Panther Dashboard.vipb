@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-23 20:23:53" Creator="Enrique Noe Arias" Comments="" ID="8dbeb2fe1fd65faa492c5a8d06e57de1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-24 10:23:08" Creator="Enrique Noe Arias" Comments="" ID="46ab831a5bb1bebcbcd4d81a002ac979">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.5.0.2</Library_Version>
+    <Library_Version>1.6.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -64,7 +64,8 @@ Or visit the Product Page
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Now we can edit the module and event selected descriptions/documentation.</Release_Notes>
+      <Release_Notes>Highligt Event frames when double click, if it is a broadcast, just highligth where it is being called.
+Library description and Vi documentation edition improvements.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -268,7 +269,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AF0F55C90A9F283BAFE2F9B5B4E0468</GUID>
+      <GUID>396E08E6A84EE82C6C259510B7E29743</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -387,7 +388,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Panther Dashboard\Scan DQMH Modules.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CF157654B34F494ED2622445CA17ACD</GUID>
+      <GUID>FD8D89F78EA01A1A39ADE75935A55738</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
