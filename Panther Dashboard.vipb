@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-24 10:23:08" Creator="Enrique Noe Arias" Comments="" ID="46ab831a5bb1bebcbcd4d81a002ac979">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-24 14:55:10" Creator="Enrique Noe Arias" Comments="" ID="7b034a706b86bbea1a462373788f3062">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.6.0.2</Library_Version>
+    <Library_Version>1.6.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
 This is a DQMH Module created as a wrapper for the new Scripting API included in the DQMH 6.1 Release.
-This Module allows you to have a general overview of your DQMH project.
+This Module allows you to have a general overview and have the capabilities to browse your DQMH project.
 
 &lt;i&gt;The main features included in Panther Dashboard for DQMH:&lt;/i&gt;
 
@@ -44,11 +44,11 @@ This Module allows you to have a general overview of your DQMH project.
 *Using different icons you can diferentiate which modules are Singleton and wich ones are Cloneable.
 *Can launch the API Tester of the DQMH Module selected
 *Can Trigger the default events on all the DQMH Modules like Show Panel, Hide Panel, Show Block Diagram and Stop Module.
-*Allows you to see the DQMH module documentation.
+*Allows you to see and Edit the DQMH module and events documentation.
 *Allows you to see the connector Pane/Icon of all the events.
-*Allows you to browse your project including its dependencies.
 *Allows you to see the event callers
 *Allows you to see the broadcast event suscribers.
+*By double clicking an event you can find where is being called or coded depending if it is a request or a broadcast.
 
 For more information send an email to:
 
@@ -64,8 +64,7 @@ Or visit the Product Page
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Highligt Event frames when double click, if it is a broadcast, just highligth where it is being called.
-Library description and Vi documentation edition improvements.</Release_Notes>
+      <Release_Notes>Fix handling the panel close.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +268,7 @@ Library description and Vi documentation edition improvements.</Release_Notes>
         <Path>Panther Dashboard Project\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>396E08E6A84EE82C6C259510B7E29743</GUID>
+      <GUID>559291D42A2734BA67823969C63FB373</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -388,7 +387,7 @@ Library description and Vi documentation edition improvements.</Release_Notes>
         <Path>Panther Dashboard Project\Panther Dashboard\Scan DQMH Modules.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD8D89F78EA01A1A39ADE75935A55738</GUID>
+      <GUID>9B228B869C70630027F03C06F55959F0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
