@@ -2000,6 +2000,666 @@
 		<Controls>
 		</Controls>
 	</Test>
+	<Test>
+		<Name>"Anti-Aliased Plots_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Anti-Aliased Plots.llb"</RelativePath>
+		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Auto Error Handling Detect or Correct"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Auto Error Handling Detect or Correct.llb"</RelativePath>
+		<Selected>TRUE</Selected>
+		<Controls>
+			<Control>
+				<Name>"Fix VIs"</Name>
+				<Type>"Bool"</Type>
+				<Value>TRUE</Value>
+			</Control>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CaseSensitiveCaseStructure"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CaseSensitiveCaseStructure.llb"</RelativePath>
+		<Selected>TRUE</Selected>
+		<Controls>
+			<Control>
+				<Name>"ComparisonType"</Name>
+				<Type>"Int"</Type>
+				<Value>1</Value>
+			</Control>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Check FP Control Names"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Check FP Control Names.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Check FP items are Typedefs"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Check FP items are Typedefs.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Check FrontPanel States"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Check FrontPanel States.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Check InRangeAndCoerce Mode"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Check InRangeAndCoerce Mode.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckCaptionsLabelsMatch"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckCaptionsLabelsMatch.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckCompiledCodeSeparate"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckCompiledCodeSeparate.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckLVLibUsage"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckLVLibUsage.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckMScriptUsage"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckMScriptUsage.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckNamingConvention"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckNamingConvention.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckReferencesAreClosed"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckReferencesAreClosed.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckTunnelsUseDefaultValue"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckTunnelsUseDefaultValue.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckTypeDefStyle"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckTypeDefStyle.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckUninitShiftRegister"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckUninitShiftRegister.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CheckWhitespaceInFPnames"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\CheckWhitespaceInFPnames.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Constant Documentation"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Constant Documentation.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Copyright"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Copyright.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Deprecated Functionality_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Deprecated Functionality.llb"</RelativePath>
+		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Detect Mechanical Action"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Detect Mechanical Action.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Detect Pre-Allocated Clones"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Detect Pre-Allocated Clones.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Diagram Size and Position_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Diagram Size and Position.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Enum Constant Value Changes"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Enum Constant Value Changes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Events that Lock Panel"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Events that Lock Panel.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Execution System Setting"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Execution System Setting.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Constant By Class Name"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Constant By Class Name.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Control"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Control.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Dynamic SubVI Calls"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Dynamic SubVI Calls.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Event Structure Frames"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Event Structure Frames.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Function"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Function.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Numeric Constant Value"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Numeric Constant Value.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Property or Method"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Property or Method.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Text"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Text.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find Typedef Instances"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find Typedef Instances.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find VI Calls_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find VI Calls.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Fix Gray Classes"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Fix Gray Classes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Forked Event Reg Refnum Wire_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Forked Event Reg Refnum Wire.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Front Panel Size"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Front Panel Size.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"hse_bd_bg-color"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\hse_bd_bg-color.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"hse_subdiagram_labels"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\hse_subdiagram_labels.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"In Range Exclusion_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\In Range Exclusion.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Inline VI Marking"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Inline VI Marking.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Key Navigation"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Key Navigation.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Launch Actor Called in Pre Launch Init"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Launch Actor Called in Pre Launch Init.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Limit to Single Line"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Limit to Single Line.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Merge Errors Style_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Merge Errors Style.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Minimum Window Width_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Minimum Window Width.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Open Actor Core Front Panel Set to True"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Open Actor Core Front Panel Set to True.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Panel Color_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Panel Color.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Priority Setting"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Priority Setting.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Property Node Name Format_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Property Node Name Format.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Reentrancy"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Reentrancy.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Search and Replace"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Search and Replace.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Separate Compiled"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Separate Compiled.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Subroutine and Not Reentrant"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Subroutine and Not Reentrant.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"SubVI Owning Location"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\SubVI Owning Location.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"SubVIs Need Relinking"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\SubVIs Need Relinking.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Swapped Range Inputs"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Swapped Range Inputs.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Unnecessary Class Casting"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Unnecessary Class Casting.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Unwired Event Nodes_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Unwired Event Nodes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Unwired Event Timeout"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Unwired Event Timeout.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Useless Close Reference"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Useless Close Reference.llb"</RelativePath>
+		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"View Cluster Constant as Icon_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\View Cluster Constant as Icon.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"VISASynchronousMode"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\VISASynchronousMode.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
 </TestConfigData>
 <ExclusionData>
 </ExclusionData>
