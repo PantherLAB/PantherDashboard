@@ -33,6 +33,7 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
+				<Item Name="Scan Completed Argument--cluster.ctl" Type="VI" URL="../Scan Completed Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -65,6 +66,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
+		<Item Name="Scan Completed.vi" Type="VI" URL="../Scan Completed.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
