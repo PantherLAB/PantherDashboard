@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-25 10:53:44" Creator="Enrique Noe Arias" Comments="" ID="2227e2a6ebf51e5e06f659504d6e42cc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-06-27 15:11:35" Creator="Enrique Noe Arias" Comments="" ID="613a75989a7afdb66f9eb25d2b66edd6">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.6.0.4</Library_Version>
+    <Library_Version>1.6.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -65,7 +65,7 @@ Or visit the Product Page
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Adding Expand or shink results Tree control.</Release_Notes>
+      <Release_Notes>Edit documentation text goes red when edit mode.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +269,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93B7FA62F9FA798699CC57468BCAC8F2</GUID>
+      <GUID>7D21C58F91F561B99BB003B472B54DBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@ Or visit the Product Page
         <Path>Panther Dashboard Project\Panther Dashboard\Expand Results.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>257E8343011D2A4A23E966ED7405827B</GUID>
+      <GUID>6EB81B219054F5A7B8AB5AAE42719230</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
