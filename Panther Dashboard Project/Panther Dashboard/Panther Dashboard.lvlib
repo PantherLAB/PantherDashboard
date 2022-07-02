@@ -160,4 +160,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
+	<Item Name="Capture the Application Ref--FGV.vi" Type="VI" URL="../Capture the Application Ref--FGV.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
