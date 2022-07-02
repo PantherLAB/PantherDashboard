@@ -136,7 +136,6 @@
 		<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
 		<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
 		<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
-		<Item Name="Execute default event by ID.vi" Type="VI" URL="../Execute default event by ID.vi"/>
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 		<Item Name="Get Active Project Name.vi" Type="VI" URL="../Get Active Project Name.vi"/>
@@ -151,16 +150,16 @@
 		<Item Name="Get library description.vi" Type="VI" URL="../Get library description.vi"/>
 		<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
 		<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
+		<Item Name="Project References--cluster.ctl" Type="VI" URL="../Project References--cluster.ctl"/>
+		<Item Name="Get All Projects.vi" Type="VI" URL="../Get All Projects.vi"/>
+		<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
+		<Item Name="Capture the Application Ref--FGV.vi" Type="VI" URL="../Capture the Application Ref--FGV.vi"/>
+		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
+		<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
 		<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
+		<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Get All Projects.vi" Type="VI" URL="../Get All Projects.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
-	<Item Name="Capture the Application Ref--FGV.vi" Type="VI" URL="../Capture the Application Ref--FGV.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
