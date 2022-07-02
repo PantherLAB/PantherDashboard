@@ -3,7 +3,6 @@
 	<Property Name="NI.Lib.Description" Type="Str">Panther Dasboard for DQMH Project</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;5`5C*"&amp;-@RXVI'7U6A=1/,+\RY-[\!&amp;6Y[N2'J)9HG,T;DS.T&gt;B#O]+R!:,RZ"P^U]%!UE73VLSRZ[A&amp;``_^ATD&amp;)PX[6T0:YKKT&gt;,;R_.2KPH=XXE@&lt;2P0XZ6`K*^.[C^DDLNUBJ`;._FK^@T\^@@&gt;XIR`^P_%U6@Z;P]X_8KZ)`AX8](X^1?2.3E"N7JJL&lt;M9Z)H?:)H?:)H?:!(?:!(?:!(O:-\O:-\O:-\O:%&lt;O:%&lt;O:%&lt;?4`)23ZSE5.+&amp;E]73C:.*EA[1V&amp;S3DS**`%E(LYK]33?R*.Y%A^&gt;F(A34_**0)G(95I]C3@R**\%QV2&gt;EPUARZ.YG&amp;["*`!%HM!4?&amp;B3A3=!")M&amp;%Q?4Q&amp;$1'(Q)0)%H]0"2A3@Q"*\!%XBI6O!*0)%H]!1?BP2&gt;C;ZJ"TE?JJ(D=4S/R`%Y(K;7YX%]DM@R/"[7E_.R0!\#7&gt;#:()+=15Y(ZYPD=4S]S@%Y(M@D?"Q04@U+?&gt;_:JGE(/2\$9XA-D_%R0%QBQW.Y$)`B-4R-+].D?!S0Y4%],#8$9XA-DQ%R&amp;G6Z':-:!YV/2G"Y?07\R@J6CC[R@EBV][JO3N8.JLK*6$?([K+L,K&lt;K)KEW8\7JKMV3&lt;9,KDV/B62D6)KL"L;/WH$@5.86*86$HV"FV3JV1RWXI0_[YX7[VW7SU8K_V8#[V7#QUH]]VG]UUH5YVG5QU(I]0DY&amp;,DM-$Y@GZ&gt;(`T=`D\:RDO@^^&gt;00T[-4R=XQY@^0`Z%TQ&lt;&gt;;&lt;D.&gt;CD*Q/3A1U!!!!!</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.6.0.4</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -36,6 +35,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
 				<Item Name="Scan Completed Argument--cluster.ctl" Type="VI" URL="../Scan Completed Argument--cluster.ctl"/>
+				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -69,6 +69,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
 		<Item Name="Scan Completed.vi" Type="VI" URL="../Scan Completed.vi"/>
+		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -155,4 +156,8 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get All Projects.vi" Type="VI" URL="../Get All Projects.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
 </Library>
