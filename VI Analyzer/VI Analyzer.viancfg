@@ -14,11 +14,11 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\.github"</Path>
+		<Path>"."</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"."</Path>
+		<Path>"..\\Panther Dashboard Project\\Libraries"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -94,11 +94,31 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute default event by ID.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Fill Maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find API Tester Path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Active Project Name.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get List Information.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -146,6 +166,10 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Launch DQMH Tools by menu.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Maps List and refs--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -183,10 +207,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--enum.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module--button.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -234,10 +254,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\refresh--button.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Release Module Semaphore.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -247,6 +263,10 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Request Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules and create Maps.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -1891,7 +1911,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Connector Inputs and Outputs.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1901,7 +1921,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Controls and Indicators.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1911,7 +1931,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Diagram Count.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1921,7 +1941,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Diagram Size.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 			<Control>
 				<Name>"Maximum Diagram Height"</Name>
@@ -1936,7 +1956,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Node Count.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1946,7 +1966,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Property Reads and Writes.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1956,7 +1976,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Shared Library Calls.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1966,7 +1986,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Structure Count.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1976,7 +1996,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\VI Metrics\\Wire Sources.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1986,7 +2006,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Anti-Aliased Plots.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1996,7 +2016,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Auto Error Handling Detect or Correct.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 			<Control>
 				<Name>"Fix VIs"</Name>
@@ -2011,7 +2031,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\CaseSensitiveCaseStructure.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 			<Control>
 				<Name>"ComparisonType"</Name>
@@ -2186,7 +2206,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Deprecated Functionality.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -2616,7 +2636,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Useless Close Reference.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
