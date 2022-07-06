@@ -20,5 +20,5 @@ _This is a DQMH Module created as a wrapper for the new Scripting API included i
  
  **Watch the youtube video here:**
  
- [![Watch the youtube video](https://pantherlab.com.mx/wp-content/uploads/2021/07/pantherPortada-inicio.png)](https://youtu.be/j4ikJDI-T5Q)
+ [![Watch the youtube video](https://pantherlab.com.mx/wp-content/uploads/2022/07/youtube-logo-icone.png)](https://youtu.be/j4ikJDI-T5Q)
 
