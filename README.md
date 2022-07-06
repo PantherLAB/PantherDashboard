@@ -14,9 +14,15 @@ _This is a DQMH Module created as a wrapper for the new Scripting API included i
 <li>Execute the default events included in all the DQMH Modules like [Show Panel, Hide Panel, Show Block Diagram, Stop Module]</li>
 <li>Use the DQMH Scripting Tools to create Events and Modules</li>
 </ul>
+
+
  To know how to use it and get a more detailed information please visit:
  
+ 
  [PantherLAB Blog](https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/)
+ 
+ 
+ [VIP File](https://github.com/PantherLAB/PantherDashboard/blob/main/VIP/pantherlab_lib_panther_dashboard-1.7.0.9.vip)
  
  **Watch the youtube video here:**
  
