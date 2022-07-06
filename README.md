@@ -1,21 +1,19 @@
 # Panther Dashboard for DQMH
 
 _This is a DQMH Module created as a wrapper for the new Scripting API included in the DQMH 6.1 Release._
-_This project allows you to have a general overview of your DQMH project and to use the DQMH Scripting tools on one single Front panel._
 
-**The main features included in Panther Dashboard:**
+**Panther Dashboard for DQMH has the following features:**
 <ul>
-<li>Allows you  to see the status (Running/Idle) of all your DQMH modules in your project by adding different icons and colors.</li>
-<li>Using different icons you can diferentiate which modules are Singleton and wich ones are Cloneable.</li>
-<li>Can launch the API Tester of the DQMH Module selected</li>
-<li>Can Trigger the default events on all the DQMH Modules like Show Panel, Hide Panel, Show Block Diagram and Stop Module.</li>
-<li>Allows you to see the DQMH module documentation.</li>
-<li>Allows you to see the connector Pane/Icon of all the events.</li>
-<li>Allows you to browse your project including its dependencies.</li>
-<li>Allows you to see the event callers</li>
-<li>Allows you to see the broadcast event suscriptors.</li>
- </ul>
- 
+<li>Explore Project in the DQMH context</li>
+<li>Visualize your modules Status (running, Idle)</li>
+<li>Edit/Update your modules Descriptions</li>
+<li>Edit/Update your event Documentation</li>
+<li>Search for Event Callers</li>
+<li>If the Event is a Broadcast, search for Broadcast listeners / subscriptors</li>
+<li>Open API Tester from the selected module</li>
+<li>Execute the default events included in all the DQMH Modules like [Show Panel, Hide Panel, Show Block Diagram, Stop Module]</li>
+<li>Use the DQMH Scripting Tools to create Events and Modules</li>
+</ul>
  To know how to use it and get a more detailed information please visit:
  
  [PantherLAB Blog](https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/)
