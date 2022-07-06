@@ -14,11 +14,11 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"."</Path>
+		<Path>"..\\.github"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Libraries"</Path>
+		<Path>"."</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -78,10 +78,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Draw Tree.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Error Reported Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -94,7 +90,7 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute default event by ID.vi"</Path>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Event--Button.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -103,22 +99,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Fill Maps.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find API Tester Path.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Active Project Name.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get List Information.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -163,10 +143,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Init Module.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Launch DQMH Tools by menu.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -246,11 +222,27 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Project References--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Projects Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Projects Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\refresh--button.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -314,18 +306,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop DQMH Module.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module Instance Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module Instance.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -339,10 +319,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -840,7 +816,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Cyclomatic Complexity.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -850,7 +826,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Depth of Nesting of Structures.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -860,7 +836,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Fan In.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -870,7 +846,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Fan Out.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -880,502 +856,6 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Modularity Index.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Broken RTE Code"</Name>
-		<Ranking>2</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Broken RTE Code.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Current VIs Path Issues"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Current VIs Path Issues.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Cursor VI Error Output"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Cursor VI Error Output.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Default Right-click Menus"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Default Right-click Menus.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Duplicate Cluster Element Names"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Duplicate Cluster Element Names.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Error Shift Register on Event Loop"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Error Shift Register on Event Loop.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Faulty Functional Global"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Faulty Functional Global.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"File Dialog Issues"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\File Dialog Issues.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Find User Visible Strings"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Find User Visible Strings.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Find VI Calls"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Find VI Calls.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"First Call in Reentrant VI"</Name>
-		<Ranking>2</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\First Call in Reentrant VI.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Forked Event Reg Refnum Wire"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Forked Event Reg Refnum Wire.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Full Names on Bundlers"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Full Names on Bundlers.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Gather Error Ring Data"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Gather Error Ring Data.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Icon View Detect or Correct"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Icon View Detect or Correct.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"In Range Exclusion"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\In Range Exclusion.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Invalid Control Labels"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Invalid Control Labels.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Join Numbers Coercion"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Join Numbers Coercion.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Limit to Single Line on Strings"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Limit to Single Line on Strings.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Multiple Global Writes"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Multiple Global Writes.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Non Default Error Constant"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Non Default Error Constant.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Pop Up Detection"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Pop Up Detection.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Search and Replace Text"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Search and Replace Text.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Separate Compiled Code"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Separate Compiled Code.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Stop Started DQMH Modules"</Name>
-		<Ranking>2</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Stop Started DQMH Modules.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"String Case Structure Matching"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\String Case Structure Matching.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"String Constant Build Path"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\String Constant Build Path.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Subdiagram Labels"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Subdiagram Labels.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Time Zone Issues"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Time Zone Issues.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Typedef Enums and Clusters"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Typedef Enums and Clusters.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Typedef File Name Convention"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Typedef File Name Convention.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Unwired VI Reference"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Unwired VI Reference.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Wait for Reply in Locking Event"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Wait for Reply in Locking Event.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Anti-Aliased Plots"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Anti-Aliased Plots.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Auto Error Handling (Pre-2019)"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Auto Error Handling (Pre-2019).llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Char By Char App Font Usage"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Char By Char App Font Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Default Free Label Color"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Default Free Label Color.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Deprecated Functionality"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Deprecated Functionality.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Diagram Size and Position"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Diagram Size and Position.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Merge Errors Style"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Merge Errors Style.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Minimum Window Width"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Minimum Window Width.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Non-palette vi.lib VI Usage"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Non-palette vi.lib VI Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-			<Control>
-				<Name>"Deeply-nested Example Folders"</Name>
-				<Type>"1D Path"</Type>
-				<Value>"..\\..\\..\\Users\\enoea\\Documents\\LabVIEW Data\\Delacor CFG Templates\\examples\\Connectivity\\Web Services", "..\\..\\..\\Users\\enoea\\Documents\\LabVIEW Data\\Delacor CFG Templates\\examples\\Object-Oriented Programming"</Value>
-				<PathType>"RelativeToCFG", "RelativeToCFG"</PathType>
-			</Control>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Panel Color"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Panel Color.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Prohibited Nodes"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Prohibited Nodes.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Property Node Name Format"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Property Node Name Format.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Size to Text"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Size to Text.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Transparent Diagram Object Labels"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Transparent Diagram Object Labels.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Unwired Event Nodes"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Unwired Event Nodes.llb"</RelativePath>
-		<Selected>TRUE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"View Cluster Constant as Icon"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>500</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\View Cluster Constant as Icon.llb"</RelativePath>
 		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
@@ -1866,46 +1346,6 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Front Panel Property and Invoke Nodes"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Real-Time Module\\Front Panel Property and Invoke Nodes.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Timed Structures in Time Critical VIs"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Real-Time Module\\Timed Structures in Time Critical VIs.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Unbounded Code in Time Critical VIs"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Real-Time Module\\Unbounded Code in Time Critical VIs.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
-		<Name>"Unbounded Code in Timed Structures"</Name>
-		<Ranking>1</Ranking>
-		<MaxFailures>5</MaxFailures>
-		<BasePath>"LabVIEW"</BasePath>
-		<RelativePath>"project\\_VI Analyzer\\_tests\\Real-Time Module\\Unbounded Code in Timed Structures.llb"</RelativePath>
-		<Selected>FALSE</Selected>
-		<Controls>
-		</Controls>
-	</Test>
-	<Test>
 		<Name>"Connector Inputs and Outputs"</Name>
 		<Ranking>0</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -2001,12 +1441,12 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Anti-Aliased Plots_1"</Name>
+		<Name>"Anti-Aliased Plots"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Anti-Aliased Plots.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -2016,7 +1456,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Auto Error Handling Detect or Correct.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 			<Control>
 				<Name>"Fix VIs"</Name>
@@ -2031,7 +1471,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\CaseSensitiveCaseStructure.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 			<Control>
 				<Name>"ComparisonType"</Name>
@@ -2201,12 +1641,12 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Deprecated Functionality_1"</Name>
+		<Name>"Deprecated Functionality"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Deprecated Functionality.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -2231,7 +1671,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Diagram Size and Position_1"</Name>
+		<Name>"Diagram Size and Position"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2361,7 +1801,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Find VI Calls_1"</Name>
+		<Name>"Find VI Calls"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2381,7 +1821,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Forked Event Reg Refnum Wire_1"</Name>
+		<Name>"Forked Event Reg Refnum Wire"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2421,7 +1861,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"In Range Exclusion_1"</Name>
+		<Name>"In Range Exclusion"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2471,7 +1911,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Merge Errors Style_1"</Name>
+		<Name>"Merge Errors Style"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2481,7 +1921,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Minimum Window Width_1"</Name>
+		<Name>"Minimum Window Width"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2501,7 +1941,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Panel Color_1"</Name>
+		<Name>"Panel Color"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2521,7 +1961,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Property Node Name Format_1"</Name>
+		<Name>"Property Node Name Format"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2611,7 +2051,7 @@
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"Unwired Event Nodes_1"</Name>
+		<Name>"Unwired Event Nodes"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2636,12 +2076,12 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
 		<RelativePath>"VI Analyzer Tests\\Useless Close Reference.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
 	<Test>
-		<Name>"View Cluster Constant as Icon_1"</Name>
+		<Name>"View Cluster Constant as Icon"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
