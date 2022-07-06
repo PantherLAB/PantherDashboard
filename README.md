@@ -17,3 +17,8 @@ _This is a DQMH Module created as a wrapper for the new Scripting API included i
  To know how to use it and get a more detailed information please visit:
  
  [PantherLAB Blog](https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/)
+ 
+ **Watch the youtube video here:
+ 
+ [![Watch the youtube video](https://pantherlab.com.mx/wp-content/uploads/2021/07/pantherPortada-inicio.png)](https://youtu.be/j4ikJDI-T5Q)
+
