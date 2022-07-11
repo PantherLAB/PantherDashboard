@@ -157,5 +157,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Project explorer Navigation.vi" Type="VI" URL="../Project explorer Navigation.vi"/>
+	<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
 </Library>
