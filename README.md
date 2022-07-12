@@ -15,8 +15,12 @@ _This is a DQMH Module created as a wrapper for the new Scripting API included i
 <li>Use the DQMH Scripting Tools to create Events and Modules</li>
 </ul>
 
+If you like this tool you can buy me a ☕ 
 
- To know how to use it and get a more detailed information please visit:
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
+
+
+To know how to use it and get a more detailed information please visit:
  
  
  [PantherLAB Blog](https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/)
