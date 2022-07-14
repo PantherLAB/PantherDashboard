@@ -153,9 +153,9 @@
 		<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
 		<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
 		<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
+		<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
 </Library>
