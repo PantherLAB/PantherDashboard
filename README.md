@@ -1,6 +1,11 @@
 # Panther Dashboard for DQMH
 
-_This is a DQMH Module created as a wrapper for the new Scripting API included in the DQMH 6.1 Release._
+If you like this tool you can buy me a ☕ 
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
+
+_This is a LabVIEW Tool using the new Scripting API included in the DQMH 6.1 Release.
+The priority of this tool is to Improve the Developer Experience when dealing with DQMH code._
 
 **Panther Dashboard for DQMH has the following features:**
 <ul>
@@ -11,13 +16,15 @@ _This is a DQMH Module created as a wrapper for the new Scripting API included i
 <li>Search for Event Callers</li>
 <li>If the Event is a Broadcast, search for Broadcast listeners / subscriptors</li>
 <li>Open API Tester from the selected module</li>
-<li>Execute the default events included in all the DQMH Modules like [Show Panel, Hide Panel, Show Block Diagram, Stop Module]</li>
-<li>Use the DQMH Scripting Tools to create Events and Modules</li>
+<li>Execute the default events [Show Panel, Hide Panel, Show Block Diagram, Stop Module]</li>
+<li>Use the DQMH Scripting Tools</li>
 </ul>
 
-If you like this tool you can buy me a ☕ 
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
+
+After installing this package it will be available going to:
+
+Tools->PantherLAB->Panther Dashboard for DQMH
 
 
 To know how to use it and get a more detailed information please visit:
