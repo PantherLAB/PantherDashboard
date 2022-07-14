@@ -33,7 +33,7 @@ To know how to use it and get a more detailed information please visit:
  [PantherLAB Blog](https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/)
  
  
- [VIP File](https://github.com/PantherLAB/PantherDashboard/blob/main/VIP/pantherlab_lib_panther_dashboard-1.7.0.9.vip)
+ [VIP File](https://github.com/PantherLAB/PantherDashboard/blob/main/VIP/pantherlab_lib_panther_dashboard-1.7.0.10.vip)
  
  **Watch the youtube video here:**
  
