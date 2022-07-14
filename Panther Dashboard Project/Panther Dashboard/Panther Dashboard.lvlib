@@ -154,6 +154,9 @@
 		<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
 		<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 		<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
+		<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
+		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
+		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
