@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-07-05 20:41:06" Creator="Enrique Noe Arias" Comments="" ID="e28dee4bb8ea83d441cf2abb7f9f1076">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-07-14 11:38:56" Creator="Enrique Noe Arias" Comments="" ID="e2c0644d3dc759e096c3cc4178a5049d">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.7.0.10</Library_Version>
+    <Library_Version>1.7.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -36,20 +36,25 @@
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
-This is a DQMH Module created as a wrapper for the new Scripting API included in the DQMH 6.1 Release.
-This Module allows you to have a general overview and have the capabilities to browse your DQMH project.
+This is a LabVIEW Tool using the new Scripting API included in the DQMH 6.1 Release.
+The priority of this tool is to Improve the Developer Experience when dealing with DQMH code.
 
 &lt;i&gt;The main features included in Panther Dashboard for DQMH:&lt;/i&gt;
 
-*Allows you  to see the status (Running/Idle) of all your DQMH modules in your project by adding different icons and colors.
-*Using different icons you can diferentiate which modules are Singleton and wich ones are Cloneable.
-*Can launch the API Tester of the DQMH Module selected
-*Can Trigger the default events on all the DQMH Modules like Show Panel, Hide Panel, Show Block Diagram and Stop Module.
-*Allows you to see and Edit the DQMH module and events documentation.
-*Allows you to see the connector Pane/Icon of all the events.
-*Allows you to see the event callers
-*Allows you to see the broadcast event suscribers.
-*By double clicking an event you can find where is being called or coded depending if it is a request or a broadcast.
+-Explore your project in the DQMH context
+-Visualize your modules Status (running, Idle)
+-Edit/Update your modules Descriptions
+-Edit/Update your event Documentation
+-Search for Event Callers
+-If the Event is a Broadcast, search for Broadcast listeners / subscriptors
+-Open API Tester from the selected module
+-Execute the default events [Show Panel, Hide Panel, Show Block Diagram, Stop Module]
+-Use the DQMH Scripting Tools.
+
+
+After installing this package it will be available going to:
+
+Tools-&gt;PantherLAB-&gt;Panther Dashboard for DQMH
 
 For more information send an email to:
 
