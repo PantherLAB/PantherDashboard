@@ -161,4 +161,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
 </Library>
