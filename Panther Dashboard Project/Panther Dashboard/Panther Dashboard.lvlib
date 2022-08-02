@@ -24,7 +24,6 @@
 				<Item Name="Tree DQMH Selection Argument--cluster.ctl" Type="VI" URL="../Tree DQMH Selection Argument--cluster.ctl"/>
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
-				<Item Name="Get Vis registered for broadcast Argument--cluster.ctl" Type="VI" URL="../Get Vis registered for broadcast Argument--cluster.ctl"/>
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
 			</Item>
@@ -45,7 +44,6 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
-			<Item Name="Get Vis registered for broadcast.vi" Type="VI" URL="../Get Vis registered for broadcast.vi"/>
 			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
@@ -164,4 +162,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Change boolean text.vi" Type="VI" URL="../Change boolean text.vi"/>
 </Library>
