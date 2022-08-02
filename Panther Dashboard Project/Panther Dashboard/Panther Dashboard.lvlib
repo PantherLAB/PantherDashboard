@@ -52,6 +52,7 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -157,9 +158,10 @@
 		<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
 		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
+		<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
 	</Item>
+	<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
 </Library>
