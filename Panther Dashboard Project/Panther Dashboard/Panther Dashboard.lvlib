@@ -24,7 +24,6 @@
 				<Item Name="Tree DQMH Selection Argument--cluster.ctl" Type="VI" URL="../Tree DQMH Selection Argument--cluster.ctl"/>
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
-				<Item Name="Get Vis registered for broadcast Argument--cluster.ctl" Type="VI" URL="../Get Vis registered for broadcast Argument--cluster.ctl"/>
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
 			</Item>
@@ -45,13 +44,13 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
-			<Item Name="Get Vis registered for broadcast.vi" Type="VI" URL="../Get Vis registered for broadcast.vi"/>
 			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -157,9 +156,12 @@
 		<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
 		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
+		<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
+		<Item Name="Change boolean text.vi" Type="VI" URL="../Change boolean text.vi"/>
 	</Item>
+	<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
+	<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 </Library>
