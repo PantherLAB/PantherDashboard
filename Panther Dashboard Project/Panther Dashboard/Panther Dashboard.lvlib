@@ -157,10 +157,11 @@
 		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
 		<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
+		<Item Name="Change boolean text.vi" Type="VI" URL="../Change boolean text.vi"/>
 	</Item>
 	<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Change boolean text.vi" Type="VI" URL="../Change boolean text.vi"/>
+	<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 </Library>
