@@ -105,7 +105,7 @@
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
@@ -160,8 +160,8 @@
 		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
 		<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
+		<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	</Item>
-	<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
