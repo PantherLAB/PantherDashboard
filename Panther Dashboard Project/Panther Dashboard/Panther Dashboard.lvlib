@@ -32,7 +32,6 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
-				<Item Name="Scan Completed Argument--cluster.ctl" Type="VI" URL="../Scan Completed Argument--cluster.ctl"/>
 				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
@@ -64,7 +63,6 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
-		<Item Name="Scan Completed.vi" Type="VI" URL="../Scan Completed.vi"/>
 		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
@@ -161,6 +159,7 @@
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
+		<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 	</Item>
 	<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
