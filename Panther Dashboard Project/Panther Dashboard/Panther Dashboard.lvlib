@@ -166,9 +166,9 @@
 		<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
 		<Item Name="Find who is starting Module.vi" Type="VI" URL="../Find who is starting Module.vi"/>
 		<Item Name="Create Tree Shorcut Menu.vi" Type="VI" URL="../Create Tree Shorcut Menu.vi"/>
+		<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 </Library>
