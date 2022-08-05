@@ -33,6 +33,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
 				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
+				<Item Name="Targets Updated Argument--cluster.ctl" Type="VI" URL="../Targets Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -64,6 +65,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
 		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
+		<Item Name="Targets Updated.vi" Type="VI" URL="../Targets Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -164,6 +166,7 @@
 		<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
 		<Item Name="Find who is starting Module.vi" Type="VI" URL="../Find who is starting Module.vi"/>
 		<Item Name="Create Tree Shorcut Menu.vi" Type="VI" URL="../Create Tree Shorcut Menu.vi"/>
+		<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
