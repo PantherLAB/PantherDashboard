@@ -157,14 +157,12 @@
 		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
 		<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
-		<Item Name="Change boolean text.vi" Type="VI" URL="../Change boolean text.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
 		<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
-		<Item Name="menu.rtm" Type="Document" URL="../menu.rtm"/>
 		<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
-		<Item Name="Find who is starting Module.vi" Type="VI" URL="../Find who is starting Module.vi"/>
+		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 		<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 	</Item>
