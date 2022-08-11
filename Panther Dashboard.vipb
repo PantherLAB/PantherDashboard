@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-07-14 11:38:56" Creator="Enrique Noe Arias" Comments="" ID="e2c0644d3dc759e096c3cc4178a5049d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-08-11 09:49:20" Creator="Enrique Noe Arias" Comments="" ID="986c0906505489f58671c40f1c1e7569">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
     <Library_Version>1.7.0.11</Library_Version>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 6.1.0.18</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
+      <Additional_External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;=6.1.0.128</Additional_External_Dependencies>
       <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=6.1.0.90</Additional_External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-6.1.0.18</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
