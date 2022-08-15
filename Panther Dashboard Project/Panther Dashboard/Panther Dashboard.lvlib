@@ -26,6 +26,7 @@
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
+				<Item Name="Enable Disable Progress Bar Argument--cluster.ctl" Type="VI" URL="../Enable Disable Progress Bar Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -77,6 +78,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+		<Item Name="Enable Disable Progress Bar.vi" Type="VI" URL="../Enable Disable Progress Bar.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
@@ -165,6 +167,8 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 		<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
+		<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
+		<Item Name="Enable Disable Progress Bar on helper loop.vi" Type="VI" URL="../Enable Disable Progress Bar on helper loop.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
