@@ -26,7 +26,6 @@
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
-				<Item Name="Enable Disable Progress Bar Argument--cluster.ctl" Type="VI" URL="../Enable Disable Progress Bar Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -51,7 +50,6 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
-		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -78,7 +76,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
-		<Item Name="Enable Disable Progress Bar.vi" Type="VI" URL="../Enable Disable Progress Bar.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
@@ -122,6 +119,7 @@
 			<Item Name="Event--Button.ctl" Type="VI" URL="../Event--Button.ctl"/>
 			<Item Name="Module--button.ctl" Type="VI" URL="../Module--button.ctl"/>
 		</Item>
+		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 		<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
