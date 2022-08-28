@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-07-14 11:38:56" Creator="Enrique Noe Arias" Comments="" ID="e2c0644d3dc759e096c3cc4178a5049d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-08-28 14:20:13" Creator="Enrique Noe Arias" Comments="" ID="d031c84c03665caef021e843c84eca18">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>1.7.0.11</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 6.1.0.18</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
+      <Additional_External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;=6.1.0.128</Additional_External_Dependencies>
       <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=6.1.0.90</Additional_External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-6.1.0.18</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
@@ -37,22 +38,21 @@
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
 This is a LabVIEW Tool using the new Scripting API included in the DQMH 6.1 Release.
-The priority of this tool is to Improve the Developer Experience when dealing with DQMH code.
+The priority of this tool is to Improve the DQMH Developer Experience.
 
 &lt;i&gt;The main features included in Panther Dashboard for DQMH:&lt;/i&gt;
 
 -Explore your project in the DQMH context
+-Open Antidoc output when right click the selected project.
 -Visualize your modules Status (running, Idle)
 -Edit/Update your modules Descriptions
 -Edit/Update your event Documentation
--Search for Event Callers
--If the Event is a Broadcast, search for Broadcast listeners / subscriptors
--Open API Tester from the selected module
+-Search for Event Callers/Listeners, right click an event to call this functionality.
+-Open API Tester, Right Click the Module Library
 -Execute the default events [Show Panel, Hide Panel, Show Block Diagram, Stop Module]
 -Use the DQMH Scripting Tools.
 
-
-After installing this package it will be available going to:
+After installing this package you can use Panther Dashboard going through the menu:
 
 Tools-&gt;PantherLAB-&gt;Panther Dashboard for DQMH
 
@@ -70,17 +70,38 @@ Or visit the Product Page
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Launch Panther Dashboard from the Tools menu.
+      <Release_Notes>This version can Search DQMH modules on different Targets.
+Added new Right Click to made Panther Dashboard more contextual
+Righ click menus:
+--Project: 
+                Edit Project Documentation
+                Open Project Folder on Disk
+                Open Antidoc Output
+--Modules:
+                Open API Tester
+                Open Module Library Location on Disk
+                Find Module Launchers
+                Find Who is listening to this module broadcast
+                Run defaul events like [Open FP, Open BD, Stop Module]
+--Events:
+                If Broadcast, fin listeners
+                If Requests, find callers
+                Find VIs on Disk
 
-Now you can launch this tool directly from the tools menu, just click Tools-&gt;PantherLAB-&gt;Panther Dashboard for DQMH.
+When using DQMH tools the current selected module is pre selected.
+New UI colors.
+Changed some icons and progress bar.
+New Splash Screen.
+New About window added contributors list in alphabetical order.
 
-Code optimizations, ran vi analyzer, ran validation tools.</Release_Notes>
+                 
+         </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\PantherLAB</Path>
+        <Path>&lt;vi.lib&gt;\PantherLAB</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -145,7 +166,7 @@ Code optimizations, ran vi analyzer, ran validation tools.</Release_Notes>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Panther Dashboard</Path>
-        <Destination>5</Destination>
+        <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
