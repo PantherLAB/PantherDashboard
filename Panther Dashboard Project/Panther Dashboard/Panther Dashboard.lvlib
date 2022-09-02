@@ -118,55 +118,61 @@
 			<Item Name="refresh--button.ctl" Type="VI" URL="../refresh--button.ctl"/>
 			<Item Name="Event--Button.ctl" Type="VI" URL="../Event--Button.ctl"/>
 			<Item Name="Module--button.ctl" Type="VI" URL="../Module--button.ctl"/>
+			<Item Name="Project References--cluster.ctl" Type="VI" URL="../Project References--cluster.ctl"/>
+			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
+			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
+		</Item>
+		<Item Name="Documentation related" Type="Folder">
+			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
+			<Item Name="Get library description.vi" Type="VI" URL="../Get library description.vi"/>
+			<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
+		</Item>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
+			<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
+			<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
+			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
+			<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
+			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
+			<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
+			<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
+			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
+			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
+			<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
+			<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
+			<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
+			<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
+			<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
+			<Item Name="Show Caller Items Dialog.vi" Type="VI" URL="../Show Caller Items Dialog.vi"/>
+			<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
+			<Item Name="Open API Tester.vi" Type="VI" URL="../Open API Tester.vi"/>
+			<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
+			<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
+		</Item>
+		<Item Name="Tree results" Type="Folder">
+			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
+			<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
+			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
+			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
+			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
+			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
-		<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
-		<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
-		<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
-		<Item Name="Stop DQMH Module.vi" Type="VI" URL="../Stop DQMH Module.vi"/>
-		<Item Name="Open API Tester.vi" Type="VI" URL="../Open API Tester.vi"/>
 		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
-		<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
-		<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
-		<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
-		<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
-		<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 		<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
-		<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
-		<Item Name="Show Caller Items Dialog.vi" Type="VI" URL="../Show Caller Items Dialog.vi"/>
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Enable disable control.vi" Type="VI" URL="../Enable disable control.vi"/>
-		<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
-		<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
-		<Item Name="Get library description.vi" Type="VI" URL="../Get library description.vi"/>
-		<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
-		<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
-		<Item Name="Project References--cluster.ctl" Type="VI" URL="../Project References--cluster.ctl"/>
-		<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
-		<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
-		<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
-		<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
-		<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
-		<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
-		<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
-		<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
-		<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
-		<Item Name="Find Main vi path.vi" Type="VI" URL="../Find Main vi path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
-		<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
-		<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
-		<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
-		<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
-		<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 		<Item Name="Enable Disable Progress Bar on helper loop.vi" Type="VI" URL="../Enable Disable Progress Bar on helper loop.vi"/>
+		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
