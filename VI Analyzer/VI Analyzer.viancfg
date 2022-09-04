@@ -542,7 +542,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Broken RTE Code.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -622,7 +622,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Find User Visible Strings.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -652,7 +652,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Forked Event Reg Refnum Wire.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -782,7 +782,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Stop Started DQMH Modules.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1040,6 +1040,11 @@
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\Developer\\Approved Bookmark Tags.llb"</RelativePath>
 		<Selected>FALSE</Selected>
 		<Controls>
+			<Control>
+				<Name>"Approved Bookmark Tags"</Name>
+				<Type>"1D String"</Type>
+				<Value>"#CodeRecommended", "#via_ignore"</Value>
+			</Control>
 		</Controls>
 	</Test>
 	<Test>
@@ -1118,7 +1123,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Front Panel\\SubVI\\Control Alignment.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 			<Control>
 				<Name>"Align Bottom Controls and Indicators on their:"</Name>
@@ -1303,7 +1308,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Saved Version.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1313,7 +1318,7 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Size.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
