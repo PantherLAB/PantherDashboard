@@ -157,6 +157,11 @@
 			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
+		<Item Name="Config" Type="Folder">
+			<Item Name="Read Theme from Config.vi" Type="VI" URL="../Read Theme from Config.vi"/>
+			<Item Name="Save Theme in config.vi" Type="VI" URL="../Save Theme in config.vi"/>
+			<Item Name="Config path--constant.vi" Type="VI" URL="../Config path--constant.vi"/>
+		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
