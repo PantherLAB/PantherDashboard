@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-09-04 19:09:52" Creator="Enrique Noe Arias" Comments="" ID="4045d4eb40460371f97e8ea7a7dbaeb1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-09-10 16:06:40" Creator="Enrique Noe Arias" Comments="" ID="b511d4f12057db807ec63589adb5579a">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>2.0.0.3</Library_Version>
+    <Library_Version>2.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -81,30 +81,13 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>This version Search for DQMH modules on different Targets.
-Drag and Drop DQMH Code directly from Panther Dashboard to your application.
-Added new Right Click to made Panther Dashboard more contextual
-Righ click menus:
---Project: 
-                Edit Project Documentation
-                Open Project Folder on Disk
-                Open Antidoc Output
---Modules:
-                Open API Tester
-                Open Module Library Location on Disk
-                Find Module Launchers
-                Find Who is listening to this module broadcast
-                Run defaul events like [Open FP, Open BD, Stop Module]
---Events:
-                If Broadcast, fin listeners
-                If Requests, find callers
-                Find VIs on Disk
+      <Release_Notes>Fix Mac and Linux Compatibility Release.
 
-When using DQMH tools the selected module is pre selected.
-New UI colors.
-Changed some icons and progress bar.
-New Splash Screen.
-New About window added contributors list (alphabetical order).
+Panther Dashboard V2.0.0.2 has a custom title bar showing the panther logo, this feature works fine but just under Windows OS, to make Panther Dashboard compatible with Linux and Mac, we have a contitional disable structure to depending on the ose we set the custom title bar or the default one.
+
+
+No more functionality added, if you're using Windows OS you can Skip this version.
+
 
                  
          </Release_Notes>
