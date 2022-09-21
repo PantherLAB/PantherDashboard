@@ -36,7 +36,3 @@ To know how to use it and get a more detailed information please visit:
  
 
  
- **Watch the youtube video here:**
- 
- [![Watch the youtube video](https://pantherlab.com.mx/wp-content/uploads/2022/07/youtube-logo-icone.png)](https://youtu.be/BIq-3yKebDA)
-
