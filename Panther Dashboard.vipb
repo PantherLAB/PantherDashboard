@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-09-10 16:06:40" Creator="Enrique Noe Arias" Comments="" ID="b511d4f12057db807ec63589adb5579a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-09-21 20:03:16" Creator="Enrique Noe Arias" Comments="" ID="1f3de5b433d3320ef1a16d13a024027b">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>2.0.0.4</Library_Version>
+    <Library_Version>2.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -35,12 +35,12 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH V2.0.0.1&lt;/b&gt;&lt;/size&gt;
+      <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
-This LabVIEW Tool uses the Scripting API featured in DQMH 6.1.
-The main priority of this tool is to Improve the DQMH Developer Experience and help new DQMH users to understand and learn DQMH Framework.
+The priority of this tool is to Improve the DQMH Developer Experience and help new DQMH users to understand and learn DQMH Framework.
 
-&lt;b&gt;&lt;i&gt;Panther Dashboard for DQMH V2.0.0.1 Features:&lt;/i&gt;&lt;/b&gt;
+
+&lt;b&gt;&lt;i&gt;Panther Dashboard for DQMH Features:&lt;/i&gt;&lt;/b&gt;
 
 » Drag and drop DQMH code from Panther Dashboard to your code.
 » Explore your project in the DQMH context, just double click an event
@@ -81,12 +81,10 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Fix Mac and Linux Compatibility Release.
-
-Panther Dashboard V2.0.0.2 has a custom title bar showing the panther logo, this feature works fine but just under Windows OS, to make Panther Dashboard compatible with Linux and Mac, we have a contitional disable structure to depending on the ose we set the custom title bar or the default one.
+      <Release_Notes>Fix Target Selector.
 
 
-No more functionality added, if you're using Windows OS you can Skip this version.
+The previous Release was updating the target selector with 'My Computer' target each 3 seconds. Now you can explore your RT Targets for DQMH Modules properly.
 
 
                  
