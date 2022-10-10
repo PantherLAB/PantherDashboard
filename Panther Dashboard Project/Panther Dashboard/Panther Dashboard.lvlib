@@ -160,6 +160,9 @@
 			<Item Name="Save Theme in config.vi" Type="VI" URL="../Save Theme in config.vi"/>
 			<Item Name="Config path--constant.vi" Type="VI" URL="../Config path--constant.vi"/>
 		</Item>
+		<Item Name="Antidoc" Type="Folder">
+			<Item Name="Generate Documentation--dialog.vi" Type="VI" URL="../Generate Documentation--dialog.vi"/>
+		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
