@@ -26,6 +26,7 @@
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
+				<Item Name="Launch DQMH Scripting Tools Argument--cluster.ctl" Type="VI" URL="../Launch DQMH Scripting Tools Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -45,6 +46,7 @@
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
 			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
+			<Item Name="Launch DQMH Scripting Tools.vi" Type="VI" URL="../Launch DQMH Scripting Tools.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -182,6 +184,8 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Project documentation.vi" Type="VI" URL="../Project documentation.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
+		<Item Name="Load Scripting Controls Panel.vi" Type="VI" URL="../Load Scripting Controls Panel.vi"/>
+		<Item Name="DQMH Scripting Tools Panel.vi" Type="VI" URL="../DQMH Scripting Tools Panel.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
