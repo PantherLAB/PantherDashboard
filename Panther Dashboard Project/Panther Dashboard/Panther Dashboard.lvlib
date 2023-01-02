@@ -27,6 +27,9 @@
 				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Open Event Callers Argument--cluster.ctl" Type="VI" URL="../Open Event Callers Argument--cluster.ctl"/>
 				<Item Name="Launch DQMH Scripting Tools Argument--cluster.ctl" Type="VI" URL="../Launch DQMH Scripting Tools Argument--cluster.ctl"/>
+				<Item Name="Generate Project Documentation Argument--cluster.ctl" Type="VI" URL="../Generate Project Documentation Argument--cluster.ctl"/>
+				<Item Name="Set App Theme Argument--cluster.ctl" Type="VI" URL="../Set App Theme Argument--cluster.ctl"/>
+				<Item Name="Show About Argument--cluster.ctl" Type="VI" URL="../Show About Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -47,6 +50,9 @@
 			<Item Name="Execute Default Event Request.vi" Type="VI" URL="../Execute Default Event Request.vi"/>
 			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
 			<Item Name="Launch DQMH Scripting Tools.vi" Type="VI" URL="../Launch DQMH Scripting Tools.vi"/>
+			<Item Name="Generate Project Documentation.vi" Type="VI" URL="../Generate Project Documentation.vi"/>
+			<Item Name="Set App Theme.vi" Type="VI" URL="../Set App Theme.vi"/>
+			<Item Name="Show About.vi" Type="VI" URL="../Show About.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
