@@ -40,6 +40,8 @@
 				<Item Name="Targets Updated Argument--cluster.ctl" Type="VI" URL="../Targets Updated Argument--cluster.ctl"/>
 				<Item Name="Progress updated Argument--cluster.ctl" Type="VI" URL="../Progress updated Argument--cluster.ctl"/>
 				<Item Name="Scale Updated Argument--cluster.ctl" Type="VI" URL="../Scale Updated Argument--cluster.ctl"/>
+				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
+				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -77,6 +79,8 @@
 		<Item Name="Targets Updated.vi" Type="VI" URL="../Targets Updated.vi"/>
 		<Item Name="Progress updated.vi" Type="VI" URL="../Progress updated.vi"/>
 		<Item Name="Scale Updated.vi" Type="VI" URL="../Scale Updated.vi"/>
+		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
+		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
