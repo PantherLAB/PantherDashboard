@@ -38,6 +38,8 @@
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
 				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
 				<Item Name="Targets Updated Argument--cluster.ctl" Type="VI" URL="../Targets Updated Argument--cluster.ctl"/>
+				<Item Name="Progress updated Argument--cluster.ctl" Type="VI" URL="../Progress updated Argument--cluster.ctl"/>
+				<Item Name="Scale Updated Argument--cluster.ctl" Type="VI" URL="../Scale Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -73,6 +75,8 @@
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
 		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
 		<Item Name="Targets Updated.vi" Type="VI" URL="../Targets Updated.vi"/>
+		<Item Name="Progress updated.vi" Type="VI" URL="../Progress updated.vi"/>
+		<Item Name="Scale Updated.vi" Type="VI" URL="../Scale Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -190,10 +194,12 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Project documentation.vi" Type="VI" URL="../Project documentation.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
-		<Item Name="Load Scripting Controls Panel.vi" Type="VI" URL="../Load Scripting Controls Panel.vi"/>
-		<Item Name="DQMH Scripting Tools Panel.vi" Type="VI" URL="../DQMH Scripting Tools Panel.vi"/>
+		<Item Name="Load VI on Subpanel.vi" Type="VI" URL="../Load VI on Subpanel.vi"/>
+		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
+		<Item Name="DQMH Controls Panel.vi" Type="VI" URL="../DQMH Controls Panel.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Set Panel Size.vi" Type="VI" URL="../Set Panel Size.vi"/>
 </Library>
