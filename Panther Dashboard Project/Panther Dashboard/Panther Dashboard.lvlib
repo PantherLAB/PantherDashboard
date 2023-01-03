@@ -30,6 +30,9 @@
 				<Item Name="Generate Project Documentation Argument--cluster.ctl" Type="VI" URL="../Generate Project Documentation Argument--cluster.ctl"/>
 				<Item Name="Set App Theme Argument--cluster.ctl" Type="VI" URL="../Set App Theme Argument--cluster.ctl"/>
 				<Item Name="Show About Argument--cluster.ctl" Type="VI" URL="../Show About Argument--cluster.ctl"/>
+				<Item Name="Update Module ID Argument--cluster.ctl" Type="VI" URL="../Update Module ID Argument--cluster.ctl"/>
+				<Item Name="Save Library Description Argument--cluster.ctl" Type="VI" URL="../Save Library Description Argument--cluster.ctl"/>
+				<Item Name="Save VI Description Argument--cluster.ctl" Type="VI" URL="../Save VI Description Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +45,7 @@
 				<Item Name="Scale Updated Argument--cluster.ctl" Type="VI" URL="../Scale Updated Argument--cluster.ctl"/>
 				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
 				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
+				<Item Name="Module Type Updated Argument--cluster.ctl" Type="VI" URL="../Module Type Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -57,6 +61,9 @@
 			<Item Name="Generate Project Documentation.vi" Type="VI" URL="../Generate Project Documentation.vi"/>
 			<Item Name="Set App Theme.vi" Type="VI" URL="../Set App Theme.vi"/>
 			<Item Name="Show About.vi" Type="VI" URL="../Show About.vi"/>
+			<Item Name="Update Module ID.vi" Type="VI" URL="../Update Module ID.vi"/>
+			<Item Name="Save Library Description.vi" Type="VI" URL="../Save Library Description.vi"/>
+			<Item Name="Save VI Description.vi" Type="VI" URL="../Save VI Description.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -81,6 +88,7 @@
 		<Item Name="Scale Updated.vi" Type="VI" URL="../Scale Updated.vi"/>
 		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
 		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
+		<Item Name="Module Type Updated.vi" Type="VI" URL="../Module Type Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
