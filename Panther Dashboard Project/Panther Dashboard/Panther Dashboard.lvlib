@@ -209,9 +209,9 @@
 		<Item Name="Load VI on Subpanel.vi" Type="VI" URL="../Load VI on Subpanel.vi"/>
 		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
 		<Item Name="DQMH Controls Panel.vi" Type="VI" URL="../DQMH Controls Panel.vi"/>
+		<Item Name="Set Panel Size.vi" Type="VI" URL="../Set Panel Size.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Set Panel Size.vi" Type="VI" URL="../Set Panel Size.vi"/>
 </Library>
