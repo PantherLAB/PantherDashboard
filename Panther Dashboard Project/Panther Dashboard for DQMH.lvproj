@@ -28,8 +28,6 @@
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
-		<Item Name="Theme.ctl" Type="VI" URL="../Controls/Theme.ctl"/>
-		<Item Name="Find.ctl" Type="VI" URL="../Controls/Find.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -473,6 +471,8 @@
 			<Item Name="Antidoc.ctl" Type="VI" URL="../Controls/Antidoc.ctl"/>
 			<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
 			<Item Name="Open Document.ctl" Type="VI" URL="../Controls/Open Document.ctl"/>
+			<Item Name="Theme.ctl" Type="VI" URL="../Controls/Theme.ctl"/>
+			<Item Name="Find.ctl" Type="VI" URL="../Controls/Find.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
