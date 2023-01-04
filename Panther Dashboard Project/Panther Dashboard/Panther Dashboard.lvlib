@@ -46,6 +46,7 @@
 				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
 				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
 				<Item Name="Module Type Updated Argument--cluster.ctl" Type="VI" URL="../Module Type Updated Argument--cluster.ctl"/>
+				<Item Name="Theme Updated Argument--cluster.ctl" Type="VI" URL="../Theme Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -89,6 +90,7 @@
 		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
 		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
 		<Item Name="Module Type Updated.vi" Type="VI" URL="../Module Type Updated.vi"/>
+		<Item Name="Theme Updated.vi" Type="VI" URL="../Theme Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -208,7 +210,7 @@
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Load VI on Subpanel.vi" Type="VI" URL="../Load VI on Subpanel.vi"/>
 		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
-		<Item Name="DQMH Controls Panel.vi" Type="VI" URL="../DQMH Controls Panel.vi"/>
+		<Item Name="Tools Panel.vi" Type="VI" URL="../Tools Panel.vi"/>
 		<Item Name="Set Panel Size.vi" Type="VI" URL="../Set Panel Size.vi"/>
 		<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
 	</Item>
