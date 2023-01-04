@@ -460,6 +460,18 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Add.ctl" Type="VI" URL="../Controls/Add.ctl"/>
+			<Item Name="rename.ctl" Type="VI" URL="../Controls/rename.ctl"/>
+			<Item Name="Trash.ctl" Type="VI" URL="../Controls/Trash.ctl"/>
+			<Item Name="Convert.ctl" Type="VI" URL="../Controls/Convert.ctl"/>
+			<Item Name="Validate.ctl" Type="VI" URL="../Controls/Validate.ctl"/>
+			<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
+			<Item Name="Unit Testing.ctl" Type="VI" URL="../Controls/Unit Testing.ctl"/>
+			<Item Name="tester.ctl" Type="VI" URL="../Controls/tester.ctl"/>
+			<Item Name="Antidoc.ctl" Type="VI" URL="../Controls/Antidoc.ctl"/>
+			<Item Name="Theme.ctl" Type="VI" URL="../Controls/Theme.ctl"/>
+			<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
+			<Item Name="Open Document.ctl" Type="VI" URL="../Controls/Open Document.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
