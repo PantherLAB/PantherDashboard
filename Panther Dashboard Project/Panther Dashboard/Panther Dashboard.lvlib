@@ -210,9 +210,11 @@
 		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
 		<Item Name="DQMH Controls Panel.vi" Type="VI" URL="../DQMH Controls Panel.vi"/>
 		<Item Name="Set Panel Size.vi" Type="VI" URL="../Set Panel Size.vi"/>
+		<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
+	<Item Name="Set Tools Splitter position.vi" Type="VI" URL="../Set Tools Splitter position.vi"/>
+	<Item Name="Set Information Panel Position.vi" Type="VI" URL="../Set Information Panel Position.vi"/>
 </Library>
