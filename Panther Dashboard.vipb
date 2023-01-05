@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2022-09-21 20:03:16" Creator="Enrique Noe Arias" Comments="" ID="1f3de5b433d3320ef1a16d13a024027b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-05 12:11:30" Creator="Enrique Noe Arias" Comments="" ID="12bedc3557da4f90122c908c92f06a7f">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>2.0.0.6</Library_Version>
+    <Library_Version>3.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -18,11 +18,19 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 6.1.0.18</External_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
+      <External_Dependencies>wovalab_lib_antidoc &gt;= 2.0.4.124</External_Dependencies>
+      <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 2.1.0.19</External_Dependencies>
+      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.6.0.52</External_Dependencies>
       <Additional_External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;=6.1.0.128</Additional_External_Dependencies>
       <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=6.1.0.90</Additional_External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-6.1.0.18</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_antidoc-2.0.4.124</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-2.1.0.19</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.6.0.52</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -54,7 +62,8 @@ The priority of this tool is to Improve the DQMH Developer Experience and help n
 
 » Edit/Update your modules&amp;events Descriptions to improve your documentation
 » Edit/Update your Project Documentation
-» Open Antidoc output when right click the project selection.
+» Open Antidoc Tool directly from Panther Dashboard
+» Open Antidoc Output.
 
 After installing this tool  you can use it by going through the menu:
 
@@ -73,7 +82,7 @@ Report any issues and ask for more features:
 &lt;b&gt;https://github.com/PantherLAB/PantherDashboard/issues&lt;/b&gt;
 
 
-&lt;size=18&gt;&lt;b&gt;This is an Open Source Project, by PantherLAB to the LabVIEW Comunity and DQMH users.&lt;/b&gt;&lt;/size&gt;
+&lt;size=18&gt;&lt;b&gt;This is an open source project developed by PantherLAB for the LabVIEW Community and DQMH users.&lt;/b&gt;&lt;/size&gt;
 
 
 
@@ -81,10 +90,17 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Fix Target Selector.
+      <Release_Notes>Version 3.0.0.1 Release Notes:
+Substantial improvements to the user interface such as:
+*Allowing the user to decide the size of Panther Dasbhoard.
+*Allow hiding of DQMH tools and context-sensitive help
+*Completely redesigned icons
+*Store the size and position of Panther Dasboard for an improved user experience, the panel will be placed with the dimensions and position of the last time it was executed.
 
+Integration with Antidoc
+*Panther Dashboard now allows to call Antidoc with pre-selected project
+*Icon to automatically open existing documentation
 
-The previous Release was updating the target selector with 'My Computer' target each 3 seconds. Now you can explore your RT Targets for DQMH Modules properly.
 
 
                  
@@ -177,12 +193,17 @@ The previous Release was updating the target selector with 'My Computer' target 
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>Panther_Dashboard_</Namespace>
+        <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>Panther Dashboard for DQMH.vi</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Panther Dashboard/Panther Dashboard.lvlib</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace>PantherLAB_lib_Panther_Dashboard</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
