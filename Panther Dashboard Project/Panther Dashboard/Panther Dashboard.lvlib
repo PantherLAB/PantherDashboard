@@ -33,6 +33,7 @@
 				<Item Name="Update Module ID Argument--cluster.ctl" Type="VI" URL="../Update Module ID Argument--cluster.ctl"/>
 				<Item Name="Save Library Description Argument--cluster.ctl" Type="VI" URL="../Save Library Description Argument--cluster.ctl"/>
 				<Item Name="Save VI Description Argument--cluster.ctl" Type="VI" URL="../Save VI Description Argument--cluster.ctl"/>
+				<Item Name="Open Documentation Argument--cluster.ctl" Type="VI" URL="../Open Documentation Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -65,6 +66,7 @@
 			<Item Name="Update Module ID.vi" Type="VI" URL="../Update Module ID.vi"/>
 			<Item Name="Save Library Description.vi" Type="VI" URL="../Save Library Description.vi"/>
 			<Item Name="Save VI Description.vi" Type="VI" URL="../Save VI Description.vi"/>
+			<Item Name="Open Documentation.vi" Type="VI" URL="../Open Documentation.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -219,4 +221,7 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Save Window Position and Size.vi" Type="VI" URL="../Save Window Position and Size.vi"/>
+	<Item Name="Read Window Position and Size.vi" Type="VI" URL="../Read Window Position and Size.vi"/>
+	<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 </Library>
