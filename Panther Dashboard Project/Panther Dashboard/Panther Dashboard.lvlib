@@ -217,11 +217,11 @@
 		<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
 		<Item Name="Set Tools Splitter position.vi" Type="VI" URL="../Set Tools Splitter position.vi"/>
 		<Item Name="Set Information Panel Position.vi" Type="VI" URL="../Set Information Panel Position.vi"/>
+		<Item Name="Save Window Position and Size.vi" Type="VI" URL="../Save Window Position and Size.vi"/>
+		<Item Name="Read Window Position and Size.vi" Type="VI" URL="../Read Window Position and Size.vi"/>
+		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Save Window Position and Size.vi" Type="VI" URL="../Save Window Position and Size.vi"/>
-	<Item Name="Read Window Position and Size.vi" Type="VI" URL="../Read Window Position and Size.vi"/>
-	<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 </Library>
