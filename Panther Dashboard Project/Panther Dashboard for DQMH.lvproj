@@ -26,19 +26,19 @@
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Add.ctl" Type="VI" URL="../Controls/Add.ctl"/>
-			<Item Name="Antidoc.ctl" Type="VI" URL="../Controls/Antidoc.ctl"/>
-			<Item Name="Convert.ctl" Type="VI" URL="../Controls/Convert.ctl"/>
-			<Item Name="Find.ctl" Type="VI" URL="../Controls/Find.ctl"/>
-			<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
-			<Item Name="Open Document.ctl" Type="VI" URL="../Controls/Open Document.ctl"/>
-			<Item Name="rename.ctl" Type="VI" URL="../Controls/rename.ctl"/>
-			<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
-			<Item Name="tester.ctl" Type="VI" URL="../Controls/tester.ctl"/>
-			<Item Name="Theme.ctl" Type="VI" URL="../Controls/Theme.ctl"/>
-			<Item Name="Trash.ctl" Type="VI" URL="../Controls/Trash.ctl"/>
-			<Item Name="Unit Testing.ctl" Type="VI" URL="../Controls/Unit Testing.ctl"/>
-			<Item Name="Validate.ctl" Type="VI" URL="../Controls/Validate.ctl"/>
+			<Item Name="Add.ctl" Type="VI" URL="../Panther Dashboard/Controls/Add.ctl"/>
+			<Item Name="Antidoc.ctl" Type="VI" URL="../Panther Dashboard/Controls/Antidoc.ctl"/>
+			<Item Name="Convert.ctl" Type="VI" URL="../Panther Dashboard/Controls/Convert.ctl"/>
+			<Item Name="Find.ctl" Type="VI" URL="../Panther Dashboard/Controls/Find.ctl"/>
+			<Item Name="Info.ctl" Type="VI" URL="../Panther Dashboard/Controls/Info.ctl"/>
+			<Item Name="Open Document.ctl" Type="VI" URL="../Panther Dashboard/Controls/Open Document.ctl"/>
+			<Item Name="rename.ctl" Type="VI" URL="../Panther Dashboard/Controls/rename.ctl"/>
+			<Item Name="Template.ctl" Type="VI" URL="../Panther Dashboard/Controls/Template.ctl"/>
+			<Item Name="tester.ctl" Type="VI" URL="../Panther Dashboard/Controls/tester.ctl"/>
+			<Item Name="Theme.ctl" Type="VI" URL="../Panther Dashboard/Controls/Theme.ctl"/>
+			<Item Name="Trash.ctl" Type="VI" URL="../Panther Dashboard/Controls/Trash.ctl"/>
+			<Item Name="Unit Testing.ctl" Type="VI" URL="../Panther Dashboard/Controls/Unit Testing.ctl"/>
+			<Item Name="Validate.ctl" Type="VI" URL="../Panther Dashboard/Controls/Validate.ctl"/>
 		</Item>
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
