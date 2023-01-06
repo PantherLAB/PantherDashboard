@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-05 17:00:25" Creator="Enrique Noe Arias" Comments="" ID="62cee05ff3710dcc935dfc9d789fcf75">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-05 18:12:33" Creator="Enrique Noe Arias" Comments="" ID="44d12b46fcf1461a844a3669b54abe1e">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.2</Library_Version>
+    <Library_Version>3.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -42,7 +42,7 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Panther Dashboard</One_Line_Description_Summary>
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
 The priority of this tool is to improve the DQMH developer experience, also to help new DQMH users to understand and learn DQMH.
@@ -91,7 +91,7 @@ Report any issues and ask for more features:
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
       <Release_Notes>--Major Release--
 
-Version 3.0.0.1 Release Notes:
+Release Notes:
 
 Substantial improvements to the user interface such as:
 
@@ -217,6 +217,18 @@ Integration with Antidoc:
       </Namespace_Overrides>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Panther Dashboard/antidoc.bmp</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Panther Dashboard/antidoc.png</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Panther Dashboard/antidoc_BW.bmp</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Panther Dashboard/antidoc_BW.png</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
