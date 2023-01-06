@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-05 12:11:30" Creator="Enrique Noe Arias" Comments="" ID="12bedc3557da4f90122c908c92f06a7f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-05 17:00:25" Creator="Enrique Noe Arias" Comments="" ID="62cee05ff3710dcc935dfc9d789fcf75">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.1</Library_Version>
+    <Library_Version>3.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
-    <Library_Output_Folder>..\Package</Library_Output_Folder>
+    <Library_Output_Folder>..\..\Package</Library_Output_Folder>
     <Company_Name>PantherLAB</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -45,8 +45,7 @@
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
       <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
 
-The priority of this tool is to Improve the DQMH Developer Experience and help new DQMH users to understand and learn DQMH Framework.
-
+The priority of this tool is to improve the DQMH developer experience, also to help new DQMH users to understand and learn DQMH.
 
 &lt;b&gt;&lt;i&gt;Panther Dashboard for DQMH Features:&lt;/i&gt;&lt;/b&gt;
 
@@ -90,16 +89,27 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Version 3.0.0.1 Release Notes:
+      <Release_Notes>--Major Release--
+
+Version 3.0.0.1 Release Notes:
+
 Substantial improvements to the user interface such as:
+
 *Allowing the user to decide the size of Panther Dasbhoard.
 *Allow hiding of DQMH tools and context-sensitive help
 *Completely redesigned icons
 *Store the size and position of Panther Dasboard for an improved user experience, the panel will be placed with the dimensions and position of the last time it was executed.
 
-Integration with Antidoc
+Integration with Antidoc:
+
 *Panther Dashboard now allows to call Antidoc with pre-selected project
-*Icon to automatically open existing documentation
+*Icon to automatically open generated documentation
+
+Fixes-Issues:
+* https://github.com/PantherLAB/PantherDashboard/issues/24
+* https://github.com/PantherLAB/PantherDashboard/issues/21
+* https://github.com/PantherLAB/PantherDashboard/issues/17 (not yet completed)
+* https://github.com/PantherLAB/PantherDashboard/issues/16
 
 
 

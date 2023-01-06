@@ -49,6 +49,7 @@
 				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
 				<Item Name="Module Type Updated Argument--cluster.ctl" Type="VI" URL="../Module Type Updated Argument--cluster.ctl"/>
 				<Item Name="Theme Updated Argument--cluster.ctl" Type="VI" URL="../Theme Updated Argument--cluster.ctl"/>
+				<Item Name="Panel Position Updated Argument--cluster.ctl" Type="VI" URL="../Panel Position Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -95,6 +96,7 @@
 		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
 		<Item Name="Module Type Updated.vi" Type="VI" URL="../Module Type Updated.vi"/>
 		<Item Name="Theme Updated.vi" Type="VI" URL="../Theme Updated.vi"/>
+		<Item Name="Panel Position Updated.vi" Type="VI" URL="../Panel Position Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -117,6 +119,7 @@
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+		<Item Name="Panther Dashboard--global.vi" Type="VI" URL="../Panther Dashboard--global.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
