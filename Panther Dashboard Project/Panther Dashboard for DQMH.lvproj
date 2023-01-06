@@ -41,7 +41,7 @@
 			<Item Name="Validate.ctl" Type="VI" URL="../Panther Dashboard/Controls/Validate.ctl"/>
 		</Item>
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
-		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
+		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard for DQMH.vi"/>
 		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
