@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-08 09:54:02" Creator="Enrique Noe Arias" Comments="" ID="031eed551324daf36cae3b351e85d809">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-08 11:28:20" Creator="Enrique Noe Arias" Comments="" ID="5d69093cbd2d7f3ae410f8b90707beaf">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.7</Library_Version>
+    <Library_Version>3.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -113,6 +113,7 @@ Integration with Antidoc:
 * https://github.com/PantherLAB/PantherDashboard/issues/17 (not yet completed)
 * https://github.com/PantherLAB/PantherDashboard/issues/16
 * https://github.com/PantherLAB/PantherDashboard/issues/25
+* https://github.com/PantherLAB/PantherDashboard/issues/26
 </Release_Notes>
     </Description>
     <Destinations>
