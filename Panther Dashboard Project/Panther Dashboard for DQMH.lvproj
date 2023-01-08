@@ -24,6 +24,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
+			<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Add.ctl" Type="VI" URL="../Panther Dashboard/Controls/Add.ctl"/>
