@@ -26,6 +26,12 @@
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
 			<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 		</Item>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="ContextHelp.lvlib" Type="Library" URL="../Libraries/ContextHelp/ContextHelp.lvlib"/>
+		</Item>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Test ContextHelp API.vi" Type="VI" URL="../Libraries/ContextHelp/Test ContextHelp API.vi"/>
+		</Item>
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
@@ -462,6 +468,7 @@
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="Antidoc.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Dashboard/Controls/Antidoc.ctl"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

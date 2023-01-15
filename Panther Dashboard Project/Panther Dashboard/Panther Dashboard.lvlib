@@ -210,11 +210,8 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Project documentation.vi" Type="VI" URL="../Project documentation.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
-		<Item Name="Load VI on Subpanel.vi" Type="VI" URL="../Load VI on Subpanel.vi"/>
 		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
-		<Item Name="Tools Panel.vi" Type="VI" URL="../Tools Panel.vi"/>
 		<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
-		<Item Name="Set Tools Splitter position.vi" Type="VI" URL="../Set Tools Splitter position.vi"/>
 		<Item Name="Save Window Position and Size.vi" Type="VI" URL="../Save Window Position and Size.vi"/>
 		<Item Name="Read Window Position and Size.vi" Type="VI" URL="../Read Window Position and Size.vi"/>
 		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
