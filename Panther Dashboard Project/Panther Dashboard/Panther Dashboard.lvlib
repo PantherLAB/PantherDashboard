@@ -34,7 +34,6 @@
 				<Item Name="Save Library Description Argument--cluster.ctl" Type="VI" URL="../Save Library Description Argument--cluster.ctl"/>
 				<Item Name="Save VI Description Argument--cluster.ctl" Type="VI" URL="../Save VI Description Argument--cluster.ctl"/>
 				<Item Name="Open Documentation Argument--cluster.ctl" Type="VI" URL="../Open Documentation Argument--cluster.ctl"/>
-				<Item Name="Set Pane Initial State Argument--cluster.ctl" Type="VI" URL="../Set Pane Initial State Argument--cluster.ctl"/>
 				<Item Name="Save Project Documentation Argument--cluster.ctl" Type="VI" URL="../Save Project Documentation Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
@@ -50,7 +49,6 @@
 				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
 				<Item Name="Module Type Updated Argument--cluster.ctl" Type="VI" URL="../Module Type Updated Argument--cluster.ctl"/>
 				<Item Name="Theme Updated Argument--cluster.ctl" Type="VI" URL="../Theme Updated Argument--cluster.ctl"/>
-				<Item Name="Panel Position Updated Argument--cluster.ctl" Type="VI" URL="../Panel Position Updated Argument--cluster.ctl"/>
 				<Item Name="Project Description Updated Argument--cluster.ctl" Type="VI" URL="../Project Description Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
@@ -71,7 +69,6 @@
 			<Item Name="Save Library Description.vi" Type="VI" URL="../Save Library Description.vi"/>
 			<Item Name="Save VI Description.vi" Type="VI" URL="../Save VI Description.vi"/>
 			<Item Name="Open Documentation.vi" Type="VI" URL="../Open Documentation.vi"/>
-			<Item Name="Set Pane Initial State.vi" Type="VI" URL="../Set Pane Initial State.vi"/>
 			<Item Name="Save Project Documentation.vi" Type="VI" URL="../Save Project Documentation.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
@@ -99,7 +96,6 @@
 		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
 		<Item Name="Module Type Updated.vi" Type="VI" URL="../Module Type Updated.vi"/>
 		<Item Name="Theme Updated.vi" Type="VI" URL="../Theme Updated.vi"/>
-		<Item Name="Panel Position Updated.vi" Type="VI" URL="../Panel Position Updated.vi"/>
 		<Item Name="Project Description Updated.vi" Type="VI" URL="../Project Description Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
@@ -215,8 +211,6 @@
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Documentation Panel.vi" Type="VI" URL="../Documentation Panel.vi"/>
 		<Item Name="Set Control Caption Size and Pos Offset.vi" Type="VI" URL="../Set Control Caption Size and Pos Offset.vi"/>
-		<Item Name="Save Window Position and Size.vi" Type="VI" URL="../Save Window Position and Size.vi"/>
-		<Item Name="Read Window Position and Size.vi" Type="VI" URL="../Read Window Position and Size.vi"/>
 		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
