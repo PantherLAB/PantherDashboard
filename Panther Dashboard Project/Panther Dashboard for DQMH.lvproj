@@ -26,12 +26,8 @@
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
 			<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 		</Item>
-		<Item Name="Modules" Type="Folder">
-			<Item Name="ContextHelp.lvlib" Type="Library" URL="../Libraries/ContextHelp/ContextHelp.lvlib"/>
-		</Item>
-		<Item Name="Testers" Type="Folder">
-			<Item Name="Test ContextHelp API.vi" Type="VI" URL="../Libraries/ContextHelp/Test ContextHelp API.vi"/>
-		</Item>
+		<Item Name="ContextHelp.lvlib" Type="Library" URL="../Libraries/ContextHelp/ContextHelp.lvlib"/>
+		<Item Name="Test ContextHelp API.vi" Type="VI" URL="../Libraries/ContextHelp/Test ContextHelp API.vi"/>
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
