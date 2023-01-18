@@ -26,25 +26,12 @@
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
 			<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 		</Item>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Add.ctl" Type="VI" URL="../Panther Dashboard/Controls/Add.ctl"/>
-			<Item Name="Antidoc.ctl" Type="VI" URL="../Panther Dashboard/Controls/Antidoc.ctl"/>
-			<Item Name="Convert.ctl" Type="VI" URL="../Panther Dashboard/Controls/Convert.ctl"/>
-			<Item Name="Find.ctl" Type="VI" URL="../Panther Dashboard/Controls/Find.ctl"/>
-			<Item Name="Info.ctl" Type="VI" URL="../Panther Dashboard/Controls/Info.ctl"/>
-			<Item Name="Open Document.ctl" Type="VI" URL="../Panther Dashboard/Controls/Open Document.ctl"/>
-			<Item Name="rename.ctl" Type="VI" URL="../Panther Dashboard/Controls/rename.ctl"/>
-			<Item Name="Template.ctl" Type="VI" URL="../Panther Dashboard/Controls/Template.ctl"/>
-			<Item Name="tester.ctl" Type="VI" URL="../Panther Dashboard/Controls/tester.ctl"/>
-			<Item Name="Theme.ctl" Type="VI" URL="../Panther Dashboard/Controls/Theme.ctl"/>
-			<Item Name="Trash.ctl" Type="VI" URL="../Panther Dashboard/Controls/Trash.ctl"/>
-			<Item Name="Unit Testing.ctl" Type="VI" URL="../Panther Dashboard/Controls/Unit Testing.ctl"/>
-			<Item Name="Validate.ctl" Type="VI" URL="../Panther Dashboard/Controls/Validate.ctl"/>
-		</Item>
+		<Item Name="ContextHelp.lvlib" Type="Library" URL="../ContextHelp/ContextHelp.lvlib"/>
+		<Item Name="Test ContextHelp API.vi" Type="VI" URL="../ContextHelp/Test ContextHelp API.vi"/>
 		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
-		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
-		<Item Name="Panther Dashboard for DQMH_QD.vi" Type="VI" URL="../Panther Dashboard for DQMH_QD.vi"/>
+		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
+		<Item Name="Shared.lvlib" Type="Library" URL="../Shared/Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -474,8 +461,7 @@
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
-				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
+				<Item Name="Antidoc.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Dashboard/Controls/Antidoc.ctl"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
