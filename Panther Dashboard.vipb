@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-18 10:47:52" Creator="Enrique Noe Arias" Comments="" ID="88ae89602908417eb1261f266bf211f6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-18 11:07:15" Creator="Enrique Noe Arias" Comments="" ID="3a234888b13486e1f31bc88820a88b4b">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.9</Library_Version>
+    <Library_Version>3.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -220,9 +220,6 @@ Integration with Antidoc:
       </Exclusions>
       <Exclusions>
         <Path>Panther Dashboard/antidoc.bmp</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Antidoc-Output</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
