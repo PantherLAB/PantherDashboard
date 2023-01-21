@@ -9,6 +9,890 @@
 		<Path>"..\\Panther Dashboard Project"</Path>
 		<Removed>FALSE</Removed>
 	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Shared"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Acquire Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Broadcast Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Close Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Destroy Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Destroy Module Semaphore Reference.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Destroy Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Destroy Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Did Init Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Draw Panel Into Subpanel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Draw Panel Into Subpanel Procedure.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Draw Panel Into Subpanel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Error Reported Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Error Reported.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Get Module Execution Status Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Get Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Get Module Main VI Information.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Get Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Handle Exit.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Helper Loop Status Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Helper Loop Status Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Hide Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Hide Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Hide VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Init Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Data--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Did Init.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Did Stop.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Name--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Not Running--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Not Stopped--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Not Synced--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Module Timeout--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Null Broadcast Events--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Obtain Broadcast Events for Registration.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Obtain Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Obtain Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Obtain Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Open VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Put Helper Loop to Sleep Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Put Helper Loop to Sleep.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Refresh Panther Dashboard Broadcasts Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Refresh Panther Dashboard Broadcasts.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Release Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Remove Panel from Subpanel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Remove Panel from Subpanel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Request and Wait for Reply Timeout--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Request Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Show Diagram Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Show Diagram.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Show Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Show Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Start Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Status Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Status Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Stop Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Stop Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Synchronize Caller Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Synchronize Module Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Update Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Wait on Event Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Wait on Module Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Wake up Helper Loop Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\ContextHelp\\Wake up Helper Loop.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\About Panther Dashboard.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Acquire Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Add Event Reference to maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Add Tree Nodes.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Broadcast Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Capture the Project refs.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Close Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Close vi references.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Config path--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Connector Pane Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Connector Pane Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Create Tree Shortcut Menu.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Custom Title--button.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Default Config Path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Module Semaphore Reference.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Destroy Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Did Init Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Documentation Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Documentation Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Documentation--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\DQMH Modules Info--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\DQMH Tools Menu--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Draw Tree.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Drop Event into subVI.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Error Reported Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Error Reported.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Event types--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default Event Request Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Execute Default event.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Expand Results Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Expand Results.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Fill Maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find and Highlight Event Frames.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find API Tester Path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find Default Events Path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find Event Frame.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find Important Module VIs paths.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find Library in Project.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find Main vi path.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find MHL Frames.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find some Public API VI.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Find SubVI.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Format to Bold.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Generate And Open Html.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Generate Documentation--dialog.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Generate Project Documentation Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Generate Project Documentation.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get all Targets.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get List Information.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status by ref.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Main Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Module Main VI Information.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get Sync Refnums.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get VI Connector Pane image and Description.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Get VI name.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Handle Exit.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Hide VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Init Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Insert Important Module VIs.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Launch DQMH Scripting Tools Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Maps List and refs--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Data--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Did Init.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Did Stop.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Name--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Running--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Stopped--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Not Synced--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Timeout--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Type Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module Type Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module type--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Module--button.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Null Broadcast Events--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Broadcast Events for Registration.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Broadcast Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Obtain Request Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open API Tester.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Documentation Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Documentation.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Event Callers Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open File on Disk.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open Module API Tester Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Open VI Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\OS Title Bar Compatibility.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Panther Dashboard--global.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Progress updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Progress updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Project Description Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Project Description Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Project References--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Projects Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Projects Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Public VIs names--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Read Theme from Config.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\References Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\refresh--button.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Release Module Semaphore.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Request and Wait for Reply Timeout--error.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Request Events--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Event Description.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Library Description Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Library Description.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Library Documentation.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Project Documentation Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Project Documentation.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save Theme in config.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save VI Description Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Save VI Description.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scale Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scale Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules and create Maps.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan DQMH Modules.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Scan For App Projects.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Search DQMH Module name from selection.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Selection Type--enum.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Set App Theme Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Set App Theme.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Set Indicators Visibility Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Set Panel Initial State.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Set Tree custom symbols.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show About Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show About.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Caller Items Dialog.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Diagram Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Diagram.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Panel Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Show Panel.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Splash Screen.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Start Call to results window.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Start Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Status Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Status Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Stop Module.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Synchronize Caller Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Synchronize Module Events.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Targets Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Targets Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Theme Updated Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Theme Updated.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Tree DQMH Selection Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Update Module Execution Status.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Update Module ID Argument--cluster.ctl"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Update Module ID.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Validate if event is selected.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Wait on Event Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\Panther Dashboard Project\\Panther Dashboard\\Wait on Module Sync.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
 </ItemsToAnalyze>
 <TestConfigData>
 	<Test>
@@ -547,12 +1431,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Broken RTE Code_1"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Broken RTE Code.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Current VIs Path Issues"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Current VIs Path Issues.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Current VIs Path Issues_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Current VIs Path Issues.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -567,6 +1471,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Cursor VI Error Output_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Cursor VI Error Output.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Default Right-click Menus"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -577,7 +1491,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Default Right-click Menus_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Default Right-click Menus.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Duplicate Cluster Element Names"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Duplicate Cluster Element Names.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Duplicate Cluster Element Names_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -597,12 +1531,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Error Shift Register on Event Loop_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Error Shift Register on Event Loop.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Faulty Functional Global"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Faulty Functional Global.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Faulty Functional Global_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Faulty Functional Global.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -617,12 +1571,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"File Dialog Issues_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\File Dialog Issues.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Find User Visible Strings"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Find User Visible Strings.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Find User Visible Strings_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Find User Visible Strings.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -638,6 +1612,16 @@
 	</Test>
 	<Test>
 		<Name>"First Call in Reentrant VI"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\First Call in Reentrant VI.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"First Call in Reentrant VI_1"</Name>
 		<Ranking>2</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -667,7 +1651,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Full Names on Bundlers_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Full Names on Bundlers.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Gather Error Ring Data"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Gather Error Ring Data.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Gather Error Ring Data_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -683,6 +1687,16 @@
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Icon View Detect or Correct.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Icon View Detect or Correct_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Icon View Detect or Correct.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -707,7 +1721,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Invalid Control Labels_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Invalid Control Labels.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Join Numbers Coercion"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Join Numbers Coercion.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Join Numbers Coercion_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -727,6 +1761,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Limit to Single Line on Strings_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Limit to Single Line on Strings.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Multiple Global Writes"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -737,7 +1781,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Multiple Global Writes_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Multiple Global Writes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Non Default Error Constant"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Non Default Error Constant.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Non Default Error Constant_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -757,6 +1821,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Pop Up Detection_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Pop Up Detection.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Search and Replace Text"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -767,7 +1841,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Search and Replace Text_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Search and Replace Text.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Separate Compiled Code"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Separate Compiled Code.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Separate Compiled Code_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -787,7 +1881,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Stop Started DQMH Modules_1"</Name>
+		<Ranking>2</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Stop Started DQMH Modules.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"String Case Structure Matching"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\String Case Structure Matching.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"String Case Structure Matching_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -807,7 +1921,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"String Constant Build Path_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\String Constant Build Path.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Subdiagram Labels"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Subdiagram Labels.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Subdiagram Labels_1"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
@@ -827,12 +1961,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Time Zone Issues_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Time Zone Issues.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Typedef Enums and Clusters"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Typedef Enums and Clusters.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Typedef Enums and Clusters_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Typedef Enums and Clusters.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -847,6 +2001,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Typedef File Name Convention_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Typedef File Name Convention.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Unwired VI Reference"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -857,12 +2021,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Unwired VI Reference_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Unwired VI Reference.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Wait for Reply in Locking Event"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Wait for Reply in Locking Event.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Wait for Reply in Locking Event_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Delacor Style\\Wait for Reply in Locking Event.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -887,6 +2071,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Auto Error Handling (Pre-2019)_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Auto Error Handling (Pre-2019).llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Char By Char App Font Usage"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -897,9 +2091,29 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Char By Char App Font Usage_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Char By Char App Font Usage.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Default Free Label Color"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Default Free Label Color.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Default Free Label Color_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Default Free Label Color.llb"</RelativePath>
 		<Selected>FALSE</Selected>
@@ -963,6 +2177,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Non-palette vi.lib VI Usage_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Non-palette vi.lib VI Usage.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Panel Color"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
@@ -979,6 +2203,16 @@
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Prohibited Nodes.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Prohibited Nodes_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Prohibited Nodes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1003,12 +2237,32 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Size to Text_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Size to Text.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Transparent Diagram Object Labels"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Transparent Diagram Object Labels.llb"</RelativePath>
 		<Selected>TRUE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Transparent Diagram Object Labels_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\Delacor\\Example Style Test Suite\\Transparent Diagram Object Labels.llb"</RelativePath>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -1093,6 +2347,66 @@
 		<MaxFailures>500</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\User\\VI Documentation.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"CTL Label Match"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\CTL Label Match.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Library Member Paths"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\Library Member Paths.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Long Wire Documentation"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\Long Wire Documentation.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Matching Icon Library Layer"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\Matching Icon Library Layer.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Non-Clean Default Frame"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\Non-Clean Default Frame.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"VIs in LLBs"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW"</BasePath>
+		<RelativePath>"project\\_VI Analyzer\\_tests\\DQMH Consortium\\DQMH Consortium Style\\VIs in LLBs.llb"</RelativePath>
 		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
@@ -1678,6 +2992,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Anti-Aliased Plots_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Anti-Aliased Plots.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Auto Error Handling Detect or Correct"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -1868,6 +3192,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Deprecated Functionality_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Deprecated Functionality.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Detect Mechanical Action"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -1889,6 +3223,16 @@
 	</Test>
 	<Test>
 		<Name>"Diagram Size and Position_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Diagram Size and Position.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Diagram Size and Position_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2028,6 +3372,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Find VI Calls_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Find VI Calls.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Fix Gray Classes"</Name>
 		<Ranking>2</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -2039,6 +3393,16 @@
 	</Test>
 	<Test>
 		<Name>"Forked Event Reg Refnum Wire_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Forked Event Reg Refnum Wire.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Forked Event Reg Refnum Wire_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2079,6 +3443,16 @@
 	</Test>
 	<Test>
 		<Name>"In Range Exclusion_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\In Range Exclusion.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"In Range Exclusion_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2138,7 +3512,27 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Merge Errors Style_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Merge Errors Style.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Minimum Window Width_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Minimum Window Width.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Minimum Window Width_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2168,6 +3562,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Panel Color_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Panel Color.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Priority Setting"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -2179,6 +3583,16 @@
 	</Test>
 	<Test>
 		<Name>"Property Node Name Format_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Property Node Name Format.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"Property Node Name Format_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
@@ -2278,6 +3692,16 @@
 		</Controls>
 	</Test>
 	<Test>
+		<Name>"Unwired Event Nodes_2"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\Unwired Event Nodes.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
 		<Name>"Unwired Event Timeout"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
@@ -2299,6 +3723,16 @@
 	</Test>
 	<Test>
 		<Name>"View Cluster Constant as Icon_1"</Name>
+		<Ranking>1</Ranking>
+		<MaxFailures>5</MaxFailures>
+		<BasePath>"LabVIEW Data"</BasePath>
+		<RelativePath>"VI Analyzer Tests\\View Cluster Constant as Icon.llb"</RelativePath>
+		<Selected>FALSE</Selected>
+		<Controls>
+		</Controls>
+	</Test>
+	<Test>
+		<Name>"View Cluster Constant as Icon_2"</Name>
 		<Ranking>1</Ranking>
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW Data"</BasePath>
