@@ -26,12 +26,12 @@
 			<Item Name="Tree Selection.lvclass" Type="LVClass" URL="../../Unit Tests/Tree Selection/Tree Selection.lvclass"/>
 			<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 		</Item>
-		<Item Name="ContextHelp.lvlib" Type="Library" URL="../ContextHelp/ContextHelp.lvlib"/>
-		<Item Name="Test ContextHelp API.vi" Type="VI" URL="../ContextHelp/Test ContextHelp API.vi"/>
-		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard.lvlib"/>
-		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Panther Dashboard/Test Panther Dashboard API.vi"/>
+		<Item Name="ContextHelp.lvlib" Type="Library" URL="../Libraries/ContextHelp/ContextHelp.lvlib"/>
+		<Item Name="Test ContextHelp API.vi" Type="VI" URL="../Libraries/ContextHelp/Test ContextHelp API.vi"/>
+		<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Libraries/Panther Dashboard/Panther Dashboard.lvlib"/>
+		<Item Name="Test Panther Dashboard API.vi" Type="VI" URL="../Libraries/Panther Dashboard/Test Panther Dashboard API.vi"/>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
-		<Item Name="Shared.lvlib" Type="Library" URL="../Shared/Shared.lvlib"/>
+		<Item Name="Shared.lvlib" Type="Library" URL="../Libraries/Shared/Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
