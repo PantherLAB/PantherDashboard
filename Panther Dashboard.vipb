@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-18 18:19:40" Creator="Enrique Noe Arias" Comments="" ID="b86eb08851114763ac3672bb1d3634c5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-20 18:38:08" Creator="Enrique Noe Arias" Comments="" ID="f12a806e5274b9a497443403f611569f">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.12</Library_Version>
+    <Library_Version>3.0.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -91,14 +91,14 @@ Report any issues and ask for more features:
 
 Release Notes:
 
-Substantial improvements to the user interface such as:
+New user interface:
 
 *Allow user to resize Panther Dasbhoard.
-*New contextual window for editing and viewing documentation.
-*Completely redesigned icons
-*Panther Dashboard will remember the size and position, allowing to have a consistent working environment.
+*New context help window for editing and viewing documentation.
+*Redesigned Buttons to match actions.
+*Store the window size and position, allowing to have a consistent working environment.
 
-Integration with Antidoc:
+Antidoc Integration:
 
 *Panther Dashboard can call Antidoc for current project documentation generation.
 *Open the generated documentation directly from Panther Dasbhoard.
@@ -201,25 +201,22 @@ Integration with Antidoc:
         <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Panther Dashboard/Panther Dashboard.lvlib</Path>
+        <Path>Libraries/Shared/Shared.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>Panther_Dashboard_</Namespace>
+        <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Shared/Shared.lvlib</Path>
+        <Path>Libraries/Panther Dashboard/Panther Dashboard.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>Panther_Dashboard_</Namespace>
+        <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>ContextHelp/ContextHelp.lvlib</Path>
+        <Path>Libraries/ContextHelp/ContextHelp.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>Panther_Dashboard_</Namespace>
+        <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Panther Dashboard/antidoc.bmp</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
