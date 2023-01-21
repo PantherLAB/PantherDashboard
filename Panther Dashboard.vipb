@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-20 18:38:08" Creator="Enrique Noe Arias" Comments="" ID="f12a806e5274b9a497443403f611569f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-20 19:03:25" Creator="Enrique Noe Arias" Comments="" ID="5eda4b829d73ae87772f960d736be7e8">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.0.13</Library_Version>
+    <Library_Version>3.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -201,17 +201,17 @@ Antidoc Integration:
         <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Libraries/Shared/Shared.lvlib</Path>
+        <Path>Panther Dashboard/ContextHelp/ContextHelp.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Libraries/Panther Dashboard/Panther Dashboard.lvlib</Path>
+        <Path>Panther Dashboard/Panther Dashboard/Panther Dashboard.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Libraries/ContextHelp/ContextHelp.lvlib</Path>
+        <Path>Panther Dashboard/Shared/Shared.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>
