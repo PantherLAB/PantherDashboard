@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-28 14:14:22" Creator="Enrique Noe Arias" Comments="" ID="fd72380609b32fa85cc0681c5eea1382">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-31 10:12:31" Creator="Enrique Noe Arias" Comments="" ID="68b374af2d57c751cd5ca7959d00606d">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.1.17</Library_Version>
+    <Library_Version>3.0.2.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -18,7 +18,6 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 6.1.0.18</External_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc &gt;= 2.0.4.124</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 2.1.0.19</External_Dependencies>
@@ -26,7 +25,6 @@
       <Additional_External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;=6.1.0.128</Additional_External_Dependencies>
       <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=6.1.0.90</Additional_External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-6.1.0.18</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc-2.0.4.124</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-2.1.0.19</Direct_Dependencies>
@@ -71,7 +69,7 @@ For more information send an email to:
 
 Or visit the following Page
 
-&lt;b&gt; https://pantherlab.com.mx/2022/06/06/panther-dashboard-for-dqmh/ &lt;/b&gt;
+&lt;b&gt; https://pantherlab.com.mx/2023/01/28/pantherdashboard3/ &lt;/b&gt;
 
 Report any issues and ask for more features:
 
@@ -86,31 +84,8 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Release Notes:
---Major Release--
-
-Release Notes:
-
-New user interface:
-
-*Allow user to resize Panther Dasbhoard.
-*New context help window for editing and viewing documentation.
-*Redesigned Buttons to match actions.
-*Store the window size and position, allowing to have a consistent working environment.
-
-Antidoc Integration:
-
-*Panther Dashboard can call Antidoc for current project documentation generation.
-*Open the generated documentation directly from Panther Dasbhoard.
-
-Fixes-Issues:
-* https://github.com/PantherLAB/PantherDashboard/issues/24
-* https://github.com/PantherLAB/PantherDashboard/issues/21
-* https://github.com/PantherLAB/PantherDashboard/issues/17 (not yet completed)
-* https://github.com/PantherLAB/PantherDashboard/issues/16
-* https://github.com/PantherLAB/PantherDashboard/issues/25
-* https://github.com/PantherLAB/PantherDashboard/issues/26
-</Release_Notes>
+      <Release_Notes>Removed JKI SM from dependencies.
+The responsibility of installing the JKI SM relies on the developer of the lvproj documented not on Antidoc.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
