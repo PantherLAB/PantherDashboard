@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-01-31 10:12:31" Creator="Enrique Noe Arias" Comments="" ID="68b374af2d57c751cd5ca7959d00606d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-02-17 17:24:35" Creator="Enrique Noe Arias" Comments="" ID="20f20ad52b835b83aef49b3f4aa8e09e">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.2.18</Library_Version>
+    <Library_Version>3.0.2.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
     <Library_Output_Folder>..\..\Package</Library_Output_Folder>
@@ -84,8 +84,10 @@ Report any issues and ask for more features:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Removed JKI SM from dependencies.
-The responsibility of installing the JKI SM relies on the developer of the lvproj documented not on Antidoc.</Release_Notes>
+      <Release_Notes>Issue 27
+Give the user the opportunity to select which modules to scan, when working on projects with many modules, Panther Dashboard can take a long time to scan the entire project, with this option the user can scan one or several modules and thus save time.
+
+https://github.com/PantherLAB/PantherDashboard/issues/27</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
