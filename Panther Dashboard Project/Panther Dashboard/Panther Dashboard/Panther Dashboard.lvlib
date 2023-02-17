@@ -151,6 +151,7 @@
 			<Item Name="Project References--cluster.ctl" Type="VI" URL="../Project References--cluster.ctl"/>
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
+			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -212,6 +213,7 @@
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 		<Item Name="Set Indicators Visibility Status.vi" Type="VI" URL="../Set Indicators Visibility Status.vi"/>
+		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
