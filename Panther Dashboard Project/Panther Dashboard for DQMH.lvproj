@@ -462,10 +462,14 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Output Format--enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Wovalab/AsciiDoc for LabVIEW/Output Format--enum.ctl"/>
-				<Item Name="Check Asciidoctor Toolchain Installation.vi" Type="VI" URL="/&lt;vilib&gt;/Wovalab/AsciiDoc for LabVIEW/Check Asciidoctor Toolchain Installation.vi"/>
-				<Item Name="Install Asciidoctor Toolchain.vi" Type="VI" URL="/&lt;vilib&gt;/Wovalab/AsciiDoc for LabVIEW/Install Asciidoctor Toolchain.vi"/>
-				<Item Name="Render Adoc File.vi" Type="VI" URL="/&lt;vilib&gt;/Wovalab/AsciiDoc for LabVIEW/Render Adoc File.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
+				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

@@ -146,8 +146,6 @@
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
-			<Item Name="refresh--button.ctl" Type="VI" URL="../refresh--button.ctl"/>
-			<Item Name="Module--button.ctl" Type="VI" URL="../Module--button.ctl"/>
 			<Item Name="Project References--cluster.ctl" Type="VI" URL="../Project References--cluster.ctl"/>
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
