@@ -177,6 +177,7 @@
 			<Item Name="Open API Tester.vi" Type="VI" URL="../Open API Tester.vi"/>
 			<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 			<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
+			<Item Name="Open Event Arguments.vi" Type="VI" URL="../Open Event Arguments.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
