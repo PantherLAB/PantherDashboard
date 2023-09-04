@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-04-27 11:09:06" Creator="Enrique Noe Arias" Comments="" ID="0da821110a7f6dcb03b5f024fb3bdc68">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-09-04 13:36:26" Creator="Enrique Noe Arias" Comments="" ID="88a98decee8a867a27c54b06a0946cd3">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>3.0.2.22</Library_Version>
+    <Library_Version>3.0.2.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Panther Dashboard Project</Library_Source_Folder>
-    <Library_Output_Folder>..\..\Package</Library_Output_Folder>
+    <Library_Output_Folder>..\..\Package\Panther Dashboard</Library_Output_Folder>
     <Company_Name>PantherLAB</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -52,12 +52,13 @@ This tool is designed to Improve the DQMH Developer Experience and to help under
 » Explore your project in the DQMH context, just double click an event
 » Visualize your modules Status (running, Idle)
 » Search for Module/Event Callers/Listeners, right click an event or a DQMH Module to use this functionality.
+» Open Event Arguments
 » Open API Tester by Right Click the Module Library
 » Execute the default events [Show Panel, Hide Panel, Show Block Diagram, Stop Module]
 » Use the DQMH Scripting Tools.
 » Call Antidoc
-» Help to edit your project/modules/events documentation.
 » Open Antidoc output.
+» Help to edit your project/modules/events documentation.
 
 After installing this tool  you can use it by going through the menu:
 
@@ -75,18 +76,20 @@ Report any issues and ask for more features:
 
 &lt;b&gt;https://github.com/PantherLAB/PantherDashboard/issues&lt;/b&gt;
 
+&lt;size=20&gt;&lt;b&gt;Coffee is more than just a drink for me, it's a fuel that keeps me going when I'm coding. I love to explore different flavors and roasts, and I enjoy sharing my passion with others. That's how I created this tool, where I implement what I need to do my work. If you find Panther Dashboard useful and want to support me, you can buy me a coffee through the link below. It would mean a lot to me and it will keep me motivated.  You can also give this project a star on vipm.
 
-&lt;size=18&gt;&lt;b&gt;This is an Open Source Project, by PantherLAB to the LabVIEW Comunity and DQMH users.&lt;/b&gt;&lt;/size&gt;
+Thank you for your generosity and appreciation!
 
-
-
+https://www.buymeacoffee.com/enoearias&lt;/b&gt;&lt;/size&gt;
 </Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>-Store User data like name, email, project name when Antidoc output file generated, this is performed on the scanned proyect.
--Some small bug fixes like clearing the project text when it closes.
--Fix color text when clear theme is selected on the modules selection window.</Release_Notes>
+      <Release_Notes>-Removed code to save and restore Front Panel position and size, this was causing issues when changing from higer to smaller resolutions or adding/removing Screens.
+-Panther Dashboard opens the .html file instead the .adoc file when clicking the open documentation button.
+-Changed Light Color Theme to match Antidoc Subpanel Color.
+
+-NEW FEATURE: Open Event Arguments, when right click an event there is a new menu to open the event vi and its arguments to help editing.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -193,6 +196,9 @@ Report any issues and ask for more features:
       </Namespace_Overrides>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Utilities</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
