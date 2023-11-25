@@ -178,6 +178,8 @@
 			<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
 			<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 			<Item Name="Open Event Arguments.vi" Type="VI" URL="../Open Event Arguments.vi"/>
+			<Item Name="Refresh Current DQMH Module.vi" Type="VI" URL="../Refresh Current DQMH Module.vi"/>
+			<Item Name="Add Module to Map.vi" Type="VI" URL="../Add Module to Map.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -185,6 +187,7 @@
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
+			<Item Name="Draw Tree and set expand settings.vi" Type="VI" URL="../Draw Tree and set expand settings.vi"/>
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
 		<Item Name="Config" Type="Folder">
