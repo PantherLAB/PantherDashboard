@@ -9,7 +9,7 @@ To help continuing this project  by buying a coffee  ☕
 
 ***Panther Dashboard for DQMH** is an _open-source_ ***LabVIEW*** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your projects more easily, including:
 
-- ***Drag and drop DQMH code***: Drag and drop DQMH code directly from the Panther Dashboard interface.
+- ***[Drag and drop DQMH code](#Drag-and-drop-DQMH-code)***: Drag and drop DQMH code directly from the Panther Dashboard interface.
 - ***Explore the project in the DQMH context***: Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
 - ***Visualize modules' status***: Visualize all modules Status on real time (running or idle) with red/green glyphs, also identify which modules are under dependencies.
 - ***Search for event callers/listeners***: Panther Dashboard will help you identify where an event is being called or code sections subscribed to an specific broadcast.
@@ -26,7 +26,7 @@ To help continuing this project  by buying a coffee  ☕
 
 Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
 
-- ### [Drag and drop DQMH code](#drag-and-drop-dqmh-code)
+- ### Drag and drop DQMH code
 - ### [Explore the project in the DQMH context](#Explore-the-project-in-the-DQMH-context)
 - ### [Visualize module's status](#Visualize-module's-status)
 - ### [Search for event callers/listeners](#Search-for-event-callers/listeners)
