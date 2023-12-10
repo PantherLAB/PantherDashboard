@@ -37,11 +37,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
 - ### Visualize module's status
 - ### Search for event callers/listeners
 - ### Context Help
-
-
-https://github.com/PantherLAB/PantherDashboard/assets/5545396/0d179e91-311c-46a8-9f13-f12821ead893
-
-
+{% include youtube.html id="P4XtBT2EDeU" %}
 
 
 
