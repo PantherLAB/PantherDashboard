@@ -15,6 +15,7 @@
 *.aliases
 *.lvlps
 .cache/
+.DS_Store
 
 
 # Build Specs
