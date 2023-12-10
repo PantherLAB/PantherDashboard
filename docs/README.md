@@ -1,13 +1,3 @@
-<h1 style="text-align: center;">Panther Dashboard for DQMH</h1>
-
-[![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
-
-
-If you like to use this tool you can support me buying me a cup of coffe, thanks ☕ 
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
-
-_**Panther Dashboard for DQMH** is an open-source **LabVIEW** tool designed to enhance the developer experience for working with the DQMH framework. It offers a variety of features aimed at making it easier to explore, edit, and document DQMH projects._
 
 Key features include:
 
