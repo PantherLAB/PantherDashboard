@@ -20,17 +20,26 @@ Help continue this project by buying a cup of coffee. ☕
 - ***Call DQMH scripting tools***: Panther Dashboard has buttons to call DQMH Scripting Tools, this call has some context, for example, if you select a DMQH Module and Click the 'Add Event' button, DQMH Scripting tools-Module Name will be prefilled with the module previously selected.
 - ***Call Antidoc***: Call Antidoc to gerate beautiful documentation.
 - ***Open Antidoc output***: Easily access and review the previously generated documentation.
-- ***Edit project/modules/events documentation***: Using DQMH Context Help, edit/update the project, modules, and events descriptions.
+- ***Context Help***: Using DQMH Context Help, edit/update the project, modules, and events descriptions.
 
 # Getting Started
 
 Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
 
 - ### Drag and drop DQMH code
+  
+
+https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051
+
+
 - ### Explore the project in the DQMH contexte-DQMH-context
 - ### Visualize module's status
 - ### Search for event callers/listeners
-- ### Search for module callers/listeners
+- ### Context Help
+
+
+https://github.com/PantherLAB/PantherDashboard/assets/5545396/0d179e91-311c-46a8-9f13-f12821ead893
+
 
 
 
