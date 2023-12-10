@@ -22,10 +22,7 @@ Execute Default Events: Execute common events like show/hide panels and stop mod
 - **DQMH Scripting Tools**: Access various DQMH scripting tools for advanced tasks.
 - **Antidoc Integration**: Generate beautiful documentation for your project using the Antidoc tool.
 - **Edit Project/Module/Event Documentation**: Easily edit and update descriptions for your project, modules, and events directly within the Dashboard.
-- **DQMH Context Help**: View descriptions for selected projects, modules, and events, with the ability to edit them directly.
-
-<video src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/35cb2808-8ce5-4388-a6df-b36b46f57357" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
-
+- **[DQMH Context Help](docs/DQMHContextHelp.md)**: View/Edit descriptions for selected projects, modules, and events.
 
 After installing you can start using Panther Dashboard going throug:
 
