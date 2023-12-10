@@ -27,9 +27,10 @@ Help continue this project by buying a cup of coffee. ☕
 Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
 
 - ### Drag and drop DQMH code
-  
+<video controls>
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+</video>
 
-https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051
 
 
 - ### Explore the project in the DQMH contexte-DQMH-context
