@@ -9,6 +9,8 @@ If you like to use this tool you can support me buying me a cup of coffe, thanks
 
 _**Panther Dashboard for DQMH** is an open-source **LabVIEW** tool designed to enhance the developer experience for working with the DQMH framework. It offers a variety of features aimed at making it easier to explore, edit, and document DQMH projects._
 
+[Key Features](docs/README.md)
+
 Key features include:
 
 - **Drag and Drop DQMH code**: Drag your events/broadcast and Public API DQMH Code directly from Panther Dashboard onto your block diagram, this feature help you to keep the context and to not loose focus on what you are doing.
