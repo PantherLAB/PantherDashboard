@@ -47,16 +47,11 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
    Your browser does not support the video tag.
 </video>
 -----------
-### ***Open event arguments***: by right clicking an event open the event arguments, you can add/rename/delete arguments and then edit the event VI.
-  <video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
 ### ***DQMH scripting tools***: 
 - Add/Rename Modules
 - Add/Rename/Delete Events
 - Add Helper Loop to DQMH Module
+- Open Event Arguments
 - etc.
 <video width="800" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/4fce462e-0fb5-4260-9254-9e9f548b0a72" type="video/mp4">
