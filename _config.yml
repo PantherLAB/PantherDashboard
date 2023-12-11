@@ -5,3 +5,4 @@ plugins:
 title: [Panther Dashboard for DQMH]
 description: [Documentation]
 
+baseurl: /docs
