@@ -9,7 +9,7 @@ Help continue this project by buying a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
 
-***Panther Dashboard for DQMH** is an _open-source_ ***LabVIEW*** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your LabVIEW projects more easily, including:
+**Panther Dashboard for DQMH** is an _open-source_ **LabVIEW** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your LabVIEW projects more easily, including:
 
 # Getting Started
 
