@@ -15,15 +15,18 @@ Help continue this project by buying a cup of coffee. ☕
 
 Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
 
-- ### ***Drag and drop DQMH code***: Drag and drop DQMH code directly from the Panther Dashboard interface.
+- ### ***Drag and drop DQMH code***:
+- Drag and drop DQMH code directly from the Panther Dashboard interface.
 <video width="1024" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
    Your browser does not support the video tag.
 </video>
-- ### ***Explore the project in the DQMH context*** & ***Search for event callers/listeners*** & ***Open module's API testers***: 
-  - Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
-  - Panther Dashboard will help you identify where an event is being called or code sections subscribed to an specific broadcast.
-  - All DQMH Modules comes wiht DQMH API Testers, by right clicking a module Panther Dashboard can open the Module's API Tester.
+- ### ***Explore the project in the DQMH context*** 
+  - Search for event callers/listeners 
+    - Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
+    - Panther Dashboard will help you identify where an event is being called or code sections subscribed to an specific broadcast.
+  - Open module's API testers
+    - All DQMH Modules comes wiht DQMH API Testers, by right clicking a module Panther Dashboard can open the Module's API Tester.
 <video width="1024" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/e7e6ce9d-0a33-4092-91d7-1ac6c02597d5" type="video/mp4">
    Your browser does not support the video tag.
