@@ -9,7 +9,7 @@ Help continue this project by buying a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
 
-***Panther Dashboard for DQMH** is an _open-source_ ***LabVIEW*** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your projects more easily, including:
+***Panther Dashboard for DQMH** is an _open-source_ ***LabVIEW*** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your LabVIEW projects more easily, including:
 
 - ***Drag and drop DQMH code***: Drag and drop DQMH code directly from the Panther Dashboard interface.
 - ***Explore the project in the DQMH context***: Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
@@ -34,13 +34,26 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
    Your browser does not support the video tag.
 </video>
 - ### Explore the project in the DQMH contexte-DQMH-context
+<video width="1024" controls>
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 - ### Visualize module's status
+<video width="1024" controls>
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 - ### Search for event callers/listeners
+<video width="1024" controls>
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 - ### Context Help
 <video width="1024" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
    Your browser does not support the video tag.
 </video>
+
 # Additional Resources
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
