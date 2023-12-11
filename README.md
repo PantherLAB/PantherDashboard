@@ -33,9 +33,9 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
    Your browser does not support the video tag.
 </video>
-- ### Explore the project in the DQMH contexte-DQMH-context
+- ### Explore the project in the DQMH contexte-DQMH-context.
 <video width="1024" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/e7e6ce9d-0a33-4092-91d7-1ac6c02597d5" type="video/mp4">
    Your browser does not support the video tag.
 </video>
 - ### Visualize module's status
