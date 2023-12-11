@@ -27,21 +27,18 @@ Help continue this project by buying a cup of coffee. ☕
 Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
 
 - ### Drag and drop DQMH code
-<video width="1024" height="960" controls>
+<video width="1024" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
    Your browser does not support the video tag.
 </video>
-
-
-
 - ### Explore the project in the DQMH contexte-DQMH-context
 - ### Visualize module's status
 - ### Search for event callers/listeners
 - ### Context Help
-{% include youtube.html id="P4XtBT2EDeU" %}
-
-
-
+<video width="1024" controls>
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 # Additional Resources
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
