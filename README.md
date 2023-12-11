@@ -40,7 +40,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
 </video>
 - ### Visualize module's status
 <video width="1024" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/070c8f3d-6b88-4663-a9a2-e07a7a722b76" type="video/mp4">
    Your browser does not support the video tag.
 </video>
 - ### Search for event callers/listeners
