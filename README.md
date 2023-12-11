@@ -61,7 +61,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   - Call Antidoc to gerate beautiful documentation.
   - Easily access and review the previously generated documentation.
   <video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
+  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/9700189d-e956-4084-b7a3-5877d5219926" type="video/mp4">
    Your browser does not support the video tag.
 </video>
 -----------
