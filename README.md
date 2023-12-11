@@ -1,5 +1,3 @@
-<h1 style="text-align: center;">Panther Dashboard for DQMH</h1>
-
 <p align="center">
   <img src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/75c3d5d2-625b-4848-9e4e-329e507a3b69" />
 </p>
