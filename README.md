@@ -21,6 +21,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
    Your browser does not support the video tag.
 </video>
+-----------
 ### ***Explore the project in the DQMH context*** 
   - Search for event callers/listeners 
     - Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
@@ -31,6 +32,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/e7e6ce9d-0a33-4092-91d7-1ac6c02597d5" type="video/mp4">
    Your browser does not support the video tag.
 </video>
+-----------
 ### ***Visualize module's status*** & ***Execute default events***:
   - Visualize all modules Status on real time (running or idle) with red/green glyphs, also identify which modules are under dependencies.
   - Execute 'default' events such as 'Show Panel', 'Hide Panel', 'Show Block Diagram', and 'Stop Module'.
@@ -38,6 +40,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/070c8f3d-6b88-4663-a9a2-e07a7a722b76" type="video/mp4">
    Your browser does not support the video tag.
 </video>
+-----------
 ### ***Context Help***: Using DQMH Context Help, edit/update the project, modules, and events descriptions.
 <video width="800" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
@@ -49,6 +52,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
    Your browser does not support the video tag.
 </video>
+-----------
 ### ***Call DQMH scripting tools***: 
 <video width="800" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
@@ -61,7 +65,7 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
    Your browser does not support the video tag.
 </video>
-
+-----------
 # Additional Resources
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
