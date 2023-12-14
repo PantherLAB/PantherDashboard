@@ -1,1 +1,0 @@
-**Drag and Drop DQMH code**: Drag your events/broadcast and Public API DQMH Code directly from Panther Dashboard onto your block diagram, this feature help you to keep the context and to not loose focus on what you are doing.
