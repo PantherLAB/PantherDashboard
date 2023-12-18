@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-12-14 13:04:32" Creator="Enrique Noe Arias" Comments="" ID="643a079fd23e50f1702ad54772c19441">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-12-18 13:39:33" Creator="Enrique Noe Arias" Comments="" ID="5b6bd4c11cc85a6fc9bdf1fbdaaa3b28">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>4.0.0.25</Library_Version>
+    <Library_Version>4.0.1.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -85,23 +85,20 @@ https://www.buymeacoffee.com/enoearias&lt;/b&gt;&lt;/size&gt;
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>DQMH 7.0 Features:
+      <Release_Notes>Fix Release:
 
--Button to call the feature 'add a Helper Loop to a DQMH Module' new on DQMH 7.0
+#36 Grammar revision, some tip strips updated to improve English grammar.
 
-New Right click Menus:
--'Refresh Module' to scan a single module  instead all the DQMH Modules on the project.
--'Where is this module being Stopped?' to find all the 'Stop Module.vi' calls to an specific module.
+#37 Modules get deleted from FP:
+Previous versions, after a project has been scanned for DQMH modules, if a new scan is selected and cancelled, all previously existing modules disappear from FP.
+This version keeps modules found in project when scan dialog is repeated and cancelled, scan engine redesigned.
 
-UI Improvements
-- Different icons if the module is under dependencies on the modules tree
-- New glyphs to the modules  in the 'Modules Found' Window indicating if the module is under dependencies or under 'My Computer'.
+#38 Icon Disposition is misleading:
+Version 4.0.0.24 introduced new icons into the search for modules window and the tip strips were confusing, this was caused by recycling some controls and not updating Tip Strips.
 
-Performance
--Several Scripting Improvements made.
-
-Documentation:
-- New Panther Dashboard website: https://pantherlab.github.io/PantherDashboard/</Release_Notes>
+#39 Improved Drag and Drop Functionality:
+Previous versions does not allow to drag code if the module is under dependencies.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -271,7 +268,7 @@ Documentation:
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>true</Mac_OS>
+      <Mac_OS>false</Mac_OS>
       <Linux>true</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
