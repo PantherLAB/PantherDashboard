@@ -69,8 +69,11 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
 
-- [VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
+- [Panther Dashboard package](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 - [PantherLAB website](https://pantherlab.com.mx/)
+- [DQMH Website](https://dqmh.org/)
+- [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
+- [GCentral](https://www.gcentral.org/)
 - email: info@pantherlab.com.mx
  
 
