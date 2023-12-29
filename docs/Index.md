@@ -36,6 +36,9 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
 -----------
 ### **Visualize module's status** & **Execute default events**:
   - Visualize all modules Status on real time (running or idle) with red/green glyphs, also identify which modules are under dependencies.
+  
+  ![Glyphs explanation](https://github.com/PantherLAB/PantherDashboard/assets/5545396/6fc03280-0fcf-4f1c-96e7-dce6853e405a)
+
   - Execute 'default' events such as 'Show Panel', 'Hide Panel', 'Show Block Diagram', and 'Stop Module'.
 <video width="800" controls>
   <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/070c8f3d-6b88-4663-a9a2-e07a7a722b76" type="video/mp4">
