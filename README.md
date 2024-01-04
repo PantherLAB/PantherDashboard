@@ -1,8 +1,13 @@
 <p align="center">
-  <img src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/75c3d5d2-625b-4848-9e4e-329e507a3b69" />
+  <a href="https://pantherlab.com.mx/en/home/">
+<img src="https://pantherlab.com.mx/wp-content/uploads/2021/07/pantherlab-logo.png" alt="PantherLAB Site" style="width:600px;height:350px;"></br></br>
+</a>
+<a href="https://pantherlab.github.io/PantherDashboard/">Panther Dashboard for DQMH Documentation</a>
 </p>
 
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
+
+
 
 
 Help continue this project by buying a cup of coffee. ☕ 
@@ -45,6 +50,9 @@ Panther Dashboard for DQMH is available for download through the ***[VIPM packag
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
 
-- [VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
+- [Panther Dashboard package](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 - [PantherLAB website](https://pantherlab.com.mx/)
+- [DQMH Website](https://dqmh.org/)
+- [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
+- [GCentral](https://www.gcentral.org/)
 - email: info@pantherlab.com.mx
