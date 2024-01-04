@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2023-12-18 13:39:33" Creator="Enrique Noe Arias" Comments="" ID="5b6bd4c11cc85a6fc9bdf1fbdaaa3b28">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-01-04 13:16:59" Creator="Enrique Noe Arias" Comments="" ID="9764e97cad1ac123676d1203a9086cc1">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>4.0.1.26</Library_Version>
+    <Library_Version>4.0.2.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -85,20 +85,11 @@ https://www.buymeacoffee.com/enoearias&lt;/b&gt;&lt;/size&gt;
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Fix Release:
+      <Release_Notes>Fix release:
 
-#36 Grammar revision, some tip strips updated to improve English grammar.
+#40 Panther Dashboard can't add a DQMH module/use DQMH Scripting Tools if the project is empty or does not contain DQMH modules.
 
-#37 Modules get deleted from FP:
-Previous versions, after a project has been scanned for DQMH modules, if a new scan is selected and cancelled, all previously existing modules disappear from FP.
-This version keeps modules found in project when scan dialog is repeated and cancelled, scan engine redesigned.
-
-#38 Icon Disposition is misleading:
-Version 4.0.0.24 introduced new icons into the search for modules window and the tip strips were confusing, this was caused by recycling some controls and not updating Tip Strips.
-
-#39 Improved Drag and Drop Functionality:
-Previous versions does not allow to drag code if the module is under dependencies.
-</Release_Notes>
+Due to the latest redesign of the search engine, project references were not updated when the project is empty or does not have  DQMH modules. A validation is added to update the application references in this scenarios.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
