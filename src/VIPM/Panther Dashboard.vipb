@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-01-04 13:16:59" Creator="Enrique Noe Arias" Comments="" ID="9764e97cad1ac123676d1203a9086cc1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-02-18 11:42:54" Creator="Enrique Noe Arias" Comments="" ID="dc9b7e0503a552559a2f83c23c16b909">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>4.0.2.27</Library_Version>
+    <Library_Version>4.1.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -85,11 +85,13 @@ https://www.buymeacoffee.com/enoearias&lt;/b&gt;&lt;/size&gt;
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Fix release:
-
-#40 Panther Dashboard can't add a DQMH module/use DQMH Scripting Tools if the project is empty or does not contain DQMH modules.
-
-Due to the latest redesign of the search engine, project references were not updated when the project is empty or does not have  DQMH modules. A validation is added to update the application references in this scenarios.</Release_Notes>
+      <Release_Notes>[FIX]  Some references were not closed as they should when refreshing a module.
+[FIX]  Some references were being left open, the entire code was reviewed in search of open references.
+[IMPROVEMENT]  Instead of searching the entire file system to find events, API tester, etc., we now build the path using the library path as a reference; This change improves performance.
+[IMPROVEMENT]  Added a small delay when navigating within Main.vi to make it easier to see highlighted structures.
+[FEATURE] #41 Splash screen and Main Window at same time.
+[FEATURE] #42 Button to scan current project without the need of the dialog box
+[FEATURE] #43 Add right click menu to request events to open it's front panel and let the user to test individual requests</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
