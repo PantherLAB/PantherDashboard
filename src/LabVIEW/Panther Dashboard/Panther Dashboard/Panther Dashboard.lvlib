@@ -231,4 +231,8 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Script Edit Module Name.vi" Type="VI" URL="../Script Edit Module Name.vi"/>
+	<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
+	<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
+	<Item Name="Edit Module Timeout.vi" Type="VI" URL="../Edit Module Timeout.vi"/>
 </Library>
