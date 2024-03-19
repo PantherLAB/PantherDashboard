@@ -188,6 +188,10 @@
 			<Item Name="Open Event Arguments.vi" Type="VI" URL="../Open Event Arguments.vi"/>
 			<Item Name="Refresh Current DQMH Module.vi" Type="VI" URL="../Refresh Current DQMH Module.vi"/>
 			<Item Name="Add Module to Map.vi" Type="VI" URL="../Add Module to Map.vi"/>
+			<Item Name="Script Edit Module Name.vi" Type="VI" URL="../Script Edit Module Name.vi"/>
+			<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
+			<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
+			<Item Name="Edit Module Timeout.vi" Type="VI" URL="../Edit Module Timeout.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -231,8 +235,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Script Edit Module Name.vi" Type="VI" URL="../Script Edit Module Name.vi"/>
-	<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
-	<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
-	<Item Name="Edit Module Timeout.vi" Type="VI" URL="../Edit Module Timeout.vi"/>
+	<Item Name="Script Parse Project Modules Constants.vi" Type="VI" URL="../Script Parse Project Modules Constants.vi"/>
 </Library>
