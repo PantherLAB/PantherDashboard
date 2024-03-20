@@ -158,6 +158,7 @@
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
+			<Item Name="Module Info--cluster.ctl" Type="VI" URL="../Module Info--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -236,4 +237,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Script Parse Project Modules Constants.vi" Type="VI" URL="../Script Parse Project Modules Constants.vi"/>
+	<Item Name="Display Project Info Results.vi" Type="VI" URL="../Display Project Info Results.vi"/>
 </Library>
