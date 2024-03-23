@@ -193,6 +193,10 @@
 			<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
 			<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
 			<Item Name="Edit Module Timeout.vi" Type="VI" URL="../Edit Module Timeout.vi"/>
+			<Item Name="Script Parse Project Modules Constants.vi" Type="VI" URL="../Script Parse Project Modules Constants.vi"/>
+			<Item Name="Display Project Info Results.vi" Type="VI" URL="../Display Project Info Results.vi"/>
+			<Item Name="Script Request and Wait For Reply Custom Timeout.vi" Type="VI" URL="../Script Request and Wait For Reply Custom Timeout.vi"/>
+			<Item Name="Script Request and Wait For Reply Restore Timeout.vi" Type="VI" URL="../Script Request and Wait For Reply Restore Timeout.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -236,6 +240,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Script Parse Project Modules Constants.vi" Type="VI" URL="../Script Parse Project Modules Constants.vi"/>
-	<Item Name="Display Project Info Results.vi" Type="VI" URL="../Display Project Info Results.vi"/>
 </Library>
