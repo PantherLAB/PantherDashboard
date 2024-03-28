@@ -197,6 +197,8 @@
 			<Item Name="Display Project Info Results.vi" Type="VI" URL="../Display Project Info Results.vi"/>
 			<Item Name="Script Request and Wait For Reply Custom Timeout.vi" Type="VI" URL="../Script Request and Wait For Reply Custom Timeout.vi"/>
 			<Item Name="Script Request and Wait For Reply Restore Timeout.vi" Type="VI" URL="../Script Request and Wait For Reply Restore Timeout.vi"/>
+			<Item Name="Script Add Custom Error.vi" Type="VI" URL="../Script Add Custom Error.vi"/>
+			<Item Name="Script Error VI.vi" Type="VI" URL="../Script Error VI.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -240,4 +242,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 </Library>
