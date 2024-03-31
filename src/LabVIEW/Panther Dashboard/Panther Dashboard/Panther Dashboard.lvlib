@@ -159,6 +159,7 @@
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
 			<Item Name="Module Info--cluster.ctl" Type="VI" URL="../Module Info--cluster.ctl"/>
+			<Item Name="Error Code and Description--cluster.ctl" Type="VI" URL="../Error Code and Description--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -238,9 +239,12 @@
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>
+		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
+	<Item Name="Script Get Module Timeout Value.vi" Type="VI" URL="../Script Get Module Timeout Value.vi"/>
+	<Item Name="Script Find current Error Codes.vi" Type="VI" URL="../Script Find current Error Codes.vi"/>
+	<Item Name="Show Error Arguments Window.vi" Type="VI" URL="../Show Error Arguments Window.vi"/>
 </Library>
