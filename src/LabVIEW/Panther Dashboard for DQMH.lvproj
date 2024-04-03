@@ -45,6 +45,7 @@
 			<Item Name="Stub_Custom ErrorCLON.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_Custom ErrorCLON.vi"/>
 			<Item Name="Stub_Custom ErrorSGTN.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_Custom ErrorSGTN.vi"/>
 			<Item Name="Stub_ModuleNameCLON.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_ModuleNameCLON.vi"/>
+			<Item Name="Stub_ModuleNameSGTN.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_ModuleNameSGTN.vi"/>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -522,7 +523,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stub_ModuleNameSGTN.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_ModuleNameSGTN.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
