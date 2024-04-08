@@ -249,4 +249,7 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Custom Constant Dialog.vi" Type="VI" URL="../Custom Constant Dialog.vi"/>
+	<Item Name="Script Find current Constants.vi" Type="VI" URL="../Script Find current Constants.vi"/>
+	<Item Name="constant vi validation.vi" Type="VI" URL="../constant vi validation.vi"/>
 </Library>
