@@ -204,6 +204,13 @@
 			<Item Name="Script Find current Error Codes.vi" Type="VI" URL="../Script Find current Error Codes.vi"/>
 			<Item Name="Show Error Arguments Window.vi" Type="VI" URL="../Show Error Arguments Window.vi"/>
 			<Item Name="Error Code Validation.vi" Type="VI" URL="../Error Code Validation.vi"/>
+			<Item Name="Custom Constant Dialog.vi" Type="VI" URL="../Custom Constant Dialog.vi"/>
+			<Item Name="Script Find current Constants.vi" Type="VI" URL="../Script Find current Constants.vi"/>
+			<Item Name="constant vi validation.vi" Type="VI" URL="../constant vi validation.vi"/>
+			<Item Name="Script Add Constant VI.vi" Type="VI" URL="../Script Add Constant VI.vi"/>
+			<Item Name="constant vi validation Args.vi" Type="VI" URL="../constant vi validation Args.vi"/>
+			<Item Name="Script Constant VI.vi" Type="VI" URL="../Script Constant VI.vi"/>
+			<Item Name="Set Icon Text.vi" Type="VI" URL="../Set Icon Text.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -244,12 +251,8 @@
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
-		<Item Name="Set Icon Text.vi" Type="VI" URL="../Set Icon Text.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Custom Constant Dialog.vi" Type="VI" URL="../Custom Constant Dialog.vi"/>
-	<Item Name="Script Find current Constants.vi" Type="VI" URL="../Script Find current Constants.vi"/>
-	<Item Name="constant vi validation.vi" Type="VI" URL="../constant vi validation.vi"/>
 </Library>
