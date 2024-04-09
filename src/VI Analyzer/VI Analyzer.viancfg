@@ -10,10 +10,6 @@
 		<Removed>FALSE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard for DQMH.vi"</Path>
-		<Removed>FALSE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\ContextHelp\\Acquire Module Semaphore.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -258,15 +254,15 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
+		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Config path--constant.vi"</Path>
+		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Connector Pane Updated Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Connector Pane Updated.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Create Tree Shortcut Menu.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -294,22 +290,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\DQMH Tools Menu--enum.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Draw Tree and set expand settings.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Drop Event into subVI.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Enable DQMH Version Caracteristics.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Error Reported Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -331,22 +311,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Expand Results Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Generate And Open Html.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Generate Documentation--dialog.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Generate Project Documentation Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Generate Project Documentation.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -395,22 +359,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Init Module.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Insert Important Module VIs.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Launch DQMH Scripting Tools Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Launch DQMH Scripting Tools.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Launch DQMH Tools by menu.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -487,22 +435,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Obtain Request Events.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open API Tester.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open Documentation Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open Documentation.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open Event Arguments.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -784,6 +716,10 @@
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Width Fixer on modules Selector.vi"</Path>
 		<Removed>TRUE</Removed>
+	</Item>
+	<Item>
+		<Path>"..\\LabVIEW\\Panther Dashboard for DQMH.vi"</Path>
+		<Removed>FALSE</Removed>
 	</Item>
 </ItemsToAnalyze>
 <TestConfigData>
