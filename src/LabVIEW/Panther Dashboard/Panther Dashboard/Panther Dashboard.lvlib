@@ -209,6 +209,7 @@
 			<Item Name="Script Add Constant VI.vi" Type="VI" URL="../Script Add Constant VI.vi"/>
 			<Item Name="constant vi validation Args.vi" Type="VI" URL="../constant vi validation Args.vi"/>
 			<Item Name="Script Constant VI.vi" Type="VI" URL="../Script Constant VI.vi"/>
+			<Item Name="Set Icon Text Constant.vi" Type="VI" URL="../Set Icon Text Constant.vi"/>
 			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
