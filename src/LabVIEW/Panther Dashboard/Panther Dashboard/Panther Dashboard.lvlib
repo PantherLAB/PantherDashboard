@@ -158,7 +158,6 @@
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
-			<Item Name="Module Info--cluster.ctl" Type="VI" URL="../Module Info--cluster.ctl"/>
 			<Item Name="Error Code and Description--cluster.ctl" Type="VI" URL="../Error Code and Description--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
@@ -210,7 +209,7 @@
 			<Item Name="Script Add Constant VI.vi" Type="VI" URL="../Script Add Constant VI.vi"/>
 			<Item Name="constant vi validation Args.vi" Type="VI" URL="../constant vi validation Args.vi"/>
 			<Item Name="Script Constant VI.vi" Type="VI" URL="../Script Constant VI.vi"/>
-			<Item Name="Set Icon Text.vi" Type="VI" URL="../Set Icon Text.vi"/>
+			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -251,6 +250,8 @@
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
+		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
+		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
