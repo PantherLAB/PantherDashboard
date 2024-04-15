@@ -158,7 +158,6 @@
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
-			<Item Name="Error Code and Description--cluster.ctl" Type="VI" URL="../Error Code and Description--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
