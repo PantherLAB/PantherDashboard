@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-04-08 19:40:25" Creator="Enrique Noe Arias" Comments="" ID="7a884ace89de0f4c51cc3046d40893ba">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-04-15 19:26:39" Creator="Enrique Noe Arias" Comments="" ID="f83623ae769ee4db9d0a047905d477a4">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>5.1.0.29</Library_Version>
+    <Library_Version>5.1.0.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -89,24 +89,41 @@ https://www.buymeacoffee.com/enoearias&lt;/b&gt;&lt;/size&gt;
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[NEW][FEATURES]
+      <Release_Notes>[FEATURES] [SCRIPTING]
 
+This Release empowers you with a suite of new scripting features to streamline your DQMH development process.
+
+---------------------------
 &lt;b&gt;Module:&lt;/b&gt;
 
-* Right Click Menu 'Edit Module Name--constant.vi' Value, this is to edit the Module Name String Constant
+New Right-Click Menus:
+- 'Edit Module Name--constant.vi', Script to modify 'Module Name--constant.vi' value
+- 'Edit Module Timeout--constant.vi', Script to modify 'Module Timeout--constant.vi' value
+- 'Create Custom --error.vi', Script to create a new --error.vi to the DQMH Module selected
+- 'Create Custom --constant.vi', Script to create a new --constant.vi to the DQMH Module Selected
 
-* Right Click Menu 'Edit Module Timeout--constant.vi' Value, this is to edit the Module Timeout Numeric Constant
-
-* Right Click Menu 'Create Custom Error VI', this will parse all the --error.vi files on your DQMH module, will populate a list to let the user know the current codes and descritpions being used, also will display an argument
-window for you to place any controls, once the user click ok, several scripts will be executed to place the custom --error.vi under Private\Errors virtual folder.
-
-* Right Click Menu 'Create Custom --constant.vi', this will parse all the --constant.vi files on your DQMH module, will populate a list to let the user know the current Constants of the DQMH Module, also will display an argument window for you to place any controls, you can set the controls values, this will become the constants on the block diagram, also wil create indicators and will connect the indicatos to the connector pane, the vi will be located under Private\Constants virtual folder.
-
+---------------------------
 &lt;b&gt;Request and Wait for Reply:&lt;/b&gt;
 
-* Right Click Menu  'Set Custom Timeout', this is to script a new custom timeout for the specific Request and wait for Reply
+New Right-Click Menus:
+'Set Custom Timeout',  Script to set a custom Timeout for the Request and wait for reply selected.
+'Restore to Module's Timeout', Scritp to restore to the Module's default Timeout (Module Timeout--constant.vi)
 
-* Right Click Menu 'Restore to Module's Timeout', this is to use the Module--timeout.vi constant vi as the Notifier Timeout.</Release_Notes>
+---------------------------
+&lt;b&gt;Project Information:&lt;/b&gt;
+
+New Right-Click Menus:
+'Show Project DQMH Info'
+
+Script to generate a Project-wide DQMH Analysis:
+
+The "Show Project DQMH Info" feature offers a comprehensive overview of your DQMH project by automatically scanning it for valuable insights. This includes:
+
+- Module Constants Details: Extract essential information from each DQMH module, such as its Name and Timeout values.
+- Helper Loop Detection: Identify the number of helper loops within each module, providing a clearer understanding of their processing structure.
+- DQMH Dependency Resume: List modules being launched per module, creating a quick dependency map of your project's communication flow 
+
+Note: For exceptionally detailed and beautiful project documentation, we highly recommend you to use Antidoc, this new feature is intented for a quick overview of the current Project Status.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
