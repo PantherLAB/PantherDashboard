@@ -36,6 +36,7 @@
 				<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
 			</Item>
 			<Item Name="Shared.lvlib" Type="Library" URL="../Panther Dashboard/Shared/Shared.lvlib"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Panther Dashboard/Post-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Clear Mutation History.vi" Type="VI" URL="../Utilities/Clear Mutation History.vi"/>
