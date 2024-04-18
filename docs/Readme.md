@@ -1,78 +1,41 @@
-<p align="center">
-  <img src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/75c3d5d2-625b-4848-9e4e-329e507a3b69" />
-
-</p>
-
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
-
 
 Help continue this project by buying a cup of coffee. ☕ 
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
 
-**Panther Dashboard for DQMH** is an _open-source_ **LabVIEW** tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your LabVIEW projects more easily, including:
+[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://www.youtube.com/watch?v=nnQTQAkw5Xo)
 
-# Getting Started
+## Panther Dashboard for DQMH: Supercharge Your LabVIEW Development with Enhanced Scripting and DQMH Project Analysis
 
-Panther Dashboard for DQMH is available for download through the ***[VIPM package manager](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)***. Once installed, you can access the tool by going to Tools > PantherLAB > Panther Dashboard for DQMH.
+Panther Dashboard for DQMH takes LabVIEW development to the next level by introducing a powerful suite of features for streamlined exploration, editing, code creation and documentation.
 
-### **Drag and drop DQMH code**:
-- Drag and drop DQMH code directly from the Panther Dashboard interface.
-<video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/ef35bf20-b52a-4df7-b905-04c08e000051" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
-### **Explore the project in the DQMH context** 
-  - Search for event callers/listeners 
-    - Double-click any event (Requests and Broadcasts), Panther Dashboard will navigate into your LabVIEW code and highlight where the request is being handled or a broadcast is being triggered.
-    - Panther Dashboard will help you identify where an event is being called or code sections subscribed to an specific broadcast.
-  - Open module's API testers
-    - All DQMH Modules comes wiht DQMH API Testers, by right clicking a module Panther Dashboard can open the Module's API Tester.
-<video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/e7e6ce9d-0a33-4092-91d7-1ac6c02597d5" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
-### **Visualize module's status** & **Execute default events**:
-  - Visualize all modules Status on real time (running or idle) with red/green glyphs, also identify which modules are under dependencies.
-  - Execute 'default' events such as 'Show Panel', 'Hide Panel', 'Show Block Diagram', and 'Stop Module'.
+**Effortless Scripting for DQMH Tasks**
 
-#### These are the meanings of the glyphs
+* **All DQMH Scripting tools are conveniently accessible at a single button click**
 
-![Glyphs explanation](https://github.com/PantherLAB/PantherDashboard/assets/5545396/6fc03280-0fcf-4f1c-96e7-dce6853e405a)
+**Module Management:**
 
+* **Edit Module Properties:** Modify module names and timeouts directly through the dashboard. Right-click on a module and select either 'Edit Module Name--constant.vi' or 'Edit Module Timeout--constant.vi' to execute a script that updates the corresponding constant VI within the module.
 
-<video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/070c8f3d-6b88-4663-a9a2-e07a7a722b76" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
-### **Context Help**: Using DQMH Context Help, edit/update the project, modules, and events descriptions.
-<video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/0cb6246f-4cc6-4d0f-9043-d3ae800a1d68" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
-### **DQMH scripting tools**: 
-- Add/Rename Modules
-- Add/Rename/Delete Events
-- Add Helper Loop to DQMH Module
-- Open Event Arguments
-- etc.
-<video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/4fce462e-0fb5-4260-9254-9e9f548b0a72" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
-### **Call Antidoc** & **Open Antidoc output** :
-  - Call Antidoc to gerate beautiful documentation.
-  - Easily access and review the previously generated documentation.
-  <video width="800" controls>
-  <source src="https://github.com/PantherLAB/PantherDashboard/assets/5545396/9700189d-e956-4084-b7a3-5877d5219926" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
------------
-# Additional Resources
+* **PantherLAB Scripting Tools:** Generate custom error and constant VIs tailored to your specific needs. Right-click on a module and choose 'Create Custom --error.vi' or 'Create Custom --constant.vi' to trigger a script that creates the VI within the selected module, these vis follows the DQMH Consortium Style Guidelines.
+
+**Request and Wait for Reply Timeout Control:**
+
+* **Fine-Tune Timeouts:**  Right-click on a 'Request and Wait for Reply' element and select 'Set Custom Timeout' to execute a script that allows you to define a custom timeout value. This provides granular control over individual request behaviors.
+* **Revert to Module Default:** Need to restore the timeout to the module's default setting? Simply right-click on the element and select 'Restore to Module's Timeout' to run a script that sets the timeout back to the value defined in 'Module Timeout--constant.vi'.
+
+**Project-Wide DQMH Analysis at Your Fingertips**
+
+Panther Dashboard goes beyond basic project navigation. The new 'Show Project DQMH Info' feature, accessible through a right-click on the project, generates a valuable analysis report:
+
+* **Module Constants in Detail:**  Gain insights into each module's configuration by extracting critical information like names and timeout values. This provides a quick understanding of module-specific parameters.
+* **Helper Loop Visibility:**  Identify the number of helper loops within each module. This knowledge is instrumental in comprehending the processing flow and potential complexities within your project.
+* **Dependency Mapping Made Easy:**   The 'Show Project DQMH Info' feature generates a dependency resume that lists launched modules for each module, offering a clear view of your Project sctructure.
+
+**Important Note:**
+
+While 'Show Project DQMH Info' provides a solid foundation for understanding your project's current state, PantherLAB recommends using Antidoc for exceptionally detailed and visually appealing documentation. Antidoc by Wovalab is an open-source powerful tool designed to generate comprehensive reports, and Panther Dashboard's scripting features can seamlessly integrate with it for a well-rounded documentation approach.# Additional Resources
 
 For more information on Panther Dashboard for DQMH, please refer to the following resources:
 
@@ -81,7 +44,9 @@ For more information on Panther Dashboard for DQMH, please refer to the followin
 - [DQMH Website](https://dqmh.org/)
 - [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
 - [GCentral](https://www.gcentral.org/)
-- email: info@pantherlab.com.mx
- 
+- Questions?, want to say hi?, send an email: info@pantherlab.com.mx
+
+Follow us at:
+- [Linkedin](https://www.linkedin.com/company/pantherlabmx/) 
 
  
