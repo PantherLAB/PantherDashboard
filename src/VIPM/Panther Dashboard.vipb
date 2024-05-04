@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-04-24 10:45:58" Creator="Enrique Noe Arias" Comments="" ID="478577e42b348453bb3271c51ff78251">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-05-03 22:09:02" Creator="Enrique Noe Arias" Comments="" ID="f3a12f534b0623a2bf691f7529a42a39">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>5.1.3.34</Library_Version>
+    <Library_Version>5.1.3.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -76,7 +76,7 @@ Report any issues and request features at:
 
 &lt;b&gt;https://github.com/PantherLAB/PantherDashboard/issues&lt;/b&gt;
 
-For more information send an email to:
+For more information please send an email to:
 
 &lt;b&gt;enrique.noe@pantherlab.com.mx&lt;/b&gt;
 
@@ -86,8 +86,10 @@ Report any issues and request features at:
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
       <Release_Notes>[FIX]
-Custom --error.vi new feature: Resolved an issue where the Error Description was not always captured when creating a custom --error.vi. This was due to a missing event structure configuration for the Error Description value change.
-</Release_Notes>
+In older DQMH modules, there was no DQMH text tag on the Module Name--constant.vi. Previous scripts relied on this tag, which caused problems. A fix was implemented by adding extra scripting code to correctly identify the module's name constant. Additionally, the new feature named 'Edit Module Name--constant.vi' uses the same method to effectively find and edit the module's name constant.
+
+[IMPROVEMENT]
+The 'Show project DQMH Info' feature has been enhanced to provide more accurate information. Previously, it had trouble identifying the correct names of constants and counting the number of helper loops. This unreliability stemmed from modules potentially lacking labels for their helper loops. The improvements now address these issues, making the information presented by the feature more trustworthy.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
