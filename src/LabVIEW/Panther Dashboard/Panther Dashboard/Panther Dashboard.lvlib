@@ -203,6 +203,8 @@
 			<Item Name="Show Error Arguments Window.vi" Type="VI" URL="../Show Error Arguments Window.vi"/>
 			<Item Name="Error Code Validation.vi" Type="VI" URL="../Error Code Validation.vi"/>
 			<Item Name="Custom Constant Dialog.vi" Type="VI" URL="../Custom Constant Dialog.vi"/>
+			<Item Name="Script Get Module Name.vi" Type="VI" URL="../Script Get Module Name.vi"/>
+			<Item Name="Script Count Helper Loops.vi" Type="VI" URL="../Script Count Helper Loops.vi"/>
 			<Item Name="Script Find current Constants.vi" Type="VI" URL="../Script Find current Constants.vi"/>
 			<Item Name="constant vi validation.vi" Type="VI" URL="../constant vi validation.vi"/>
 			<Item Name="Script Add Constant VI.vi" Type="VI" URL="../Script Add Constant VI.vi"/>
