@@ -172,7 +172,7 @@
 			<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
 			<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
-			<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
+			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
 			<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
@@ -259,4 +259,8 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
+	<Item Name="Replace whitespaces.vi" Type="VI" URL="../Replace whitespaces.vi"/>
+	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
+	<Item Name="Locate Event on Main.vi" Type="VI" URL="../Locate Event on Main.vi"/>
 </Library>
