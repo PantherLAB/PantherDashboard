@@ -158,6 +158,7 @@
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
+			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -262,5 +263,6 @@
 	<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
 	<Item Name="Replace whitespaces.vi" Type="VI" URL="../Replace whitespaces.vi"/>
 	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
-	<Item Name="Locate Event on Main.vi" Type="VI" URL="../Locate Event on Main.vi"/>
+	<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
+	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
 </Library>
