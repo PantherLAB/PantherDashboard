@@ -235,6 +235,7 @@
 			<Item Name="Generate And Open Html.vi" Type="VI" URL="../Generate And Open Html.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
+		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
 		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
@@ -253,6 +254,7 @@
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>
+		<Item Name="Parse Current Projects Opened.vi" Type="VI" URL="../Parse Current Projects Opened.vi"/>
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
 		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
@@ -265,4 +267,6 @@
 	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
 	<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
 	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
+	<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
+	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
 </Library>
