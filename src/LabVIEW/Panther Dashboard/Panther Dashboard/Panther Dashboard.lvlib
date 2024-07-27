@@ -36,14 +36,13 @@
 				<Item Name="Open Documentation Argument--cluster.ctl" Type="VI" URL="../Open Documentation Argument--cluster.ctl"/>
 				<Item Name="Save Project Documentation Argument--cluster.ctl" Type="VI" URL="../Save Project Documentation Argument--cluster.ctl"/>
 				<Item Name="Register controls Mouse Enter Argument--cluster.ctl" Type="VI" URL="../Register controls Mouse Enter Argument--cluster.ctl"/>
+				<Item Name="Load Project From Path Argument--cluster.ctl" Type="VI" URL="../Load Project From Path Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
-				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
-				<Item Name="Targets Updated Argument--cluster.ctl" Type="VI" URL="../Targets Updated Argument--cluster.ctl"/>
 				<Item Name="Progress updated Argument--cluster.ctl" Type="VI" URL="../Progress updated Argument--cluster.ctl"/>
 				<Item Name="Scale Updated Argument--cluster.ctl" Type="VI" URL="../Scale Updated Argument--cluster.ctl"/>
 				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
@@ -71,6 +70,7 @@
 			<Item Name="Open Documentation.vi" Type="VI" URL="../Open Documentation.vi"/>
 			<Item Name="Save Project Documentation.vi" Type="VI" URL="../Save Project Documentation.vi"/>
 			<Item Name="Register controls Mouse Enter.vi" Type="VI" URL="../Register controls Mouse Enter.vi"/>
+			<Item Name="Load Project From Path.vi" Type="VI" URL="../Load Project From Path.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -89,8 +89,6 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
-		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
-		<Item Name="Targets Updated.vi" Type="VI" URL="../Targets Updated.vi"/>
 		<Item Name="Progress updated.vi" Type="VI" URL="../Progress updated.vi"/>
 		<Item Name="Scale Updated.vi" Type="VI" URL="../Scale Updated.vi"/>
 		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
@@ -170,9 +168,8 @@
 			<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
 			<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
 			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
-			<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
+			<Item Name="Scan DQMH Modules EXEC.vi" Type="VI" URL="../Scan DQMH Modules EXEC.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
-			<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
 			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
@@ -269,4 +266,5 @@
 	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
 	<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
 	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
+	<Item Name="Load DQMH Modules From Project.vi" Type="VI" URL="../Load DQMH Modules From Project.vi"/>
 </Library>
