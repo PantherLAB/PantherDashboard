@@ -148,7 +148,6 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
-			<Item Name="Maps List and refs--cluster.ctl" Type="VI" URL="../Maps List and refs--cluster.ctl"/>
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
