@@ -245,7 +245,6 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
-		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
 		<Item Name="Set Indicators Visibility Status.vi" Type="VI" URL="../Set Indicators Visibility Status.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
@@ -259,7 +258,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
-	<Item Name="Replace whitespaces.vi" Type="VI" URL="../Replace whitespaces.vi"/>
 	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
 	<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
 	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
