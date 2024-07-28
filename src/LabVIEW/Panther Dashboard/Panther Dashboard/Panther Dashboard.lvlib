@@ -172,7 +172,6 @@
 			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
-			<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
 			<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
 			<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 			<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
@@ -245,7 +244,6 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
-		<Item Name="Set Indicators Visibility Status.vi" Type="VI" URL="../Set Indicators Visibility Status.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>

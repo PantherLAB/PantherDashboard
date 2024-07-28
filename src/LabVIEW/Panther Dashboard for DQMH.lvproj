@@ -568,6 +568,7 @@
 			<Item Name="Nattify - Resize FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Resize FP.vi"/>
 			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
 			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
+			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
