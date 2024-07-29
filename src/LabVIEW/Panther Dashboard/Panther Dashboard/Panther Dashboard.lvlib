@@ -156,6 +156,7 @@
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
 			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
+			<Item Name="Helper Loop--cluster.ctl" Type="VI" URL="../Helper Loop--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -263,4 +264,5 @@
 	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
 	<Item Name="Load DQMH Modules From Project.vi" Type="VI" URL="../Load DQMH Modules From Project.vi"/>
 	<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
+	<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
 </Library>
