@@ -36,14 +36,13 @@
 				<Item Name="Open Documentation Argument--cluster.ctl" Type="VI" URL="../Open Documentation Argument--cluster.ctl"/>
 				<Item Name="Save Project Documentation Argument--cluster.ctl" Type="VI" URL="../Save Project Documentation Argument--cluster.ctl"/>
 				<Item Name="Register controls Mouse Enter Argument--cluster.ctl" Type="VI" URL="../Register controls Mouse Enter Argument--cluster.ctl"/>
+				<Item Name="Load Project From Path Argument--cluster.ctl" Type="VI" URL="../Load Project From Path Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="References Updated Argument--cluster.ctl" Type="VI" URL="../References Updated Argument--cluster.ctl"/>
-				<Item Name="Projects Updated Argument--cluster.ctl" Type="VI" URL="../Projects Updated Argument--cluster.ctl"/>
-				<Item Name="Targets Updated Argument--cluster.ctl" Type="VI" URL="../Targets Updated Argument--cluster.ctl"/>
 				<Item Name="Progress updated Argument--cluster.ctl" Type="VI" URL="../Progress updated Argument--cluster.ctl"/>
 				<Item Name="Scale Updated Argument--cluster.ctl" Type="VI" URL="../Scale Updated Argument--cluster.ctl"/>
 				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
@@ -71,6 +70,7 @@
 			<Item Name="Open Documentation.vi" Type="VI" URL="../Open Documentation.vi"/>
 			<Item Name="Save Project Documentation.vi" Type="VI" URL="../Save Project Documentation.vi"/>
 			<Item Name="Register controls Mouse Enter.vi" Type="VI" URL="../Register controls Mouse Enter.vi"/>
+			<Item Name="Load Project From Path.vi" Type="VI" URL="../Load Project From Path.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -89,8 +89,6 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="References Updated.vi" Type="VI" URL="../References Updated.vi"/>
-		<Item Name="Projects Updated.vi" Type="VI" URL="../Projects Updated.vi"/>
-		<Item Name="Targets Updated.vi" Type="VI" URL="../Targets Updated.vi"/>
 		<Item Name="Progress updated.vi" Type="VI" URL="../Progress updated.vi"/>
 		<Item Name="Scale Updated.vi" Type="VI" URL="../Scale Updated.vi"/>
 		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
@@ -150,7 +148,6 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
-			<Item Name="Maps List and refs--cluster.ctl" Type="VI" URL="../Maps List and refs--cluster.ctl"/>
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
@@ -158,6 +155,8 @@
 			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
+			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
+			<Item Name="Helper Loop--cluster.ctl" Type="VI" URL="../Helper Loop--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -169,13 +168,11 @@
 			<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
 			<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
 			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
-			<Item Name="Scan DQMH Modules and create Maps.vi" Type="VI" URL="../Scan DQMH Modules and create Maps.vi"/>
+			<Item Name="Scan DQMH Modules EXEC.vi" Type="VI" URL="../Scan DQMH Modules EXEC.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
-			<Item Name="Scan For App Projects.vi" Type="VI" URL="../Scan For App Projects.vi"/>
-			<Item Name="Get VI name.vi" Type="VI" URL="../Get VI name.vi"/>
+			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
-			<Item Name="Find Library in Project.vi" Type="VI" URL="../Find Library in Project.vi"/>
 			<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
 			<Item Name="Find SubVI.vi" Type="VI" URL="../Find SubVI.vi"/>
 			<Item Name="Find MHL Frames.vi" Type="VI" URL="../Find MHL Frames.vi"/>
@@ -234,6 +231,7 @@
 			<Item Name="Generate And Open Html.vi" Type="VI" URL="../Generate And Open Html.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
+		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
 		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
@@ -247,11 +245,10 @@
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
-		<Item Name="Set Panel Initial State.vi" Type="VI" URL="../Set Panel Initial State.vi"/>
-		<Item Name="Set Indicators Visibility Status.vi" Type="VI" URL="../Set Indicators Visibility Status.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Enable DQMH Version Caracteristics.vi" Type="VI" URL="../Enable DQMH Version Caracteristics.vi"/>
+		<Item Name="Parse Current Projects Opened.vi" Type="VI" URL="../Parse Current Projects Opened.vi"/>
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
 		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
@@ -259,4 +256,13 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
+	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
+	<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
+	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
+	<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
+	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
+	<Item Name="Load DQMH Modules From Project.vi" Type="VI" URL="../Load DQMH Modules From Project.vi"/>
+	<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
+	<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
 </Library>
