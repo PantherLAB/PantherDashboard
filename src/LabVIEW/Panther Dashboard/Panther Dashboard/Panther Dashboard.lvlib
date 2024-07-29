@@ -262,4 +262,5 @@
 	<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
 	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
 	<Item Name="Load DQMH Modules From Project.vi" Type="VI" URL="../Load DQMH Modules From Project.vi"/>
+	<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
 </Library>
