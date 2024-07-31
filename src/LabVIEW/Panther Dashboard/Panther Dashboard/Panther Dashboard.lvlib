@@ -164,11 +164,12 @@
 			<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
+			<Item Name="Scan DQMH Modules from Project.vi" Type="VI" URL="../Scan DQMH Modules from Project.vi"/>
+			<Item Name="Load Scan from File Path.vi" Type="VI" URL="../Load Scan from File Path.vi"/>
 			<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
 			<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
 			<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
 			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
-			<Item Name="Scan DQMH Modules EXEC.vi" Type="VI" URL="../Scan DQMH Modules EXEC.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
 			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
@@ -210,6 +211,8 @@
 			<Item Name="Set Icon Text Constant.vi" Type="VI" URL="../Set Icon Text Constant.vi"/>
 			<Item Name="Find Module Virtual Folder.vi" Type="VI" URL="../Find Module Virtual Folder.vi"/>
 			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
+			<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
+			<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -232,8 +235,6 @@
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
-		<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
-		<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
@@ -252,17 +253,17 @@
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
 		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
+		<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
+		<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
+		<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
+		<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
+		<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
+		<Item Name="Write Read Scan to File.vi" Type="VI" URL="../Write Read Scan to File.vi"/>
+		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
+		<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
+		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
-	<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
-	<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
-	<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
-	<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
-	<Item Name="Save Scan to File.vi" Type="VI" URL="../Save Scan to File.vi"/>
-	<Item Name="Load DQMH Modules From Project.vi" Type="VI" URL="../Load DQMH Modules From Project.vi"/>
-	<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
-	<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
 </Library>
