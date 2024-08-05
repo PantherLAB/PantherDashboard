@@ -262,8 +262,10 @@
 		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
 		<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
 		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
+		<Item Name="PantherScan File Path--constant.vi" Type="VI" URL="../PantherScan File Path--constant.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 </Library>
