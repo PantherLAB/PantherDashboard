@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-05-03 22:09:02" Creator="Enrique Noe Arias" Comments="" ID="f3a12f534b0623a2bf691f7529a42a39">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-08-06 15:56:06" Creator="Enrique Noe Arias" Comments="" ID="2f15742ff6cec477865e59833c7b800d">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>5.1.3.35</Library_Version>
+    <Library_Version>6.2.5.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -85,11 +85,16 @@ Report any issues and request features at:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[FIX]
-In older DQMH modules, there was no DQMH text tag on the Module Name--constant.vi. Previous scripts relied on this tag, which caused problems. A fix was implemented by adding extra scripting code to correctly identify the module's name constant. Additionally, the new feature named 'Edit Module Name--constant.vi' uses the same method to effectively find and edit the module's name constant.
+      <Release_Notes>[NEW] [BIG IMPROVEMENT] [MAJOR RELEASE]
+This release has a new feature that will save tons of scaning time, everytime a project gets scanned by Panther Dashboard, a file named 'PantherScan.bin' will be saved next to de project file, this file contains all what is needed to load the project again without scanning,  a new init screen will show up with the 2 options (Scan a project or, load previously scanned projects).
 
-[IMPROVEMENT]
-The 'Show project DQMH Info' feature has been enhanced to provide more accurate information. Previously, it had trouble identifying the correct names of constants and counting the number of helper loops. This unreliability stemmed from modules potentially lacking labels for their helper loops. The improvements now address these issues, making the information presented by the feature more trustworthy.</Release_Notes>
+The previously scanned projects list will be saved in the LabVIEW.ini file with a maximum history of 20 projects.
+
+The file PantherScan.bin can be part of the source code control being used by a team, the only restriction is that the project needs to be in the exact same location on all the team members to make it work.
+
+[Improvement] New 'Bad' Icon added to highlight if a module Main.vi is broken
+
+[#45][#46] Added 'Export to CSV' to DQMH Project Info</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
