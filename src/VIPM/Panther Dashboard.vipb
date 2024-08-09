@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-08-06 15:56:06" Creator="Enrique Noe Arias" Comments="" ID="2f15742ff6cec477865e59833c7b800d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-08-09 13:41:57" Creator="Enrique Noe Arias" Comments="" ID="57deac6c84155ec2c479159ab281c1f7">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>6.2.5.36</Library_Version>
+    <Library_Version>6.2.6.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
@@ -86,13 +86,13 @@ Report any issues and request features at:
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
       <Release_Notes>[NEW] [BIG IMPROVEMENT] [MAJOR RELEASE]
-This release has a new feature that will save tons of scaning time, everytime a project gets scanned by Panther Dashboard, a file named 'PantherScan.bin' will be saved next to de project file, this file contains all what is needed to load the project again without scanning,  a new init screen will show up with the 2 options (Scan a project or, load previously scanned projects).
+This release has a new feature that will save tons of scaning time, everytime a project gets scanned by Panther Dashboard, a file named 'PantherScan.bin' will be saved next to de project file, this file contains all what is needed to load the project without scanning,  a new init screen will show up with the 2 options (Scan a project or, load previously scanned projects).
 
 The previously scanned projects list will be saved in the LabVIEW.ini file with a maximum history of 20 projects.
 
 The file PantherScan.bin can be part of the source code control being used by a team, the only restriction is that the project needs to be in the exact same location on all the team members to make it work.
 
-[Improvement] New 'Bad' Icon added to highlight if a module Main.vi is broken
+[Improvement] New 'Bad' Icon added to highlight if a module's Main.vi is broken.
 
 [#45][#46] Added 'Export to CSV' to DQMH Project Info</Release_Notes>
     </Description>
