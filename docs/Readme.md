@@ -16,7 +16,7 @@ Panther Dashboard for DQMH takes LabVIEW development to the next level by introd
 
 **Project Scan/Load:**
 
-* **Scan for DQMH Modules in a LabVIEW Project:** The Panther Dashboard Init Screen will scan for all the projects currently opened, select the project/target and select if you want to include dependencies in the scan and if you unselect Scan All, another window with the current DQMH Modules will pop up for you to select the DQMH Modules to be scanned.
+* **Scan DQMH Modules in a LabVIEW Project:** The Panther Dashboard Init Screen will scan for all the projects currently opened, select the project/target and select if you want to include dependencies in the scan and if you unselect Scan All, another window with the current DQMH Modules will pop up for you to select the DQMH Modules to be scanned.
 *  **Load Panther Dashboard Scan:** The latest release of Panther Dashboard Creates a file called PantherScann.bin next to the project, it contains the latest scan results, after you scan a project it will appear in the recent DQMH Projects, so if you are working on several projects Panther Dashboar will take care of Opening the projects and load the Panther Dashboard Scan, this procedure saves Developer time avoiding scanning the project each time.
 
 Benchmark made with a 42 DQMH Modules project, this project includes Singletons, Cloneables and under Dependencies DQMH Modules.
