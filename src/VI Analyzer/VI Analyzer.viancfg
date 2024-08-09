@@ -362,10 +362,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Maps List and refs--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Module Data--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -438,10 +434,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open Event Callers Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Open File on Disk.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -475,14 +467,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Project References--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Projects Updated Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Projects Updated.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -534,14 +518,6 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Save Library Description.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Save Library Documentation.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Save Project Documentation Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
@@ -570,19 +546,11 @@
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Scan DQMH Modules and create Maps.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Scan DQMH Modules Argument--cluster.ctl"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Scan DQMH Modules.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Scan For App Projects.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
@@ -667,14 +635,6 @@
 	</Item>
 	<Item>
 		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Synchronize Module Events.vi"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Targets Updated Argument--cluster.ctl"</Path>
-		<Removed>TRUE</Removed>
-	</Item>
-	<Item>
-		<Path>"..\\LabVIEW\\Panther Dashboard\\Panther Dashboard\\Targets Updated.vi"</Path>
 		<Removed>TRUE</Removed>
 	</Item>
 	<Item>
