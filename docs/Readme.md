@@ -14,6 +14,20 @@ Panther Dashboard for DQMH takes LabVIEW development to the next level by introd
 
 * **All DQMH Scripting tools are conveniently accessible at a single button click**
 
+**Project Scan/Load:**
+
+* **Scan for DQMH Modules in a LabVIEW Project:** The Panther Dashboard Init Screen will scan for all the projects currently opened, select the project/target and select if you want to include dependencies in the scan and if you unselect Scan All, another window with the current DQMH Modules will pop up for you to select the DQMH Modules to be scanned.
+*  **Load Panther Dashboard Scan:** The latest release of Panther Dashboard Creates a file called PantherScann.bin next to the project, it contains the latest scan results, after you scan a project it will appear in the recent DQMH Projects, so if you are working on several projects Panther Dashboar will take care of Opening the projects and load the Panther Dashboard Scan, this procedure saves Developer time avoiding scanning the project each time.
+
+Benchmark made with a 42 DQMH Modules project, this project includes Singletons, Cloneables and under Dependencies DQMH Modules.
+
+| Task | Time | Explanation |
+| ------- | ------- |----------|
+| Manualy Opened Project + Panther Dashboard Scan  | 11:42 minutes    | The project was already opened, went to Tools->Pantherlab->Panther Dashboard for DQMH and scanned the full project|
+| Project Already Opened + Load Panther Dashboard Scan | **24 seconds**    | The project was already opened, went to Tools->Pantherlab->Panther Dashboard for DQMH and selected the project from the recent DQMH Projects list|
+| Project not opened + Load Panther Dashboard Scan    | **1:05 minutes**   | Went to Tools->Pantherlab->Panther Dashboard for DQMH and selected the project from the recent DQMH Projects list, Panther Dashboard loads the project and the scanned results|
+
+
 **Module Management:**
 
 * **Edit Module Properties:** Modify module names and timeouts directly through the dashboard. Right-click on a module and select either 'Edit Module Name--constant.vi' or 'Edit Module Timeout--constant.vi' to execute a script that updates the corresponding constant VI within the module.
@@ -47,6 +61,7 @@ For more information on Panther Dashboard for DQMH, please refer to the followin
 - Questions?, want to say hi?, send an email: info@pantherlab.com.mx
 
 Follow us at:
-- [Linkedin](https://www.linkedin.com/company/pantherlabmx/) 
+- [Linkedin](https://www.linkedin.com/company/pantherlabmx/)
+- [Twitter](https://x.com/PantherLAB_)
 
  
