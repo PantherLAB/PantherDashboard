@@ -4,7 +4,7 @@ Help continue this project by buying a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
 
-[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)]([https://www.youtube.com/watch?v=nnQTQAkw5Xo](https://youtu.be/PaLSg6yTlx8))
+[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://youtu.be/PaLSg6yTlx8)
 
 ## Panther Dashboard for DQMH: Supercharge Your LabVIEW Development with Enhanced Scripting and DQMH Project Analysis
 
