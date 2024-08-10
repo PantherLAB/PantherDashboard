@@ -6,6 +6,17 @@ Help continue this project by buying a cup of coffee. ☕
 
 [![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://youtu.be/PaLSg6yTlx8)
 
+<center>
+ <iframe width="600" 
+         height="400" 
+         src="https://youtu.be/PaLSg6yTlx8" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+ </iframe>
+</center>
+
 ## Panther Dashboard for DQMH: Supercharge Your LabVIEW Development with Enhanced Scripting and DQMH Project Analysis
 
 Panther Dashboard for DQMH takes LabVIEW development to the next level by introducing a powerful suite of features for streamlined exploration, editing, code creation and documentation.
