@@ -4,7 +4,7 @@ Help continue this project by buying a cup of coffee. ☕
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/enoearias)
 
-[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://www.youtube.com/watch?v=nnQTQAkw5Xo)
+[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://youtu.be/PaLSg6yTlx8)
 
 ## Panther Dashboard for DQMH: Supercharge Your LabVIEW Development with Enhanced Scripting and DQMH Project Analysis
 
@@ -13,6 +13,19 @@ Panther Dashboard for DQMH takes LabVIEW development to the next level by introd
 **Effortless Scripting for DQMH Tasks**
 
 * **All DQMH Scripting tools are conveniently accessible at a single button click**
+
+**Project Scan/Load:**
+
+* **Scan DQMH Modules in a LabVIEW Project:** The Panther Dashboard Init Screen will scan for all the projects currently opened, select the project/target and select if you want to include dependencies in the scan and if you unselect Scan All, another window with the current DQMH Modules will pop up for you to select the DQMH Modules to be scanned.
+*  **Load Panther Dashboard Scan:** Panther Dashboard V6 Creates a file called PantherScann.bin next to the project, it contains the latest scan results, after you scan a project it will appear in the recent DQMH Projects, so if you are working on several projects Panther Dashboar will take care of Opening the projects and load the Panther Dashboard Scan, this procedure saves Developer time avoiding scanning the project each time.
+
+Panther Dashboard was benchmarked with a 42 DQMH Modules project on a core I7 Laptop, this project includes Singletons, Cloneables and under Dependencies DQMH Modules.
+
+| Task | Time | Explanation |
+| ------- | ------- |----------|
+| Manualy Opened Project + Panther Dashboard Scan  | 11:42 minutes    | The project was already opened, went to Tools->Pantherlab->Panther Dashboard for DQMH and scanned the full project|
+| Project Already Opened + Load Panther Dashboard Scan | **24 seconds**    | The project was already opened, went to Tools->Pantherlab->Panther Dashboard for DQMH and selected the project from the recent DQMH Projects list|
+| Project not opened + Load Panther Dashboard Scan    | **1:05 minutes**   | Went to Tools->Pantherlab->Panther Dashboard for DQMH and selected the project from the recent DQMH Projects list, Panther Dashboard loads the project and the scanned results|
 
 **Module Management:**
 
@@ -42,11 +55,22 @@ For more information on Panther Dashboard for DQMH, please refer to the followin
 - [Panther Dashboard package](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 - [PantherLAB website](https://pantherlab.com.mx/)
 - [DQMH Website](https://dqmh.org/)
+- [ANTIDOC](https://wovalab.gitlab.io/open-source/labview-doc-generator/)
 - [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
 - [GCentral](https://www.gcentral.org/)
-- Questions?, want to say hi?, send an email: info@pantherlab.com.mx
+
+ Contact us if:
+- Need LabVIEW & DQMH Help
+- Need LabVIEW / DQMH Training
+- Need LabVIEW Contractor (s)
+- Want to become DQMH Beta tester
+- Need to report a DQMH Bug
+- Want to support me
+- info@pantherlab.com.mx
+- enrique.noe@pantherlab.com.mx- 
 
 Follow us at:
-- [Linkedin](https://www.linkedin.com/company/pantherlabmx/) 
+- [Linkedin](https://www.linkedin.com/company/pantherlabmx/)
+- [Twitter](https://x.com/PantherLAB_)
 
  
