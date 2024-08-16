@@ -216,6 +216,9 @@
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 			<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
+			<Item Name="Insert Private VIs.vi" Type="VI" URL="../Insert Private VIs.vi"/>
+			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
+			<Item Name="Get VIs Paths by pattern.vi" Type="VI" URL="../Get VIs Paths by pattern.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
@@ -240,7 +243,7 @@
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
-		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
+		<Item Name="Insert Public API VIS.vi" Type="VI" URL="../Insert Public API VIS.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
