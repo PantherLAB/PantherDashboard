@@ -216,7 +216,7 @@
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 			<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
-			<Item Name="Insert Private VIs.vi" Type="VI" URL="../Insert Private VIs.vi"/>
+			<Item Name="Insert VIs by Pattern.vi" Type="VI" URL="../Insert VIs by Pattern.vi"/>
 			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
 			<Item Name="Get VIs Paths by pattern.vi" Type="VI" URL="../Get VIs Paths by pattern.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
