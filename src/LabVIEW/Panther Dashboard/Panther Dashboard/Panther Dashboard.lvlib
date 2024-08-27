@@ -24,7 +24,6 @@
 				<Item Name="Tree DQMH Selection Argument--cluster.ctl" Type="VI" URL="../Tree DQMH Selection Argument--cluster.ctl"/>
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
-				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Launch DQMH Scripting Tools Argument--cluster.ctl" Type="VI" URL="../Launch DQMH Scripting Tools Argument--cluster.ctl"/>
 				<Item Name="Generate Project Documentation Argument--cluster.ctl" Type="VI" URL="../Generate Project Documentation Argument--cluster.ctl"/>
 				<Item Name="Set App Theme Argument--cluster.ctl" Type="VI" URL="../Set App Theme Argument--cluster.ctl"/>
@@ -58,7 +57,6 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
-			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
 			<Item Name="Launch DQMH Scripting Tools.vi" Type="VI" URL="../Launch DQMH Scripting Tools.vi"/>
 			<Item Name="Generate Project Documentation.vi" Type="VI" URL="../Generate Project Documentation.vi"/>
 			<Item Name="Set App Theme.vi" Type="VI" URL="../Set App Theme.vi"/>
@@ -216,6 +214,9 @@
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 			<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
+			<Item Name="Insert VIs by Pattern.vi" Type="VI" URL="../Insert VIs by Pattern.vi"/>
+			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
+			<Item Name="Get VIs Paths by pattern.vi" Type="VI" URL="../Get VIs Paths by pattern.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
@@ -240,7 +241,7 @@
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
-		<Item Name="Insert Important Module VIs.vi" Type="VI" URL="../Insert Important Module VIs.vi"/>
+		<Item Name="Insert Public API VIS.vi" Type="VI" URL="../Insert Public API VIS.vi"/>
 		<Item Name="Find Important Module VIs paths.vi" Type="VI" URL="../Find Important Module VIs paths.vi"/>
 		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
