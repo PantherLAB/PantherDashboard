@@ -24,7 +24,6 @@
 				<Item Name="Tree DQMH Selection Argument--cluster.ctl" Type="VI" URL="../Tree DQMH Selection Argument--cluster.ctl"/>
 				<Item Name="Open Module API Tester Argument--cluster.ctl" Type="VI" URL="../Open Module API Tester Argument--cluster.ctl"/>
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
-				<Item Name="Expand Results Argument--cluster.ctl" Type="VI" URL="../Expand Results Argument--cluster.ctl"/>
 				<Item Name="Launch DQMH Scripting Tools Argument--cluster.ctl" Type="VI" URL="../Launch DQMH Scripting Tools Argument--cluster.ctl"/>
 				<Item Name="Generate Project Documentation Argument--cluster.ctl" Type="VI" URL="../Generate Project Documentation Argument--cluster.ctl"/>
 				<Item Name="Set App Theme Argument--cluster.ctl" Type="VI" URL="../Set App Theme Argument--cluster.ctl"/>
@@ -58,7 +57,6 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
-			<Item Name="Expand Results.vi" Type="VI" URL="../Expand Results.vi"/>
 			<Item Name="Launch DQMH Scripting Tools.vi" Type="VI" URL="../Launch DQMH Scripting Tools.vi"/>
 			<Item Name="Generate Project Documentation.vi" Type="VI" URL="../Generate Project Documentation.vi"/>
 			<Item Name="Set App Theme.vi" Type="VI" URL="../Set App Theme.vi"/>
