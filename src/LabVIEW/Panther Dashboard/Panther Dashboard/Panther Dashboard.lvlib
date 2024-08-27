@@ -263,6 +263,7 @@
 		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="PantherScan File Path--constant.vi" Type="VI" URL="../PantherScan File Path--constant.vi"/>
+		<Item Name="Select Panther Scan File to load.vi" Type="VI" URL="../Select Panther Scan File to load.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
