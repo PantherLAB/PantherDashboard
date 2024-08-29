@@ -240,6 +240,7 @@
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
 		<Item Name="Add Module To Project.vi" Type="VI" URL="../Add Module To Project.vi"/>
+		<Item Name="Remove Module from Project.vi" Type="VI" URL="../Remove Module from Project.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
@@ -272,5 +273,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Remove Module from Project.vi" Type="VI" URL="../Remove Module from Project.vi"/>
 </Library>
