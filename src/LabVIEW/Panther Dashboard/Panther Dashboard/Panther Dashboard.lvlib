@@ -239,6 +239,7 @@
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Validate if event is selected.vi" Type="VI" URL="../Validate if event is selected.vi"/>
+		<Item Name="Add Module To Project.vi" Type="VI" URL="../Add Module To Project.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
 		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
@@ -266,10 +267,10 @@
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="PantherScan File Path--constant.vi" Type="VI" URL="../PantherScan File Path--constant.vi"/>
 		<Item Name="Select Panther Scan File to load.vi" Type="VI" URL="../Select Panther Scan File to load.vi"/>
-		<Item Name="Add Module To Project.vi" Type="VI" URL="../Add Module To Project.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Remove Module from Project.vi" Type="VI" URL="../Remove Module from Project.vi"/>
 </Library>
