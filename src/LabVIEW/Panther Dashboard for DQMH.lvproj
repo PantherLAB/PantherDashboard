@@ -621,8 +621,8 @@
 			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
 			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
 			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
-			<Item Name="CML UI.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/CML UI.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Settings Editor/Settings Editor.lvlib"/>
+			<Item Name="CML UI.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/CML UI.lvlib"/>
 			<Item Name="CML Shared.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML Shared/CML Shared.lvlib"/>
 			<Item Name="Acquisition.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
