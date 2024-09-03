@@ -50,7 +50,7 @@
 			<Item Name="Stub_Constant VI.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_Constant VI.vi"/>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
-		<Item Name="script playground.vi" Type="VI" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/script playground.vi"/>
+		<Item Name="script playground.vi" Type="VI" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/script playground.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -500,7 +500,6 @@
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -520,6 +519,7 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
 				<Item Name="DQMH_DQMH Version Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Version Information--constant.vi"/>
 				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
 				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
@@ -579,54 +579,55 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Nattify - Window Type.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Type.ctl"/>
-			<Item Name="Nattify - Window Gaps.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Gaps.ctl"/>
-			<Item Name="Nattify - Min Window Dimensions.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Min Window Dimensions.ctl"/>
-			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
-			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
+			<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange BD.vi"/>
+			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
+			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
+			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
+			<Item Name="Settings Editor.lvlib" Type="Library" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Settings Editor/Settings Editor.lvlib"/>
+			<Item Name="CML UI.lvlib" Type="Library" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/CML UI.lvlib"/>
+			<Item Name="CML Shared.lvlib" Type="Library" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML Shared/CML Shared.lvlib"/>
+			<Item Name="Acquisition.lvlib" Type="Library" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Logger.lvlib" Type="Library" URL="../../../../../Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Logger/Logger.lvlib"/>
+			<Item Name="Script Constant VI.vi" Type="VI" URL="/Z/GitClones/PantherLAB/PantherDashboard/src/LabVIEW/Panther Dashboard/Panther Dashboard/Script Constant VI.vi"/>
+			<Item Name="Nattify - Window Type.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Type.ctl"/>
+			<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window INI tokens.vi"/>
+			<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
+			<Item Name="Nattify - Arrange FP Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP Controls.vi"/>
+			<Item Name="Nattify - Arrange Other FP Objects.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange Other FP Objects.vi"/>
+			<Item Name="Nattify - Resize FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Resize FP.vi"/>
+			<Item Name="Nattify - Get BD Canvas Margin.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get BD Canvas Margin.vi"/>
+			<Item Name="Nattify - Resize BD.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Resize BD.vi"/>
+			<Item Name="Nattify - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Ensure Leftmost BD Object Is Visible.vi"/>
+			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="Nattify - Get Window Gaps.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window Gaps.vi"/>
+			<Item Name="Nattify - Window Gaps.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Gaps.ctl"/>
+			<Item Name="Nattify - Min Window Dimensions.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Min Window Dimensions.ctl"/>
 			<Item Name="Nattify - Get Min Window Dimensions.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Min Window Dimensions.vi"/>
 			<Item Name="Nattify - Get Display Workspace Bounds.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Display Workspace Bounds.vi"/>
-			<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window INI tokens.vi"/>
-			<Item Name="Nattify - Get BD Canvas Margin.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get BD Canvas Margin.vi"/>
-			<Item Name="Nattify - Move All BD Objects.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Move All BD Objects.vi"/>
-			<Item Name="Nattify - Window Margins.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Margins.ctl"/>
+			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
+			<Item Name="Nattify - Get Window Gaps.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window Gaps.vi"/>
 			<Item Name="Nattify - Get Window Margins.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window Margins.vi"/>
 			<Item Name="Nattify - Rectangle Dimensions.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Rectangle Dimensions.ctl"/>
+			<Item Name="Nattify - Window Margins.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Margins.ctl"/>
 			<Item Name="Nattify - Compute Window Bounds.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Compute Window Bounds.vi"/>
 			<Item Name="Nattify - Establish Window Bounds.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Establish Window Bounds.vi"/>
-			<Item Name="Nattify - Resize BD.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Resize BD.vi"/>
-			<Item Name="Nattify - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Ensure Leftmost BD Object Is Visible.vi"/>
-			<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange BD.vi"/>
-			<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - FP Objects Arrangement Info.ctl"/>
-			<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
-			<Item Name="Nattify - Arrange Other FP Objects.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange Other FP Objects.vi"/>
+			<Item Name="Nattify - Move All BD Objects.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Move All BD Objects.vi"/>
 			<Item Name="Nattify - FP Control Info.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - FP Control Info.ctl"/>
 			<Item Name="Nattify - Compute Bound on Grid.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Compute Bound on Grid.vi"/>
-			<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Controls Max Bottom.vi"/>
-			<Item Name="Nattify - Align 1 Row of FP Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Align 1 Row of FP Controls.vi"/>
 			<Item Name="Nattify - Get FP Controls Rows.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Controls Rows.vi"/>
+			<Item Name="Nattify - Align 1 Row of FP Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Align 1 Row of FP Controls.vi"/>
 			<Item Name="Nattify - Arrange FP Controls Rows.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP Controls Rows.vi"/>
 			<Item Name="Nattify - Compute Top Row Vertical Delta.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Compute Top Row Vertical Delta.vi"/>
 			<Item Name="Nattify - Space FP Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Space FP Controls.vi"/>
 			<Item Name="Nattify - Arrange FP Controls Columns.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP Controls Columns.vi"/>
 			<Item Name="Nattify - Filter FP Conn Pane Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Filter FP Conn Pane Controls.vi"/>
 			<Item Name="Nattify - Order FP Conn Pane Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Order FP Conn Pane Controls.vi"/>
-			<Item Name="Nattify - Arrange FP Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP Controls.vi"/>
-			<Item Name="Nattify - Resize FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Resize FP.vi"/>
-			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
-			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
-			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
-			<Item Name="Settings Editor.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Settings Editor/Settings Editor.lvlib"/>
-			<Item Name="CML UI.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML UI/CML UI.lvlib"/>
-			<Item Name="CML Shared.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/CML Shared/CML Shared.lvlib"/>
-			<Item Name="Acquisition.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Controls Max Bottom.vi"/>
+			<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - FP Objects Arrangement Info.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Logger.lvlib" Type="Library" URL="/C/Users/Enrique/Documents/LabVIEW Data/CML PDash/Libraries/Logger/Logger.lvlib"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
