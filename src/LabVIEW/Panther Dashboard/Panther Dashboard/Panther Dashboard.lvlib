@@ -270,9 +270,9 @@
 		<Item Name="Select Panther Scan File to load.vi" Type="VI" URL="../Select Panther Scan File to load.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 		<Item Name="Remove Module from Tree.vi" Type="VI" URL="../Remove Module from Tree.vi"/>
+		<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
 </Library>
