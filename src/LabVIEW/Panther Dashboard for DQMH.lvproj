@@ -519,6 +519,9 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="DQMH_DQMH Version Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Version Information--constant.vi"/>
 				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
 				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
@@ -527,9 +530,7 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -538,7 +539,6 @@
 			<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange BD.vi"/>
 			<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
 			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
-			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
 			<Item Name="Nattify - Window Type.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Window Type.ctl"/>
 			<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get Window INI tokens.vi"/>
 			<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
@@ -576,6 +576,7 @@
 			<Item Name="Nattify - Order FP Conn Pane Controls.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Order FP Conn Pane Controls.vi"/>
 			<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - Get FP Controls Max Bottom.vi"/>
 			<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Nattify Copy Support.llb/Nattify - FP Objects Arrangement Info.ctl"/>
+			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
