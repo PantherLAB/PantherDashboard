@@ -156,6 +156,7 @@
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
 			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
 			<Item Name="Helper Loop--cluster.ctl" Type="VI" URL="../Helper Loop--cluster.ctl"/>
+			<Item Name="Constant Info--cluster.ctl" Type="VI" URL="../Constant Info--cluster.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
@@ -270,9 +271,14 @@
 		<Item Name="Select Panther Scan File to load.vi" Type="VI" URL="../Select Panther Scan File to load.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 		<Item Name="Remove Module from Tree.vi" Type="VI" URL="../Remove Module from Tree.vi"/>
+		<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
+		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
+		<Item Name="Constants info to String Arrays.vi" Type="VI" URL="../Constants info to String Arrays.vi"/>
+		<Item Name="Draw Project Results Table Constants.vi" Type="VI" URL="../Draw Project Results Table Constants.vi"/>
+		<Item Name="Replace comas for cr.vi" Type="VI" URL="../Replace comas for cr.vi"/>
+		<Item Name="Create Map of tokens to replace.vi" Type="VI" URL="../Create Map of tokens to replace.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
 </Library>
