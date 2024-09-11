@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-08-09 13:41:57" Creator="Enrique Noe Arias" Comments="" ID="57deac6c84155ec2c479159ab281c1f7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-09 12:49:10" Creator="Enrique Noe Arias" Comments="" ID="6b175c6b51731a75b6b2d47bc2e5166f">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>6.2.6.37</Library_Version>
+    <Library_Version>6.3.6.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\..\Package\Panther Dashboard</Library_Output_Folder>
+    <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
     <Company_Name>PantherLAB</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -21,14 +21,12 @@
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc &gt;= 2.0.5.355</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 2.1.1.59</External_Dependencies>
-      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.8.1.364</External_Dependencies>
-      <Additional_External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;=7.0.0.1278</Additional_External_Dependencies>
-      <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=7.0.0.1278</Additional_External_Dependencies>
+      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.9.0.378</External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-7.0.1.1316</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc-2.0.5.355</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-2.1.1.59</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.8.1.364</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.9.0.378</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -85,16 +83,15 @@ Report any issues and request features at:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[NEW] [BIG IMPROVEMENT] [MAJOR RELEASE]
-This release has a new feature that will save tons of scaning time, everytime a project gets scanned by Panther Dashboard, a file named 'PantherScan.bin' will be saved next to de project file, this file contains all what is needed to load the project without scanning,  a new init screen will show up with the 2 options (Scan a project or, load previously scanned projects).
+      <Release_Notes>[IMPROVEMENT] Add Module to current Scan, by right clicking the project there is a new option called "Add DQMH module to current Scan", this will help in the scenario where the user has a project and creates a new module or call a module that wasn't previously in the project, this feature will look for all the modules currently missing in the scan, it will create a dialog to select the module to be added.
 
-The previously scanned projects list will be saved in the LabVIEW.ini file with a maximum history of 20 projects.
+#49 [NEW][FEATURE][IMPROVEMENT] Panther Dasboard will save a file per target, for example (PanterScan.MyComputer.bin)
+When opening a recent project with multiple associated targets, panther dashboard presents a dialog allowing the user to select the desired target/scan before loading. This new feature allows the user to switch between targets within a project without the need for repeated scans.
 
-The file PantherScan.bin can be part of the source code control being used by a team, the only restriction is that the project needs to be in the exact same location on all the team members to make it work.
+#48 [FIX] The init screen has 2 sections, [Scan a project, load previous scans], selecting a project was kind of confusing because it wasn't clear what was the current selection, added an indicator to know which project::target is been selected.
 
-[Improvement] New 'Bad' Icon added to highlight if a module's Main.vi is broken.
-
-[#45][#46] Added 'Export to CSV' to DQMH Project Info</Release_Notes>
+[IMPROVEMENT] The add --constant.vi dialog displays a list of all currently defined --constant vis and parses their values. This helps developers quickly review existing constants to avoid creating duplicates.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
