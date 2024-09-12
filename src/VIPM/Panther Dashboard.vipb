@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-09 12:49:10" Creator="Enrique Noe Arias" Comments="" ID="6b175c6b51731a75b6b2d47bc2e5166f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-11 17:50:30" Creator="Enrique Noe Arias" Comments="" ID="e0b1de34bb0a9ef3e0d1179988d38629">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>6.3.6.38</Library_Version>
+    <Library_Version>6.3.7.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -19,11 +19,16 @@
     <Package_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 7.0.1.1316</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc &gt;= 2.0.5.355</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 2.1.1.59</External_Dependencies>
       <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.9.0.378</External_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-7.0.1.1316</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc-2.0.5.355</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-2.1.1.59</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.9.0.378</Direct_Dependencies>
@@ -88,7 +93,7 @@ Report any issues and request features at:
 #49 [NEW][FEATURE][IMPROVEMENT] Panther Dasboard will save a file per target, for example (PanterScan.MyComputer.bin)
 When opening a recent project with multiple associated targets, panther dashboard presents a dialog allowing the user to select the desired target/scan before loading. This new feature allows the user to switch between targets within a project without the need for repeated scans.
 
-#48 [FIX] The init screen has 2 sections, [Scan a project, load previous scans], selecting a project was kind of confusing because it wasn't clear what was the current selection, added an indicator to know which project::target is been selected.
+#48 #52 [FIX] The init screen has 2 sections, [Scan a project, load previous scans], selecting a project was kind of confusing because it wasn't clear what was the current selection, added an indicator to know which project::target is been selected, also dialog improved.
 
 [IMPROVEMENT] The add --constant.vi dialog displays a list of all currently defined --constant vis and parses their values. This helps developers quickly review existing constants to avoid creating duplicates.
 </Release_Notes>
