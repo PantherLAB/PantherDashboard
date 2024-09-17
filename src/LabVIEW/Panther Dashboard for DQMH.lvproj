@@ -50,6 +50,34 @@
 			<Item Name="Stub_Constant VI.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_Constant VI.vi"/>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
+		<Item Name="Twitter.ctl" Type="VI" URL="../Controls/Twitter.ctl"/>
+		<Item Name="Facebook.ctl" Type="VI" URL="../Controls/Facebook.ctl"/>
+		<Item Name="Linkedin.ctl" Type="VI" URL="../Controls/Linkedin.ctl"/>
+		<Item Name="Web.ctl" Type="VI" URL="../Controls/Web.ctl"/>
+		<Item Name="Documentation.ctl" Type="VI" URL="../Controls/Documentation.ctl"/>
+		<Item Name="Coffe.ctl" Type="VI" URL="../Controls/Coffe.ctl"/>
+		<Item Name="Panther.ctl" Type="VI" URL="../Controls/Panther.ctl"/>
+		<Item Name="Antidoc.ctl" Type="VI" URL="../Controls/Antidoc.ctl"/>
+		<Item Name="Antidoc Open.ctl" Type="VI" URL="../Controls/Antidoc Open.ctl"/>
+		<Item Name="NewEvent.ctl" Type="VI" URL="../Controls/NewEvent.ctl"/>
+		<Item Name="Unit Test.ctl" Type="VI" URL="../Controls/Unit Test.ctl"/>
+		<Item Name="theme.ctl" Type="VI" URL="../Controls/theme.ctl"/>
+		<Item Name="Unit Test 1.ctl" Type="VI" URL="../Controls/Unit Test 1.ctl"/>
+		<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
+		<Item Name="Scan.ctl" Type="VI" URL="../Controls/Scan.ctl"/>
+		<Item Name="Rename.ctl" Type="VI" URL="../Controls/Rename.ctl"/>
+		<Item Name="Real Time.ctl" Type="VI" URL="../Controls/Real Time.ctl"/>
+		<Item Name="Open.ctl" Type="VI" URL="../Controls/Open.ctl"/>
+		<Item Name="New.ctl" Type="VI" URL="../Controls/New.ctl"/>
+		<Item Name="loop.ctl" Type="VI" URL="../Controls/loop.ctl"/>
+		<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
+		<Item Name="home.ctl" Type="VI" URL="../Controls/home.ctl"/>
+		<Item Name="Delete.ctl" Type="VI" URL="../Controls/Delete.ctl"/>
+		<Item Name="Convert.ctl" Type="VI" URL="../Controls/Convert.ctl"/>
+		<Item Name="Gear.ctl" Type="VI" URL="../Controls/Gear.ctl"/>
+		<Item Name="Help.ctl" Type="VI" URL="../Controls/Help.ctl"/>
+		<Item Name="Validate.ctl" Type="VI" URL="../Controls/Validate.ctl"/>
+		<Item Name="Open1.ctl" Type="VI" URL="../Controls/Open1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -521,15 +549,15 @@
 				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
 				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="DQMH_DQMH Version Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Version Information--constant.vi"/>
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
 				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
 				<Item Name="DQMH_DQMH Legal Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Legal Information--constant.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
