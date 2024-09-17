@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-13 12:15:04" Creator="Enrique Noe Arias" Comments="" ID="0bfb760ece7833a5ef7fc5e5abc47f9d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-16 20:10:45" Creator="Enrique Noe Arias" Comments="" ID="dc92e745fd6d3fee7dda7b5e887b64c2">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>6.3.7.40</Library_Version>
+    <Library_Version>7.3.7.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -44,59 +44,59 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>&lt;size=24&gt;&lt;b&gt;Panther Dashboard for DQMH&lt;/b&gt;&lt;/size&gt;
+      <Description>Panther Dashboard for DQMH: Your Essential DQMH Companion
 
-Panther Dashboard for DQMH is an open-source LabVIEW tool designed to improve the developer experience for DQMH projects. It provides a range of features to help you explore, edit, and document your LabVIEW projects more easily, including:
+Simplify DQMH Development with Panther Dashboard
 
-» Drag and drop DQMH Public API VIs Panther Dashboard to your code.
-» Explore your project/code in the DQMH context, just double click an event/module
-» Visualize your modules Status (running, Idle)
-» Identify if your modules are under dependencies (different Glyphs)
-» Search for Module/Event Callers/Listeners, right click an event or a DQMH Module to use this functionality.
-» Search where are your modules being launched/stopped
-» Open Event Arguments
-» Open API Tester by Right Click the Module Library
-» Execute the default events [Show Panel, Hide Panel, Show Block Diagram, Stop Module]
-» Use the DQMH Scripting Tools.
-» Call Antidoc
-» Open Antidoc output.
-» Help to edit your project/modules/events documentation using the DQMH Context Help.
-» Create Custom Error constant vis
-» Create Custom Constant vis
-» Edit your module's timeout and names
-» Edit your Request and wait for reply timeouts.
-» etc.
+Panther Dashboard is a LabVIEW tool designed to streamline your DQMH project development. With a rich array of features, it empowers you to explore, edit, and document your LabVIEW projects more efficiently.
 
+Key Features:
 
-To use Panther Dashboard for DQMH, open a LabVIEW project and go to:
+*Effortless Integration: Drag and drop DQMH Public API VIs directly into your code for seamless integration.
+*Enhanced Visualization: Explore your project's modules and events in a clear and intuitive visual context.
+*Module Status and Dependencies: Instantly identify module status (running, idle) and dependencies.
+*Efficient Navigation: Easily search for module callers, listeners, launch points, and stop points.
+*Comprehensive Editing: Edit module timeouts, names, request, and wait for reply timeouts to fine-tune your project's behavior.
+*Enhanced Documentation: Create custom error and constant VIs, edit module documentation, and leverage the DQMH Context Help for streamlined documentation.
+*Powerful Tools: Access DQMH Scripting Tools, Antidoc, and Antidoc output for advanced project management.
+Getting Started:
 
-Tools-&gt;PantherLAB-&gt;Panther Dashboard for DQMH
-
-Tool Documentation:
-&lt;b&gt; https://pantherlab.github.io/PantherDashboard/ &lt;/b&gt;
+Open your LabVIEW project.
+Go to Tools -&gt; PantherLAB -&gt; Panther Dashboard for DQMH.
 
 Report any issues and request features at:
 
 &lt;b&gt;https://github.com/PantherLAB/PantherDashboard/issues&lt;/b&gt;
 
-For more information please send an email to:
+&lt;b&gt;Need LabVIEW Expertise?&lt;b&gt;
 
-&lt;b&gt;enrique.noe@pantherlab.com.mx&lt;/b&gt;
+We're Here to Help You Succeed.
 
+--Tailored Training: Learn LabVIEW and DQMH from experienced professionals.
+--Custom Software Solutions: Solve complex challenges with our expert consulting.
+--Dedicated LabVIEW Contractors: Access skilled LabVIEW developers for your projects.
 
+Contact Us Today:
+
+enrique.noe@pantherlab.com.mx
 </Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[IMPROVEMENT] Add Module to current Scan, by right clicking the project there is a new option called "Add DQMH module to current Scan", this will help in the scenario where the user has a project and creates a new module or call a module that wasn't previously in the project, this feature will look for all the modules currently missing in the scan, it will create a dialog to select the module to be added.
+      <Release_Notes>[New Feature]:
 
-#49 [NEW][FEATURE][IMPROVEMENT] Panther Dasboard will save a file per target, for example (PanterScan.MyComputer.bin)
-When opening a recent project with multiple associated targets, panther dashboard presents a dialog allowing the user to select the desired target/scan before loading. This new feature allows the user to switch between targets within a project without the need for repeated scans.
+*Effortless Module Addition: Created a new right-click option "Add DQMH module to current Scan" for users working on projects. This feature automatically detects missing modules and presents a selection dialog for quick addition, eliminating the need for rescans.
 
-#48 #52 [FIX] The init screen has 2 sections, [Scan a project, load previous scans], selecting a project was kind of confusing because it wasn't clear what was the current selection, added an indicator to know which project::target is been selected, also dialog improved.
+[Improved User Experience]:
 
-[IMPROVEMENT] The add --constant.vi dialog displays a list of all currently defined --constant vis and parses their values. This helps developers quickly review existing constants to avoid creating duplicates.
-</Release_Notes>
+*Faster Target Switching: Panther Dashboard now saves scan data per target (e.g., PanterScan.MyComputer.bin). When opening projects with multiple targets, a dialog lets you choose the desired target for loading, facilitating effortless switching without rescans.
+
+*Clear Project Selection: Improved the initial screen with a visual indicator to show the currently selected project and target. This eliminates confusion about which scan is being loaded.
+Developer Enhancements:
+
+*Streamlined Constant Creation: The "add --constant.vi" dialog now displays a list of existing constants with their values. This helps developers quickly find existing constants and avoid creating duplicates.
+
+*Revamped UI Buttons: All UI buttons have been updated for a fresh look and feel.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
