@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-16 20:10:45" Creator="Enrique Noe Arias" Comments="" ID="dc92e745fd6d3fee7dda7b5e887b64c2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-09-17 14:09:55" Creator="Enrique Noe Arias" Comments="" ID="8834e2c7488136f7b4b6559257d5bff3">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>7.3.7.41</Library_Version>
+    <Library_Version>7.3.8.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -44,21 +44,18 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>Panther Dashboard for DQMH: Your Essential DQMH Companion
-
-Simplify DQMH Development with Panther Dashboard
-
-Panther Dashboard is a LabVIEW tool designed to streamline your DQMH project development. With a rich array of features, it empowers you to explore, edit, and document your LabVIEW projects more efficiently.
+      <Description>Panther Dashboard is an Open-Source LabVIEW tool designed to streamline your DQMH project development. With a rich array of features, it empowers you to explore, edit, and document your DQMH LabVIEW projects more efficiently.
 
 Key Features:
 
-*Effortless Integration: Drag and drop DQMH Public API VIs directly into your code for seamless integration.
+*Effortless Integration: Drag and drop DQMH Public API VIs directly into your code.
 *Enhanced Visualization: Explore your project's modules and events in a clear and intuitive visual context.
 *Module Status and Dependencies: Instantly identify module status (running, idle) and dependencies.
 *Efficient Navigation: Easily search for module callers, listeners, launch points, and stop points.
 *Comprehensive Editing: Edit module timeouts, names, request, and wait for reply timeouts to fine-tune your project's behavior.
-*Enhanced Documentation: Create custom error and constant VIs, edit module documentation, and leverage the DQMH Context Help for streamlined documentation.
-*Powerful Tools: Access DQMH Scripting Tools, Antidoc, and Antidoc output for advanced project management.
+*Enhanced Documentation: Create custom error and constant VIs, edit module documentation, and use the DQMH Context Help to keep your documentation up to date.
+*Powerful Tools: Access DQMH Scripting Tools, Antidoc, and PantherLAB Scripting tools for advanced project development.
+
 Getting Started:
 
 Open your LabVIEW project.
