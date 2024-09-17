@@ -26,7 +26,6 @@
 				<Item Name="Execute Default Event Request Argument--cluster.ctl" Type="VI" URL="../Execute Default Event Request Argument--cluster.ctl"/>
 				<Item Name="Launch DQMH Scripting Tools Argument--cluster.ctl" Type="VI" URL="../Launch DQMH Scripting Tools Argument--cluster.ctl"/>
 				<Item Name="Generate Project Documentation Argument--cluster.ctl" Type="VI" URL="../Generate Project Documentation Argument--cluster.ctl"/>
-				<Item Name="Set App Theme Argument--cluster.ctl" Type="VI" URL="../Set App Theme Argument--cluster.ctl"/>
 				<Item Name="Show About Argument--cluster.ctl" Type="VI" URL="../Show About Argument--cluster.ctl"/>
 				<Item Name="Update Module ID Argument--cluster.ctl" Type="VI" URL="../Update Module ID Argument--cluster.ctl"/>
 				<Item Name="Save Library Description Argument--cluster.ctl" Type="VI" URL="../Save Library Description Argument--cluster.ctl"/>
@@ -47,7 +46,6 @@
 				<Item Name="Connector Pane Updated Argument--cluster.ctl" Type="VI" URL="../Connector Pane Updated Argument--cluster.ctl"/>
 				<Item Name="Documentation Updated Argument--cluster.ctl" Type="VI" URL="../Documentation Updated Argument--cluster.ctl"/>
 				<Item Name="Module Type Updated Argument--cluster.ctl" Type="VI" URL="../Module Type Updated Argument--cluster.ctl"/>
-				<Item Name="Theme Updated Argument--cluster.ctl" Type="VI" URL="../Theme Updated Argument--cluster.ctl"/>
 				<Item Name="Project Description Updated Argument--cluster.ctl" Type="VI" URL="../Project Description Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
@@ -60,7 +58,6 @@
 			<Item Name="Scan DQMH Modules.vi" Type="VI" URL="../Scan DQMH Modules.vi"/>
 			<Item Name="Launch DQMH Scripting Tools.vi" Type="VI" URL="../Launch DQMH Scripting Tools.vi"/>
 			<Item Name="Generate Project Documentation.vi" Type="VI" URL="../Generate Project Documentation.vi"/>
-			<Item Name="Set App Theme.vi" Type="VI" URL="../Set App Theme.vi"/>
 			<Item Name="Show About.vi" Type="VI" URL="../Show About.vi"/>
 			<Item Name="Update Module ID.vi" Type="VI" URL="../Update Module ID.vi"/>
 			<Item Name="Save Library Description.vi" Type="VI" URL="../Save Library Description.vi"/>
@@ -93,7 +90,6 @@
 		<Item Name="Connector Pane Updated.vi" Type="VI" URL="../Connector Pane Updated.vi"/>
 		<Item Name="Documentation Updated.vi" Type="VI" URL="../Documentation Updated.vi"/>
 		<Item Name="Module Type Updated.vi" Type="VI" URL="../Module Type Updated.vi"/>
-		<Item Name="Theme Updated.vi" Type="VI" URL="../Theme Updated.vi"/>
 		<Item Name="Project Description Updated.vi" Type="VI" URL="../Project Description Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
@@ -227,8 +223,6 @@
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
 		<Item Name="Config" Type="Folder">
-			<Item Name="Read Theme from Config.vi" Type="VI" URL="../Read Theme from Config.vi"/>
-			<Item Name="Save Theme in config.vi" Type="VI" URL="../Save Theme in config.vi"/>
 			<Item Name="Config path--constant.vi" Type="VI" URL="../Config path--constant.vi"/>
 		</Item>
 		<Item Name="Antidoc" Type="Folder">
@@ -243,7 +237,6 @@
 		<Item Name="Add Module To Project.vi" Type="VI" URL="../Add Module To Project.vi"/>
 		<Item Name="Remove Module from Project.vi" Type="VI" URL="../Remove Module from Project.vi"/>
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
-		<Item Name="Set Theme.vi" Type="VI" URL="../Set Theme.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Insert Public API VIS.vi" Type="VI" URL="../Insert Public API VIS.vi"/>
