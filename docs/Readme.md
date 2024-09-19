@@ -90,7 +90,7 @@ Panther Dashboard includes several Scripts to help you find, edit, debug your DQ
 
 - **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for <Module Name>.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
-- ![09 Find Coder registered to this module’s broadcasts](https://github.com/user-attachments/assets/741ef5e6-175b-4f14-9616-28c8cf373b6d)
+![09 Find Coder registered to this module’s broadcasts](https://github.com/user-attachments/assets/741ef5e6-175b-4f14-9616-28c8cf373b6d)
 
 - **Edit Module Name Constant**: Panther dashboard will search for <Module Name>.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
 ![09 Edit Module Name Constant](https://github.com/user-attachments/assets/f350c3b5-15fa-40e7-952e-6232e1b75f10)
@@ -114,22 +114,20 @@ Panther Dashboard includes several Scripts to help you find, edit, debug your DQ
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: https://github.com/PantherLAB/PantherDashboard/issues
 
-**Are you tired of struggling with complex industry challenges?** We understand the pain points you face and we are here to be your partner.
-As your **trusted software partner**, we’ll work closely with you to craft a custom solution that perfectly fits your unique needs. Our team of experts has over 20 years of experience helping companies like yours overcome obstacles in all kind of industries such as optics, automotive, textile, biomedical, and more.
+**Struggling with DQMH projects?** We can help! Our team offers expert LabVIEW development (CLA, LabVIEW Champion, DQMH Trusted Advisor), LabVIEW training, and contracting services.
 
-Don’t let challenges hold you back. Contact us today, and let’s create a strategy together to revolutionize your business.
-- info@pantherlab.com.mx
-- enrique.noe@pantherlab.com.mx
+**Ready to take the next step?** Contact us today at [enrique.noe@pantherlab.com.mx] or [info@pantherlab.com.mx] to discuss your specific needs.
 
 
- # Links
+
+ ### Links
 - [PantherLAB website](https://pantherlab.com.mx/)
 - [DQMH Website](https://dqmh.org/)
 - [ANTIDOC](https://wovalab.gitlab.io/open-source/labview-doc-generator/)
 - [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
 - [GCentral](https://www.gcentral.org/)
 
-### Follow us:
+### Social Networks:
 - [Linkedin](https://www.linkedin.com/company/pantherlabmx/)
 - [Twitter](https://x.com/PantherLAB_)
 - [Facebook](https://www.facebook.com/profile.php?id=61556228677680)
