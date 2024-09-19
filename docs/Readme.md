@@ -127,9 +127,7 @@ Encountered an issue or have a feature suggestion? Let us know on GitHub: https:
 
 **Ready to take the next step?** Contact us today at [enrique.noe@pantherlab.com.mx] or [info@pantherlab.com.mx] to discuss your specific needs.
 
-
-
- ### Links
+ ## Links
 - [PantherLAB website](https://pantherlab.com.mx/)
 - [DQMH Website](https://dqmh.org/)
 - [ANTIDOC](https://wovalab.gitlab.io/open-source/labview-doc-generator/)
