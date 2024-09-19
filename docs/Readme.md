@@ -14,7 +14,9 @@ Panther Dashboard is an open-source LabVIEW tool designed to make your DQMH deve
 - **PantherLAB Scripting Tools**: Utilize a suite of scripts to streamline tasks like identifying launching module locations, finding event callers, etc.
 
 ## Team Collaboration and Source Control:
-Panther Dashboard stores a binary file named pantherscan.<target>.bin alongside your LabVIEW project file. This file contains essential information for loading your project and DQMH modules.
+Panther Dashboard stores a binary file named pantherscan.*target*.bin alongside your LabVIEW project file. This file contains essential information for loading your project and DQMH modules.
+
+
 Important Note: This binary file stores absolute paths to the following LabVIEW components:
 - Project files (.lvproj)
 - Library files (.lvlib)
@@ -23,11 +25,11 @@ Important Note: This binary file stores absolute paths to the following LabVIEW 
 ### For Teams Using Source Control:
 
 For smooth collaboration, ensure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.<target>.bin files to your repository.
-If team members do not follow this guideline, it is strongly recommended to add the pantherscan.<target>.bin files to your .gitignore file to prevent them from being tracked in your source control system.
+If team members do not follow this guideline, it is strongly recommended to add the pantherscan.*target*.bin files to your .gitignore file to prevent them from being tracked in your source control system.
       
 ## Getting Started
 1. Open your LabVIEW project.
-2. Navigate to Tools -> PantherLAB -> Panther Dashboard for DQMH®
+2. (1) Navigate to Tools -> (2) PantherLAB -> (3) Panther Dashboard for DQMH®
 
 ![01 Open Panther Dashboard](https://github.com/user-attachments/assets/584778df-a9f5-4618-810a-f943e39c9656)
 
@@ -38,17 +40,24 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 ![02 Init Screen](https://github.com/user-attachments/assets/7099a71d-0043-4c2a-a9a6-01db4ca8fe28)
 
-1. Projects: Panther Dashboard will display all the projects currently opened by LabVIEW
-2. Targets: After selecting a Project, Panther Dashboard will display all the available targets.
-3. Scanning Options:
+[1] Projects: Panther Dashboard will display all the projects currently opened by LabVIEW
+
+[2] Targets: After selecting a Project, Panther Dashboard will display all the available targets.
+
+[3] Scanning Options:
+
   - Scan All: If checked Panther Dashboard will search and scan all the modules in a projects, if unchecked, Panther Dashboard will display a list with all the modules to let the developer to decide which ones will be scanned by Panther Dashboard.
   - Include Dependencies: If checked Panther Dashboard will include DQMH Modules that are under LabVIEW Dependencies, including the ones in vi.lib or any other location.
 
+[4] Scan Project Button: Click this button to begin with the Scan.
+
 ![03 Init Screen Previous projects](https://github.com/user-attachments/assets/317f950d-4e35-4ebf-8d52-ee375ac8e3e0)
 
-## Panther Dashboard keep track of the last 20 previously worked projects
-1. Recent Project: Double Click, Panther Dashboard will take care of opening the project and LabVIEW Libraries.
-2. Open DQMH Project: Click this button and explore your system to open a Project previously scanned by panther dashboard.
+>Panther Dashboard keep track of the last 20 previously worked projects
+
+[1] Recent Project: Double Click, Panther Dashboard will take care of opening the project and LabVIEW Libraries.
+
+[2] Open DQMH Project: Click this button and explore your system to open a Project previously scanned by panther dashboard.
        
 ## User Interface:
 
@@ -114,7 +123,7 @@ Panther Dashboard includes several Scripts to help you find, edit, debug your DQ
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: https://github.com/PantherLAB/PantherDashboard/issues
 
-**Struggling with DQMH projects?** We can help! Our team offers expert LabVIEW development (CLA, LabVIEW Champion, DQMH Trusted Advisor), LabVIEW training, and contracting services.
+**Struggling with DQMH projects?** We can help! Our team (CLA, LabVIEW Champion, DQMH Trusted Advisor) ofers LabVIEW development, LabVIEW training, and contracting services.
 
 **Ready to take the next step?** Contact us today at [enrique.noe@pantherlab.com.mx] or [info@pantherlab.com.mx] to discuss your specific needs.
 
