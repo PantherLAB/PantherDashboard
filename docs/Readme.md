@@ -66,7 +66,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ## Glyphs meaning
 
-![Glyphs explanation](../src/assets/Img/Glyphs.png)
+![Glyphs](https://github.com/user-attachments/assets/66dc5b91-21ee-4d82-8455-757722d80669)
 
 ## Panther Dashboard Icons descriptions:
 
