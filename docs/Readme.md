@@ -1,9 +1,5 @@
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 
-# Panther Dashboard for DQMH®
-
-**Panther Dashboard for DQMH®** is an open-source LabVIEW tool designed to make your DQMH® development smoother and more efficient. Its primary goal is to simplify your workflow and boost your productivity, aditionally it is the perfect tool to onboard new DQMH® Developers to a team/project.
-
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
