@@ -1,6 +1,7 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: [Panther Dashboard for DQMH by PantherLAB]
-description: [Tool to improve the DQMH Developer Experience]
+title: [Panther Dashboard for DQMH®]
+description: [Open-Source LabVIEW tool designed to make your DQMH development smoother and more efficient. 
+Its primary goal is to simplify your workflow and boost your productivity,  aditionally it is the perfect tool for onboarding new DQMH® Developers to a team/project]
