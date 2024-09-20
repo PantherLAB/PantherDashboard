@@ -56,9 +56,9 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 [2] Open DQMH Project: Click this button and explore your system to open a Project previously scanned by panther dashboard.
 
-## Projects with several targets
+## Projects with more that one target
 
-If Panther Dashboard is used on projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these types of files, if found it will present a dialog to choose the target to work with.
+If you use **Panther Dashboard** with projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these files, if there are more than one, it will display all the available scan files, for scans made with previous versions of panther dashboard, it will display the files as 'Legacy Format PantherScan', if you want to start fresh, you can delete all the PantherScan files and do a scan with this new version.
 
 ![13 Scanned targets](https://github.com/user-attachments/assets/d8fcb923-be53-4a05-9870-0b0ff7a1ca5c)
        
@@ -95,7 +95,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ![14 PdashScripting](https://github.com/user-attachments/assets/9dd54333-2fac-4d00-91d1-51eb6988207c)
 
-**Panther Dashboard* includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
+**Panther Dashboard** includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
 
 - **Refresh Module**: After adding/removing/renaming/converting events, your module will need to be updated, just right click a module and select Refresh module in order to have your scan up to date.
 - **Open Module API Tester**: use this script and Panther Dashboard will open and run the module API Tester, if you manually renamed your API Tester this script will fail.
@@ -130,11 +130,11 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 -  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default request without the need of opening the API tester.
 
 
-  ## Panther Dashboard Scripting Tools (Event)
+## Panther Dashboard Scripting Tools (Event)
 
-  ![15 PdashScripting](https://github.com/user-attachments/assets/cbc7fda2-49a3-4d6d-8b41-cb595ab9bcaf)
+![15 PdashScripting](https://github.com/user-attachments/assets/cbc7fda2-49a3-4d6d-8b41-cb595ab9bcaf)
 
-  **Panther Dashboard* includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
+**Panther Dashboard** includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
 
 - **Open Event Arguments**: this script searchs for all the Typedefs related to the selected argument, it opens these typedefs for you and at the back you'll see the block diagram of your Event to help you finish the event editing, do not forget connect the new terminals to the connector pane, also uptate EHL and MHL and the API Tester.
 -  **Find Callers**: Search trough through the entire project for all the VIs calling the selected event, it will display a window with all the calls where you can doble click each of these calls to navigate exactly where the event is being called, Panther Dasbhoard will do a highlight to help you visualy identify the event call.
@@ -148,7 +148,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ![16 ScriptinPRoject](https://github.com/user-attachments/assets/1b53a1c4-ad69-4eaf-909b-da806d1aa9ea)
 
-  **Panther Dashboard* includes several Scripts to help you add new modules to current scan, get a general view of your DQMH project.
+**Panther Dashboard** includes several Scripts to help you add new modules to current scan, get a general view of your DQMH project.
 
 - **Open Project Folder**: Opens the Explorer where you project is loacated.
 
@@ -164,7 +164,7 @@ Encountered an issue or have a feature suggestion? Let us know on GitHub: https:
 
 **Ready to take the next step?** Contact us today at [enrique.noe@pantherlab.com.mx] or [info@pantherlab.com.mx] to discuss your specific needs.
 
- ## Links
+## Links
 - [PantherLAB website](https://pantherlab.com.mx/)
 - [DQMH Website](https://dqmh.org/)
 - [ANTIDOC](https://wovalab.gitlab.io/open-source/labview-doc-generator/)
