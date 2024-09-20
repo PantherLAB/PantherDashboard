@@ -1,5 +1,8 @@
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 
+[![YOUTUBE VIDEO](https://1000marcas.net/wp-content/uploads/2020/02/Logotipo-negro-de-YouTube.png)](https://youtu.be/PWypUf5vzyE)
+
+
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
