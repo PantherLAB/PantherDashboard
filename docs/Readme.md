@@ -1,10 +1,8 @@
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 
-[![YOUTUBE VIDEO](https://img.youtube.com/vi/nnQTQAkw5Xo/0.jpg)](https://youtu.be/PaLSg6yTlx8)
-
 # Panther Dashboard for DQMH®
 
-Panther Dashboard is an open-source LabVIEW tool designed to make your DQMH development smoother and more efficient. Its primary goal is to simplify your workflow and boost your productivity, aditionally it is the perfect tool to onboard new DQMH Developers to a team/project.
+**Panther Dashboard for DQMH®** is an open-source LabVIEW tool designed to make your DQMH® development smoother and more efficient. Its primary goal is to simplify your workflow and boost your productivity, aditionally it is the perfect tool to onboard new DQMH® Developers to a team/project.
 
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
@@ -15,7 +13,6 @@ Panther Dashboard is an open-source LabVIEW tool designed to make your DQMH deve
 
 ## Team Collaboration and Source Control:
 Panther Dashboard stores a binary file named pantherscan.*target*.bin alongside your LabVIEW project file. This file contains essential information for loading your project and DQMH modules.
-
 
 Important Note: This binary file stores absolute paths to the following LabVIEW components:
 - Project files (.lvproj)
@@ -58,12 +55,24 @@ If team members do not follow this guideline, it is strongly recommended to add 
 [1] Recent Project: Double Click, Panther Dashboard will take care of opening the project and LabVIEW Libraries.
 
 [2] Open DQMH Project: Click this button and explore your system to open a Project previously scanned by panther dashboard.
+
+## Projects with several targets
+
+If Panther Dashboard is used on projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these types of files, if found it will present a dialog to choose the target to work with.
+
+![13 Scanned targets](https://github.com/user-attachments/assets/d8fcb923-be53-4a05-9870-0b0ff7a1ca5c)
        
 ## User Interface:
 
 ![04 Panther Dashboard Main Window](https://github.com/user-attachments/assets/e3e25803-d41d-4b2b-8ccc-a2534430d7d2)
 
-The main screen of Panther Dashboard is designed for quick access to DQMH scripting tools and provides a visual overview of your modules' status (Running, Idle, Broken/Bad). Let's explore these functionalities:
+The main screen of Panther Dashboard is designed for quick access to DQMH scripting tools and provides a visual overview of your modules' status (Running, Idle, Broken/Bad):
+
+## Glyphs meaning
+
+![Glyphs explanation](https://github.com/user-attachments/assets/5068770f-c72b-465e-9c1a-f927bcd0456c)
+
+## Panther Dashboard Icons descriptions:
 
 | Icon   |      Name      |  Description |
 |----------|:-------------:|------:|
@@ -82,9 +91,11 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Antidoc-Open](https://github.com/user-attachments/assets/15dcb12b-c8f8-4d60-9638-affc221b0adf) | Open Antidoc Output | Open the last rendered Antidoc Output |
 | ![Info](https://github.com/user-attachments/assets/fa86f994-b432-4590-b9ba-81acf0c0f45f) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
 
-## Panther Dashboard Scripting Tools
+## Panther Dashboard Scripting Tools (Module)
 
-Panther Dashboard includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
+![14 PdashScripting](https://github.com/user-attachments/assets/9dd54333-2fac-4d00-91d1-51eb6988207c)
+
+**Panther Dashboard* includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
 
 - **Refresh Module**: After adding/removing/renaming/converting events, your module will need to be updated, just right click a module and select Refresh module in order to have your scan up to date.
 - **Open Module API Tester**: use this script and Panther Dashboard will open and run the module API Tester, if you manually renamed your API Tester this script will fail.
@@ -116,9 +127,35 @@ Panther Dashboard includes several Scripts to help you find, edit, debug your DQ
 ![12 Create Custom error vi](https://github.com/user-attachments/assets/0815f7b2-d6f0-4b97-b135-dc2eb40ff752)
  
 - **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram (1), place the constant name (2), do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window (3) and click the “Continue” Button (4), make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboar will use those values to set the constants and create the –constant.vi.
+-  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default request without the need of opening the API tester.
+
+
+  ## Panther Dashboard Scripting Tools (Event)
+
+  ![15 PdashScripting](https://github.com/user-attachments/assets/cbc7fda2-49a3-4d6d-8b41-cb595ab9bcaf)
+
+  **Panther Dashboard* includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
+
+- **Open Event Arguments**: this script searchs for all the Typedefs related to the selected argument, it opens these typedefs for you and at the back you'll see the block diagram of your Event to help you finish the event editing, do not forget connect the new terminals to the connector pane, also uptate EHL and MHL and the API Tester.
+-  **Find Callers**: Search trough through the entire project for all the VIs calling the selected event, it will display a window with all the calls where you can doble click each of these calls to navigate exactly where the event is being called, Panther Dasbhoard will do a highlight to help you visualy identify the event call.
+-  **Open Font Panel**: it does exaclty that, it will open the front panel of the selected event.
+-  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default request without the need of opening the API tester.
+-  **Open VI on Disk**: Somethimes we need the exact location of an event and this script helps navigating to your Operating System file path where the vi is located.
 
 ![12 Create Custom constant](https://github.com/user-attachments/assets/160b9a7b-0227-465f-8cce-8c3855302123)          
 
+## Panther Dashboard Scripting Tools (Project)
+
+![16 ScriptinPRoject](https://github.com/user-attachments/assets/1b53a1c4-ad69-4eaf-909b-da806d1aa9ea)
+
+  **Panther Dashboard* includes several Scripts to help you add new modules to current scan, get a general view of your DQMH project.
+
+- **Open Project Folder**: Opens the Explorer where you project is loacated.
+
+ ![17 scripting project](https://github.com/user-attachments/assets/a80b367b-c65a-4122-9602-617c2f755edc)
+
+- **Show Project DQMH Info**: Scans your modules to parse the Module Name--constant.vi, Module Timeout--constant.vi values, libraries names, Number of Helper loops, Modules launched per module, and module type (Singleton, Cloneable)
+- **Add DQMH Module to Current SCan**: eventually when working with DQMH projects you will integrate new modules to your project, panther dashboard does not have a mechanism to know that, that's why this function is valuable, panther dashboard will search for all the modules not listed in the scan and let the developer to choose whych module to add to current scan, this is usefull when working with projects with several modules, it reduces the scanning time significantly.
 
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: https://github.com/PantherLAB/PantherDashboard/issues
