@@ -1,5 +1,8 @@
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 
+[![YOUTUBE VIDEO](https://1000marcas.net/wp-content/uploads/2020/02/Logotipo-negro-de-YouTube.png)](https://youtu.be/PWypUf5vzyE)
+
+
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
@@ -17,12 +20,12 @@ Important Note: This binary file stores absolute paths to the following LabVIEW 
   
 ### For Teams Using Source Control:
 
-For smooth collaboration, ensure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.<target>.bin files to your repository.
+For smooth collaboration, ensure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.*target*.bin files to your repository.
 If team members do not follow this guideline, it is strongly recommended to add the pantherscan.*target*.bin files to your .gitignore file to prevent them from being tracked in your source control system.
       
 ## Getting Started
 1. Open your LabVIEW project.
-2. (1) Navigate to Tools -> (2) PantherLAB -> (3) Panther Dashboard for DQMH®
+2. (1) Navigate to Tools -* (2) PantherLAB -* (3) Panther Dashboard for DQMH®
 
 ![01 Open Panther Dashboard](https://github.com/user-attachments/assets/584778df-a9f5-4618-810a-f943e39c9656)
 
@@ -46,7 +49,7 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 ![03 Init Screen Previous projects](https://github.com/user-attachments/assets/317f950d-4e35-4ebf-8d52-ee375ac8e3e0)
 
->Panther Dashboard keep track of the last 20 previously worked projects
+*Panther Dashboard keep track of the last 20 previously worked projects
 
 [1] Recent Project: Double Click, Panther Dashboard will take care of opening the project and LabVIEW Libraries.
 
@@ -81,7 +84,8 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Module | Renames a DQMH® Module |
 | ![loop](https://github.com/user-attachments/assets/2bcd8478-ca02-4102-89c9-a8503b082bd1) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
 | ![validate](https://github.com/user-attachments/assets/ed63899c-35ce-430e-b671-100b76091559) | Validate Module | Calls the DQMH® Validation Tools |
-| ![template](https://github.com/user-attachments/assets/b2cb3b8f-47fa-497d-bd3d-6a7fe5f0bfdb) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
+| ![template](https://github.com/user-attachments/assets/b2cb3b8f-47fa-497d-bd3d-6a7fe5f0bfdb) | Create Module Template | Creates a DQMH Module template from the Module selected |
+| ![clock](https://github.com/user-attachments/assets/81ff462c-1c1d-4de2-a2c3-6156abed227a) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
 | ![test](https://github.com/user-attachments/assets/02f273ca-8cee-43c9-b2e3-c36b9e18e043) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
 | ![antidoc](https://github.com/user-attachments/assets/e4b9cae4-48ba-4e74-a51b-173b7bff781e) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautifull project Documentation](https://wovalab.gitlab.io/open-source/labview-doc-generator/) |
 | ![Antidoc-Open](https://github.com/user-attachments/assets/15dcb12b-c8f8-4d60-9638-affc221b0adf) | Open Antidoc Output | Open the last rendered Antidoc Output |
@@ -98,25 +102,25 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ![08 Scripting Where is this module launched](https://github.com/user-attachments/assets/1ed4b2d0-378c-47d8-b921-15545515a4a2)
 
-- **Where is this module being Launched?**: Panther dashboard will search for <Module Name>.lvlib:Start Module.vi callers including the Module’s API Tester and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
+- **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers including the Module’s API Tester and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
 
-- **Where is this module being Sopped?**: Panther dashboard will search for <Module Name>.lvlib:Stop Module.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
+- **Where is this module being Sopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
 ![08 Scripting Where is this module Stopped](https://github.com/user-attachments/assets/1d8b8605-eb35-4cc4-9f5d-e5ede084cc15)
 
-- **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for <Module Name>.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
+- **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for *Module Name*.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
 ![09 Find Coder registered to this module’s broadcasts](https://github.com/user-attachments/assets/741ef5e6-175b-4f14-9616-28c8cf373b6d)
 
-- **Edit Module Name Constant**: Panther dashboard will search for <Module Name>.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
+- **Edit Module Name Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
 ![09 Edit Module Name Constant](https://github.com/user-attachments/assets/f350c3b5-15fa-40e7-952e-6232e1b75f10)
 
-- **Edit Module Timeout Constant**: Panther dashboard will search for <Module Name>.lvlib:Module Timeout--constant.vi block diagram numeric constant value, this value is used to populate a dialog where you can change the Module timeout, by default DQMH Framework uses 5000ms
+- **Edit Module Timeout Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value, this value is used to populate a dialog where you can change the Module timeout, by default DQMH Framework uses 5000ms
 
 ![09 Edit Module Timeout Constant](https://github.com/user-attachments/assets/cdd3fa35-397d-422e-abdf-ddc0059b81fb)
 
 **Note**: Exercise caution when reducing the timeout excessively, as it could lead to premature timeouts and disrupt your application’s functionality.
-- **Restore Timeout to default (5000ms)**:  Panther dashboard will search for <Module Name>.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, this is the framework default.
+- **Restore Timeout to default (5000ms)**:  Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, this is the framework default.
 
 - **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located on the module library folder, it will read all the Error Codes and their descriptions from the block diagram to help to not duplicate codes, place the error name (1), do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window (4) and click the “Continue” Button (5)
  
