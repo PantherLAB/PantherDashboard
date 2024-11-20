@@ -165,8 +165,6 @@
 			<Item Name="Scan DQMH Modules from Project.vi" Type="VI" URL="../Scan DQMH Modules from Project.vi"/>
 			<Item Name="Load Scan from File Path.vi" Type="VI" URL="../Load Scan from File Path.vi"/>
 			<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
-			<Item Name="Fill Maps.vi" Type="VI" URL="../Fill Maps.vi"/>
-			<Item Name="Capture the Project refs.vi" Type="VI" URL="../Capture the Project refs.vi"/>
 			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
 			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
@@ -209,18 +207,14 @@
 			<Item Name="Set Icon Text Constant.vi" Type="VI" URL="../Set Icon Text Constant.vi"/>
 			<Item Name="Find Module Virtual Folder.vi" Type="VI" URL="../Find Module Virtual Folder.vi"/>
 			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
-			<Item Name="Close vi references.vi" Type="VI" URL="../Close vi references.vi"/>
 			<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
-			<Item Name="Add Tree Nodes.vi" Type="VI" URL="../Add Tree Nodes.vi"/>
-			<Item Name="Insert VIs by Pattern.vi" Type="VI" URL="../Insert VIs by Pattern.vi"/>
 			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
 			<Item Name="Get VIs Paths by pattern.vi" Type="VI" URL="../Get VIs Paths by pattern.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
-			<Item Name="Add Event Reference to maps.vi" Type="VI" URL="../Add Event Reference to maps.vi"/>
 			<Item Name="Draw Tree and set expand settings.vi" Type="VI" URL="../Draw Tree and set expand settings.vi"/>
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
@@ -247,15 +241,12 @@
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
-		<Item Name="Modules Selector.vi" Type="VI" URL="../Modules Selector.vi"/>
 		<Item Name="Parse Current Projects Opened.vi" Type="VI" URL="../Parse Current Projects Opened.vi"/>
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
 		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
 		<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
 		<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
-		<Item Name="Read Map Attributes.vi" Type="VI" URL="../Read Map Attributes.vi"/>
-		<Item Name="Get Project References.vi" Type="VI" URL="../Get Project References.vi"/>
 		<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
 		<Item Name="Write Read Scan to File.vi" Type="VI" URL="../Write Read Scan to File.vi"/>
 		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
@@ -274,10 +265,15 @@
 		<Item Name="Replace comas for cr.vi" Type="VI" URL="../Replace comas for cr.vi"/>
 		<Item Name="Create Map of tokens to replace.vi" Type="VI" URL="../Create Map of tokens to replace.vi"/>
 		<Item Name="Build Tag.vi" Type="VI" URL="../Build Tag.vi"/>
+		<Item Name="Refresh and Highlight Item.vi" Type="VI" URL="../Refresh and Highlight Item.vi"/>
+		<Item Name="Highlight Item Message.vi" Type="VI" URL="../Highlight Item Message.vi"/>
+	</Item>
+	<Item Name="OOP" Type="Folder">
+		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
+		<Item Name="Library.lvclass" Type="LVClass" URL="../../Class/Library/Library.lvclass"/>
+		<Item Name="VI.lvclass" Type="LVClass" URL="../../Class/VI/VI.lvclass"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Refresh and Highlight Item.vi" Type="VI" URL="../Refresh and Highlight Item.vi"/>
-	<Item Name="Highlight Item Message.vi" Type="VI" URL="../Highlight Item Message.vi"/>
 </Library>
