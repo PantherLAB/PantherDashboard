@@ -167,7 +167,6 @@
 			<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
 			<Item Name="Find API Tester Path.vi" Type="VI" URL="../Find API Tester Path.vi"/>
 			<Item Name="Find Event Frame.vi" Type="VI" URL="../Find Event Frame.vi"/>
-			<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 			<Item Name="Get all Targets.vi" Type="VI" URL="../Get all Targets.vi"/>
 			<Item Name="Execute Default event.vi" Type="VI" URL="../Execute Default event.vi"/>
 			<Item Name="Find and Highlight Event Frames.vi" Type="VI" URL="../Find and Highlight Event Frames.vi"/>
@@ -181,7 +180,6 @@
 			<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 			<Item Name="Open Event Arguments.vi" Type="VI" URL="../Open Event Arguments.vi"/>
 			<Item Name="Refresh Current DQMH Module.vi" Type="VI" URL="../Refresh Current DQMH Module.vi"/>
-			<Item Name="Add Module to Map.vi" Type="VI" URL="../Add Module to Map.vi"/>
 			<Item Name="Script Edit Module Name.vi" Type="VI" URL="../Script Edit Module Name.vi"/>
 			<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
 			<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
@@ -272,6 +270,7 @@
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
 		<Item Name="Library.lvclass" Type="LVClass" URL="../../Class/Library/Library.lvclass"/>
 		<Item Name="VI.lvclass" Type="LVClass" URL="../../Class/VI/VI.lvclass"/>
+		<Item Name="Test OOP API.vi" Type="VI" URL="../Test OOP API.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
