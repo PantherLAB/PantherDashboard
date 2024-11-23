@@ -240,16 +240,11 @@
 		<Item Name="Error Code Dialog.vi" Type="VI" URL="../Error Code Dialog.vi"/>
 		<Item Name="Draw Project Results Table.vi" Type="VI" URL="../Draw Project Results Table.vi"/>
 		<Item Name="Insert Module Types.vi" Type="VI" URL="../Insert Module Types.vi"/>
-		<Item Name="Create Map Attributes.vi" Type="VI" URL="../Create Map Attributes.vi"/>
 		<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
-		<Item Name="PDashPathHistory--constant.vi" Type="VI" URL="../PDashPathHistory--constant.vi"/>
-		<Item Name="Write Read Scan to File.vi" Type="VI" URL="../Write Read Scan to File.vi"/>
 		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
 		<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
 		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
-		<Item Name="PantherScan File Path--constant.vi" Type="VI" URL="../PantherScan File Path--constant.vi"/>
-		<Item Name="Select Panther Scan File to load.vi" Type="VI" URL="../Select Panther Scan File to load.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 		<Item Name="Remove Module from Tree.vi" Type="VI" URL="../Remove Module from Tree.vi"/>
 		<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
@@ -267,6 +262,7 @@
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
 		<Item Name="Library.lvclass" Type="LVClass" URL="../../Class/Library/Library.lvclass"/>
 		<Item Name="VI.lvclass" Type="LVClass" URL="../../Class/VI/VI.lvclass"/>
+		<Item Name="LabVIEWItem.lvclass" Type="LVClass" URL="../../Class/LabVIEWItem/LabVIEWItem.lvclass"/>
 		<Item Name="Test OOP API.vi" Type="VI" URL="../Test OOP API.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
