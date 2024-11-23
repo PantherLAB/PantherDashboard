@@ -35,7 +35,6 @@
 				<Item Name="Register controls Mouse Enter Argument--cluster.ctl" Type="VI" URL="../Register controls Mouse Enter Argument--cluster.ctl"/>
 				<Item Name="Load Project From Path Argument--cluster.ctl" Type="VI" URL="../Load Project From Path Argument--cluster.ctl"/>
 				<Item Name="Add DQMH Module to Current Scan Argument--cluster.ctl" Type="VI" URL="../Add DQMH Module to Current Scan Argument--cluster.ctl"/>
-				<Item Name="Refresh DQMH Module By Name Argument--cluster.ctl" Type="VI" URL="../Refresh DQMH Module By Name Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -68,7 +67,6 @@
 			<Item Name="Register controls Mouse Enter.vi" Type="VI" URL="../Register controls Mouse Enter.vi"/>
 			<Item Name="Load Project From Path.vi" Type="VI" URL="../Load Project From Path.vi"/>
 			<Item Name="Add DQMH Module to Current Scan.vi" Type="VI" URL="../Add DQMH Module to Current Scan.vi"/>
-			<Item Name="Refresh DQMH Module By Name.vi" Type="VI" URL="../Refresh DQMH Module By Name.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -143,7 +141,6 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="DQMH Modules Info--cluster.ctl" Type="VI" URL="../DQMH Modules Info--cluster.ctl"/>
 			<Item Name="DQMH Tools Menu--enum.ctl" Type="VI" URL="../DQMH Tools Menu--enum.ctl"/>
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
@@ -158,7 +155,6 @@
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
 			<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
-			<Item Name="Get VI Connector Pane image and Description.vi" Type="VI" URL="../Get VI Connector Pane image and Description.vi"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Scan DQMH Modules from Project.vi" Type="VI" URL="../Scan DQMH Modules from Project.vi"/>
@@ -176,9 +172,7 @@
 			<Item Name="Get Module Main Status.vi" Type="VI" URL="../Get Module Main Status.vi"/>
 			<Item Name="Open API Tester.vi" Type="VI" URL="../Open API Tester.vi"/>
 			<Item Name="Launch DQMH Tools by menu.vi" Type="VI" URL="../Launch DQMH Tools by menu.vi"/>
-			<Item Name="Search DQMH Module name from selection.vi" Type="VI" URL="../Search DQMH Module name from selection.vi"/>
 			<Item Name="Open Event Arguments.vi" Type="VI" URL="../Open Event Arguments.vi"/>
-			<Item Name="Refresh Current DQMH Module.vi" Type="VI" URL="../Refresh Current DQMH Module.vi"/>
 			<Item Name="Script Edit Module Name.vi" Type="VI" URL="../Script Edit Module Name.vi"/>
 			<Item Name="Edit Module Name.vi" Type="VI" URL="../Edit Module Name.vi"/>
 			<Item Name="Script Module Timeout.vi" Type="VI" URL="../Script Module Timeout.vi"/>
@@ -210,7 +204,6 @@
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
 			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
-			<Item Name="Get List Information.vi" Type="VI" URL="../Get List Information.vi"/>
 			<Item Name="Draw Tree and set expand settings.vi" Type="VI" URL="../Draw Tree and set expand settings.vi"/>
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
 		</Item>
@@ -232,7 +225,7 @@
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Insert Public API VIS.vi" Type="VI" URL="../Insert Public API VIS.vi"/>
-		<Item Name="Find some Public API VI.vi" Type="VI" URL="../Find some Public API VI.vi"/>
+		<Item Name="Find API VI.vi" Type="VI" URL="../Find API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
@@ -246,7 +239,6 @@
 		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
-		<Item Name="Remove Module from Tree.vi" Type="VI" URL="../Remove Module from Tree.vi"/>
 		<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
 		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
 		<Item Name="Constants info to String Arrays.vi" Type="VI" URL="../Constants info to String Arrays.vi"/>
@@ -268,4 +260,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Refresh Module.vi" Type="VI" URL="../Refresh Module.vi"/>
 </Library>
