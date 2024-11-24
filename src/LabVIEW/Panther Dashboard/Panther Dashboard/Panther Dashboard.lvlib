@@ -250,6 +250,7 @@
 		<Item Name="Refresh and Highlight Item.vi" Type="VI" URL="../Refresh and Highlight Item.vi"/>
 		<Item Name="Highlight Item Message.vi" Type="VI" URL="../Highlight Item Message.vi"/>
 		<Item Name="Refresh Module.vi" Type="VI" URL="../Refresh Module.vi"/>
+		<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 	</Item>
 	<Item Name="OOP" Type="Folder">
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
