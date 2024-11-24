@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="CCSymbols" Type="Str">DQMH_Disable_SEH,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str">Project Description</Property>
+	<Property Name="NI.Project.Description" Type="Str">Project Documentation</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
