@@ -36,6 +36,7 @@
 				<Item Name="Load Project From Path Argument--cluster.ctl" Type="VI" URL="../Load Project From Path Argument--cluster.ctl"/>
 				<Item Name="Add DQMH Module to Current Scan Argument--cluster.ctl" Type="VI" URL="../Add DQMH Module to Current Scan Argument--cluster.ctl"/>
 				<Item Name="Highlight Item Argument--cluster.ctl" Type="VI" URL="../Highlight Item Argument--cluster.ctl"/>
+				<Item Name="Update Status Argument--cluster.ctl" Type="VI" URL="../Update Status Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -69,6 +70,7 @@
 			<Item Name="Load Project From Path.vi" Type="VI" URL="../Load Project From Path.vi"/>
 			<Item Name="Add DQMH Module to Current Scan.vi" Type="VI" URL="../Add DQMH Module to Current Scan.vi"/>
 			<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
+			<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
