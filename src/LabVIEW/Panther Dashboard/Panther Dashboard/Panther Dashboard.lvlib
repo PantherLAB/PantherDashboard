@@ -147,7 +147,6 @@
 			<Item Name="Module type--enum.ctl" Type="VI" URL="../Module type--enum.ctl"/>
 			<Item Name="Documentation--cluster.ctl" Type="VI" URL="../Documentation--cluster.ctl"/>
 			<Item Name="Event types--enum.ctl" Type="VI" URL="../Event types--enum.ctl"/>
-			<Item Name="Selection Type--enum.ctl" Type="VI" URL="../Selection Type--enum.ctl"/>
 			<Item Name="Public VIs names--enum.ctl" Type="VI" URL="../Public VIs names--enum.ctl"/>
 			<Item Name="Module to scan--cluster.ctl" Type="VI" URL="../Module to scan--cluster.ctl"/>
 			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
