@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-25 15:03:17" Creator="Enrique Noe Arias" Comments="" ID="dc932da221a9224cbe8d1338c4154e79">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-25 16:25:16" Creator="Enrique Noe Arias" Comments="" ID="dd8020dd97b9573fb0dfbe013b95707c">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.0.0.43</Library_Version>
+    <Library_Version>8.0.0.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -83,7 +83,7 @@ Join the Panther Way!</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Test Build
+      <Release_Notes>Test Build #2
 
 This version is to test OOP Refactoring
 Also to test new Scripting hooks functionality before implementing everything.</Release_Notes>
