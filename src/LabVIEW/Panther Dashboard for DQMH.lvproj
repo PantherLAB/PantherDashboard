@@ -595,6 +595,7 @@
 			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
 			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
 			<Item Name="Build Tree Tag.vi" Type="VI" URL="../Panther Dashboard/Class/Project/Build Tree Tag.vi"/>
+			<Item Name="Refresh and Highlight Item.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Refresh and Highlight Item.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

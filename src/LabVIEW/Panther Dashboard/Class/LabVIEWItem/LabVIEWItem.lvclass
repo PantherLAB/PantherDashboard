@@ -147,6 +147,15 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="Build Item Tag.vi" Type="VI" URL="../Build Item Tag.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!N&amp;V"B&lt;H2I:8)A2'&amp;T;'*P98*E,GRW&lt;'FC%URB9F:*26&gt;*&gt;'6N,GRW9WRB=X-!$URB9F:*26&gt;*&gt;'6N)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!&amp;%!Q`````QJ198*F&lt;H1A6'&amp;H!!"'1(!!(A!!,2&gt;197ZU;'6S)%2B=WBC&lt;W&amp;S:#ZM&gt;GRJ9B.-97*73568382F&lt;3ZM&gt;G.M98.T!!Z-97*73568382F&lt;3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!"%A!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+	</Item>
 	<Item Name="Item Type--enum.ctl" Type="VI" URL="../Item Type--enum.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(!!!!!1#`!0%!!!!!!!!!!R&gt;197ZU;'6S)%2B=WBC&lt;W&amp;S:#ZM&gt;GRJ9B.-97*73568382F&lt;3ZM&gt;G.M98.T%6:*)&amp;2Z='5N,76O&gt;7UO9X2M!(F!&amp;A!(#&amp;*F=86F=X2T#E*S&lt;W&amp;E9W&amp;T&gt;(-;5G6R&gt;76T&gt;#"B&lt;G1A6W&amp;J&gt;#"G&lt;X)A5G6Q&lt;(E,5G^V&lt;G1A6(*J=(-0!F"V9GRJ9S""5%EA6EFT$LMA1W^O=X2B&lt;H1A6EFT#\MA28*S&lt;X)A6EFT!!&gt;733"5?8"F!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
