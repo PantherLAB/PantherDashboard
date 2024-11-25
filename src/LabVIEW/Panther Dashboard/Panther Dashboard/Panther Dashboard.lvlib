@@ -260,4 +260,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Add Module to Project by Path.vi" Type="VI" URL="../Add Module to Project by Path.vi"/>
 </Library>
