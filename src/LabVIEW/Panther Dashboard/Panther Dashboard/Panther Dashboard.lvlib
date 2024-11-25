@@ -35,6 +35,7 @@
 				<Item Name="Register controls Mouse Enter Argument--cluster.ctl" Type="VI" URL="../Register controls Mouse Enter Argument--cluster.ctl"/>
 				<Item Name="Load Project From Path Argument--cluster.ctl" Type="VI" URL="../Load Project From Path Argument--cluster.ctl"/>
 				<Item Name="Add DQMH Module to Current Scan Argument--cluster.ctl" Type="VI" URL="../Add DQMH Module to Current Scan Argument--cluster.ctl"/>
+				<Item Name="Highlight Item Argument--cluster.ctl" Type="VI" URL="../Highlight Item Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -67,6 +68,7 @@
 			<Item Name="Register controls Mouse Enter.vi" Type="VI" URL="../Register controls Mouse Enter.vi"/>
 			<Item Name="Load Project From Path.vi" Type="VI" URL="../Load Project From Path.vi"/>
 			<Item Name="Add DQMH Module to Current Scan.vi" Type="VI" URL="../Add DQMH Module to Current Scan.vi"/>
+			<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -239,7 +241,7 @@
 		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
-		<Item Name="Highlight Item.vi" Type="VI" URL="../Highlight Item.vi"/>
+		<Item Name="Highlight Item in Tree.vi" Type="VI" URL="../Highlight Item in Tree.vi"/>
 		<Item Name="Variant to String Value.vi" Type="VI" URL="../Variant to String Value.vi"/>
 		<Item Name="Constants info to String Arrays.vi" Type="VI" URL="../Constants info to String Arrays.vi"/>
 		<Item Name="Draw Project Results Table Constants.vi" Type="VI" URL="../Draw Project Results Table Constants.vi"/>
@@ -247,7 +249,6 @@
 		<Item Name="Replace comas for cr.vi" Type="VI" URL="../Replace comas for cr.vi"/>
 		<Item Name="Create Map of tokens to replace.vi" Type="VI" URL="../Create Map of tokens to replace.vi"/>
 		<Item Name="Build Tag.vi" Type="VI" URL="../Build Tag.vi"/>
-		<Item Name="Highlight Item Message.vi" Type="VI" URL="../Highlight Item Message.vi"/>
 		<Item Name="Refresh Module.vi" Type="VI" URL="../Refresh Module.vi"/>
 		<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 	</Item>
