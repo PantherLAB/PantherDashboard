@@ -205,7 +205,6 @@
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
-			<Item Name="Insert Constant VIs.vi" Type="VI" URL="../Insert Constant VIs.vi"/>
 			<Item Name="Create Tree Shortcut Menu.vi" Type="VI" URL="../Create Tree Shortcut Menu.vi"/>
 			<Item Name="Draw Tree and set expand settings.vi" Type="VI" URL="../Draw Tree and set expand settings.vi"/>
 			<Item Name="Draw Tree.vi" Type="VI" URL="../Draw Tree.vi"/>
@@ -227,7 +226,6 @@
 		<Item Name="Format to Bold.vi" Type="VI" URL="../Format to Bold.vi"/>
 		<Item Name="Find Default Events Path.vi" Type="VI" URL="../Find Default Events Path.vi"/>
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
-		<Item Name="Insert Public API VIS.vi" Type="VI" URL="../Insert Public API VIS.vi"/>
 		<Item Name="Find API VI.vi" Type="VI" URL="../Find API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
@@ -249,7 +247,6 @@
 		<Item Name="Get Panther Dashboard Version.vi" Type="VI" URL="../Get Panther Dashboard Version.vi"/>
 		<Item Name="Replace comas for cr.vi" Type="VI" URL="../Replace comas for cr.vi"/>
 		<Item Name="Create Map of tokens to replace.vi" Type="VI" URL="../Create Map of tokens to replace.vi"/>
-		<Item Name="Build Tag.vi" Type="VI" URL="../Build Tag.vi"/>
 		<Item Name="Refresh Module.vi" Type="VI" URL="../Refresh Module.vi"/>
 		<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 	</Item>
