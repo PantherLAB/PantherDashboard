@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-25 16:25:16" Creator="Enrique Noe Arias" Comments="" ID="dd8020dd97b9573fb0dfbe013b95707c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-26 15:22:28" Creator="Enrique Noe Arias" Comments="" ID="5fbdab26c0b3bb0580398ca8c0200c7c">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.0.0.44</Library_Version>
+    <Library_Version>8.0.0.45</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -83,10 +83,9 @@ Join the Panther Way!</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Test Build #2
-
-This version is to test OOP Refactoring
-Also to test new Scripting hooks functionality before implementing everything.</Release_Notes>
+      <Release_Notes>Test Build #3
+This is the first build including the Scripting Hooks, need to add some Buttons to PDash UI to call the new Functionality, that will be included in the next release.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -147,6 +146,12 @@ Also to test new Scripting hooks functionality before implementing everything.</
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>LabVIEW Data</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;OS User Documents&gt;\LabVIEW Data</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -159,6 +164,12 @@ Also to test new Scripting hooks functionality before implementing everything.</
         <Path>Panther Dashboard for DQMH.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>DQMH Scripting Plugins</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -201,6 +212,12 @@ Also to test new Scripting hooks functionality before implementing everything.</
       </Exclusions>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Controls</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Test Project</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -257,7 +274,7 @@ Also to test new Scripting hooks functionality before implementing everything.</
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
       <Mac_OS>false</Mac_OS>
-      <Linux>true</Linux>
+      <Linux>false</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
