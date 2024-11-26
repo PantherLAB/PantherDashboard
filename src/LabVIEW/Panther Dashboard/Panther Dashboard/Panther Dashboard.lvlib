@@ -39,6 +39,7 @@
 				<Item Name="Update Status Argument--cluster.ctl" Type="VI" URL="../Update Status Argument--cluster.ctl"/>
 				<Item Name="Add new Module by Path Argument--cluster.ctl" Type="VI" URL="../Add new Module by Path Argument--cluster.ctl"/>
 				<Item Name="Refresh Module By Name Argument--cluster.ctl" Type="VI" URL="../Refresh Module By Name Argument--cluster.ctl"/>
+				<Item Name="Remove Module By Name Argument--cluster.ctl" Type="VI" URL="../Remove Module By Name Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -75,6 +76,7 @@
 			<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>
 			<Item Name="Add new Module by Path.vi" Type="VI" URL="../Add new Module by Path.vi"/>
 			<Item Name="Refresh Module By Name.vi" Type="VI" URL="../Refresh Module By Name.vi"/>
+			<Item Name="Remove Module By Name.vi" Type="VI" URL="../Remove Module By Name.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -254,6 +256,8 @@
 		<Item Name="Refresh Module.vi" Type="VI" URL="../Refresh Module.vi"/>
 		<Item Name="Get VI Info.vi" Type="VI" URL="../Get VI Info.vi"/>
 		<Item Name="Add Module to Project by Path.vi" Type="VI" URL="../Add Module to Project by Path.vi"/>
+		<Item Name="Refresh by Name.vi" Type="VI" URL="../Refresh by Name.vi"/>
+		<Item Name="Remove Module from Project by Name.vi" Type="VI" URL="../Remove Module from Project by Name.vi"/>
 	</Item>
 	<Item Name="OOP" Type="Folder">
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
@@ -265,5 +269,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Refresh by Name.vi" Type="VI" URL="../Refresh by Name.vi"/>
 </Library>
