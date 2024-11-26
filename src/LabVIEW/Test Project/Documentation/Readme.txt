@@ -1,0 +1,3 @@
+You can include the documentation of your application in this "Documentation" folder.
+If you're looking for the DQMH Documentation, you'll find it in the LabVIEW Help Menu > DQMH Consortium > DQMH Help...
+This will automatically open the online version of the DQMH Documentation website if you're connected to Internet, or open the local copy if you don't have Internet.
