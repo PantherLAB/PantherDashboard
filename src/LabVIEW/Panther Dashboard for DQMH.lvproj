@@ -22,6 +22,47 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="DQMH Scripting Plugins" Type="Folder">
+			<Item Name="Add Helper Loop to DQMH Module" Type="Folder">
+				<Item Name="PDash Add HL to Module.vi" Type="VI" URL="../DQMH Scripting Plugins/Add Helper Loop to DQMH Module/PDash Add HL to Module.vi"/>
+			</Item>
+			<Item Name="Add New DQMH Module" Type="Folder">
+				<Item Name="PDash - Add New DQMH Module.vi" Type="VI" URL="../DQMH Scripting Plugins/Add New DQMH Module/PDash - Add New DQMH Module.vi"/>
+			</Item>
+			<Item Name="Convert DQMH Event" Type="Folder">
+				<Item Name="PDash - Convert DQMH Event.vi" Type="VI" URL="../DQMH Scripting Plugins/Convert DQMH Event/PDash - Convert DQMH Event.vi"/>
+			</Item>
+			<Item Name="Create DQMH Module Template" Type="Folder">
+				<Item Name="PDash - Create DQMH Module Template.vi" Type="VI" URL="../DQMH Scripting Plugins/Create DQMH Module Template/PDash - Create DQMH Module Template.vi"/>
+			</Item>
+			<Item Name="Create New DQMH Event" Type="Folder">
+				<Item Name="PDash - Create New DQMH Event.vi" Type="VI" URL="../DQMH Scripting Plugins/Create New DQMH Event/PDash - Create New DQMH Event.vi"/>
+			</Item>
+			<Item Name="Create RT Tester" Type="Folder">
+				<Item Name="PDash - Create RT Tester.vi" Type="VI" URL="../DQMH Scripting Plugins/Create RT Tester/PDash - Create RT Tester.vi"/>
+			</Item>
+			<Item Name="Duplicate DQMH Event" Type="Folder">
+				<Item Name="PDash - Duplicate DQMH Event.vi" Type="VI" URL="../DQMH Scripting Plugins/Duplicate DQMH Event/PDash - Duplicate DQMH Event.vi"/>
+			</Item>
+			<Item Name="Duplicate DQMH Module" Type="Folder">
+				<Item Name="PDash - Duplicate DQMH Module.vi" Type="VI" URL="../DQMH Scripting Plugins/Duplicate DQMH Module/PDash - Duplicate DQMH Module.vi"/>
+			</Item>
+			<Item Name="New DQMH Unit Test" Type="Folder">
+				<Item Name="PDash - New DQMH Unit Test.vi" Type="VI" URL="../DQMH Scripting Plugins/New DQMH Unit Test/PDash - New DQMH Unit Test.vi"/>
+			</Item>
+			<Item Name="PantherDashboard Scripting Hooks" Type="Folder">
+				<Item Name="Panther Dasboard Scripting Hooks.lvlib" Type="Library" URL="../DQMH Scripting Plugins/PantherDashboard Scripting Hooks/Panther Dasboard Scripting Hooks.lvlib"/>
+			</Item>
+			<Item Name="Remove DQMH Event" Type="Folder">
+				<Item Name="PDash - Remove DQMH Event.vi" Type="VI" URL="../DQMH Scripting Plugins/Remove DQMH Event/PDash - Remove DQMH Event.vi"/>
+			</Item>
+			<Item Name="Rename DQMH Event" Type="Folder">
+				<Item Name="PDash - Rename DQMH Event.vi" Type="VI" URL="../DQMH Scripting Plugins/Rename DQMH Event/PDash - Rename DQMH Event.vi"/>
+			</Item>
+			<Item Name="Rename DQMH Module" Type="Folder">
+				<Item Name="PDash - Rename DQMH Module.vi" Type="VI" URL="../DQMH Scripting Plugins/Rename DQMH Module/PDash - Rename DQMH Module.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Panther Dashboard.lvlib" Type="Library" URL="../Panther Dashboard/Panther Dashboard/Panther Dashboard.lvlib"/>
 			<Item Name="ContextHelp.lvlib" Type="Library" URL="../Panther Dashboard/ContextHelp/ContextHelp.lvlib"/>
@@ -245,6 +286,7 @@
 				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
 				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
 				<Item Name="DQMH_DQMH Legal Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Legal Information--constant.vi"/>
+				<Item Name="dqmh_lib_DQMH Scripting Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/_Scripting Support/dqmh_lib_DQMH Scripting Support.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
