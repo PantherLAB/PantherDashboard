@@ -270,4 +270,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Open VI Block Diagram.vi" Type="VI" URL="../Open VI Block Diagram.vi"/>
+	<Item Name="Find Module In Project and Open Main.vi" Type="VI" URL="../Find Module In Project and Open Main.vi"/>
 </Library>
