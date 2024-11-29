@@ -234,6 +234,7 @@
 		<Item Name="Drop Event into subVI.vi" Type="VI" URL="../Drop Event into subVI.vi"/>
 		<Item Name="Find API VI.vi" Type="VI" URL="../Find API VI.vi"/>
 		<Item Name="Find VI.vi" Type="VI" URL="../Find VI.vi"/>
+		<Item Name="Warning Dialog.vi" Type="VI" URL="../Warning Dialog.vi"/>
 		<Item Name="Open File on Disk.vi" Type="VI" URL="../Open File on Disk.vi"/>
 		<Item Name="Width Fixer on modules Selector.vi" Type="VI" URL="../Width Fixer on modules Selector.vi"/>
 		<Item Name="Parse Current Projects Opened.vi" Type="VI" URL="../Parse Current Projects Opened.vi"/>
