@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-26 15:22:28" Creator="Enrique Noe Arias" Comments="" ID="5fbdab26c0b3bb0580398ca8c0200c7c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-28 20:26:52" Creator="Enrique Noe Arias" Comments="" ID="4ecf3ec9a7fe8fedd55e73d9b782db22">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.0.0.45</Library_Version>
+    <Library_Version>8.0.0.46</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -44,48 +44,51 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>Panther Dashboard is an Open-Source LabVIEW tool designed to improve the DQMH Developer Experience.
+      <Description>&lt;size=20&gt;&lt;b&gt;Panther Dashboard is an Open-Source LabVIEW tool designed with love to improve the Developer Experience.&lt;/b&gt;&lt;/size&gt;
 
-Join the Panther Way!
+&lt;color=ff4a1c&gt;&lt;size=20&gt;&lt;b&gt;Join the Panther Way!&lt;/b&gt;&lt;/size&gt;&lt;/color&gt;
 
-Key Features:
+Main Features:
 
 *Effortless Integration: Drag and drop DQMH Public API VIs directly into your code.
 *Enhanced Visualization: Explore your project's modules and events in a clear and intuitive visual context.
 *Module Status and Dependencies: Instantly identify module status (running, idle) and dependencies.
-*Efficient Navigation: Easily search for module callers, listeners, launch points, and stop points.
+*Efficient Navigation: Easily search for module callers, listeners, where a module is launched/stoped.
 *Comprehensive Editing: Edit module timeouts, names, request, and wait for reply timeouts to fine-tune your project's behavior.
-*Enhanced Documentation: Create custom error and constant VIs, edit module documentation, and use the DQMH Context Help to keep your documentation up to date.
-*Powerful Tools: Access DQMH Scripting Tools, Antidoc, and PantherLAB Scripting tools for advanced project development.
+*Enhanced Documentation: Create custom --error.vi and --constant.vi, edit module documentation, and use the DQMH Context Help to keep your documentation up to date.
+
 
 Getting Started:
 
-Open your LabVIEW project.
 Go to Tools -&gt; PantherLAB -&gt; Panther Dashboard for DQMH.
 
 Report any issues and request features at:
 
 &lt;b&gt;https://github.com/PantherLAB/PantherDashboard/issues&lt;/b&gt;
 
-&lt;b&gt;Need LabVIEW Expertise?&lt;b&gt;
+&lt;b&gt;Need to boost your LabVIEW Project?&lt;/b&gt;
 
-We're Here to Help You Succeed.
+Wheter you're a manager, developer, or an engenineering team, &lt;b&gt;PantherLAB&lt;/b&gt; offers:
+-Software Development
+-Training
+-Increase your Team Bandwith
 
---Tailored Training: Learn LabVIEW and DQMH from experienced professionals.
---Custom Software Solutions: Solve complex challenges with our expert consulting.
---Dedicated LabVIEW Contractors: Access skilled LabVIEW developers for your projects.
+We blend creativity, community, tools, and expertice to deliver results and have fun while doing it.
 
-Contact Us Today:
+Let's discuss your dreams. Schedule a meeting today:
 
-enrique.noe@pantherlab.com.mx
-
-Join the Panther Way!</Description>
+&lt;b&gt;enrique.noe@pantherlab.com.mx&lt;/b&gt;</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Test Build #3
-This is the first build including the Scripting Hooks, need to add some Buttons to PDash UI to call the new Functionality, that will be included in the next release.
-</Release_Notes>
+      <Release_Notes>Panther Dashboard updated to use new DQMH 7.1 Features:
+* Duplicate Event
+* Duplicate Module
+* Convert from Request-&gt;Roundrip
+* Scripting Hooks
+
+1-&gt; 2 new Icons added to call the Duplicate Module/Event
+2-&gt; New Scripting Hooks added to full integrating Panther Dashboard to DMQH Framework.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -199,11 +202,6 @@ This is the first build including the Scripting Hooks, need to add some Buttons 
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>Panther Dashboard/Panther Dashboard/Test Panther Dashboard API.vi</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>PantherLAB_lib_</Namespace>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
-        <Path>Panther Dashboard/Shared/Shared.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>PantherLAB_lib_</Namespace>
       </Namespace_Overrides>

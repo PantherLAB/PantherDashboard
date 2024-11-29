@@ -72,10 +72,6 @@
 			<Item Name="Test ContextHelp API.vi" Type="VI" URL="../Panther Dashboard/ContextHelp/Test ContextHelp API.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="Unit Tests" Type="Folder">
-				<Item Name="Test Library.lvlib" Type="Library" URL="../../Unit Tests/Test Library/Test Library.lvlib"/>
-			</Item>
-			<Item Name="Shared.lvlib" Type="Library" URL="../Panther Dashboard/Shared/Shared.lvlib"/>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Panther Dashboard/Post-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
@@ -88,6 +84,11 @@
 			<Item Name="Stub_ModuleNameCLON.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_ModuleNameCLON.vi"/>
 			<Item Name="Stub_ModuleNameSGTN.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_ModuleNameSGTN.vi"/>
 			<Item Name="Stub_Constant VI.vi" Type="VI" URL="../Panther Dashboard/Panther Dashboard/Stub VIS/Stub_Constant VI.vi"/>
+		</Item>
+		<Item Name="Important Links" Type="Folder">
+			<Item Name="Icons" Type="Hyperlink">
+				<Property Name="NI.Address" Type="Str">https://iconizer.net/en/search/1/collection:Wireframe_mono_icons</Property>
+			</Item>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
