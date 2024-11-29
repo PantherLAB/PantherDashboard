@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-28 20:26:52" Creator="Enrique Noe Arias" Comments="" ID="4ecf3ec9a7fe8fedd55e73d9b782db22">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-29 12:46:30" Creator="Enrique Noe Arias" Comments="" ID="608f34535f49de59cc8f42bb7ad73079">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.0.0.46</Library_Version>
+    <Library_Version>8.0.0.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -88,7 +88,7 @@ Let's discuss your dreams. Schedule a meeting today:
 * Scripting Hooks
 
 1-&gt; 2 new Icons added to call the Duplicate Module/Event
-2-&gt; New Scripting Hooks added to full integrating Panther Dashboard to DMQH Framework.</Release_Notes>
+2-&gt; New Scripting Hooks added to full integrating Panther Dashboard with DMQH Framework.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
