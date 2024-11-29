@@ -259,6 +259,8 @@
 		<Item Name="Add Module to Project by Path.vi" Type="VI" URL="../Add Module to Project by Path.vi"/>
 		<Item Name="Refresh by Name.vi" Type="VI" URL="../Refresh by Name.vi"/>
 		<Item Name="Remove Module from Project by Name.vi" Type="VI" URL="../Remove Module from Project by Name.vi"/>
+		<Item Name="Open VI Block Diagram.vi" Type="VI" URL="../Open VI Block Diagram.vi"/>
+		<Item Name="Find Module In Project and Open Main.vi" Type="VI" URL="../Find Module In Project and Open Main.vi"/>
 	</Item>
 	<Item Name="OOP" Type="Folder">
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
@@ -270,6 +272,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Open VI Block Diagram.vi" Type="VI" URL="../Open VI Block Diagram.vi"/>
-	<Item Name="Find Module In Project and Open Main.vi" Type="VI" URL="../Find Module In Project and Open Main.vi"/>
 </Library>
