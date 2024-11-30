@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-29 17:18:12" Creator="Enrique Noe Arias" Comments="" ID="5739f8920d720cbf2995c53bb06d413d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2024-11-30 08:13:27" Creator="Enrique Noe Arias" Comments="" ID="dfcbcd35c22174a38f6a67cef010cbdc">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.0.0.48</Library_Version>
+    <Library_Version>8.0.0.49</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -44,11 +44,9 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>&lt;size=20&gt;&lt;b&gt;Panther Dashboard is an Open-Source LabVIEW tool designed with love to improve the Developer Experience.&lt;/b&gt;&lt;/size&gt;
+      <Description>&lt;size=20&gt;&lt;b&gt;&lt;font=Microsoft Sans Serif&gt;Panther Dashboard is a tool designed with love to improve your Developer Experience.&lt;/font&gt;&lt;/b&gt;&lt;/size&gt;
 
-&lt;color=ff4a1c&gt;&lt;size=20&gt;&lt;b&gt;Join the Panther Way!&lt;/b&gt;&lt;/size&gt;&lt;/color&gt;
-
-Main Features:
+&lt;b&gt;Main Features:&lt;/b&gt;
 
 *Effortless Integration: Drag and drop DQMH Public API VIs directly into your code.
 *Enhanced Visualization: Explore your project's modules and events in a clear and intuitive visual context.
@@ -75,7 +73,9 @@ Wheter you're a manager, developer, or an engenineering team, &lt;b&gt;PantherLA
 
 We blend creativity, community, tools, and expertice to deliver results and have fun while doing it.
 
-Let's discuss your dreams. Schedule a meeting today:
+Let's discuss your projects. Schedule a meeting today and....
+
+&lt;color=ff4a1c&gt;&lt;size=20&gt;&lt;b&gt;Join the Panther Way!&lt;/b&gt;&lt;/size&gt;&lt;/color&gt;
 
 &lt;b&gt;enrique.noe@pantherlab.com.mx&lt;/b&gt;</Description>
       <Copyright/>
@@ -89,8 +89,12 @@ Let's discuss your dreams. Schedule a meeting today:
 
 1-&gt; 2 new Icons added to call the Duplicate Module/Event
 2-&gt; New Scripting Hooks added to full integrating Panther Dashboard with DMQH Framework.
+3-&gt; Improved right Click Menus to include DQMH options in the context of the right click
+        -Project   -&gt;Add DQMH Module
+        -Module -&gt;Add Event, Rename, Duplicate
+        -Event     -&gt;Rename, Remove, Duplicate
 
-IMPORTANT
+&lt;b&gt;IMPORTANT&lt;/b&gt;
 Due internal refactoring the Panther Scan files changed, if that is the case a pop up dialog will show up asking for a new Project rescan</Release_Notes>
     </Description>
     <Destinations>
