@@ -13,7 +13,7 @@
 	<Item Name="_Check if Panther Dashboard is Running.vi" Type="VI" URL="../_Check if Panther Dashboard is Running.vi"/>
 	<Item Name="_Get Tools App Context.vi" Type="VI" URL="../_Get Tools App Context.vi"/>
 	<Item Name="_Highlight Item.vi" Type="VI" URL="../_Highlight Item.vi"/>
+	<Item Name="_Refresh Module By Name.vi" Type="VI" URL="../_Refresh Module By Name.vi"/>
 	<Item Name="_Remove Module By Name.vi" Type="VI" URL="../_Remove Module By Name.vi"/>
-	<Item Name="_Update Module By Name.vi" Type="VI" URL="../_Update Module By Name.vi"/>
 	<Item Name="_Update Status.vi" Type="VI" URL="../_Update Status.vi"/>
 </Library>
