@@ -80,10 +80,12 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![delete](https://github.com/user-attachments/assets/19efe3c8-56bf-4c33-93c2-cc2eb8c38461) | Remove Event from Module | Removes an Event from the Module selected |
 | ![convert](https://github.com/user-attachments/assets/5523da17-9718-406c-9b82-28347c3f28c1) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
 | ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Event | Renames an Event from the Module Selected |
+| ![Duplicate Event](https://github.com/user-attachments/assets/85be6c18-3523-4036-ab8f-6bd620696195) | Duplicate Event | Duplicates an Event from the Module selected, the target could be the same module or another module in the project |
 | ![new](https://github.com/user-attachments/assets/9979e33a-d40e-44ae-916f-9f27d14ba0c9) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
 | ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Module | Renames a DQMH® Module |
 | ![loop](https://github.com/user-attachments/assets/2bcd8478-ca02-4102-89c9-a8503b082bd1) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
 | ![validate](https://github.com/user-attachments/assets/ed63899c-35ce-430e-b671-100b76091559) | Validate Module | Calls the DQMH® Validation Tools |
+| ![Duplicate Module](https://github.com/user-attachments/assets/6fb0d1e9-699d-4299-a411-6856d24aeb92) | Duplicate Module | Duplicates a module in the same project |
 | ![template](https://github.com/user-attachments/assets/b2cb3b8f-47fa-497d-bd3d-6a7fe5f0bfdb) | Create Module Template | Creates a DQMH Module template from the Module selected |
 | ![clock](https://github.com/user-attachments/assets/81ff462c-1c1d-4de2-a2c3-6156abed227a) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
 | ![test](https://github.com/user-attachments/assets/02f273ca-8cee-43c9-b2e3-c36b9e18e043) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
