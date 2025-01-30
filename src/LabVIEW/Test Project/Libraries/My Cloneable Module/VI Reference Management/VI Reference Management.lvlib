@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">My Cloneable Module.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../My Cloneable Module.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Manage access to the master VI reference for the Main VI in a DQMH cloneable module. This reference is used to spawn reentrant instances of the Main VI.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;7R=&gt;N!%)8B:Y]$T4!#9Q5;NL!NM!57Y'2T2USF$#K!Q&lt;&lt;!&amp;ND#NM$!G3/U!0VX8&amp;);;31GNM@DU5%((2^Q?Z]!%**[OZ'_;&lt;\7&amp;B_W&gt;HTO7RP0J^VF]/LYYHGQG._&gt;@_KH81U8&lt;_?@S\QZ0L]I&gt;K\SE@^+UW@\&lt;0^XO\`[*@DDXY-P;C]C?N+$\H247X:/]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C0P'\H)23ZS3-HCS5**U;2!=D)5*&lt;P%EXA34_,BIR*0YEE]C3@R=)I34_**0)EH]4".C3@R**\%EXAIV38:.X)]C9@S#DS"*`!%HM$$EAI]!3"9,#A=&amp;)'BY'!Q#$S"*`!Q6/!*0)%H]!1?$CPQ"*\!%XA#$V0[69GO;2MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[(Z?2Y()_$=":UCE/1-]EZQ@HA?"Q0P_2Y()`D=4S/BU0^$HG`-EX4.H)]BM@Q'"\$9XAI)=.D?!S0Y4%]F*8B-4S'R`!9(J;3Y4%]BM?!')OSP)RCRE4D*#-Q00TUJ]8[89IOM&lt;Z*^@#K(EL6Q[:[C&amp;10B_KGKW[G[C;J,L\KIKIOFOICK0YY&amp;6K&amp;53WCGNR/V-4_3$`1^`32PK6P['P[CD[UK&lt;`ZR'G;&gt;$Q?&gt;4A=N.`P.9[DNNON.JO.VOOV6KO6BG'YP!&lt;OW#YPB..\[:\R\H&lt;[M6O/$\P&lt;`0[Y()@(Z;_@,@],`Z``A8?DPOLF'FSD*[8N3/Y!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;7R=&gt;N!%)8B:Y]$T4!#9Q5;NL!NM!57Y'2T2USF$#K!Q&lt;&lt;!&amp;ND#NM$!G3/U!0VX8&amp;);;31GNM@DU5%((2^Q?Z]!%**[OZ'_;&lt;\7&amp;B_W&gt;HTO7RP0J^VF]/LYYHGQG._&gt;@_KH81U8&lt;_?@S\QZ0L]I&gt;K\SE@^+UW@\&lt;0^XO\`[*@DDXY-P;C]C?N+$\H247X:/]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C0P'\H)23ZS3-HCS5**U;2!=D)5*&lt;P%EXA34_,BIR*0YEE]C3@R=)I34_**0)EH]4".C3@R**\%EXAIV38:.X)]C9@S#DS"*`!%HM$$EAI]!3"9,#A=&amp;)'BY'!Q#$S"*`!Q6/!*0)%H]!1?$CPQ"*\!%XA#$V0[69GO;2MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[(Z?2Y()_$=":UCE/1-]EZQ@HA?"Q0P_2Y()`D=4S/BU0^$HG`-EX4.H)]BM@Q'"\$9XAI)=.D?!S0Y4%]F*8B-4S'R`!9(J;3Y4%]BM?!')OSP)RCRE4D*#-Q00TUJ]8[89IOM&lt;Z*^@#K(EL6Q[:[C&amp;10B_KGKW[G[C;J,L\KIKIOFOICK0YY&amp;6K&amp;53WCGNR/V-4_3$`1^`32PK6P['P[CD[UK&lt;`ZR'G;&gt;$Q?&gt;4A=N.`P.9[DNNON.JO.VOOV6KO6BG'YP!&lt;OW#YPB..\[:\R\H&lt;[M6O/$\P&lt;`0[Y()@(Z;_@,@],`Z``A8?DPOLF'FSD*[8N3/Y!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
