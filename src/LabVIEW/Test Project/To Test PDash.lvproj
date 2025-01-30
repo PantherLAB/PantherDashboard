@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str">DQMH_Disable_SEH,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">Project Documentation</Property>
@@ -128,6 +128,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{297F3F0F-3AFF-4BA9-B1B2-2438714F77E8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2DAC7B8A-DE9A-43E7-9C19-6238DAF455BE}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F4AC0F2E-9817-491A-A1E8-2799068AD2F5}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Application</Property>
