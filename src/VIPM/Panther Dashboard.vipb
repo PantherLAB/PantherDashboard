@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-03-26 14:46:36" Creator="Enrique Noe Arias" Comments="" ID="040b91a8a6f0cda7f7b0633e411337de">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-04-04 15:04:58" Creator="Enrique Noe Arias" Comments="" ID="8cb4a9347ea22aa08c81392fdab03dc5">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.1.2.54</Library_Version>
+    <Library_Version>8.1.2.55</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -87,7 +87,7 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Panther Dashboard updated to use new DQMH 7.1 Features:
+      <Release_Notes>Panther Dashboard updated to use new DQMH 7.1 new Features:
 * Duplicate Event
 * Duplicate Module
 * Convert from Request-&gt;Roundtrip
@@ -100,6 +100,7 @@ Let's discuss your projects. Schedule a meeting today and....
         -Module -&gt;Create Event, Rename Module, Duplicate Module
         -Event     -&gt;Rename, Remove, Duplicate
 4-&gt; Improvements made to module preselection when using Panther Dashboard.
+5-&gt; Improvements to the algorithm to set the module name in the DQMH Scripting Tools #57
 
 &lt;b&gt;IMPORTANT&lt;/b&gt;
 -- Internal refactoring has modified Panther Scan files format. A pop-up will show up if a project rescan is required.
