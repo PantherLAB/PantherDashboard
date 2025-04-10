@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-04-04 15:04:58" Creator="Enrique Noe Arias" Comments="" ID="8cb4a9347ea22aa08c81392fdab03dc5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-04-10 10:34:33" Creator="Enrique Noe Arias" Comments="" ID="f04aa1a49127f1b8c68df2302dfc52e5">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.1.2.55</Library_Version>
+    <Library_Version>8.1.2.56</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1478</External_Dependencies>
-      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1478</External_Dependencies>
+      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1490</External_Dependencies>
+      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1490</External_Dependencies>
       <External_Dependencies>graphbuilder &gt;= 2.2.0.6</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2024.0.3.23</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
@@ -28,8 +28,8 @@
       <External_Dependencies>wovalab_lib_antidoc &gt;= 3.0.0.802</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.0.0.274</External_Dependencies>
       <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.9.0.378</External_Dependencies>
-      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1478</Direct_Dependencies>
-      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1478</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1490</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1490</Direct_Dependencies>
       <Direct_Dependencies>graphbuilder-2.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2024.0.3.23</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
@@ -46,7 +46,7 @@
       <Pre-Install_VI/>
       <Post-Install_VI>..\LabVIEW\Panther Dashboard\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Post-Uninstall_VI>..\LabVIEW\Panther Dashboard\Post-Uninstall Custom Action.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
