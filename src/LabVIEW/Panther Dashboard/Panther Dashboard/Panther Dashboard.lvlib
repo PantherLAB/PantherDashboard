@@ -224,6 +224,12 @@
 			<Item Name="Default Config Path.vi" Type="VI" URL="../Default Config Path.vi"/>
 			<Item Name="Generate And Open PFD.vi" Type="VI" URL="../Generate And Open PFD.vi"/>
 		</Item>
+		<Item Name="Style" Type="Folder">
+			<Item Name="PDash Branding.vi" Type="VI" URL="../PDash Branding.vi"/>
+			<Item Name="Pdash Style--cluster.ctl" Type="VI" URL="../Pdash Style--cluster.ctl"/>
+			<Item Name="Pdash Style--constant.vi" Type="VI" URL="../Pdash Style--constant.vi"/>
+			<Item Name="Test Pdash Style.vi" Type="VI" URL="../Test Pdash Style.vi"/>
+		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
