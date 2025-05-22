@@ -91,6 +91,50 @@
 				<Property Name="NI.Address" Type="Str">https://iconizer.net/en/search/1/collection:Wireframe_mono_icons</Property>
 			</Item>
 		</Item>
+		<Item Name="cts" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Event" Type="Folder">
+					<Item Name="Add Event.ctl" Type="VI" URL="../Controls/Add Event.ctl"/>
+					<Item Name="Rename event.ctl" Type="VI" URL="../Controls/Rename event.ctl"/>
+					<Item Name="Remove Event.ctl" Type="VI" URL="../Controls/Remove Event.ctl"/>
+					<Item Name="Convert Event.ctl" Type="VI" URL="../Controls/Convert Event.ctl"/>
+				</Item>
+				<Item Name="Module" Type="Folder">
+					<Item Name="Create Real Time API.ctl" Type="VI" URL="../Controls/Create Real Time API.ctl"/>
+					<Item Name="Validate Module.ctl" Type="VI" URL="../Controls/Validate Module.ctl"/>
+					<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
+					<Item Name="Unit Test.ctl" Type="VI" URL="../Controls/Unit Test.ctl"/>
+					<Item Name="Add Helper Loop.ctl" Type="VI" URL="../Controls/Add Helper Loop.ctl"/>
+				</Item>
+				<Item Name="Antidoc" Type="Folder">
+					<Item Name="Antidoc Create.ctl" Type="VI" URL="../Controls/Antidoc Create.ctl"/>
+					<Item Name="Antidoc Open.ctl" Type="VI" URL="../Controls/Antidoc Open.ctl"/>
+				</Item>
+				<Item Name="Help" Type="Folder">
+					<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
+					<Item Name="DQMH Help.ctl" Type="VI" URL="../Controls/DQMH Help.ctl"/>
+				</Item>
+				<Item Name="Other" Type="Folder">
+					<Item Name="Dependency.ctl" Type="VI" URL="../Controls/Dependency.ctl"/>
+					<Item Name="Documentation.ctl" Type="VI" URL="../Controls/Documentation.ctl"/>
+					<Item Name="Export File.ctl" Type="VI" URL="../Controls/Export File.ctl"/>
+					<Item Name="Facebook.ctl" Type="VI" URL="../Controls/Facebook.ctl"/>
+					<Item Name="Gear.ctl" Type="VI" URL="../Controls/Gear.ctl"/>
+					<Item Name="home.ctl" Type="VI" URL="../Controls/home.ctl"/>
+					<Item Name="Linkedin.ctl" Type="VI" URL="../Controls/Linkedin.ctl"/>
+					<Item Name="Listbox.ctl" Type="VI" URL="../Controls/Listbox.ctl"/>
+					<Item Name="My Computer or Dependencies.ctl" Type="VI" URL="../Controls/My Computer or Dependencies.ctl"/>
+					<Item Name="Open Project.ctl" Type="VI" URL="../Controls/Open Project.ctl"/>
+					<Item Name="Panther.ctl" Type="VI" URL="../Controls/Panther.ctl"/>
+					<Item Name="Rename Module.ctl" Type="VI" URL="../Controls/Rename Module.ctl"/>
+					<Item Name="Search.ctl" Type="VI" URL="../Controls/Search.ctl"/>
+					<Item Name="theme.ctl" Type="VI" URL="../Controls/theme.ctl"/>
+					<Item Name="Twitter.ctl" Type="VI" URL="../Controls/Twitter.ctl"/>
+					<Item Name="Web.ctl" Type="VI" URL="../Controls/Web.ctl"/>
+					<Item Name="Coffe.ctl" Type="VI" URL="../Controls/Coffe.ctl"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
