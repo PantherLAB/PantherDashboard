@@ -133,12 +133,13 @@
 				<Item Name="Twitter.ctl" Type="VI" URL="../Controls/Twitter.ctl"/>
 				<Item Name="Web.ctl" Type="VI" URL="../Controls/Web.ctl"/>
 				<Item Name="Coffe.ctl" Type="VI" URL="../Controls/Coffe.ctl"/>
+				<Item Name="Tree.ctl" Type="VI" URL="../Controls/Tree.ctl"/>
+				<Item Name="Continue.ctl" Type="VI" URL="../Controls/Continue.ctl"/>
 				<Item Name="MulticolumListbox.ctl" Type="VI" URL="../Controls/MulticolumListbox.ctl"/>
 				<Item Name="Cancel.ctl" Type="VI" URL="../Controls/Cancel.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
-		<Item Name="Continue.ctl" Type="VI" URL="../Controls/Continue.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
