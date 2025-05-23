@@ -250,7 +250,6 @@
 		<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
 		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
 		<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
-		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 		<Item Name="Highlight Item in Tree.vi" Type="VI" URL="../Highlight Item in Tree.vi"/>
