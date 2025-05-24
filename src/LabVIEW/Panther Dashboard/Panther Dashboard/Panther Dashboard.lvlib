@@ -209,6 +209,7 @@
 			<Item Name="Find Module Virtual Folder.vi" Type="VI" URL="../Find Module Virtual Folder.vi"/>
 			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 			<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
+			<Item Name="Open VI by Path.vi" Type="VI" URL="../Open VI by Path.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
