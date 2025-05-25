@@ -34,6 +34,8 @@ If team members do not follow this guideline, it is strongly recommended to add 
 2. Recent Projects: If you've recently worked on a project, you can quickly access it from the "Recent Projects" list within Panther Dashboard.
 3. Open DQMH Project: Launch Panther Dashboard and click the "Open DQMH Project" button to browse and select your project.
 
+![02 Init Screen](../assets/icons/Gray/Info.png)
+
 ![02 Init Screen](https://github.com/user-attachments/assets/7099a71d-0043-4c2a-a9a6-01db4ca8fe28)
 
 [1] Projects: Panther Dashboard will display all the projects currently opened by LabVIEW
