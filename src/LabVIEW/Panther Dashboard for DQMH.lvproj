@@ -137,6 +137,7 @@
 				<Item Name="Continue.ctl" Type="VI" URL="../Controls/Continue.ctl"/>
 				<Item Name="MulticolumListbox.ctl" Type="VI" URL="../Controls/MulticolumListbox.ctl"/>
 				<Item Name="Cancel.ctl" Type="VI" URL="../Controls/Cancel.ctl"/>
+				<Item Name="Open VI Codes.ctl" Type="VI" URL="../Controls/Open VI Codes.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Panther Dashboard for DQMH.vi" Type="VI" URL="../Panther Dashboard for DQMH.vi"/>
