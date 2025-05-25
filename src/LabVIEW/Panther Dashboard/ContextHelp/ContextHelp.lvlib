@@ -2,6 +2,7 @@
 <Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">Module to show DQMH Context Help</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)U!!!*Q(C=\&gt;5R&lt;B."&amp;-&lt;RTQAE7N]!W1U6T&lt;O#L_!LP#OYD4P4U,]L_!K_QH=&amp;^R4)6QD`'4_C+%IQ"3#%-OPR\H[T-`0,\(IDT@*??KP\7_8&gt;4]O0^P8YL.@L=4$XT\:@$[YH4^JHXW\YB@YPT^_'*_UP_W]5P:&lt;8]H_8OZM`AD`_/VBIP)CIJB9VK;%R\&lt;X*47ZSEZP=Z%6?Z%6?Z%6?Z%G?Z%G?Z%G?Z%%?Z%%?Z%%?Z(-D&amp;\H)21\*4'YG-I/;!=T&amp;5'3_D-&gt;YD-&gt;Y/*8R')`R')`R=)G-RXC-RXC-BWYS(O-R(O-R(I;;%M_.()`R-,Q+4_%J0)7H]$#F#E]"+#9L"CY'A;'CM4AI0)7H](#IQF.Y#E`B+4QUK`!5HM*4?!I08?;KV.3-D2Q0QSDR**\%EXA3$U-L]33?R*.Y%A`4+@%EHA324*A-$E&amp;*J_3#Z#4R*"ZW3DS**`%EHM2$U\R$/6&gt;G;-:'DC@Q"*\!%XA#$U-I]!3?Q".Y!A`$+P!%HM!4?!)05SHQ"*\!%U##3:F?Q7""R_#C)!A]@/&lt;4%P-OV:4%X+2_?.50J@JB5T^%[I&gt;$@&gt;06.V.^E^3,LVZ5^7+J&amp;U(^R[H2;IR[%H8H=;%O@*_J*_K2?K$OK&amp;PKBLKC,E@8XXTBZ8,2_8T7[843]8D5Y8$1&lt;L@4&gt;LP6:L02;L83=LF]?!V]9(NY)6T@3X==\T^^7?Q`@F\MPYX^A@/PCZ(`B@`0`]#\57`U?!\7[$N59212!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -19,7 +20,6 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Draw Panel Into Subpanel Argument--cluster.ctl" Type="VI" URL="../Draw Panel Into Subpanel Argument--cluster.ctl"/>
 				<Item Name="Remove Panel from Subpanel Argument--cluster.ctl" Type="VI" URL="../Remove Panel from Subpanel Argument--cluster.ctl"/>
 				<Item Name="Refresh Panther Dashboard Broadcasts Argument--cluster.ctl" Type="VI" URL="../Refresh Panther Dashboard Broadcasts Argument--cluster.ctl"/>
 			</Item>
@@ -35,7 +35,6 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Draw Panel Into Subpanel.vi" Type="VI" URL="../Draw Panel Into Subpanel.vi"/>
 			<Item Name="Remove Panel from Subpanel.vi" Type="VI" URL="../Remove Panel from Subpanel.vi"/>
 			<Item Name="Refresh Panther Dashboard Broadcasts.vi" Type="VI" URL="../Refresh Panther Dashboard Broadcasts.vi"/>
 		</Item>
@@ -86,7 +85,6 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
-		<Item Name="Draw Panel Into Subpanel Procedure.vi" Type="VI" URL="../Draw Panel Into Subpanel Procedure.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
