@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-05-01 15:17:16" Creator="Enrique Noe Arias" Comments="" ID="b529dc0ddde1b8e953587b41f7c02b6d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-05-25 13:40:27" Creator="Enrique Noe Arias" Comments="" ID="3ff5c92b5b80c5d1541951ea20b7cebf">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.1.2.57</Library_Version>
+    <Library_Version>8.1.2.58</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1490</External_Dependencies>
-      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1490</External_Dependencies>
+      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1503</External_Dependencies>
+      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1503</External_Dependencies>
       <External_Dependencies>graphbuilder &gt;= 2.2.0.6</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2024.0.3.23</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
@@ -27,9 +27,9 @@
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc &gt;= 3.0.0.802</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.0.0.274</External_Dependencies>
-      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.9.0.378</External_Dependencies>
-      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1490</Direct_Dependencies>
-      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1490</Direct_Dependencies>
+      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.10.1.408</External_Dependencies>
+      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1503</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1503</Direct_Dependencies>
       <Direct_Dependencies>graphbuilder-2.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2024.0.3.23</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
@@ -38,7 +38,7 @@
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc-3.0.0.802</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-3.0.0.274</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.9.0.378</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.10.1.408</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -51,7 +51,7 @@
     <VI_Package_Configuration_File>Panther Dashboard.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Panther Dashboard for DQMH</One_Line_Description_Summary>
-      <Description>&lt;size=20&gt;&lt;b&gt;&lt;font=Microsoft Sans Serif&gt;Panther Dashboard for DQMH®, the tool designed with love to improve your Developer Experience.&lt;/font&gt;&lt;/b&gt;&lt;/size&gt;
+      <Description>&lt;size=20&gt;&lt;b&gt;&lt;font=Microsoft Sans Serif&gt;Panther Dashboard for DQMH,  a tool designed with love to improve the DQMH Developer Experience.&lt;/font&gt;&lt;/b&gt;&lt;/size&gt;
 
 &lt;b&gt;Main Features:&lt;/b&gt;
 
@@ -61,6 +61,8 @@
 *Easily search for module callers, listeners, where a module is launched/stoped.
 *Edit module Constants like: Module timeout, Module name, request and wait for reply timeout.
 *Create custom --error.vi and --constant.vi, edit module documentation, and use the DQMH Context Help to keep your documentation up to date.
+
+and way much more...
 
 Getting Started:
 
@@ -87,21 +89,26 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>Panther Dashboard updated to use new DQMH 7.1 new Features:
-* Duplicate Event
-* Duplicate Module
-* Convert from Request-&gt;Roundtrip
-* Scripting Hooks to full DQMH Framework Integration.
+      <Release_Notes>We’re excited to introduce Panther Dashboard 8.1.2.57, featuring a redesigned UI, deeper DQMH integration, and improved scripting workflows. 
+Here’s what’s new:  
 
-1-&gt; 2 new Icons added to call the Duplicate Module/Event
-2-&gt; Panther Dashboard fully integrated with DMQH Framework via the new scripting hooks capabilities.
-3-&gt; Right-click menus now include DMQH options for context-specific actions.
-        -Project   -&gt;Add DQMH Module
-        -Module -&gt;Create Event, Rename Module, Duplicate Module
-        -Event     -&gt;Rename, Remove, Duplicate
-4-&gt; Improvements made to module preselection when using Panther Dashboard.
-5-&gt; Improvements to the algorithm to set the module name in the DQMH Scripting Tools #57
-6-&gt; Adding a new right-click Menu for the modules to open the Main.vi BD, FP and Module Data--cluster.ctl #58
+1. Redesigned Minimalist User Interface
+- A fresh, modern interface with Icons designed by Javier Lopez and Ronald Lopez for a cleaner and more intuitive experience.  
+
+2. Double-Click to Edit Error VIs 
+- Double-click any Error VI in Panther Dashboard to open it directly for editing.
+
+3. Full DQMH Scripting Plugin Integration
+- Panther Dashboard now seamlessly syncs with the DQMH Framework, thanks to DQMH 7.1 Scripting Plugings Feature. 
+- After DQMH completes scripting tasks, Panther Dasboard will automatically synchronize, eliminating the need for manual rescans.  
+
+4. Enhanced Event Arguments Editing Script 
+- When modifying event arguments, Panther now intelligently opens:  
+  1. The Module’s API Tester Block Diagram  
+  2. The Main.vi Block Diagram  
+  3. The Event’s Block Diagram  
+  4. All Event Arguments Typedefs  
+- Ensures all relevant code locations are updated without manual navigation.  
 
 &lt;b&gt;IMPORTANT&lt;/b&gt;
 -- Internal refactoring has modified Panther Scan files format. A pop-up will show up if a project rescan is required.
@@ -228,9 +235,6 @@ Let's discuss your projects. Schedule a meeting today and....
       </Exclusions>
       <Exclusions>
         <Path>Panther Dashboard for DQMH.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Controls</Path>
       </Exclusions>
       <Exclusions>
         <Path>Test Project</Path>

@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;5`5C*"&amp;-@RXVI'7U6A=1/,+\RY-[\!&amp;6Y[N2'J)9HG,T;DS.T&gt;B#O]+R!:,RZ"P^U]%!UE73VLSRZ[A&amp;``_^ATD&amp;)PX[6T0:YKKT&gt;,;R_.2KPH=XXE@&lt;2P0XZ6`K*^.[C^DDLNUBJ`;._FK^@T\^@@&gt;XIR`^P_%U6@Z;P]X_8KZ)`AX8](X^1?2.3E"N7JJL&lt;M9Z)H?:)H?:)H?:!(?:!(?:!(O:-\O:-\O:-\O:%&lt;O:%&lt;O:%&lt;?4`)23ZSE5.+&amp;E]73C:.*EA[1V&amp;S3DS**`%E(LYK]33?R*.Y%A^&gt;F(A34_**0)G(95I]C3@R**\%QV2&gt;EPUARZ.YG&amp;["*`!%HM!4?&amp;B3A3=!")M&amp;%Q?4Q&amp;$1'(Q)0)%H]0"2A3@Q"*\!%XBI6O!*0)%H]!1?BP2&gt;C;ZJ"TE?JJ(D=4S/R`%Y(K;7YX%]DM@R/"[7E_.R0!\#7&gt;#:()+=15Y(ZYPD=4S]S@%Y(M@D?"Q04@U+?&gt;_:JGE(/2\$9XA-D_%R0%QBQW.Y$)`B-4R-+].D?!S0Y4%],#8$9XA-DQ%R&amp;G6Z':-:!YV/2G"Y?07\R@J6CC[R@EBV][JO3N8.JLK*6$?([K+L,K&lt;K)KEW8\7JKMV3&lt;9,KDV/B62D6)KL"L;/WH$@5.86*86$HV"FV3JV1RWXI0_[YX7[VW7SU8K_V8#[V7#QUH]]VG]UUH5YVG5QU(I]0DY&amp;,DM-$Y@GZ&gt;(`T=`D\:RDO@^^&gt;00T[-4R=XQY@^0`Z%TQ&lt;&gt;;&lt;D.&gt;CD*Q/3A1U!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
-	<Property Name="NI.Lib.Version" Type="Str">8.1.2.56</Property>
+	<Property Name="NI.Lib.Version" Type="Str">8.2.2.57</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -209,6 +209,7 @@
 			<Item Name="Find Module Virtual Folder.vi" Type="VI" URL="../Find Module Virtual Folder.vi"/>
 			<Item Name="Set Icon Text Error Constant.vi" Type="VI" URL="../Set Icon Text Error Constant.vi"/>
 			<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
+			<Item Name="Open VI by Path.vi" Type="VI" URL="../Open VI by Path.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -223,6 +224,12 @@
 			<Item Name="Generate Documentation--dialog.vi" Type="VI" URL="../Generate Documentation--dialog.vi"/>
 			<Item Name="Default Config Path.vi" Type="VI" URL="../Default Config Path.vi"/>
 			<Item Name="Generate And Open PFD.vi" Type="VI" URL="../Generate And Open PFD.vi"/>
+		</Item>
+		<Item Name="Style" Type="Folder">
+			<Item Name="PDash Branding.vi" Type="VI" URL="../PDash Branding.vi"/>
+			<Item Name="Pdash Style--cluster.ctl" Type="VI" URL="../Pdash Style--cluster.ctl"/>
+			<Item Name="Pdash Style--constant.vi" Type="VI" URL="../Pdash Style--constant.vi"/>
+			<Item Name="Test Pdash Style.vi" Type="VI" URL="../Test Pdash Style.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
@@ -244,7 +251,6 @@
 		<Item Name="Get VI Path from Tree.vi" Type="VI" URL="../Get VI Path from Tree.vi"/>
 		<Item Name="Get Project Targets.vi" Type="VI" URL="../Get Project Targets.vi"/>
 		<Item Name="Get Main VI Refs.vi" Type="VI" URL="../Get Main VI Refs.vi"/>
-		<Item Name="Set Splitter Possition.vi" Type="VI" URL="../Set Splitter Possition.vi"/>
 		<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Defer Panel Updates.vi"/>
 		<Item Name="Modules Selector individual.vi" Type="VI" URL="../Modules Selector individual.vi"/>
 		<Item Name="Highlight Item in Tree.vi" Type="VI" URL="../Highlight Item in Tree.vi"/>
