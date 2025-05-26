@@ -69,15 +69,15 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 | Icon   |      Name      |  Description |
 |----------|:-------------:|------:|
-|  ![help](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DQMHContextHelpD.png) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
-| ![event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddEventD.png)     |  Add Event to Module | Add a new Event to the Module Selected |
-| ![delete](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RemoveEventD.png) | Remove Event from Module | Removes an Event from the Module selected |
-| ![convert](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ConvertEventD.png) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
-| ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameEventD.png) | Rename Event | Renames an Event from the Module Selected |
+|  ![DQMH Context Help](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DQMHContextHelpD.png) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
+| ![Add Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddEventD.png)     |  Add Event to Module | Add a new Event to the Module Selected |
+| ![Remove Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RemoveEventD.png) | Remove Event from Module | Removes an Event from the Module selected |
+| ![convert Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ConvertEventD.png) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
+| ![rename Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameEventD.png) | Rename Event | Renames an Event from the Module Selected |
 | ![Duplicate Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateEventD.png) | Duplicate Event | Duplicates an Event from the Module selected, the target could be the same module or another module in the project |
-| ![new](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddModuleD.png) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
-| ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameModuleD.png) | Rename Module | Renames a DQMH® Module |
-| ![loop](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddHelperLoopD.png) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
+| ![new Module](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddModuleD.png) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
+| ![Module rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameModuleD.png) | Rename Module | Renames a DQMH® Module |
+| ![Helper loop](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddHelperLoopD.png) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
 | ![validate](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ValidateModuleD.png) | Validate Module | Calls the DQMH® Validation Tools |
 | ![Duplicate Module](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateModuleD.png) | Duplicate Module | Duplicates a module in the same project |
 | ![Add Module Template](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CreateModuleTemlateD.png) | Create Module Template | Creates a DQMH Module template from the Module selected |
@@ -85,9 +85,9 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Unit Test](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddUnitTestD.png) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
 | ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/labview-doc-generator/) |
 | ![Antidoc-Open](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/OpenDocumentationD.png) | Open Antidoc Output | Open the last rendered Antidoc Output |
-| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
-| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
-| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
+| ![About](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
+| ![Export CSV](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
+| ![Home](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
 
 ## Panther Dashboard Scripting Tools (Module)
 
@@ -130,18 +130,18 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
   *TIP*: Double Click to open the error vi.
  
-![12 Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
+![Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
  
 - **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram, place the constant name, do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window and click the “Continue” Button, make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboard will use those values to set the constants and create the –constant.vi.
   
-![13 Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
+![Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
 
 -  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
 
 
 ## Panther Dashboard Scripting Tools (Event)
 
-![15 PdashScripting](https://github.com/user-attachments/assets/cbc7fda2-49a3-4d6d-8b41-cb595ab9bcaf)
+![Event Menus](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/EventMenus.png)
 
 **Panther Dashboard** includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
 
@@ -170,13 +170,13 @@ This script is designed to open and edit the Event Arguments for the selected Ev
    
 ## Panther Dashboard Scripting Tools (Project)
 
-![16 ScriptinPRoject](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
+![Project Menus](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
 
 **Panther Dashboard** includes several Scripts to help you add new modules to the current scan, get a general view of your DQMH project.
 
 - **Open Project Folder**: Opens the Explorer where your project is located.
 
- ![17 scripting project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/DQMHProjectInfo.png)
+ ![Project DQMH Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/DQMHProjectInfo.png)
 
 - **Show Project DQMH Info**: Scans your modules to parse the Module Name--constant.vi, Module Timeout--constant.vi values, library names, Number of Helper loops, Modules launched per module, and module type (Singleton, Cloneable)
 - **Scan Project for Manually added Modules**: eventually when working with DQMH projects you will integrate new modules to your project, panther dashboard does not have a mechanism to know that, that's why this function is valuable, panther dashboard will search for all the modules not listed in the scan and let the developer to choose whych module to add to current scan, this is usefull when working with projects with several modules, it reduces the scanning time significantly.
