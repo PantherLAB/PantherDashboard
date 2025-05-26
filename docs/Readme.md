@@ -24,14 +24,14 @@ If team members do not follow this guideline, it is strongly recommended to add 
 1. Open your LabVIEW project.
 2. (1) Navigate to Tools -* (2) PantherLAB -* (3) Panther Dashboard for DQMH®
 
-![01 Open Panther Dashboard](https://github.com/user-attachments/assets/584778df-a9f5-4618-810a-f943e39c9656)
+![Open Panther Dashboard](https://github.com/user-attachments/assets/584778df-a9f5-4618-810a-f943e39c9656)
 
 ## Typical Workflows:
 1. Open LabVIEW Project: Open your LabVIEW project, then launch Panther Dashboard. Select the project and target, and Panther Dashboard will scan it for DQMH modules.
 2. Recent Projects: If you've recently worked on a project, you can quickly access it from the "Recent Projects" list within the Panther Dashboard.
 3. Open DQMH Project: Launch Panther Dashboard and click the "Open DQMH Project" button to browse and select your project.
 
-![02 Init Screen](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/HomeScreen.png)
+![Home Screen](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/HomeScreen.png)
 
 [1] Projects: Panther Dashboard will display all the projects currently opened by LabVIEW
 
@@ -53,11 +53,11 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 If you use **Panther Dashboard** with projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these files, if there are more than one, it will display all the available scan files, for scans made with previous versions of panther dashboard, it will display the files as 'Legacy Format PantherScan', if you want to start fresh, you can delete all the PantherScan files and do a scan with this new version.
 
-![13 Scanned targets](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/TargetFileSelection.png)
+![Scanned targets](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/TargetFileSelection.png)
        
 ## User Interface:
 
-![04 Panther Dashboard Main Window](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/MainPantherDashboardUI.png)
+![Panther Dashboard Main Window](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/MainPantherDashboardUI.png)
 
 The main screen of Panther Dashboard is designed for quick access to DQMH scripting tools and provides a visual overview of your modules' status (Running, Idle, Broken/Bad):
 
@@ -91,9 +91,9 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ## Panther Dashboard Scripting Tools (Module)
 
-![14 PdashScripting](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus02.png)
+![Module Menus 02](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus02.png)
 
-![14 PdashScripting](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus01.png)
+![Module Menus 01](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus01.png)
 
 **Panther Dashboard** includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
 
@@ -130,18 +130,18 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
   *TIP*: Double Click to open the error vi.
  
-![12 Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
+![Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
  
 - **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram, place the constant name, do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window and click the “Continue” Button, make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboard will use those values to set the constants and create the –constant.vi.
   
-![13 Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
+![Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
 
 -  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
 
 
 ## Panther Dashboard Scripting Tools (Event)
 
-![15 PdashScripting](https://github.com/user-attachments/assets/cbc7fda2-49a3-4d6d-8b41-cb595ab9bcaf)
+![Event Menus](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/EventMenus.png)
 
 **Panther Dashboard** includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
 
@@ -170,13 +170,13 @@ This script is designed to open and edit the Event Arguments for the selected Ev
    
 ## Panther Dashboard Scripting Tools (Project)
 
-![16 ScriptinPRoject](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
+![Project Menus](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
 
 **Panther Dashboard** includes several Scripts to help you add new modules to the current scan, get a general view of your DQMH project.
 
 - **Open Project Folder**: Opens the Explorer where your project is located.
 
- ![17 scripting project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/DQMHProjectInfo.png)
+ ![Project Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/DQMHProjectInfo.png)
 
 - **Show Project DQMH Info**: Scans your modules to parse the Module Name--constant.vi, Module Timeout--constant.vi values, library names, Number of Helper loops, Modules launched per module, and module type (Singleton, Cloneable)
 - **Scan Project for Manually added Modules**: eventually when working with DQMH projects you will integrate new modules to your project, panther dashboard does not have a mechanism to know that, that's why this function is valuable, panther dashboard will search for all the modules not listed in the scan and let the developer to choose whych module to add to current scan, this is usefull when working with projects with several modules, it reduces the scanning time significantly.
