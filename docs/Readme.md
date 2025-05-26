@@ -1,14 +1,11 @@
 [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=installs)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/) [![Image](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/badge.svg?metric=stars)](https://www.vipm.io/package/pantherlab_lib_panther_dashboard/)
 
-[![YOUTUBE VIDEO](https://1000marcas.net/wp-content/uploads/2020/02/Logotipo-negro-de-YouTube.png)](https://youtu.be/PWypUf5vzyE)
-
-
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
 - **Visualize and Edit**: Easily view and modify your DQMH project documentation, including project, library, and VI descriptions. 
 - **DQMH Scripting Tools**: Utilize all the DQMH® Framework Scripting tools using buttons.
-- **PantherLAB Scripting Tools**: Utilize a suite of scripts to streamline tasks like identifying launching module locations, finding event callers, etc.
+- **PantherLAB Scripting Tools**: Utilize a suite of scripts to streamline tasks like identifying launching module locations, finding event callers, create error and constant vis, etc.
 
 ## Team Collaboration and Source Control:
 Panther Dashboard stores a binary file named pantherscan.*target*.bin alongside your LabVIEW project file. This file contains essential information for loading your project and DQMH modules.
@@ -20,7 +17,7 @@ Important Note: This binary file stores absolute paths to the following LabVIEW 
   
 ### For Teams Using Source Control:
 
-For smooth collaboration, ensure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.*target*.bin files to your repository.
+For smooth collaboration, please make sure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.*target*.bin files to your repository.
 If team members do not follow this guideline, it is strongly recommended to add the pantherscan.*target*.bin files to your .gitignore file to prevent them from being tracked in your source control system.
       
 ## Getting Started
@@ -31,12 +28,10 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 ## Typical Workflows:
 1. Open LabVIEW Project: Open your LabVIEW project, then launch Panther Dashboard. Select the project and target, and Panther Dashboard will scan it for DQMH modules.
-2. Recent Projects: If you've recently worked on a project, you can quickly access it from the "Recent Projects" list within Panther Dashboard.
+2. Recent Projects: If you've recently worked on a project, you can quickly access it from the "Recent Projects" list within the Panther Dashboard.
 3. Open DQMH Project: Launch Panther Dashboard and click the "Open DQMH Project" button to browse and select your project.
 
-![home](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/Gray/Home.png)
-
-![02 Init Screen](https://github.com/user-attachments/assets/7099a71d-0043-4c2a-a9a6-01db4ca8fe28)
+![02 Init Screen](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/HomeScreen.png)
 
 [1] Projects: Panther Dashboard will display all the projects currently opened by LabVIEW
 
@@ -44,20 +39,17 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 [3] Scanning Options:
 
-  - Scan All: If checked Panther Dashboard will search and scan all the modules in a projects, if unchecked, Panther Dashboard will display a list with all the modules to let the developer to decide which ones will be scanned by Panther Dashboard.
-  - Include Dependencies: If checked Panther Dashboard will include DQMH Modules that are under LabVIEW Dependencies, including the ones in vi.lib or any other location.
+  - Scan All: If checked, Panther Dashboard will search and scan all the modules in a projects; if unchecked, Panther Dashboard will display a list with all the modules to let the developer decide which ones will be scanned by Panther Dashboard.
+  - Include Dependencies: If checked, Panther Dashboard will include DQMH Modules that are under LabVIEW Dependencies, including the ones in vi.lib or any other location.
 
-[4] Scan Project Button: Click this button to begin with the Scan.
+[4] Scan Project Button: Click this button to begin the Scan.
 
-![03 Init Screen Previous projects](https://github.com/user-attachments/assets/317f950d-4e35-4ebf-8d52-ee375ac8e3e0)
+[5] Open DQMH Project: To select a previously scanned project not listed in the Project History 
 
-*Panther Dashboard keep track of the last 20 previously worked projects
+*Panther Dashboard keeps track of the last 20 previously worked projects, right click the Project history to delete items or clear all the history.
+*Panther Dashboard saves this information in LabVIEW.ini file
 
-[1] Recent Project: Double Click, Panther Dashboard will take care of opening the project and LabVIEW Libraries.
-
-[2] Open DQMH Project: Click this button and explore your system to open a Project previously scanned by panther dashboard.
-
-## Projects with more that one target
+## Projects with more than one target
 
 If you use **Panther Dashboard** with projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these files, if there are more than one, it will display all the available scan files, for scans made with previous versions of panther dashboard, it will display the files as 'Legacy Format PantherScan', if you want to start fresh, you can delete all the PantherScan files and do a scan with this new version.
 
