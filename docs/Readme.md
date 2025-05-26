@@ -53,11 +53,11 @@ If team members do not follow this guideline, it is strongly recommended to add 
 
 If you use **Panther Dashboard** with projects with several targets, there will be one PantherScan.*target*.bin file per target, Panther Dashboard will search next to the LabVIEW project for these files, if there are more than one, it will display all the available scan files, for scans made with previous versions of panther dashboard, it will display the files as 'Legacy Format PantherScan', if you want to start fresh, you can delete all the PantherScan files and do a scan with this new version.
 
-![13 Scanned targets](https://github.com/user-attachments/assets/d8fcb923-be53-4a05-9870-0b0ff7a1ca5c)
+![13 Scanned targets](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/TargetFileSelection.png)
        
 ## User Interface:
 
-![04 Panther Dashboard Main Window](https://github.com/user-attachments/assets/e3e25803-d41d-4b2b-8ccc-a2534430d7d2)
+![04 Panther Dashboard Main Window](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/MainPantherDashboardUI.png)
 
 The main screen of Panther Dashboard is designed for quick access to DQMH scripting tools and provides a visual overview of your modules' status (Running, Idle, Broken/Bad):
 
@@ -69,8 +69,8 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 | Icon   |      Name      |  Description |
 |----------|:-------------:|------:|
-|  ![help](https://github.com/user-attachments/assets/5f1a4d0d-2d88-4948-ae6c-da10f9a8c4a5) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
-| ![event](https://github.com/user-attachments/assets/caad1cda-c5be-40d1-b35e-1a8bb4e46f45)     |  Add Event to Module | Add a new Event to the Module Selected |
+|  ![help](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DQMHContextHelpD.png) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
+| ![event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddEventD.png)     |  Add Event to Module | Add a new Event to the Module Selected |
 | ![delete](https://github.com/user-attachments/assets/19efe3c8-56bf-4c33-93c2-cc2eb8c38461) | Remove Event from Module | Removes an Event from the Module selected |
 | ![convert](https://github.com/user-attachments/assets/5523da17-9718-406c-9b82-28347c3f28c1) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
 | ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Event | Renames an Event from the Module Selected |
