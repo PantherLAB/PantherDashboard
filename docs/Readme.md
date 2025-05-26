@@ -103,17 +103,17 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
     - Duplicate (Module)
     - Add Helper Loop (Module)
     - Validate Module
-  - **Open**
-    - API Tester: Opens the Selected Module's API Tester
-    - Module Data--cluster.ctl: Opens Module's Data Typedef
-    - Main.vi Block Diagram: Opens Module's Main.vi Block Diagram
-    - Main.vi Front Panel: Opens Module's Main.vi Front Panel
+- **Open**
+  - API Tester: Opens the Selected Module's API Tester
+  - Module Data--cluster.ctl: Opens Module's Data Typedef
+  - Main.vi Block Diagram: Opens Module's Main.vi Block Diagram
+  - Main.vi Front Panel: Opens Module's Main.vi Front Panel
    
 - **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers, including the Module’s API Tester, and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
 
 - **Where is this module being Stopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers, including the Module’s API Tester, and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
-- **Refresh Module**: After adding/removing/renaming/converting events, your module will need to be updated, just right click a module and select Refresh module in order to have your scan up to date.
+- **Refresh Module**: Use this to refresh the DQMH Module, this will be needed if you start working in your DQMH project without having Panther Dashboard opened, if you have Panther Dashboard opened there is no need to refresh.
 
 - **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for *Module Name*.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
@@ -145,31 +145,46 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 **Panther Dashboard** includes several Scripts to help you find callers, edit arguments, etc. These are the Scripts included.
 
-- **Open Event Arguments**: this script searchs for all the Typedefs related to the selected argument, it opens these typedefs for you and at the back you'll see the block diagram of your Event to help you finish the event editing, do not forget connect the new terminals to the connector pane, also uptate EHL and MHL and the API Tester.
+**Open Event Arguments**
+This script is designed to open and edit the Event Arguments for the selected Event.
+
+*Script Workflow* (Panther Dashboard):
+- Open Module's API Tester
+- Open Module's Main.vi Block Diagram and selects the EHL and MHL Related to the event.
+- Open Fire Event VI Block Diagram
+- Open Event Arguments Typedef.
+
+*Editing Process* (DQMH Developer):
+- Edit the Arguments Typeded, add/modify/remove arguments.
+- Close and Save Event's Typedef(s)
+- Update Fire Event VI Block Diagram – Adjust the block diagram by adding/removing events as needed.
+- Update Fire Event Connector Pane – Modify the connector pane to reflect any changes.
+- Close Fire Event VI – Save and exit the VI.
+- Update Main.VI Block Diagram – Modify the Event Handling Loop (EHL) and Message Handling Loop (MHL) cases related to the event.
+- Update Module’s API Tester – Ensure the tester reflects all changes for the Event.
+
 -  **Find Callers**: Search trough through the entire project for all the VIs calling the selected event, it will display a window with all the calls where you can doble click each of these calls to navigate exactly where the event is being called, Panther Dasbhoard will do a highlight to help you visualy identify the event call.
--  **Open Font Panel**: it does exaclty that, it will open the front panel of the selected event.
--  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default request without the need of opening the API tester.
--  **Open VI on Disk**: Somethimes we need the exact location of an event and this script helps navigating to your Operating System file path where the vi is located.
-
-![12 Create Custom constant](https://github.com/user-attachments/assets/160b9a7b-0227-465f-8cce-8c3855302123)          
-
+-  **Open Font Panel**: It does exactly that, it will open the font panel of the selected event.
+-  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
+-  **Open VI on Disk**: Sometimes we need the exact location of an event, and this script helps navigate to your Operating System file path where the VI is located.
+   
 ## Panther Dashboard Scripting Tools (Project)
 
-![16 ScriptinPRoject](https://github.com/user-attachments/assets/1b53a1c4-ad69-4eaf-909b-da806d1aa9ea)
+![16 ScriptinPRoject](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
 
-**Panther Dashboard** includes several Scripts to help you add new modules to current scan, get a general view of your DQMH project.
+**Panther Dashboard** includes several Scripts to help you add new modules to the current scan, get a general view of your DQMH project.
 
-- **Open Project Folder**: Opens the Explorer where you project is loacated.
+- **Open Project Folder**: Opens the Explorer where your project is located.
 
- ![17 scripting project](https://github.com/user-attachments/assets/a80b367b-c65a-4122-9602-617c2f755edc)
+ ![17 scripting project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/DQMHProjectInfo.png)
 
-- **Show Project DQMH Info**: Scans your modules to parse the Module Name--constant.vi, Module Timeout--constant.vi values, libraries names, Number of Helper loops, Modules launched per module, and module type (Singleton, Cloneable)
-- **Add DQMH Module to Current SCan**: eventually when working with DQMH projects you will integrate new modules to your project, panther dashboard does not have a mechanism to know that, that's why this function is valuable, panther dashboard will search for all the modules not listed in the scan and let the developer to choose whych module to add to current scan, this is usefull when working with projects with several modules, it reduces the scanning time significantly.
+- **Show Project DQMH Info**: Scans your modules to parse the Module Name--constant.vi, Module Timeout--constant.vi values, library names, Number of Helper loops, Modules launched per module, and module type (Singleton, Cloneable)
+- **Scan Project for Manually added Modules**: eventually when working with DQMH projects you will integrate new modules to your project, panther dashboard does not have a mechanism to know that, that's why this function is valuable, panther dashboard will search for all the modules not listed in the scan and let the developer to choose whych module to add to current scan, this is usefull when working with projects with several modules, it reduces the scanning time significantly.
 
 ## Report Issues and Request Features:
 Encountered an issue or have a feature suggestion? Let us know on GitHub: https://github.com/PantherLAB/PantherDashboard/issues
 
-**Struggling with DQMH projects?** We can help! Our team (CLA, LabVIEW Champion, DQMH Trusted Advisor) ofers LabVIEW development, LabVIEW training, and contracting services.
+**Struggling with DQMH projects?** We can help! Our team (CLA, LabVIEW Champion, DQMH Trusted Advisor) offers LabVIEW development, LabVIEW training, and contracting services.
 
 **Ready to take the next step?** Contact us today at [enrique.noe@pantherlab.com.mx] or [info@pantherlab.com.mx] to discuss your specific needs.
 
@@ -182,6 +197,5 @@ Encountered an issue or have a feature suggestion? Let us know on GitHub: https:
 
 ### Social Networks:
 - [Linkedin](https://www.linkedin.com/company/pantherlabmx/)
-- [Twitter](https://x.com/PantherLAB_)
 - [Facebook](https://www.facebook.com/profile.php?id=61556228677680)
  
