@@ -119,20 +119,22 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 - **Edit Module Name Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
 
-![Edit Modules Name](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/EditModuleNameConstant.png)
+![Edit Modules Name](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/EditModuleNameConstant.png)
 
 - **Edit Module Timeout Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value, this value is used to populate a dialog where you can change the Module timeout, by default DQMH Framework uses 5000ms
 
 **Note**: Exercise caution when reducing the timeout excessively, as it could lead to premature timeouts and disrupt your application’s functionality.
 - **Restore Timeout to default (5000ms)**:  Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, this is the framework default.
 
-- **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located on the module library folder, it will read all the Error Codes and their descriptions from the block diagram to help to not duplicate codes, place the error name (1), do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window (4) and click the “Continue” Button (5)
+- **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located in the module library folder, it will read all the Error Codes and their descriptions from the block diagram to help avoid duplicate codes, place the error name, do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window and click the “Continue” Button
+
+  *TIP*: Double Click to open the error vi.
  
-![12 Create Custom error vi](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/CustomErrors.png)
+![12 Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
  
-- **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram (1), place the constant name (2), do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window (3) and click the “Continue” Button (4), make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboar will use those values to set the constants and create the –constant.vi.
+- **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram, place the constant name, do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window and click the “Continue” Button, make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboard will use those values to set the constants and create the –constant.vi.
   
-![13 Create Custom Constant vi](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/ConstantVI.png)
+![13 Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
 
 -  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
 
