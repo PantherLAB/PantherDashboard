@@ -71,21 +71,23 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 |----------|:-------------:|------:|
 |  ![help](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DQMHContextHelpD.png) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
 | ![event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddEventD.png)     |  Add Event to Module | Add a new Event to the Module Selected |
-| ![delete](https://github.com/user-attachments/assets/19efe3c8-56bf-4c33-93c2-cc2eb8c38461) | Remove Event from Module | Removes an Event from the Module selected |
-| ![convert](https://github.com/user-attachments/assets/5523da17-9718-406c-9b82-28347c3f28c1) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
-| ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Event | Renames an Event from the Module Selected |
-| ![Duplicate Event](https://github.com/user-attachments/assets/85be6c18-3523-4036-ab8f-6bd620696195) | Duplicate Event | Duplicates an Event from the Module selected, the target could be the same module or another module in the project |
-| ![new](https://github.com/user-attachments/assets/9979e33a-d40e-44ae-916f-9f27d14ba0c9) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
-| ![rename](https://github.com/user-attachments/assets/601f8064-ff46-4620-a18f-cf0148481956) | Rename Module | Renames a DQMH® Module |
-| ![loop](https://github.com/user-attachments/assets/2bcd8478-ca02-4102-89c9-a8503b082bd1) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
-| ![validate](https://github.com/user-attachments/assets/ed63899c-35ce-430e-b671-100b76091559) | Validate Module | Calls the DQMH® Validation Tools |
-| ![Duplicate Module](https://github.com/user-attachments/assets/6fb0d1e9-699d-4299-a411-6856d24aeb92) | Duplicate Module | Duplicates a module in the same project |
-| ![template](https://github.com/user-attachments/assets/b2cb3b8f-47fa-497d-bd3d-6a7fe5f0bfdb) | Create Module Template | Creates a DQMH Module template from the Module selected |
-| ![clock](https://github.com/user-attachments/assets/81ff462c-1c1d-4de2-a2c3-6156abed227a) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
-| ![test](https://github.com/user-attachments/assets/02f273ca-8cee-43c9-b2e3-c36b9e18e043) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
-| ![antidoc](https://github.com/user-attachments/assets/e4b9cae4-48ba-4e74-a51b-173b7bff781e) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautifull project Documentation](https://wovalab.gitlab.io/open-source/labview-doc-generator/) |
-| ![Antidoc-Open](https://github.com/user-attachments/assets/15dcb12b-c8f8-4d60-9638-affc221b0adf) | Open Antidoc Output | Open the last rendered Antidoc Output |
-| ![Info](https://github.com/user-attachments/assets/fa86f994-b432-4590-b9ba-81acf0c0f45f) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
+| ![delete](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RemoveEventD.png) | Remove Event from Module | Removes an Event from the Module selected |
+| ![convert](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ConvertEventD.png) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
+| ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameEventD.png) | Rename Event | Renames an Event from the Module Selected |
+| ![Duplicate Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateEventD.png) | Duplicate Event | Duplicates an Event from the Module selected, the target could be the same module or another module in the project |
+| ![new](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddModuleD.png) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
+| ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameModuleD.png) | Rename Module | Renames a DQMH® Module |
+| ![loop](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddHelperLoopD.png) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
+| ![validate](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ValidateModuleD.png) | Validate Module | Calls the DQMH® Validation Tools |
+| ![Duplicate Module](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateModuleD.png) | Duplicate Module | Duplicates a module in the same project |
+| ![Add Module Template](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CreateModuleTemlateD.png) | Create Module Template | Creates a DQMH Module template from the Module selected |
+| ![RT API Tester](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddRTAPITesterD.png) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
+| ![Unit Test](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddUnitTestD.png) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
+| ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/labview-doc-generator/) |
+| ![Antidoc-Open](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/OpenDocumentationD.png) | Open Antidoc Output | Open the last rendered Antidoc Output |
+| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
+| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
+| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
 
 ## Panther Dashboard Scripting Tools (Module)
 
