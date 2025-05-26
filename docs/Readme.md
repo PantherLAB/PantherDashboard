@@ -91,41 +91,50 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ## Panther Dashboard Scripting Tools (Module)
 
-![14 PdashScripting](https://github.com/user-attachments/assets/9dd54333-2fac-4d00-91d1-51eb6988207c)
+![14 PdashScripting](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus02.png)
+
+![14 PdashScripting](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus01.png)
 
 **Panther Dashboard** includes several Scripts to help you find, edit, debug your DQMH modules. These are the Scripts included.
 
+- **DQMH->**
+    - Create Event
+    - Rename (Module)
+    - Duplicate (Module)
+    - Add Helper Loop (Module)
+    - Validate Module
+  - **Open**
+    - API Tester: Opens the Selected Module's API Tester
+    - Module Data--cluster.ctl: Opens Module's Data Typedef
+    - Main.vi Block Diagram: Opens Module's Main.vi Block Diagram
+    - Main.vi Front Panel: Opens Module's Main.vi Front Panel
+   
+- **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers, including the Module’s API Tester, and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
+
+- **Where is this module being Stopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers, including the Module’s API Tester, and it will display all the results where you can double click each of the callers to navigate to the exact call location.
+
 - **Refresh Module**: After adding/removing/renaming/converting events, your module will need to be updated, just right click a module and select Refresh module in order to have your scan up to date.
-- **Open Module API Tester**: use this script and Panther Dashboard will open and run the module API Tester, if you manually renamed your API Tester this script will fail.
-
-![08 Scripting Where is this module launched](https://github.com/user-attachments/assets/1ed4b2d0-378c-47d8-b921-15545515a4a2)
-
-- **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers including the Module’s API Tester and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
-
-- **Where is this module being Sopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
-
-![08 Scripting Where is this module Stopped](https://github.com/user-attachments/assets/1d8b8605-eb35-4cc4-9f5d-e5ede084cc15)
 
 - **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for *Module Name*.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
 
-![09 Find Coder registered to this module’s broadcasts](https://github.com/user-attachments/assets/741ef5e6-175b-4f14-9616-28c8cf373b6d)
-
 - **Edit Module Name Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
-![09 Edit Module Name Constant](https://github.com/user-attachments/assets/f350c3b5-15fa-40e7-952e-6232e1b75f10)
+
+![Edit Modules Name](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/EditModuleNameConstant.png)
 
 - **Edit Module Timeout Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value, this value is used to populate a dialog where you can change the Module timeout, by default DQMH Framework uses 5000ms
-
-![09 Edit Module Timeout Constant](https://github.com/user-attachments/assets/cdd3fa35-397d-422e-abdf-ddc0059b81fb)
 
 **Note**: Exercise caution when reducing the timeout excessively, as it could lead to premature timeouts and disrupt your application’s functionality.
 - **Restore Timeout to default (5000ms)**:  Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, this is the framework default.
 
 - **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located on the module library folder, it will read all the Error Codes and their descriptions from the block diagram to help to not duplicate codes, place the error name (1), do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window (4) and click the “Continue” Button (5)
  
-![12 Create Custom error vi](https://github.com/user-attachments/assets/0815f7b2-d6f0-4b97-b135-dc2eb40ff752)
+![12 Create Custom error vi](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/CustomErrors.png)
  
 - **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram (1), place the constant name (2), do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window (3) and click the “Continue” Button (4), make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboar will use those values to set the constants and create the –constant.vi.
--  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default request without the need of opening the API tester.
+  
+![13 Create Custom Constant vi](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/ConstantVI.png)
+
+-  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
 
 
 ## Panther Dashboard Scripting Tools (Event)
