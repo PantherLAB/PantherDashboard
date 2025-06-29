@@ -83,7 +83,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Add Module Template](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CreateModuleTemlateD.png) | Create Module Template | Creates a DQMH Module template from the Module selected |
 | ![RT API Tester](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddRTAPITesterD.png) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
 | ![Unit Test](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddUnitTestD.png) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
-| ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/labview-doc-generator/) |
+| ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/docs/antidoc/latest/general-info.html) |
 | ![Antidoc-Open](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/OpenDocumentationD.png) | Open Antidoc Output | Open the last rendered Antidoc Output |
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
@@ -191,7 +191,7 @@ Encountered an issue or have a feature suggestion? Let us know on GitHub: https:
 ## Links
 - [PantherLAB website](https://pantherlab.com.mx/)
 - [DQMH Website](https://dqmh.org/)
-- [ANTIDOC](https://wovalab.gitlab.io/open-source/labview-doc-generator/)
+- [ANTIDOC](https://wovalab.gitlab.io/open-source/docs/antidoc/latest/general-info.html)
 - [LabVIEW Wiki](https://labviewwiki.org/wiki/Home)
 - [GCentral](https://www.gcentral.org/)
 
