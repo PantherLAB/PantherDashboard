@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-06-18 13:38:35" Creator="Enrique Noe Arias" Comments="" ID="6b1c13f4f55ac7c6382333b8aa074a92">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-07-22 12:55:14" Creator="Enrique Noe Arias" Comments="" ID="fcf339316b65cb34a6139219c71b755b">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.1.2.60</Library_Version>
+    <Library_Version>8.1.2.61</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1503</External_Dependencies>
-      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1503</External_Dependencies>
+      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.1.1528</External_Dependencies>
+      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.1.1528</External_Dependencies>
       <External_Dependencies>graphbuilder &gt;= 2.2.0.6</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2024.0.3.23</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
@@ -28,8 +28,8 @@
       <External_Dependencies>wovalab_lib_antidoc &gt;= 3.0.0.802</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.0.0.274</External_Dependencies>
       <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.10.1.408</External_Dependencies>
-      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1503</Direct_Dependencies>
-      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1503</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.1.1528</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_qmh-7.1.1.1528</Direct_Dependencies>
       <Direct_Dependencies>graphbuilder-2.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2024.0.3.23</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
@@ -89,16 +89,14 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[New Feature] #64
-- Double-clicking a constant VI in the Create Constant.vi dialog now opens its block diagram. This allows you to modify its value or review its logic when the constant VI is too complex.  
+      <Release_Notes>[IMPROVEMENT] 
+- Some new users reported that it wasn't clear how to scan a project.
+1. Added Instructions with numbers to help new users to understand how to use this tool. 
+2. If there are project(s) opened, Panther Dashboard will preselect the first project with "My Computer' as the  default target.
 
-[FIX] #63
-- Fixed an issue where double-clicking a constant VI in the Panther Dashboard Tree opened it in the wrong application context.  
+Users still can choose different Project and / or Traget.
 
-[FIX] #61 
-- The Error.vi for the cloneable module now properly includes the ModuleID input.  
-
-[Improvement] The constant vi arguments window and error vi has new color that allows to add controls/indicators and allow reading the labels, previous arguments window was too obscure and it was dificutl to read the controls/indicators labels.</Release_Notes>
+Updated Dependencies to DQMH 7.1.1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
