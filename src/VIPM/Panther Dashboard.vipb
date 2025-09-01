@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-07-22 12:55:14" Creator="Enrique Noe Arias" Comments="" ID="fcf339316b65cb34a6139219c71b755b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-08-31 18:34:26" Creator="Enrique Noe Arias" Comments="" ID="7b397d7a14f1af2d0718ae82893d6ef1">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
     <Library_Version>8.1.2.61</Library_Version>
@@ -280,7 +280,7 @@ Updated Dependencies to DQMH 7.1.1</Release_Notes>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
       <Mac_OS>false</Mac_OS>
-      <Linux>false</Linux>
+      <Linux>true</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
