@@ -96,16 +96,16 @@
 				<Item Name="Add Event.ctl" Type="VI" URL="../Controls/Add Event.ctl"/>
 				<Item Name="Rename event.ctl" Type="VI" URL="../Controls/Rename event.ctl"/>
 				<Item Name="Remove Event.ctl" Type="VI" URL="../Controls/Remove Event.ctl"/>
+				<Item Name="Duplicate Event.ctl" Type="VI" URL="../Controls/Duplicate Event.ctl"/>
 				<Item Name="Convert Event.ctl" Type="VI" URL="../Controls/Convert Event.ctl"/>
-				<Item Name="Duplicate Module.ctl" Type="VI" URL="../Controls/Duplicate Module.ctl"/>
 			</Item>
 			<Item Name="Module" Type="Folder">
+				<Item Name="Duplicate Module.ctl" Type="VI" URL="../Controls/Duplicate Module.ctl"/>
 				<Item Name="Create Real Time API.ctl" Type="VI" URL="../Controls/Create Real Time API.ctl"/>
 				<Item Name="Validate Module.ctl" Type="VI" URL="../Controls/Validate Module.ctl"/>
 				<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
 				<Item Name="Unit Test.ctl" Type="VI" URL="../Controls/Unit Test.ctl"/>
 				<Item Name="Add Helper Loop.ctl" Type="VI" URL="../Controls/Add Helper Loop.ctl"/>
-				<Item Name="Duplicate Event.ctl" Type="VI" URL="../Controls/Duplicate Event.ctl"/>
 			</Item>
 			<Item Name="Antidoc" Type="Folder">
 				<Item Name="Antidoc Create.ctl" Type="VI" URL="../Controls/Antidoc Create.ctl"/>

@@ -266,8 +266,8 @@
 			<Item Name="Find Module In Project and Open Main.vi" Type="VI" URL="../Find Module In Project and Open Main.vi"/>
 		</Item>
 		<Item Name="PDash DQMH UIs" Type="Folder">
-			<Item Name="Handle PDash UI INI Token.vi" Type="VI" URL="../Handle PDash UI INI Token.vi"/>
 			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
+			<Item Name="Handle PDash UI INI Token.vi" Type="VI" URL="../Handle PDash UI INI Token.vi"/>
 			<Item Name="PDash Duplicate Module.vi" Type="VI" URL="../PDash Duplicate Module.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
