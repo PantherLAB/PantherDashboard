@@ -266,9 +266,14 @@
 			<Item Name="Find Module In Project and Open Main.vi" Type="VI" URL="../Find Module In Project and Open Main.vi"/>
 		</Item>
 		<Item Name="PDash DQMH UIs" Type="Folder">
-			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
+			<Item Name="Module" Type="Folder">
+				<Item Name="PDash Duplicate Module.vi" Type="VI" URL="../PDash Duplicate Module.vi"/>
+			</Item>
+			<Item Name="Event" Type="Folder">
+				<Item Name="PDash Duplicate Event.vi" Type="VI" URL="../PDash Duplicate Event.vi"/>
+			</Item>
 			<Item Name="Handle PDash UI INI Token.vi" Type="VI" URL="../Handle PDash UI INI Token.vi"/>
-			<Item Name="PDash Duplicate Module.vi" Type="VI" URL="../PDash Duplicate Module.vi"/>
+			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
@@ -284,4 +289,7 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Config UI.vi" Type="VI" URL="../Config UI.vi"/>
+	<Item Name="Handle Find DQMH Broadcast Events in vilib.vi" Type="VI" URL="../Handle Find DQMH Broadcast Events in vilib.vi"/>
+	<Item Name="Handle Script Reply Payload as Cluster.vi" Type="VI" URL="../Handle Script Reply Payload as Cluster.vi"/>
 </Library>

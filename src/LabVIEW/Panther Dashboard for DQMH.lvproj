@@ -137,6 +137,7 @@
 				<Item Name="Tree.ctl" Type="VI" URL="../Controls/Tree.ctl"/>
 				<Item Name="Continue.ctl" Type="VI" URL="../Controls/Continue.ctl"/>
 				<Item Name="MulticolumListbox.ctl" Type="VI" URL="../Controls/MulticolumListbox.ctl"/>
+				<Item Name="Configuration.ctl" Type="VI" URL="../Controls/Configuration.ctl"/>
 				<Item Name="Cancel.ctl" Type="VI" URL="../Controls/Cancel.ctl"/>
 				<Item Name="Open VI Codes.ctl" Type="VI" URL="../Controls/Open VI Codes.ctl"/>
 			</Item>
