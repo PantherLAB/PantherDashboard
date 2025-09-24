@@ -270,6 +270,8 @@
 			<Item Name="Module" Type="Folder">
 				<Item Name="PDash Duplicate Module.vi" Type="VI" URL="../PDash Duplicate Module.vi"/>
 				<Item Name="PDash Validate Module.vi" Type="VI" URL="../PDash Validate Module.vi"/>
+				<Item Name="PDash Add Helper Loop.vi" Type="VI" URL="../PDash Add Helper Loop.vi"/>
+				<Item Name="PDash Rename Module.vi" Type="VI" URL="../PDash Rename Module.vi"/>
 			</Item>
 			<Item Name="Event" Type="Folder"/>
 			<Item Name="Tokens" Type="Folder">
@@ -279,7 +281,7 @@
 			</Item>
 			<Item Name="Config UI.vi" Type="VI" URL="../Config UI.vi"/>
 			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
-			<Item Name="PDash Add Helper Loop.vi" Type="VI" URL="../PDash Add Helper Loop.vi"/>
+			<Item Name="PDash Rename Event.vi" Type="VI" URL="../PDash Rename Event.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
