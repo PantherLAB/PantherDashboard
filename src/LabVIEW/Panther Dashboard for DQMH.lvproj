@@ -106,6 +106,7 @@
 				<Item Name="Template.ctl" Type="VI" URL="../Controls/Template.ctl"/>
 				<Item Name="Unit Test.ctl" Type="VI" URL="../Controls/Unit Test.ctl"/>
 				<Item Name="Add Helper Loop.ctl" Type="VI" URL="../Controls/Add Helper Loop.ctl"/>
+				<Item Name="Add New Module.ctl" Type="VI" URL="../Controls/Add New Module.ctl"/>
 			</Item>
 			<Item Name="Antidoc" Type="Folder">
 				<Item Name="Antidoc Create.ctl" Type="VI" URL="../Controls/Antidoc Create.ctl"/>
