@@ -210,6 +210,7 @@
 			<Item Name="Get Module Execution Status by ref.vi" Type="VI" URL="../Get Module Execution Status by ref.vi"/>
 			<Item Name="Open VI by Path.vi" Type="VI" URL="../Open VI by Path.vi"/>
 			<Item Name="Get DQMH  Item Tag.vi" Type="VI" URL="../Get DQMH  Item Tag.vi"/>
+			<Item Name="Call DQMH Scripting Tools.vi" Type="VI" URL="../Call DQMH Scripting Tools.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -281,7 +282,6 @@
 			</Item>
 			<Item Name="Config UI.vi" Type="VI" URL="../Config UI.vi"/>
 			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
-			<Item Name="PDash Rename Event.vi" Type="VI" URL="../PDash Rename Event.vi"/>
 		</Item>
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
