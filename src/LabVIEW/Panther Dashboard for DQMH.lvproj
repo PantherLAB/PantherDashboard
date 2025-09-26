@@ -74,6 +74,7 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Panther Dashboard/Post-Install Custom Action.vi"/>
+			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../Panther Dashboard/Post-Uninstall Custom Action.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Clear Mutation History.vi" Type="VI" URL="../Utilities/Clear Mutation History.vi"/>
