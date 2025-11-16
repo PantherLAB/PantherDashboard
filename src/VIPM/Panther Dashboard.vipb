@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-09-26 13:26:49" Creator="Enrique Noe Arias" Comments="" ID="43cf6892c0da04c9be35d33c50c9fdb0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2025-11-16 09:16:38" Creator="Enrique Noe Arias" Comments="" ID="00cb581507775ff9a44c799c2c2a3c0a">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.2.3.65</Library_Version>
+    <Library_Version>8.2.4.67</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.1.1528</External_Dependencies>
-      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.1.1528</External_Dependencies>
+      <External_Dependencies>delacor_lib_delacor_qmh_event_scripter &gt;= 7.1.0.1551</External_Dependencies>
+      <External_Dependencies>delacor_lib_qmh &gt;= 7.1.0.1551</External_Dependencies>
       <External_Dependencies>graphbuilder &gt;= 2.3.0.7</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2024.0.3.23</External_Dependencies>
       <External_Dependencies>ni_tree_map &gt;= 2.2.0.19</External_Dependencies>
@@ -26,10 +26,10 @@
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
       <External_Dependencies>wovalab_lib_antidoc &gt;= 3.1.0.830</External_Dependencies>
-      <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.0.0.274</External_Dependencies>
-      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.10.2.414</External_Dependencies>
-      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.1.1528</Direct_Dependencies>
-      <Direct_Dependencies>delacor_lib_qmh-7.1.1.1528</Direct_Dependencies>
+      <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.0.1.282</External_Dependencies>
+      <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.11.0.445</External_Dependencies>
+      <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.0.1551</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_qmh-7.1.0.1551</Direct_Dependencies>
       <Direct_Dependencies>graphbuilder-2.3.0.7</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2024.0.3.23</Direct_Dependencies>
       <Direct_Dependencies>ni_tree_map-2.2.0.19</Direct_Dependencies>
@@ -37,8 +37,8 @@
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_antidoc-3.1.0.830</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-3.0.0.274</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.10.2.414</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-3.0.1.282</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.11.0.445</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -95,16 +95,11 @@ Previously, Panther Dashboard would fail in some scenarioes if the Main.vi file 
 
 #66 [NEW FEATURE] Panther Dashboard UIs:
 
-To provide a more intuitive and bether experience, Panther Dashboard now includes custom interfaces for several DQMH scripts. These new UIs preserve your selections between uses, eliminating the need to re-enter information.
+Previously, launching DQMH scripting tools from Panther Dashboard required opening the main DQMH UI and populating its 'module ring' control. We observed that some scripts, such as 'Rename Module' and 'Validate Module,' can operate directly on a module without needing the full UI.
 
-The New Panther Dashboard UIs are:
+In this release, Panther Dashboard bypasses the main DQMH UI for these tools and calls the scripts directly. This change streamlines the workflow and significantly improves the DQMH Developer Experience.
 
-Rename DQMH Module
-Validate DQMH Module
-Add Helper Loop to Module
-Duplicate DQMH Module
-
-Note: You can revert to the default DQMH interfaces at any time. Click the gear icon on the Panther Dashboard's main UI and uncheck the 'Use Panther Dashboard UIs' option.
+Note: To revert to the default DQMH UIs, click the gear icon on the Panther Dashboard and uncheck the 'Use Panther Dashboard UIs' option.
 
 </Release_Notes>
     </Description>
@@ -237,6 +232,9 @@ Note: You can revert to the default DQMH interfaces at any time. Click the gear 
       </Exclusions>
       <Exclusions>
         <Path>.lvversion</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Controls</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
