@@ -276,7 +276,7 @@
 			<Item Name="Tokens" Type="Folder">
 				<Item Name="Handle Find DQMH Broadcast Events in vilib.vi" Type="VI" URL="../Handle Find DQMH Broadcast Events in vilib.vi"/>
 				<Item Name="Handle Script Reply Payload as Cluster.vi" Type="VI" URL="../Handle Script Reply Payload as Cluster.vi"/>
-				<Item Name="Handle PDash UI INI Token.vi" Type="VI" URL="../Handle PDash UI INI Token.vi"/>
+				<Item Name="Skip DQMH Uis.vi" Type="VI" URL="../Skip DQMH Uis.vi"/>
 			</Item>
 			<Item Name="Config UI.vi" Type="VI" URL="../Config UI.vi"/>
 			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
