@@ -212,6 +212,7 @@
 			<Item Name="Open VI by Path.vi" Type="VI" URL="../Open VI by Path.vi"/>
 			<Item Name="Get DQMH  Item Tag.vi" Type="VI" URL="../Get DQMH  Item Tag.vi"/>
 			<Item Name="Call DQMH Scripting Tools.vi" Type="VI" URL="../Call DQMH Scripting Tools.vi"/>
+			<Item Name="Close and Save Opened VIS.vi" Type="VI" URL="../Close and Save Opened VIS.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -295,5 +296,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Close and Save Opened VIS.vi" Type="VI" URL="../Close and Save Opened VIS.vi"/>
 </Library>
