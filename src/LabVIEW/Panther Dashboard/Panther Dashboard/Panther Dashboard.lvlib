@@ -212,6 +212,7 @@
 			<Item Name="Open VI by Path.vi" Type="VI" URL="../Open VI by Path.vi"/>
 			<Item Name="Get DQMH  Item Tag.vi" Type="VI" URL="../Get DQMH  Item Tag.vi"/>
 			<Item Name="Call DQMH Scripting Tools.vi" Type="VI" URL="../Call DQMH Scripting Tools.vi"/>
+			<Item Name="Close and Save Opened VIS.vi" Type="VI" URL="../Close and Save Opened VIS.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
@@ -276,7 +277,7 @@
 			<Item Name="Tokens" Type="Folder">
 				<Item Name="Handle Find DQMH Broadcast Events in vilib.vi" Type="VI" URL="../Handle Find DQMH Broadcast Events in vilib.vi"/>
 				<Item Name="Handle Script Reply Payload as Cluster.vi" Type="VI" URL="../Handle Script Reply Payload as Cluster.vi"/>
-				<Item Name="Handle PDash UI INI Token.vi" Type="VI" URL="../Handle PDash UI INI Token.vi"/>
+				<Item Name="Skip DQMH Uis.vi" Type="VI" URL="../Skip DQMH Uis.vi"/>
 			</Item>
 			<Item Name="Config UI.vi" Type="VI" URL="../Config UI.vi"/>
 			<Item Name="PDash UI Template.vit" Type="VI" URL="../PDash UI Template.vit"/>
