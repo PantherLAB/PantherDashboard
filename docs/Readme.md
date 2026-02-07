@@ -96,13 +96,30 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
-| ![Settings](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/Icons/ConfiguracionD.png?raw=true) | Configuration | Opens The Panther Dashboard Configuration UI  |
+| ![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/Icons/ConfiguracionD.png?raw=true) | Configuration | Opens The Panther Dashboard Configuration UI  |
+
+## Panther Dashboard Config UI
+
+Panther Dashboard features a configuration UI that allows developers to modify specific Dashboard aspects and DQMH Framework INI Tokens. Upon clicking the Configuration button, the following interface will appear:
+
+**Optimized DQMH Tasks**
+When using the Panther Dashboard, certain DQMH tasks often involve redundant selections. To streamline the workflow, the Dashboard can bypass the default DQMH UI to either execute tasks within the current project context or display a simplified interface.
+
+Currently, the Panther Dashboard can skip the UI for the following two tasks:
+
+- Rename DQMH Module
+
+- Validate DQMH Module
+
+**DQMH Framework Configuration**
+
+- Include vi.lib into the search for right click menu 'Find DQMH Broadcast Event Frames'
+- Script Request and wait for Reply Payload as a Cluster
+
+![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UI/ConfiguracionUI.png?raw=true)
+
 
 ## Panther Dashboard Scripting Tools (Module)
-
-
-
-
 
 **Panther Dashboard** includes several Scripts to help you find, edit, debug your DQMH modules. These are the included Scripts.
 
