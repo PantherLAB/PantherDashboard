@@ -3,7 +3,7 @@
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
-- **Visualize and Edit**: Easily view and modify your DQMH project documentation, including project, library, and VI descriptions. 
+- **Visualize and Edit**: Easily view and modify your DQMH project documentatvkion, including project, library, and VI descriptions. 
 - **DQMH Scripting Tools**: Utilize all the DQMH® Framework Scripting tools using buttons.
 - **PantherLAB Scripting Tools**: Utilize a suite of scripts to streamline tasks like identifying launching module locations, finding event callers, create error and constant vis, etc.
 
@@ -63,7 +63,17 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 ## Glyphs meaning
 
-![Glyphs](https://github.com/user-attachments/assets/66dc5b91-21ee-4d82-8455-757722d80669)
+
+| Glyph   |  Description |
+|----------|:------:|
+|  ![DQMH Project](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/DQMH.png?raw=true) | DQMH Project |
+|  ![Singleton Running](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlaySgl.png?raw=true) |  Singleton Module Running |
+| ![Singleton Idle](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopSgl.png?raw=true)     |  Singleton Module Idle | 
+| ![Singleton Dependencies](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopSglD.png?raw=true) | Singleton Module under Dependencies |
+| ![Clonable Running](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayClone.png?raw=true) | Clonable Module Running | 
+| ![Clonable Idle](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopClone.png?raw=true) | Clonable Module Idle |
+| ![Clonable Depencencies](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayCloneD.png?raw=true) | Clonable Module under Dependencies| 
+| ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable Module| 
 
 ## Panther Dashboard Icons descriptions:
 
