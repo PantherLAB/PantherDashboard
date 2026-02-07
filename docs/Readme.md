@@ -116,7 +116,7 @@ Currently, the Panther Dashboard can skip the UI for the following two tasks:
 - Include vi.lib into the search for right click menu 'Find DQMH Broadcast Event Frames'
 - Script Request and wait for Reply Payload as a Cluster
 
-![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UI/ConfiguracionUI.png?raw=true)
+![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/ConfigurationUI.png?raw=true)
 
 
 ## Panther Dashboard Scripting Tools (Module)
