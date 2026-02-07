@@ -3,22 +3,22 @@
 ## Key Features:
 - **Effortless Exploration**: Easily navigate and understand the structure of your DQMH projects.
 - **Efficient Editing**: Modify code quickly and effectively with built-in tools.
-- **Visualize and Edit**: Easily view and modify your DQMH project documentatvkion, including project, library, and VI descriptions. 
+- **Visualize and Edit**: Easily view and modify your DQMH project documentation, including project, library, and VI descriptions. 
 - **DQMH Scripting Tools**: Utilize all the DQMH® Framework Scripting tools using buttons.
 - **PantherLAB Scripting Tools**: Utilize a suite of scripts to streamline tasks like identifying launching module locations, finding event callers, create error and constant vis, etc.
 
-## Team Collaboration and Source Control:
-Panther Dashboard stores a binary file named pantherscan.*target*.bin alongside your LabVIEW project file. This file contains essential information for loading your project and DQMH modules.
+## Team Collaboration and Source Control 
+**Panther Dashboard** generates a binary file, *pantherscan.target.bin*, located alongside your LabVIEW project. This file is critical for loading your project and DQMH modules.
 
-Important Note: This binary file stores absolute paths to the following LabVIEW components:
-- Project files (.lvproj)
-- Library files (.lvlib)
-- VI files (.vi)
-  
-### For Teams Using Source Control:
+⚠️ Important: This binary file utilizes absolute file paths for all project components (.lvproj), libraries (.lvlib), and VIs (.vi).
 
-For smooth collaboration, please make sure all team members use the same absolute paths for their local repositories. This allows you to commit the pantherscan.*target*.bin files to your repository.
-If team members do not follow this guideline, it is strongly recommended to add the pantherscan.*target*.bin files to your .gitignore file to prevent them from being tracked in your source control system.
+To avoid broken links when collaborating:
+
+Ensure all team members clone the repository to the identical absolute path on their local machines.
+
+Maintaining a consistent directory structure is required to ensure the dashboard loads correctly.
+
+If you  commit the pantherscan.*target*.bin file make sure to clone the repo in the same path as the source code to maintain the same file hierarque
       
 ## Getting Started
 1. Open your LabVIEW project.
@@ -61,7 +61,7 @@ If you use **Panther Dashboard** with projects with several targets, there will 
 
 The main screen of Panther Dashboard is designed for quick access to DQMH scripting tools and provides a visual overview of your modules' status (Running, Idle, Broken/Bad):
 
-## Glyphs meaning
+## Panther Dashboard Glyphs
 
 
 | Glyph   |  Description |
@@ -73,11 +73,11 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Clonable Running](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayClone.png?raw=true) | Clonable Module Running | 
 | ![Clonable Idle](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopClone.png?raw=true) | Clonable Module Idle |
 | ![Clonable Depencencies](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayCloneD.png?raw=true) | Clonable Module under Dependencies| 
-| ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable Module| 
+| ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable/Broken Module| 
 
-## Panther Dashboard Icons descriptions:
+## Panther Dashboard Buttons:
 
-| Icon   |      Name      |  Description |
+| Button   |      Name      |  Description |
 |----------|:-------------:|------:|
 |  ![help](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DQMHContextHelpD.png) |  DQMH Context Help | Similar to LabVIEW's context help, this window displays relevant information based on your currently selected module, project, or event. You can even edit the documentation. |
 | ![event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddEventD.png)     |  Add Event to Module | Add a new Event to the Module Selected |
@@ -98,6 +98,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
+| ![Settings](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/Icons/ConfiguracionD.png?raw=true) | Configuration | Opens The Panther Dashboard Configuration UI  |
 
 ## Panther Dashboard Scripting Tools (Module)
 
