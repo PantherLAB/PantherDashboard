@@ -213,6 +213,7 @@
 			<Item Name="Get DQMH  Item Tag.vi" Type="VI" URL="../Get DQMH  Item Tag.vi"/>
 			<Item Name="Call DQMH Scripting Tools.vi" Type="VI" URL="../Call DQMH Scripting Tools.vi"/>
 			<Item Name="Close and Save Opened VIS.vi" Type="VI" URL="../Close and Save Opened VIS.vi"/>
+			<Item Name="Apply Item Name to Ring.vi" Type="VI" URL="../Apply Item Name to Ring.vi"/>
 		</Item>
 		<Item Name="Tree results" Type="Folder">
 			<Item Name="Set Tree custom symbols.vi" Type="VI" URL="../Set Tree custom symbols.vi"/>
