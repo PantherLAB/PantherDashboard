@@ -297,4 +297,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Refresh Principal references.vi" Type="VI" URL="../Refresh Principal references.vi"/>
 </Library>
