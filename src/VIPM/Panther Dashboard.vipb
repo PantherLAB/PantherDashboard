@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-03-08 18:43:01" Creator="Enrique Noe Arias" Comments="" ID="c49a8ef182c64229743ae241b55580a3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-03-18 19:16:35" Creator="Enrique Noe Arias" Comments="" ID="b448dc24b2e5cf50f7fa3e5fd9855020">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.3.4.72</Library_Version>
+    <Library_Version>8.3.5.73</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -89,7 +89,9 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[IMPROVEMENT] Now Panther Dashboard fills the Event fields when calling the DQMH Scripting Tools.</Release_Notes>
+      <Release_Notes>[IMPROVEMENT] Now Panther Dashboard fills the Event fields when calling the DQMH Scripting Tools.
+[IMPROVEMENT] Calling Validation tools improvements, the DQMH Framework was skipping showing the UI so Panther Dashboard now calls this UI to display Validation Results
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
