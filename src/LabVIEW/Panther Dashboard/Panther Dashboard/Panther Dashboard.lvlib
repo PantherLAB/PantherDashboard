@@ -168,6 +168,9 @@
 			<Item Name="Save Event Description.vi" Type="VI" URL="../Save Event Description.vi"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
+			<Item Name="HSE Specific" Type="Folder">
+				<Item Name="Check if HSE Scripting Tools are installed.vi" Type="VI" URL="../Check if HSE Scripting Tools are installed.vi"/>
+			</Item>
 			<Item Name="Scan DQMH Modules from Project.vi" Type="VI" URL="../Scan DQMH Modules from Project.vi"/>
 			<Item Name="Load Scan from File Path.vi" Type="VI" URL="../Load Scan from File Path.vi"/>
 			<Item Name="Start Call to results window.vi" Type="VI" URL="../Start Call to results window.vi"/>
@@ -299,4 +302,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Generic Dialog.vi" Type="VI" URL="../Generic Dialog.vi"/>
 </Library>
