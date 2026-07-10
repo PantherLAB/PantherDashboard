@@ -161,6 +161,7 @@
 			<Item Name="Map Attribute--enum.ctl" Type="VI" URL="../Map Attribute--enum.ctl"/>
 			<Item Name="Helper Loop--cluster.ctl" Type="VI" URL="../Helper Loop--cluster.ctl"/>
 			<Item Name="Constant Info--cluster.ctl" Type="VI" URL="../Constant Info--cluster.ctl"/>
+			<Item Name="Glyphs--enum.ctl" Type="VI" URL="../Glyphs--enum.ctl"/>
 		</Item>
 		<Item Name="Documentation related" Type="Folder">
 			<Item Name="Save Library Documentation.vi" Type="VI" URL="../Save Library Documentation.vi"/>
