@@ -291,6 +291,7 @@
 		<Item Name="Splash Screen.vi" Type="VI" URL="../Splash Screen.vi"/>
 		<Item Name="Init Screen.vi" Type="VI" URL="../Init Screen.vi"/>
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
+		<Item Name="Generic Dialog.vi" Type="VI" URL="../Generic Dialog.vi"/>
 	</Item>
 	<Item Name="OOP" Type="Folder">
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
@@ -302,5 +303,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Generic Dialog.vi" Type="VI" URL="../Generic Dialog.vi"/>
 </Library>
