@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-03-29 16:14:17" Creator="Enrique Noe Arias" Comments="" ID="36f51ab4b42fbb77299651bf80c34bf8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-07-17 16:57:07" Creator="Enrique Noe Arias" Comments="" ID="3f60ac2d942973a76fbaa10c0491698e">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>8.3.5.74</Library_Version>
+    <Library_Version>9.3.5.74</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -89,9 +89,27 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[#71] Remove Event not working for Private or Local Events
+      <Release_Notes>[#72] Make Panther Dashboard HSE Compatible
 
-With the latest release a new feature was added, it was the ability for panther dashboard to set the Event field whan calling DQMH Scripting tools, DQMH has Public and Private Events, and for the cloneable modules a local instance is also an option, with this release Panther dashboard can resolve the event field correctly, </Release_Notes>
+Hampel Software Engineering has its own DQMH flavor. Because these modules are a specific standard in the LabVIEW-DQMH world, they can easily be recognized by Panther Dashboard. This version will scan the module, and if it contains these specific VIs:
+
+-Load Module.vi
+-Obtain Default Broadcast Events.vi
+-Configure.vi
+-Prepare.vi
+
+Panther Dashboard will:
+
+-Change the Module Glyph
+-Change the Project Glyph
+
+Additionally, if the "HSE-ify DQMH Module" tool is installed, Panther Dashboard will:
+-Add a right-click menu to the modules to call this tool
+-Enable a new HSE button to call this tool
+
+[#69] The History Projects right-click deletion does not work
+
+Panther Dashboard keeps a history of the last 20 scanned projects to reduce loading times. A right-click menu was implemented to delete a specific project from the list or clear the entire history. Prior to this version, a bug prevented a specific project from being deleted when using the right-click menu. This version fixes that bug and restores the intended functionality.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
