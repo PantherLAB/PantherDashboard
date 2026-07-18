@@ -100,6 +100,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Duplicate Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateEventD.png) | Duplicate Event | Duplicates an Event from the Module selected; the target could be the same module or another module in the project |
 | ![new](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddModuleD.png) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
 | ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameModuleD.png) | Rename Module | Renames a DQMH® Module |
+| ![HSE-Ify Module](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallHSED.png) | HSE-Ify Module | Calls HSE-Ify DQMH Module tool (if not installed, will open the VIPM page of this tool) |
 | ![loop](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddHelperLoopD.png) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
 | ![validate](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ValidateModuleD.png) | Validate Module | Calls the DQMH® Validation Tools |
 | ![Duplicate Module](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateModuleD.png) | Duplicate Module | Duplicates a module in the same project |
@@ -142,8 +143,9 @@ Currently, the Panther Dashboard can skip the UI for the following two tasks:
     - Add Event
     - Rename Module
     - Duplicate Module
-    - Add Helper Loop do Module
+    - Add Helper Loop to Module
     - Validate Module
+    - HSE-Ify Module
 ![Module Menus 01](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus01.png)
 
 - **Open**
