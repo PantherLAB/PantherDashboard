@@ -12,10 +12,9 @@
 
 ⚠️ Important: This binary file utilizes absolute file paths for all project components (.lvproj), libraries (.lvlib), and VIs (.vi).
 
-To avoid broken links when collaborating:
+When collaborating:
 
 Ensure all team members clone the repository to the identical absolute path on their local machines.
-
 Maintaining a consistent directory structure is required to ensure the dashboard loads correctly.
       
 ## Getting Started
@@ -37,15 +36,15 @@ Maintaining a consistent directory structure is required to ensure the dashboard
 
 [3] **Scanning Options**:
 
-  - Scan All: If checked, Panther Dashboard will search and scan all the modules in a projects; if unchecked, Panther Dashboard will display a list with all the modules to let the developer decide which ones will be scanned by Panther Dashboard.
-  - Include Dependencies**: If checked, Panther Dashboard will include DQMH Modules that are under LabVIEW Dependencies, including the ones in vi.lib or any other location.
+  - Scan All: If checked, Panther Dashboard will search and scan all the modules in a project; if unchecked, Panther Dashboard will display a list with all the modules to let the developer decide which ones will be scanned by Panther Dashboard.
+  - Include Dependencies: If checked, Panther Dashboard will include DQMH Modules that are under LabVIEW Dependencies, including the ones in vi.lib or any other location.
 
 [4] **Scan Project Button**: Click this button to begin the Scan.
 
 [5] **Open DQMH Project**: To select a previously scanned project not listed in the Project History 
 
-*Panther Dashboard keeps track of the last 20 previously worked projects, right click the Project history to delete items or clear all the history.
-*Panther Dashboard saves this information in LabVIEW.ini file
+*Panther Dashboard keeps track of the last 20 previously worked on projects. Right-click the Project history to delete items or clear all the history.
+*Panther Dashboard saves this information in the LabVIEW.ini file
 
 ## Projects with more than one target
 
@@ -64,14 +63,30 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 | Glyph   |  Description |
 |----------|:------:|
-|  ![DQMH Project](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/DQMH.png?raw=true) | DQMH Project |
-|  ![Singleton Running](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlaySgl.png?raw=true) |  Singleton Module Running |
-| ![Singleton Idle](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopSgl.png?raw=true)     |  Singleton Module Idle | 
-| ![Singleton Dependencies](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopSglD.png?raw=true) | Singleton Module under Dependencies |
-| ![Clonable Running](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayClone.png?raw=true) | Clonable Module Running | 
-| ![Clonable Idle](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/StopClone.png?raw=true) | Clonable Module Idle |
-| ![Clonable Depencencies](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/PlayCloneD.png?raw=true) | Clonable Module under Dependencies| 
-| ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable/Broken Module| 
+|  ![DQMH Project](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/DQMH_Proj.png) | DQMH Project |
+| ![HSE_Project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_Proj.png) | HSE Project |
+| ![Singleton Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/SingletonRun.png) |  Singleton Module Running |
+| ![HSE_Singleton Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonRun.png) | HSE Singleton Module Running |
+| ![Singleton Idle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/Singleton.png)     |  Singleton Module Idle | 
+| ![HSESingleton Idle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_Singleton.png)     |  HSE Singleton Module Idle | 
+| ![Singleton Dependencies](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/SingletonDepencencies.png) | Singleton Module under Dependencies |
+| ![HSE_Singleton DependenciesIdle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonDependencies.png) | HSE Singleton Module under Dependencies |
+| ![Singleton DependenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/SingletonDependenciesRun.png) | Singleton Module under Dependencies Running |
+| ![HSE_Singleton DependenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonDependenciesRun.png) | HSE Singleton Module under Dependencies Running |
+| ![Clonable Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/CloneableRun.png) | Clonable Module Running |
+| ![HSE_Clonable Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_CloneableRun.png) | HSE Clonable Module Running | 
+| ![Clonable Idle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/Cloneable.png) | Clonable Module Idle |
+| ![HSE_Clonable Idle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_Cloneable.png) | HSE Clonable Module Idle |
+| ![Clonable Depencencies](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/CloneableDependencies.png) | Clonable Module under Dependencies|
+| ![HSE_Clonable DepencenciesIdle](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_CloneableDependencies.png) | HSE Clonable Module under Dependencies IDLE| 
+| ![Clonable DepencenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/CloneableDependenciesRun.png) | Clonable Module under Dependencies Running|
+| ![HSE_Clonable DepencenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_CloneableDependenciesRun.png) | HSE Clonable Module under Dependencies Running| 
+| ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable/Broken Main.vi| 
+
+
+
+| ![HSE_Singleton DependenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonDependenciesRun.png) | HSE Singleton Module under Dependencies |
+
 
 ## Panther Dashboard Buttons:
 
@@ -82,7 +97,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![delete](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RemoveEventD.png) | Remove Event from Module | Removes an Event from the Module selected |
 | ![convert](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ConvertEventD.png) | Convert Event Type | Converts a Request to a Request and Wait for Reply |
 | ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameEventD.png) | Rename Event | Renames an Event from the Module Selected |
-| ![Duplicate Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateEventD.png) | Duplicate Event | Duplicates an Event from the Module selected, the target could be the same module or another module in the project |
+| ![Duplicate Event](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/DuplicateEventD.png) | Duplicate Event | Duplicates an Event from the Module selected; the target could be the same module or another module in the project |
 | ![new](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddModuleD.png) | Add Module to Project | Adds a DQMH® Module to the LabVIEW Project |
 | ![rename](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/RenameModuleD.png) | Rename Module | Renames a DQMH® Module |
 | ![loop](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddHelperLoopD.png) | Add Helper Loop to Module | Adds a Helper Loop to the Module Selected |
@@ -91,10 +106,10 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![Add Module Template](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CreateModuleTemlateD.png) | Create Module Template | Creates a DQMH Module template from the Module selected |
 | ![RT API Tester](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddRTAPITesterD.png) | Create RT API Tester | Creates a New API Tester designed to run under RT Targets |
 | ![Unit Test](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/AddUnitTestD.png) | Add Unit Test for Event | Creates a new Unit test for an event of the Module Selected |
-| ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an Open Source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/docs/antidoc/latest/general-info.html) |
+| ![antidoc](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/CallAntidocD.png) | Call Antidoc to generate Project Documentation | [Antidoc is an open-source tool designed to create beautiful project Documentation](https://wovalab.gitlab.io/open-source/docs/antidoc/latest/general-info.html) |
 | ![Antidoc-Open](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/OpenDocumentationD.png) | Open Antidoc Output | Open the last rendered Antidoc Output |
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/InfoD.png) |About Panther Dashboard for DQMH | Displays About UI with some usefull links|
-| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the Module's listed found in the project to a CSV file|
+| ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/ExporttoCSVD.png) |Export to CSV | Export the modules listed in the project to a CSV file|
 | ![Info](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/Icons/HomeD.png) | Home | Goes to Home Screen to select a different project to work with |
 | ![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/Icons/ConfiguracionD.png?raw=true) | Configuration | Opens The Panther Dashboard Configuration UI  |
 
@@ -113,7 +128,7 @@ Currently, the Panther Dashboard can skip the UI for the following two tasks:
 
 **DQMH Framework Configuration**
 
-- Include vi.lib into the search for right click menu 'Find DQMH Broadcast Event Frames'
+- Include vi.lib in the search for the right-click menu 'Find DQMH Broadcast Event Frames'
 - Script Request and wait for Reply Payload as a Cluster
 
 ![Configuration UI](https://github.com/PantherLAB/PantherDashboard/blob/main/docs/assets/UIS/ConfigurationUI.png?raw=true)
@@ -121,7 +136,7 @@ Currently, the Panther Dashboard can skip the UI for the following two tasks:
 
 ## Panther Dashboard Scripting Tools (Module)
 
-**Panther Dashboard** includes several Scripts to help you find, edit, debug your DQMH modules. These are the included Scripts.
+**Panther Dashboard** includes several Scripts to help you find, edit, and debug your DQMH modules. These are the included Scripts.
 
 - **DQMH->**
     - Add Event
@@ -135,37 +150,37 @@ Currently, the Panther Dashboard can skip the UI for the following two tasks:
   - API Tester: Opens the Selected Module's API Tester
   - Module Data--cluster.ctl: Opens Module's Data Typedef
   - Main.vi Block Diagram: Opens Module's Main.vi Block Diagram
-  - Main.vi Front Panel: Opens Module's Main.vi Front Panel
+  - Main.vi Front Panel: Opens the Module's Main.vi Front Panel
 
 ![Module Menus 02](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ModulesMenus02.png)
 
    
-- **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers, including the Module’s API Tester, and it will display all the results in a list where you can double click each of the callers to navigate to the exact call location
+- **Where is this module being Launched?**: Panther dashboard will search for *Module Name*.lvlib:Start Module.vi callers, including the Module’s API Tester, and it will display all the results in a list where you can double-click each of the callers to navigate to the exact call location
 
-- **Where is this module being Stopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers, including the Module’s API Tester, and it will display all the results where you can double click each of the callers to navigate to the exact call location.
+- **Where is this module being Stopped?**: Panther dashboard will search for *Module Name*.lvlib:Stop Module.vi callers, including the Module’s API Tester, and it will display all the results, where you can double-click each of the callers to navigate to the exact call location.
 
-- **Refresh Module**: Use this to refresh the DQMH Module, this will be needed if you start working in your DQMH project without having Panther Dashboard opened, if you have Panther Dashboard opened there is no need to refresh.
+- **Refresh Module**: Use this to refresh the DQMH Module; this will be needed if you start working on your DQMH project without having Panther Dashboard open. If you have Panther Dashboard open, there is no need to refresh.
 
-- **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for *Module Name*.lvlib:Obtain Broadcast Events for registration.vi callers including the Module’s API Tester and it will display all the results where you can double click each of the callers to navigate to the exact call location.
+- **Find Coder registered to this module’s broadcasts**: Panther dashboard will search for *Module Name*.lvlib:Obtain Broadcast Events for registration.vi callers, including the Module’s API Tester, and it will display all the results, where you can double click each of the callers to navigate to the exact call location.
 
-- **Edit Module Name Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Name--constant.vi block diagram string constant value and it will display the current Module’s name, you can change the name to help debugging, improving status, and error messages, etc.
+- **Edit Module Name Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Name--constant.vi block diagram string constant value, and it will display the current Module’s name; you can change the name to help debugging, improving status, and error messages, etc.
 
 ![Edit Modules Name](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/EditModuleNameConstant.png)
 
-- **Edit Module Timeout Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value, this value is used to populate a dialog where you can change the Module timeout, by default DQMH Framework uses 5000ms
+- **Edit Module Timeout Constant**: Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value. This value is used to populate a dialog where you can change the Module timeout, by default, DQMH Framework uses 5000ms
 
 ![Edit Modules Name](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/EditModuleTimeoutConstant.png)
 
 ⚠️ **Note**: Exercise caution when reducing the timeout excessively, as it could lead to premature timeouts and disrupt your application’s functionality.
-- **Restore Timeout to default (5000ms)**:  Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, this is the framework default.
+- **Restore Timeout to default (5000ms)**:  Panther dashboard will search for *Module Name*.lvlib:Module Timeout--constant.vi block diagram numeric constant value and will overwrite the value with 5000, which is the framework default.
 
-- **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located in the module library folder, it will read all the Error Codes and their descriptions from the block diagram to help avoid duplicate codes, place the error name, do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window and click the “Continue” Button
+- **Create Custom – error.vi**: Panther Dashboard will scan all the –error.vis files located in the module library folder: it will read all the Error Codes and their descriptions from the block diagram to help avoid duplicate codes, place the error name, do not add the –error.vi postfix, set the Error Code, it will need to be under the LabVIEW custom error code ranges (2), write an error Description, place any controls in the Error Arguments Window, and click the “Continue” Button
 
-  *TIP*: Double Click to open the error vi.
+  *TIP*: Double-click to open the error vi.
  
 ![Create Custom error vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/CustomErrors.png)
  
-- **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located on the module library folder, it will read all the constant values from the block diagram, place the constant name, do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window and click the “Continue” Button, make sure to set the values on the Argument window before clicking the “Continue” Button, Panther Dashboard will use those values to set the constants and create the –constant.vi.
+- **Create Custom – constant.vi**: Panther Dashboard will scan all the –constant.vis files located in the module library folder, it will read all the constant values from the block diagram, place the constant name, and do not add the –constant.vi postfix, place any controls/Indicators in the Constant Arguments Window and click the “Continue” Button. Make sure to set the values on the Argument window before clicking the “Continue” Button. Panther Dashboard will use those values to set the constants and create the –constant.vi.
   
 ![Create Custom Constant vi](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ConstantVI.png)
 
@@ -183,12 +198,12 @@ This script is designed to open and edit the Event Arguments for the selected Ev
 
 *Script Workflow* (Panther Dashboard):
 - Open Module's API Tester
-- Open Module's Main.vi Block Diagram and selects the EHL and MHL Related to the event.
+- Open Module's Main.vi Block Diagram and select the EHL and MHL related to the event.
 - Open Fire Event VI Block Diagram
 - Open Event Arguments Typedef.
 
 *Editing Process* (DQMH Developer):
-- Edit the Arguments Typeded, add/modify/remove arguments.
+- Edit the Arguments Typedef, add/modify/remove arguments.
 - Close and Save Event's Typedef(s)
 - Update Fire Event VI Block Diagram – Adjust the block diagram by adding/removing events as needed.
 - Update Fire Event Connector Pane – Modify the connector pane to reflect any changes.
@@ -196,8 +211,8 @@ This script is designed to open and edit the Event Arguments for the selected Ev
 - Update Main.VI Block Diagram – Modify the Event Handling Loop (EHL) and Message Handling Loop (MHL) cases related to the event.
 - Update Module’s API Tester – Ensure the tester reflects all changes for the Event.
 
--  **Find Callers**: Search trough through the entire project for all the VIs calling the selected event, it will display a window with all the calls where you can doble click each of these calls to navigate exactly where the event is being called, Panther Dasbhoard will do a highlight to help you visualy identify the event call.
--  **Open Font Panel**: It does exactly that, it will open the font panel of the selected event.
+-  **Find Callers**: Search through the entire project for all the VIs calling the selected event. It will display a window with all the calls where you can double-click each of these calls to navigate exactly where the event is being called. Panther Dashboard will highlight to help you visually identify the event call.
+-  **Open Font Panel**: It does exactly that; it will open the font panel of the selected event.
 -  **Run: (Show Panel, Hide Panel, Show Block Diagram, Stop Module)**: Executes these default requests without the need to open the API tester.
 -  **Open VI on Disk**: Sometimes we need the exact location of an event, and this script helps navigate to your Operating System file path where the VI is located.
    
@@ -205,7 +220,7 @@ This script is designed to open and edit the Event Arguments for the selected Ev
 
 ![Project Menus](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/docs/assets/UIS/ProjectMenu.png)
 
-**Panther Dashboard** includes several Scripts to help you add new modules to the current scan, get a general view of your DQMH project.
+**Panther Dashboard** includes several Scripts to help you add new modules to the current scan and get a general view of your DQMH project.
 
 - **Add New DQMH Module**: Integrates a new DQMH module into the active project.
 
