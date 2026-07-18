@@ -63,7 +63,7 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 
 | Glyph   |  Description |
 |----------|:------:|
-|  ![DQMH Project](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/DQMH_Proj.png) | DQMH Project |
+|  ![DQMH Project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/DQMH_Proj.png) | DQMH Project |
 | ![HSE_Project](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_Proj.png) | HSE Project |
 | ![Singleton Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/SingletonRun.png) |  Singleton Module Running |
 | ![HSE_Singleton Running](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonRun.png) | HSE Singleton Module Running |
