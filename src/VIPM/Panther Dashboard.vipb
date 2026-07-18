@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-07-18 08:27:21" Creator="Enrique Noe Arias" Comments="" ID="183a776b9340a35ab06b03446caa1203">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-07-18 09:08:07" Creator="Enrique Noe Arias" Comments="" ID="3320cb114d8aab18206327466f678c9d">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>9.3.8.77</Library_Version>
+    <Library_Version>9.3.8.78</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
