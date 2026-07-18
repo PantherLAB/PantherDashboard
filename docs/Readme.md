@@ -83,11 +83,6 @@ The main screen of Panther Dashboard is designed for quick access to DQMH script
 | ![HSE_Clonable DepencenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_CloneableDependenciesRun.png) | HSE Clonable Module under Dependencies Running| 
 | ![Bad VI](https://github.com/PantherLAB/PantherDashboard/blob/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/bad.png?raw=true) | Not Runnable/Broken Main.vi| 
 
-
-
-| ![HSE_Singleton DependenciesRunning](https://raw.githubusercontent.com/PantherLAB/PantherDashboard/refs/heads/main/src/LabVIEW/Panther%20Dashboard/Panther%20Dashboard/HSE_SingletonDependenciesRun.png) | HSE Singleton Module under Dependencies |
-
-
 ## Panther Dashboard Buttons:
 
 | Button   |      Name      |  Description |
