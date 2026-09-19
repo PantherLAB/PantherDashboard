@@ -303,46 +303,13 @@
 				<Item Name="NI_SHA-256.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-256/NI_SHA-256.lvclass"/>
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="PantherLAB_lib_ConstantErrorsMaker.lvlib" Type="Library" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/ConstantErrorsMaker/PantherLAB_lib_ConstantErrorsMaker.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Nattify - Arrange FP.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange FP.vi"/>
-				<Item Name="Nattify - Window Type.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Window Type.ctl"/>
-				<Item Name="Nattify - Get Window INI tokens.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get Window INI tokens.vi"/>
-				<Item Name="Nattify - Min Window Dimensions.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Min Window Dimensions.ctl"/>
-				<Item Name="Nattify - Window Gaps.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Window Gaps.ctl"/>
-				<Item Name="Nattify - Get Display Workspace Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get Display Workspace Bounds.vi"/>
-				<Item Name="Nattify - Get Min Window Dimensions.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get Min Window Dimensions.vi"/>
-				<Item Name="Nattify - Get Window Gaps.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get Window Gaps.vi"/>
-				<Item Name="Nattify - Get FP Objects Arrangement Info.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get FP Objects Arrangement Info.vi"/>
-				<Item Name="Nattify - FP Objects Arrangement Info.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - FP Objects Arrangement Info.ctl"/>
-				<Item Name="Nattify - Arrange FP Controls.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls.vi"/>
-				<Item Name="Nattify - Filter FP Conn Pane Controls.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Filter FP Conn Pane Controls.vi"/>
-				<Item Name="Nattify - Order FP Conn Pane Controls.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Order FP Conn Pane Controls.vi"/>
-				<Item Name="Nattify - FP Control Info.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - FP Control Info.ctl"/>
-				<Item Name="Nattify - Arrange FP Controls Columns.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls Columns.vi"/>
-				<Item Name="Nattify - Compute Top Row Vertical Delta.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Compute Top Row Vertical Delta.vi"/>
-				<Item Name="Nattify - Space FP Controls.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Space FP Controls.vi"/>
-				<Item Name="Nattify - Compute Bound on Grid.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Compute Bound on Grid.vi"/>
-				<Item Name="Nattify - Arrange FP Controls Rows.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange FP Controls Rows.vi"/>
-				<Item Name="Nattify - Get FP Controls Rows.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get FP Controls Rows.vi"/>
-				<Item Name="Nattify - Get FP Controls Max Bottom.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get FP Controls Max Bottom.vi"/>
-				<Item Name="Nattify - Align 1 Row of FP Controls.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Align 1 Row of FP Controls.vi"/>
-				<Item Name="Nattify - Arrange Other FP Objects.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange Other FP Objects.vi"/>
-				<Item Name="Nattify - Resize FP.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Resize FP.vi"/>
-				<Item Name="Nattify - Establish Window Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Establish Window Bounds.vi"/>
-				<Item Name="Nattify - Rectangle Dimensions.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Rectangle Dimensions.ctl"/>
-				<Item Name="Nattify - Get Window Margins.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get Window Margins.vi"/>
-				<Item Name="Nattify - Window Margins.ctl" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Window Margins.ctl"/>
-				<Item Name="Nattify - Compute Window Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Compute Window Bounds.vi"/>
-				<Item Name="Nattify - Arrange BD.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Arrange BD.vi"/>
-				<Item Name="Nattify - Get BD Canvas Margin.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Get BD Canvas Margin.vi"/>
-				<Item Name="Nattify - Resize BD.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Resize BD.vi"/>
-				<Item Name="Nattify - Move All BD Objects.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Move All BD Objects.vi"/>
-				<Item Name="Nattify - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/Nattify Copy Support.llb/Nattify - Ensure Leftmost BD Object Is Visible.vi"/>
-				<Item Name="PantherLAB_lib_Panther_Constants_and_ErrorsConstantErrorsMaker.lvlib" Type="Library" URL="/&lt;vilib&gt;/PantherLAB/Panther Constants and Errors/Libraries/ConstantErrorsMaker/PantherLAB_lib_Panther_Constants_and_ErrorsConstantErrorsMaker.lvlib"/>
 				<Item Name="DQMH_DQMH Version Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Version Information--constant.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
@@ -352,7 +319,11 @@
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
+				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
+				<Item Name="DQMH_DQMH Legal Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Legal Information--constant.vi"/>
 				<Item Name="LabVIEW Icon API.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/LabVIEW Icon API.lvlib"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
@@ -389,22 +360,11 @@
 				<Item Name="Load &amp; Unload.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/classes/Load_Unload/Load &amp; Unload.lvclass"/>
 				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
-				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
-				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="DQMH_About Box.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_About Box.vi"/>
-				<Item Name="DQMH_DQMH EULA URL--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH EULA URL--constant.vi"/>
-				<Item Name="DQMH_DQMH Legal Information--constant.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/DQMH_DQMH Legal Information--constant.vi"/>
-				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
-				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
-				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
-				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
-				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
@@ -419,6 +379,9 @@
 			<Item Name="LV Config Write Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Numeric (I32).vi"/>
 			<Item Name="LV Config Remove.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Remove.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>

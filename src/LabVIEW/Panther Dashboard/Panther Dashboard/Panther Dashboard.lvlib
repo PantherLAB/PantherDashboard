@@ -280,6 +280,12 @@
 		<Item Name="About Panther Dashboard.vi" Type="VI" URL="../About Panther Dashboard.vi"/>
 		<Item Name="Generic Dialog.vi" Type="VI" URL="../Generic Dialog.vi"/>
 		<Item Name="Call The Create Error VI Creator.vi" Type="VI" URL="../Call The Create Error VI Creator.vi"/>
+		<Item Name="Call The Create Constant VI Creator.vi" Type="VI" URL="../Call The Create Constant VI Creator.vi"/>
+		<Item Name="Call The Create Constant VI Creator Project.vi" Type="VI" URL="../Call The Create Constant VI Creator Project.vi"/>
+		<Item Name="Call The Create Error VI Creator Project.vi" Type="VI" URL="../Call The Create Error VI Creator Project.vi"/>
+		<Item Name="Calling mode--enum.ctl" Type="VI" URL="../Calling mode--enum.ctl"/>
+		<Item Name="Call the Create constant VI Creator by Reference.vi" Type="VI" URL="../Call the Create constant VI Creator by Reference.vi"/>
+		<Item Name="Call the Error VI Creator by Reference.vi" Type="VI" URL="../Call the Error VI Creator by Reference.vi"/>
 	</Item>
 	<Item Name="OOP" Type="Folder">
 		<Item Name="Project.lvclass" Type="LVClass" URL="../../Class/Project/Project.lvclass"/>
@@ -291,5 +297,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Call The Create Constant VI Creator.vi" Type="VI" URL="../Call The Create Constant VI Creator.vi"/>
+	<Item Name="Close all opened modules.vi" Type="VI" URL="../Close all opened modules.vi"/>
 </Library>
