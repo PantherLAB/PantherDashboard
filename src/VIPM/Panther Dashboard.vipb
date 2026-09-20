@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-07-18 09:08:07" Creator="Enrique Noe Arias" Comments="" ID="3320cb114d8aab18206327466f678c9d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-09-19 15:25:52" Creator="Enrique Noe Arias" Comments="" ID="303743f2269952945fcdd59994bd4695">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>9.3.8.78</Library_Version>
+    <Library_Version>9.4.8.78</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -25,8 +25,8 @@
       <External_Dependencies>oglib_array &gt;= 6.0.1.20</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
-      <External_Dependencies>wovalab_lib_antidoc &gt;= 3.3.1.879</External_Dependencies>
-      <External_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation &gt;= 3.2.0.358</External_Dependencies>
+      <External_Dependencies>pantherlab_lib_panther_constants_and_errors &gt;= 1.0.2.5</External_Dependencies>
+      <External_Dependencies>wovalab_lib_antidoc &gt;= 3.3.2.887</External_Dependencies>
       <External_Dependencies>wovalab_lib_asciidoc_for_labview &gt;= 1.12.1.492</External_Dependencies>
       <Direct_Dependencies>delacor_lib_delacor_qmh_event_scripter-7.1.2.1547</Direct_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-7.1.2.1547</Direct_Dependencies>
@@ -36,8 +36,8 @@
       <Direct_Dependencies>oglib_array-6.0.1.20</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_antidoc-3.3.1.879</Direct_Dependencies>
-      <Direct_Dependencies>wovalab_lib_antidoc_add_on_labview_project_documentation-3.2.0.358</Direct_Dependencies>
+      <Direct_Dependencies>pantherlab_lib_panther_constants_and_errors-1.0.2.5</Direct_Dependencies>
+      <Direct_Dependencies>wovalab_lib_antidoc-3.3.2.887</Direct_Dependencies>
       <Direct_Dependencies>wovalab_lib_asciidoc_for_labview-1.12.1.492</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -89,29 +89,11 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>[#72] Make Panther Dashboard HSE Compatible
+      <Release_Notes>New Features
 
-Hampel Software Engineering has its own DQMH flavor. Because these modules are a specific standard in the LabVIEW-DQMH world, they can easily be recognized by Panther Dashboard. This version will scan the module, and if it contains these specific VIs:
+Create Constant VIs and Error VIs at the project level directly from the Panther Dashboard.
 
--Load Module.vi
--Obtain Default Broadcast Events.vi
--Configure.vi
--Prepare.vi
-
-Panther Dashboard will:
-
--Change the Module Glyph
--Change the Project Glyph
-
-Additionally, if the "HSE-ify DQMH Module" tool is installed, Panther Dashboard will:
--Add a right-click menu to the modules to call this tool
--Enable a new HSE button to call this tool
-
-[#69] The History Projects right-click deletion does not work
-
-Panther Dashboard keeps a history of the last 20 scanned projects to reduce loading times. A right-click menu was implemented to delete a specific project from the list or clear the entire history. Prior to this version, a bug prevented a specific project from being deleted when using the right-click menu. This version fixes that bug and restores the intended functionality.
-
-Fixed issue in LabVIEW 2026 showing Error In.ctl at the begining, removed error in and out from the launcher.</Release_Notes>
+Close All Opened Modules. Panther Dashboard now tracks modules that are opened by double-clicking to view their block diagrams. By right-clicking the project and selecting the new Close Opened Modules menu option, you can automatically close all tracked modules and clear their open status flags.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
