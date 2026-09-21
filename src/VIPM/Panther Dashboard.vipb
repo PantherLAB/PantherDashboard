@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-09-19 15:25:52" Creator="Enrique Noe Arias" Comments="" ID="303743f2269952945fcdd59994bd4695">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-15 18:52:28" Modified_Date="2026-09-21 11:47:15" Creator="Enrique Noe Arias" Comments="" ID="8747c79d6a03ed666619d95de88513ca">
   <Library_General_Settings>
     <Package_File_Name>PantherLAB_lib_Panther_Dashboard</Package_File_Name>
-    <Library_Version>9.4.8.78</Library_Version>
+    <Library_Version>9.4.9.79</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\LabVIEW</Library_Source_Folder>
     <Library_Output_Folder>Z:\GitClones\Package\Panther Dashboard</Library_Output_Folder>
@@ -89,11 +89,16 @@ Let's discuss your projects. Schedule a meeting today and....
       <Copyright/>
       <Packager>Enrique Noe Arias - PantherLAB</Packager>
       <URL>https://github.com/PantherLAB/PantherDashboard</URL>
-      <Release_Notes>New Features
+      <Release_Notes>Hot FIX
+-The Unit Test icon was almost invisible because splitter.
+-Set the Panther Dashboard Version in the Library.
+
+New Features
 
 Create Constant VIs and Error VIs at the project level directly from the Panther Dashboard.
 
-Close All Opened Modules. Panther Dashboard now tracks modules that are opened by double-clicking to view their block diagrams. By right-clicking the project and selecting the new Close Opened Modules menu option, you can automatically close all tracked modules and clear their open status flags.</Release_Notes>
+Close All Opened Modules. Panther Dashboard now tracks modules that are opened by double-clicking to view their block diagrams. By right-clicking the project and selecting the new Close Opened Modules menu option, you can automatically close all tracked modules and clear their open status flags.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
